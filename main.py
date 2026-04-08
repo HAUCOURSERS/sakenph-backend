@@ -13,3 +13,7 @@ def test(someVar: str):
 @app.get("/param")
 def param(paramOne: str = "DefaultOne", paramTwo: str = "DefaultTwo"):
     return {"Key1": paramOne, "Key2": paramTwo}
+
+@app.get("/flutterTest")
+def flutterTest():
+    return {"key": "Hello from FastAPI!"}
