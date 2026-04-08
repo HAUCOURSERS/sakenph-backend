@@ -38,7 +38,7 @@ requests==2.32.5
 shapely==2.1.2
 six==1.17.0
 stack-data==0.6.3
-starlette=1.0.0
+starlette==1.0.0
 traitlets==5.14.3
 typing-extensions==4.15.0
 typing-inspection==0.4.2
