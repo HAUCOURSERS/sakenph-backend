@@ -109,16 +109,66 @@ def flutterTest():
 
 @app.get("/shortest_path")
 def shortestPathTest(src: str, dest: str):
+    '''
+    Returns a dictionary of a multimodal route calculated by shortest path algorithm which contains the separate
+    routes to traverse including the path of the mode in order.
+
+    --- EXAMPLE RESULT ---
+    {
+        route: [
+            { 
+            'type': 'walk'
+            'geometry': [
+                    [120.58758878271912, 15.14365473416789],
+                    [120.58833604642595, 15.1434826439334]
+                ]
+            },
+            { 
+            'type': 'jeep'
+            'geometry': [
+                    [120.58833604642595, 15.1434826439334],
+                    [120.58791499937249, 15.14178736453769],
+                    [120.58745810400315, 15.139206114741604]
+                ]
+            },
+            'type': 'walk'
+            'geometry': [
+                    [120.58745810400315, 15.139206114741604],
+                    [120.58704485986307, 15.139215965542231],
+                    [120.58680435135506, 15.138876276435527]
+                ]
+            }
+        ]
+    }
+    In the example above, a calculated route would be a person from its origin node walk to the nearest path
+    with a jeepney route, then hops on the line until it drops off to the nearest stop from its final destination,
+    where the person would walk until the destination node.
+    -------------------
+    
+    Parameters
+    ----------
+    src
+        A string literal containing latitude and longitude values for source coordinates separated by comma
+
+    dest
+        A string literal containing latitude and longitude values for destination coordinates separated by comma
+    Returns
+    ----------
+    None
+    '''
     try:
         pair = {
             'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
             'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
         }
 
+        # Gets the nearest node from each source/destination coordinates
         with perfTimer("get nearest node id"):
             srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
             destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
 
+        # The shortest path algorithm (weight attribute is pre-calculated as the time it takes to  
+        # traverse an edge in seconds based on its mode's average speed
         with perfTimer('do shortest path'):
             pathList = ox.k_shortest_paths(G, srcNode, destNode, 1, weight="weight")
 
@@ -129,7 +179,7 @@ def shortestPathTest(src: str, dest: str):
         for i in final:
             node = G.nodes[i]
             if nodeList:
-                print(f'{node['mode']['type']}: {i}')
+                # print(f'{node['mode']['type']}: {i}')
                 if node['mode']['type'] == nodeList[len(nodeList)-1]['type']:
                     nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
                 else:
@@ -144,7 +194,7 @@ def shortestPathTest(src: str, dest: str):
                     'type': node['mode']['type'],
                     'geometry': [
                         [float(node['x']), float(node['y'])]
-                    ] 
+                    ]
                 })
 
         return {'route': nodeList}
