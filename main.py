@@ -45,50 +45,51 @@ with perfTimer("initialize MultiDiGraph"):
     G = ox.graph_from_gdfs(nodes, edges)
 # -------------------------------------------------- #
 # ------------------ ADD ROUTES -------------------- #
-relativePath = "graph/transit_graph/jeep_routes"
+with perfTimer("add routes"):
+    relativePath = "graph/transit_graph/jeep_routes"
 
-for route in os.listdir(relativePath):
+    for route in os.listdir(relativePath):
 
-    for file in os.listdir(f"{relativePath}/{route}"):
+        for file in os.listdir(f"{relativePath}/{route}"):
 
-        if file.endswith('_nodes.geojson'):
-            with open(f"{relativePath}/{route}/{file}") as f:
-                nodesJson = json.load(f)
+            if file.endswith('_nodes.geojson'):
+                with open(f"{relativePath}/{route}/{file}") as f:
+                    nodesJson = json.load(f)
 
-            for feature in nodesJson["features"]:
-                props = feature["properties"].copy()
-                geom = feature["geometry"]
-                node_id = props["osmid"]
-                lon, lat = geom["coordinates"]
-                props["x"] = lon
-                props["y"] = lat
+                for feature in nodesJson["features"]:
+                    props = feature["properties"].copy()
+                    geom = feature["geometry"]
+                    node_id = props["osmid"]
+                    lon, lat = geom["coordinates"]
+                    props["x"] = lon
+                    props["y"] = lat
 
-                G.add_node(node_id, **props)
+                    G.add_node(node_id, **props)
 
-        elif file.endswith('_edges.geojson'):
-            with open(f"{relativePath}/{route}/{file}") as f:
-                edgesJson = json.load(f)
+            elif file.endswith('_edges.geojson'):
+                with open(f"{relativePath}/{route}/{file}") as f:
+                    edgesJson = json.load(f)
 
-            for feature in edgesJson["features"]:
-                props = feature["properties"]
-                geom = feature["geometry"]
+                for feature in edgesJson["features"]:
+                    props = feature["properties"]
+                    geom = feature["geometry"]
 
-                u = props.pop("u")
-                v = props.pop("v")
+                    u = props.pop("u")
+                    v = props.pop("v")
 
-                G.add_edge(
-                    u,
-                    v,
-                    geometry=shape(geom),
-                    **props
-                )
-        else:
-            print("Throw not correct format")
+                    G.add_edge(
+                        u,
+                        v,
+                        geometry=shape(geom),
+                        **props
+                    )
+            else:
+                print("Throw not correct format")
 # -------------------------------------------------- #
+# ------------------ ADD COLOR HASH ---------------- #
+with open(f"color.json") as f:
+    colors = json.load(f)
 
-
-for u, v, k, data in G.out_edges(508035457, data=True, keys=True):
-    print(f"{u} → {v} [key={k}] | weight: {data.get('weight')}")
 app = FastAPI()
 
 @app.get("/")
@@ -117,21 +118,40 @@ def shortestPathTest(src: str, dest: str):
     {
         route: [
             { 
-            'type': 'walk'
+            'mode': {
+                'type': 'walk',
+                'details: {
+                    'name': 'On foot',
+                    'color': '#2005ed'
+                }
+            },
             'geometry': [
                     [120.58758878271912, 15.14365473416789],
                     [120.58833604642595, 15.1434826439334]
                 ]
             },
             { 
-            'type': 'jeep'
+            'mode': {
+                'type': 'jeep',
+                'details: {
+                    'name': 'route-1',
+                    'color': '#1d7021'
+                }
+            },
+            'jeep'
             'geometry': [
                     [120.58833604642595, 15.1434826439334],
                     [120.58791499937249, 15.14178736453769],
                     [120.58745810400315, 15.139206114741604]
                 ]
             },
-            'type': 'walk'
+            'mode': {
+                'type': 'walk',
+                'details: {
+                    'name': 'On foot',
+                    'color': '#2005ed'
+                }
+            },
             'geometry': [
                     [120.58745810400315, 15.139206114741604],
                     [120.58704485986307, 15.139215965542231],
@@ -174,24 +194,35 @@ def shortestPathTest(src: str, dest: str):
 
         with perfTimer('append'):
             final = list(itertools.chain.from_iterable(pathList))
-            
         nodeList = []
         for i in final:
             node = G.nodes[i]
             if nodeList:
                 # print(f'{node['mode']['type']}: {i}')
-                if node['mode']['type'] == nodeList[len(nodeList)-1]['type']:
+                if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
                     nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
                 else:
                     nodeList.append({
-                        'type': node['mode']['type'],
+                        'mode': {
+                            'type': node['mode']['type'],
+                            'details': {
+                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                            }
+                        },
                         'geometry': [
                             [float(node['x']), float(node['y'])]
                         ] 
                     })
             else:
                 nodeList.append({
-                    'type': node['mode']['type'],
+                    'mode': {
+                        'type': node['mode']['type'],
+                        'details': {
+                            'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                            'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                        }
+                    },
                     'geometry': [
                         [float(node['x']), float(node['y'])]
                     ]
@@ -202,7 +233,7 @@ def shortestPathTest(src: str, dest: str):
         # with perfTimer("do Dijkstra's"):
         #     finalDistance, pathList = nx.multi_source_dijkstra(G, [start], end, weight="length")
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise Exception(status_code=500, detail=str(e))
 
 # Testing single directional Dijkstra's
 @app.get("/shortest_path_test")
