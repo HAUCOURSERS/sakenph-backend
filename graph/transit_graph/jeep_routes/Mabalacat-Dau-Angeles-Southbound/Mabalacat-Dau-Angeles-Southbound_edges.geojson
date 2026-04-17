@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "name": "Mabalacat-Dau-Angeles_edges",
+ "name": "Mabalacat-Dau-Angeles-Southbound_edges",
  "crs": {
   "type": "name",
   "properties": {
@@ -16,7 +16,7 @@
     "key": 0,
     "osmid": "464",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -64,7 +64,7 @@
     "key": 0,
     "osmid": "465",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -136,7 +136,7 @@
     "key": 0,
     "osmid": "467",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -212,7 +212,7 @@
     "key": 0,
     "osmid": "469",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -332,7 +332,7 @@
     "key": 0,
     "osmid": "471",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -404,7 +404,7 @@
     "key": 0,
     "osmid": "473",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -476,7 +476,7 @@
     "key": 0,
     "osmid": "475",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -552,7 +552,7 @@
     "key": 0,
     "osmid": "477",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -624,7 +624,7 @@
     "key": 0,
     "osmid": "479",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -708,7 +708,7 @@
     "key": 0,
     "osmid": "481",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -800,7 +800,7 @@
     "key": 0,
     "osmid": "483",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -872,7 +872,7 @@
     "key": 0,
     "osmid": "485",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -944,7 +944,7 @@
     "key": 0,
     "osmid": "487",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1016,7 +1016,7 @@
     "key": 0,
     "osmid": "489",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1088,7 +1088,7 @@
     "key": 0,
     "osmid": "491",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1160,7 +1160,7 @@
     "key": 0,
     "osmid": "493",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1232,7 +1232,7 @@
     "key": 0,
     "osmid": "495",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1316,7 +1316,7 @@
     "key": 0,
     "osmid": "497",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1396,7 +1396,7 @@
     "key": 0,
     "osmid": "499",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1472,7 +1472,7 @@
     "key": 0,
     "osmid": "501",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1548,7 +1548,7 @@
     "key": 0,
     "osmid": "503",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1620,7 +1620,7 @@
     "key": 0,
     "osmid": "505",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1708,7 +1708,7 @@
     "key": 0,
     "osmid": "507",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1780,7 +1780,7 @@
     "key": 0,
     "osmid": "509",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1864,7 +1864,7 @@
     "key": 0,
     "osmid": "511",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1944,7 +1944,7 @@
     "key": 0,
     "osmid": "513",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2016,7 +2016,7 @@
     "key": 0,
     "osmid": "515",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2088,7 +2088,7 @@
     "key": 0,
     "osmid": "517",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2164,7 +2164,7 @@
     "key": 0,
     "osmid": "519",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2236,7 +2236,7 @@
     "key": 0,
     "osmid": "521",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2308,7 +2308,7 @@
     "key": 0,
     "osmid": "523",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2380,7 +2380,7 @@
     "key": 0,
     "osmid": "525",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2456,7 +2456,7 @@
     "key": 0,
     "osmid": "527",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2536,7 +2536,7 @@
     "key": 0,
     "osmid": "529",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2616,7 +2616,7 @@
     "key": 0,
     "osmid": "531",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2688,7 +2688,7 @@
     "key": 0,
     "osmid": "533",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2768,7 +2768,7 @@
     "key": 0,
     "osmid": "535",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2848,7 +2848,7 @@
     "key": 0,
     "osmid": "537",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2924,7 +2924,7 @@
     "key": 0,
     "osmid": "539",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3000,7 +3000,7 @@
     "key": 0,
     "osmid": "541",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3080,7 +3080,7 @@
     "key": 0,
     "osmid": "543",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3152,7 +3152,7 @@
     "key": 0,
     "osmid": "545",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3224,7 +3224,7 @@
     "key": 0,
     "osmid": "547",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3296,7 +3296,7 @@
     "key": 0,
     "osmid": "549",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3372,7 +3372,7 @@
     "key": 0,
     "osmid": "551",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3444,7 +3444,7 @@
     "key": 0,
     "osmid": "553",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3516,7 +3516,7 @@
     "key": 0,
     "osmid": "555",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3588,7 +3588,7 @@
     "key": 0,
     "osmid": "557",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3660,7 +3660,7 @@
     "key": 0,
     "osmid": "559",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3732,7 +3732,7 @@
     "key": 0,
     "osmid": "561",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3804,7 +3804,7 @@
     "key": 0,
     "osmid": "563",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3876,7 +3876,7 @@
     "key": 0,
     "osmid": "565",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3952,7 +3952,7 @@
     "key": 0,
     "osmid": "567",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4024,7 +4024,7 @@
     "key": 0,
     "osmid": "569",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4104,7 +4104,7 @@
     "key": 0,
     "osmid": "571",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4176,7 +4176,7 @@
     "key": 0,
     "osmid": "573",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4256,7 +4256,7 @@
     "key": 0,
     "osmid": "575",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4332,7 +4332,7 @@
     "key": 0,
     "osmid": "577",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4404,7 +4404,7 @@
     "key": 0,
     "osmid": "579",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4476,7 +4476,7 @@
     "key": 0,
     "osmid": "581",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4548,7 +4548,7 @@
     "key": 0,
     "osmid": "583",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4620,7 +4620,7 @@
     "key": 0,
     "osmid": "585",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4696,7 +4696,7 @@
     "key": 0,
     "osmid": "587",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4772,7 +4772,7 @@
     "key": 0,
     "osmid": "589",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4844,7 +4844,7 @@
     "key": 0,
     "osmid": "591",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4916,7 +4916,7 @@
     "key": 0,
     "osmid": "593",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4988,7 +4988,7 @@
     "key": 0,
     "osmid": "595",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5068,7 +5068,7 @@
     "key": 0,
     "osmid": "597",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5148,7 +5148,7 @@
     "key": 0,
     "osmid": "599",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5220,7 +5220,7 @@
     "key": 0,
     "osmid": "601",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5292,7 +5292,7 @@
     "key": 0,
     "osmid": "603",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5368,7 +5368,7 @@
     "key": 0,
     "osmid": "605",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5444,7 +5444,7 @@
     "key": 0,
     "osmid": "607",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5516,7 +5516,7 @@
     "key": 0,
     "osmid": "609",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5592,7 +5592,7 @@
     "key": 0,
     "osmid": "611",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5668,7 +5668,7 @@
     "key": 0,
     "osmid": "613",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5740,7 +5740,7 @@
     "key": 0,
     "osmid": "615",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5812,7 +5812,7 @@
     "key": 0,
     "osmid": "617",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5888,7 +5888,7 @@
     "key": 0,
     "osmid": "619",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5960,7 +5960,7 @@
     "key": 0,
     "osmid": "621",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6036,7 +6036,7 @@
     "key": 0,
     "osmid": "623",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6108,7 +6108,7 @@
     "key": 0,
     "osmid": "625",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6180,7 +6180,7 @@
     "key": 0,
     "osmid": "627",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6252,7 +6252,7 @@
     "key": 0,
     "osmid": "629",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6324,7 +6324,7 @@
     "key": 0,
     "osmid": "631",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6396,7 +6396,7 @@
     "key": 0,
     "osmid": "633",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6468,7 +6468,7 @@
     "key": 0,
     "osmid": "635",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6540,7 +6540,7 @@
     "key": 0,
     "osmid": "637",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6620,7 +6620,7 @@
     "key": 0,
     "osmid": "639",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6692,7 +6692,7 @@
     "key": 0,
     "osmid": "641",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6768,7 +6768,7 @@
     "key": 0,
     "osmid": "643",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6840,7 +6840,7 @@
     "key": 0,
     "osmid": "645",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6912,7 +6912,7 @@
     "key": 0,
     "osmid": "647",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6984,7 +6984,7 @@
     "key": 0,
     "osmid": "649",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7056,7 +7056,7 @@
     "key": 0,
     "osmid": "651",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7128,7 +7128,7 @@
     "key": 0,
     "osmid": "653",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7200,7 +7200,7 @@
     "key": 0,
     "osmid": "655",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7272,7 +7272,7 @@
     "key": 0,
     "osmid": "657",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7344,7 +7344,7 @@
     "key": 0,
     "osmid": "659",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7416,7 +7416,7 @@
     "key": 0,
     "osmid": "661",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7488,7 +7488,7 @@
     "key": 0,
     "osmid": "663",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7560,7 +7560,7 @@
     "key": 0,
     "osmid": "665",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7632,7 +7632,7 @@
     "key": 0,
     "osmid": "667",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7708,7 +7708,7 @@
     "key": 0,
     "osmid": "669",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7780,7 +7780,7 @@
     "key": 0,
     "osmid": "671",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7856,7 +7856,7 @@
     "key": 0,
     "osmid": "673",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7932,7 +7932,7 @@
     "key": 0,
     "osmid": "675",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8012,7 +8012,7 @@
     "key": 0,
     "osmid": "677",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8084,7 +8084,7 @@
     "key": 0,
     "osmid": "679",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8160,7 +8160,7 @@
     "key": 0,
     "osmid": "681",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8232,7 +8232,7 @@
     "key": 0,
     "osmid": "683",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8304,7 +8304,7 @@
     "key": 0,
     "osmid": "685",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8376,7 +8376,7 @@
     "key": 0,
     "osmid": "687",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8456,7 +8456,7 @@
     "key": 0,
     "osmid": "689",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8528,7 +8528,7 @@
     "key": 0,
     "osmid": "691",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8620,7 +8620,7 @@
     "key": 0,
     "osmid": "693",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8692,7 +8692,7 @@
     "key": 0,
     "osmid": "695",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8768,7 +8768,7 @@
     "key": 0,
     "osmid": "697",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8840,7 +8840,7 @@
     "key": 0,
     "osmid": "699",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8912,7 +8912,7 @@
     "key": 0,
     "osmid": "701",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8984,7 +8984,7 @@
     "key": 0,
     "osmid": "703",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9056,7 +9056,7 @@
     "key": 0,
     "osmid": "705",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9128,7 +9128,7 @@
     "key": 0,
     "osmid": "707",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9200,7 +9200,7 @@
     "key": 0,
     "osmid": "709",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9272,7 +9272,7 @@
     "key": 0,
     "osmid": "711",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9344,7 +9344,7 @@
     "key": 0,
     "osmid": "713",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9416,7 +9416,7 @@
     "key": 0,
     "osmid": "715",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9488,7 +9488,7 @@
     "key": 0,
     "osmid": "717",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9560,7 +9560,7 @@
     "key": 0,
     "osmid": "719",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9632,7 +9632,7 @@
     "key": 0,
     "osmid": "721",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9708,7 +9708,7 @@
     "key": 0,
     "osmid": "723",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9780,7 +9780,7 @@
     "key": 0,
     "osmid": "725",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9852,7 +9852,7 @@
     "key": 0,
     "osmid": "727",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9928,7 +9928,7 @@
     "key": 0,
     "osmid": "729",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10004,7 +10004,7 @@
     "key": 0,
     "osmid": "731",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10076,7 +10076,7 @@
     "key": 0,
     "osmid": "733",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10148,7 +10148,7 @@
     "key": 0,
     "osmid": "735",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10224,7 +10224,7 @@
     "key": 0,
     "osmid": "737",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10296,7 +10296,7 @@
     "key": 0,
     "osmid": "739",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10368,7 +10368,7 @@
     "key": 0,
     "osmid": "741",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10440,7 +10440,7 @@
     "key": 0,
     "osmid": "743",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10512,7 +10512,7 @@
     "key": 0,
     "osmid": "745",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10584,7 +10584,7 @@
     "key": 0,
     "osmid": "747",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10660,7 +10660,7 @@
     "key": 0,
     "osmid": "749",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10732,7 +10732,7 @@
     "key": 0,
     "osmid": "751",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10804,7 +10804,7 @@
     "key": 0,
     "osmid": "753",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10880,7 +10880,7 @@
     "key": 0,
     "osmid": "755",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10964,7 +10964,7 @@
     "key": 0,
     "osmid": "757",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11036,7 +11036,7 @@
     "key": 0,
     "osmid": "759",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11108,7 +11108,7 @@
     "key": 0,
     "osmid": "761",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11180,7 +11180,7 @@
     "key": 0,
     "osmid": "763",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11256,7 +11256,7 @@
     "key": 0,
     "osmid": "765",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11328,7 +11328,7 @@
     "key": 0,
     "osmid": "767",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11400,7 +11400,7 @@
     "key": 0,
     "osmid": "769",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11476,7 +11476,7 @@
     "key": 0,
     "osmid": "771",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11548,7 +11548,7 @@
     "key": 0,
     "osmid": "773",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11628,7 +11628,7 @@
     "key": 0,
     "osmid": "775",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11700,7 +11700,7 @@
     "key": 0,
     "osmid": "777",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11772,7 +11772,7 @@
     "key": 0,
     "osmid": "779",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11848,7 +11848,7 @@
     "key": 0,
     "osmid": "781",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11920,7 +11920,7 @@
     "key": 0,
     "osmid": "783",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -11996,7 +11996,7 @@
     "key": 0,
     "osmid": "785",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12068,7 +12068,7 @@
     "key": 0,
     "osmid": "787",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12140,7 +12140,7 @@
     "key": 0,
     "osmid": "789",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12216,7 +12216,7 @@
     "key": 0,
     "osmid": "791",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12292,7 +12292,7 @@
     "key": 0,
     "osmid": "793",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12364,7 +12364,7 @@
     "key": 0,
     "osmid": "795",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12436,7 +12436,7 @@
     "key": 0,
     "osmid": "797",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12512,7 +12512,7 @@
     "key": 0,
     "osmid": "799",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12584,7 +12584,7 @@
     "key": 0,
     "osmid": "801",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12660,7 +12660,7 @@
     "key": 0,
     "osmid": "803",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12732,7 +12732,7 @@
     "key": 0,
     "osmid": "805",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12804,7 +12804,7 @@
     "key": 0,
     "osmid": "807",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12880,7 +12880,7 @@
     "key": 0,
     "osmid": "809",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -12952,7 +12952,7 @@
     "key": 0,
     "osmid": "811",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13024,7 +13024,7 @@
     "key": 0,
     "osmid": "813",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13096,7 +13096,7 @@
     "key": 0,
     "osmid": "815",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13172,7 +13172,7 @@
     "key": 0,
     "osmid": "817",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13244,7 +13244,7 @@
     "key": 0,
     "osmid": "819",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13316,7 +13316,7 @@
     "key": 0,
     "osmid": "821",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13392,7 +13392,7 @@
     "key": 0,
     "osmid": "823",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13464,7 +13464,7 @@
     "key": 0,
     "osmid": "825",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13536,7 +13536,7 @@
     "key": 0,
     "osmid": "827",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13612,7 +13612,7 @@
     "key": 0,
     "osmid": "829",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13692,7 +13692,7 @@
     "key": 0,
     "osmid": "831",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13764,7 +13764,7 @@
     "key": 0,
     "osmid": "833",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13836,7 +13836,7 @@
     "key": 0,
     "osmid": "835",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -13920,7 +13920,7 @@
     "key": 0,
     "osmid": "837",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14000,7 +14000,7 @@
     "key": 0,
     "osmid": "839",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14072,7 +14072,7 @@
     "key": 0,
     "osmid": "841",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14144,7 +14144,7 @@
     "key": 0,
     "osmid": "843",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14216,7 +14216,7 @@
     "key": 0,
     "osmid": "845",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14288,7 +14288,7 @@
     "key": 0,
     "osmid": "847",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14364,7 +14364,7 @@
     "key": 0,
     "osmid": "849",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14436,7 +14436,7 @@
     "key": 0,
     "osmid": "851",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14508,7 +14508,7 @@
     "key": 0,
     "osmid": "853",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14580,7 +14580,7 @@
     "key": 0,
     "osmid": "855",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14656,7 +14656,7 @@
     "key": 0,
     "osmid": "857",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14728,7 +14728,7 @@
     "key": 0,
     "osmid": "859",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14800,7 +14800,7 @@
     "key": 0,
     "osmid": "861",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14876,7 +14876,7 @@
     "key": 0,
     "osmid": "863",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -14948,7 +14948,7 @@
     "key": 0,
     "osmid": "865",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15032,7 +15032,7 @@
     "key": 0,
     "osmid": "867",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15108,7 +15108,7 @@
     "key": 0,
     "osmid": "869",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15180,7 +15180,7 @@
     "key": 0,
     "osmid": "871",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15252,7 +15252,7 @@
     "key": 0,
     "osmid": "873",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15324,7 +15324,7 @@
     "key": 0,
     "osmid": "875",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15396,7 +15396,7 @@
     "key": 0,
     "osmid": "877",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15472,7 +15472,7 @@
     "key": 0,
     "osmid": "879",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15568,7 +15568,7 @@
     "key": 0,
     "osmid": "881",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15640,7 +15640,7 @@
     "key": 0,
     "osmid": "883",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -15712,7 +15712,7 @@
     "key": 0,
     "osmid": "885",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "name": "Mabalacat-Dau-Angeles_nodes",
+ "name": "Mabalacat-Dau-Angeles-Southbound_nodes",
  "crs": {
   "type": "name",
   "properties": {
@@ -20,7 +20,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -44,7 +44,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -68,7 +68,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -92,7 +92,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -116,7 +116,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -140,7 +140,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -164,7 +164,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -188,7 +188,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -212,7 +212,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -236,7 +236,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -260,7 +260,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -284,7 +284,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -308,7 +308,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -332,7 +332,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -356,7 +356,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -380,7 +380,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -404,7 +404,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -428,7 +428,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -452,7 +452,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -476,7 +476,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -500,7 +500,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -524,7 +524,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -548,7 +548,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -572,7 +572,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -596,7 +596,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -620,7 +620,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -644,7 +644,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -668,7 +668,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -692,7 +692,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -716,7 +716,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -740,7 +740,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -764,7 +764,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -788,7 +788,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -812,7 +812,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -836,7 +836,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -860,7 +860,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -884,7 +884,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -908,7 +908,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -932,7 +932,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -956,7 +956,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -980,7 +980,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1004,7 +1004,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1028,7 +1028,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1052,7 +1052,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1076,7 +1076,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1100,7 +1100,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1124,7 +1124,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1148,7 +1148,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1172,7 +1172,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1196,7 +1196,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1220,7 +1220,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1244,7 +1244,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1268,7 +1268,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1292,7 +1292,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1316,7 +1316,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1340,7 +1340,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1364,7 +1364,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1388,7 +1388,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1412,7 +1412,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1436,7 +1436,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1460,7 +1460,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1484,7 +1484,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1508,7 +1508,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1532,7 +1532,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1556,7 +1556,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1580,7 +1580,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1604,7 +1604,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1628,7 +1628,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1652,7 +1652,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1676,7 +1676,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1700,7 +1700,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1724,7 +1724,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1748,7 +1748,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1772,7 +1772,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1796,7 +1796,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1820,7 +1820,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1844,7 +1844,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1868,7 +1868,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1892,7 +1892,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1916,7 +1916,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1940,7 +1940,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1964,7 +1964,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -1988,7 +1988,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2012,7 +2012,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2036,7 +2036,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2060,7 +2060,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2084,7 +2084,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2108,7 +2108,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2132,7 +2132,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2156,7 +2156,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2180,7 +2180,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2204,7 +2204,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2228,7 +2228,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2252,7 +2252,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2276,7 +2276,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2300,7 +2300,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2324,7 +2324,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2348,7 +2348,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2372,7 +2372,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2396,7 +2396,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2420,7 +2420,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2444,7 +2444,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2468,7 +2468,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2492,7 +2492,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2516,7 +2516,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2540,7 +2540,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2564,7 +2564,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2588,7 +2588,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2612,7 +2612,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2636,7 +2636,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2660,7 +2660,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2684,7 +2684,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2708,7 +2708,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2732,7 +2732,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2756,7 +2756,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2780,7 +2780,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2804,7 +2804,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2828,7 +2828,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2852,7 +2852,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2876,7 +2876,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2900,7 +2900,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2924,7 +2924,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2948,7 +2948,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2972,7 +2972,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -2996,7 +2996,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3020,7 +3020,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3044,7 +3044,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3068,7 +3068,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3092,7 +3092,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3116,7 +3116,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3140,7 +3140,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3164,7 +3164,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3188,7 +3188,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3212,7 +3212,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3236,7 +3236,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3260,7 +3260,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3284,7 +3284,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3308,7 +3308,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3332,7 +3332,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3356,7 +3356,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3380,7 +3380,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3404,7 +3404,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3428,7 +3428,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3452,7 +3452,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3476,7 +3476,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3500,7 +3500,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3524,7 +3524,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3548,7 +3548,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3572,7 +3572,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3596,7 +3596,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3620,7 +3620,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3644,7 +3644,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3668,7 +3668,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3692,7 +3692,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3716,7 +3716,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3740,7 +3740,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3764,7 +3764,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3788,7 +3788,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3812,7 +3812,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3836,7 +3836,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3860,7 +3860,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3884,7 +3884,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3908,7 +3908,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3932,7 +3932,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3956,7 +3956,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -3980,7 +3980,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4004,7 +4004,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4028,7 +4028,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4052,7 +4052,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4076,7 +4076,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4100,7 +4100,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4124,7 +4124,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4148,7 +4148,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4172,7 +4172,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4196,7 +4196,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4220,7 +4220,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4244,7 +4244,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4268,7 +4268,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4292,7 +4292,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4316,7 +4316,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4340,7 +4340,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4364,7 +4364,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4388,7 +4388,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4412,7 +4412,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4436,7 +4436,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4460,7 +4460,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4484,7 +4484,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4508,7 +4508,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4532,7 +4532,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4556,7 +4556,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4580,7 +4580,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4604,7 +4604,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4628,7 +4628,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4652,7 +4652,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4676,7 +4676,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4700,7 +4700,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4724,7 +4724,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4748,7 +4748,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4772,7 +4772,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4796,7 +4796,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4820,7 +4820,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4844,7 +4844,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4868,7 +4868,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4892,7 +4892,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4916,7 +4916,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4940,7 +4940,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4964,7 +4964,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -4988,7 +4988,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -5012,7 +5012,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -5036,7 +5036,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -5060,7 +5060,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
@@ -5084,7 +5084,7 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Mabalacat-Dau-Angeles"
+      "name": "Mabalacat-Dau-Angeles-Southbound"
      }
     }
    },
