@@ -12,11 +12,11 @@
    "type": "Feature",
    "properties": {
     "u": 518296277,
-    "v": 449,
+    "v": 667,
     "key": 0,
-    "osmid": "886",
+    "osmid": "1318",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -35,10 +35,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 449,
+    "u": 667,
     "v": 518296277,
     "key": 0,
-    "osmid": "886",
+    "osmid": "1318",
     "length": 0.01,
     "weight": 10
    },
@@ -60,11 +60,11 @@
    "type": "Feature",
    "properties": {
     "u": 6405400943,
-    "v": 450,
+    "v": 668,
     "key": 0,
-    "osmid": "887",
+    "osmid": "1319",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -83,10 +83,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 450,
+    "u": 668,
     "v": 6405400943,
     "key": 0,
-    "osmid": "887",
+    "osmid": "1319",
     "length": 0.01,
     "weight": 10
    },
@@ -107,10 +107,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 449,
-    "v": 450,
+    "u": 667,
+    "v": 668,
     "key": 0,
-    "osmid": "888",
+    "osmid": "1320",
     "length": 26.492856128661554,
     "weight": 6.81
    },
@@ -132,11 +132,11 @@
    "type": "Feature",
    "properties": {
     "u": 1223928098,
-    "v": 451,
+    "v": 669,
     "key": 0,
-    "osmid": "889",
+    "osmid": "1321",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -155,10 +155,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 451,
+    "u": 669,
     "v": 1223928098,
     "key": 0,
-    "osmid": "889",
+    "osmid": "1321",
     "length": 0.01,
     "weight": 10
    },
@@ -179,10 +179,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 450,
-    "v": 451,
+    "u": 668,
+    "v": 669,
     "key": 0,
-    "osmid": "890",
+    "osmid": "1322",
     "length": 16.008857152888535,
     "weight": 4.12
    },
@@ -204,11 +204,11 @@
    "type": "Feature",
    "properties": {
     "u": 1540323441,
-    "v": 452,
+    "v": 670,
     "key": 0,
-    "osmid": "891",
+    "osmid": "1323",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -227,10 +227,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 452,
+    "u": 670,
     "v": 1540323441,
     "key": 0,
-    "osmid": "891",
+    "osmid": "1323",
     "length": 0.01,
     "weight": 10
    },
@@ -251,10 +251,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 451,
-    "v": 452,
+    "u": 669,
+    "v": 670,
     "key": 0,
-    "osmid": "892",
+    "osmid": "1324",
     "length": 126.82712451821477,
     "weight": 32.6
    },
@@ -276,11 +276,11 @@
    "type": "Feature",
    "properties": {
     "u": 518296275,
-    "v": 453,
+    "v": 671,
     "key": 0,
-    "osmid": "893",
+    "osmid": "1325",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -299,10 +299,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 453,
+    "u": 671,
     "v": 518296275,
     "key": 0,
-    "osmid": "893",
+    "osmid": "1325",
     "length": 0.01,
     "weight": 10
    },
@@ -323,10 +323,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 452,
-    "v": 453,
+    "u": 670,
+    "v": 671,
     "key": 0,
-    "osmid": "894",
+    "osmid": "1326",
     "length": 123.22199514386017,
     "weight": 31.68
    },
@@ -352,11 +352,11 @@
    "type": "Feature",
    "properties": {
     "u": 677655450,
-    "v": 454,
+    "v": 672,
     "key": 0,
-    "osmid": "895",
+    "osmid": "1327",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -375,10 +375,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 454,
+    "u": 672,
     "v": 677655450,
     "key": 0,
-    "osmid": "895",
+    "osmid": "1327",
     "length": 0.01,
     "weight": 10
    },
@@ -399,10 +399,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 453,
-    "v": 454,
+    "u": 671,
+    "v": 672,
     "key": 0,
-    "osmid": "896",
+    "osmid": "1328",
     "length": 44.737427881823606,
     "weight": 11.5
    },
@@ -428,11 +428,11 @@
    "type": "Feature",
    "properties": {
     "u": 3343747698,
-    "v": 455,
+    "v": 673,
     "key": 0,
-    "osmid": "897",
+    "osmid": "1329",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -451,10 +451,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 455,
+    "u": 673,
     "v": 3343747698,
     "key": 0,
-    "osmid": "897",
+    "osmid": "1329",
     "length": 0.01,
     "weight": 10
    },
@@ -475,10 +475,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 454,
-    "v": 455,
+    "u": 672,
+    "v": 673,
     "key": 0,
-    "osmid": "898",
+    "osmid": "1330",
     "length": 16.89179070090719,
     "weight": 4.34
    },
@@ -500,11 +500,11 @@
    "type": "Feature",
    "properties": {
     "u": 2858136284,
-    "v": 456,
+    "v": 674,
     "key": 0,
-    "osmid": "899",
+    "osmid": "1331",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -523,10 +523,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 456,
+    "u": 674,
     "v": 2858136284,
     "key": 0,
-    "osmid": "899",
+    "osmid": "1331",
     "length": 0.01,
     "weight": 10
    },
@@ -547,10 +547,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 455,
-    "v": 456,
+    "u": 673,
+    "v": 674,
     "key": 0,
-    "osmid": "900",
+    "osmid": "1332",
     "length": 380.9259567277912,
     "weight": 97.93
    },
@@ -592,11 +592,11 @@
    "type": "Feature",
    "properties": {
     "u": 12154752,
-    "v": 457,
+    "v": 675,
     "key": 0,
-    "osmid": "901",
+    "osmid": "1333",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -615,10 +615,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 457,
+    "u": 675,
     "v": 12154752,
     "key": 0,
-    "osmid": "901",
+    "osmid": "1333",
     "length": 0.01,
     "weight": 10
    },
@@ -639,10 +639,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 456,
-    "v": 457,
+    "u": 674,
+    "v": 675,
     "key": 0,
-    "osmid": "902",
+    "osmid": "1334",
     "length": 99.76232995577439,
     "weight": 25.65
    },
@@ -668,11 +668,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174981631,
-    "v": 458,
+    "v": 676,
     "key": 0,
-    "osmid": "903",
+    "osmid": "1335",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -691,10 +691,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 458,
+    "u": 676,
     "v": 9174981631,
     "key": 0,
-    "osmid": "903",
+    "osmid": "1335",
     "length": 0.01,
     "weight": 10
    },
@@ -715,10 +715,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 457,
-    "v": 458,
+    "u": 675,
+    "v": 676,
     "key": 0,
-    "osmid": "904",
+    "osmid": "1336",
     "length": 9.871535651842436,
     "weight": 2.54
    },
@@ -740,11 +740,11 @@
    "type": "Feature",
    "properties": {
     "u": 7920874965,
-    "v": 459,
+    "v": 677,
     "key": 0,
-    "osmid": "905",
+    "osmid": "1337",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -763,10 +763,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 459,
+    "u": 677,
     "v": 7920874965,
     "key": 0,
-    "osmid": "905",
+    "osmid": "1337",
     "length": 0.01,
     "weight": 10
    },
@@ -787,10 +787,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 458,
-    "v": 459,
+    "u": 676,
+    "v": 677,
     "key": 0,
-    "osmid": "906",
+    "osmid": "1338",
     "length": 8.89556771899905,
     "weight": 2.29
    },
@@ -816,11 +816,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174981623,
-    "v": 460,
+    "v": 678,
     "key": 0,
-    "osmid": "907",
+    "osmid": "1339",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -839,10 +839,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 460,
+    "u": 678,
     "v": 9174981623,
     "key": 0,
-    "osmid": "907",
+    "osmid": "1339",
     "length": 0.01,
     "weight": 10
    },
@@ -863,10 +863,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 459,
-    "v": 460,
+    "u": 677,
+    "v": 678,
     "key": 0,
-    "osmid": "908",
+    "osmid": "1340",
     "length": 7.494906315536698,
     "weight": 1.93
    },
@@ -888,11 +888,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174978808,
-    "v": 461,
+    "v": 679,
     "key": 0,
-    "osmid": "909",
+    "osmid": "1341",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -911,10 +911,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 461,
+    "u": 679,
     "v": 9174978808,
     "key": 0,
-    "osmid": "909",
+    "osmid": "1341",
     "length": 0.01,
     "weight": 10
    },
@@ -935,10 +935,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 460,
-    "v": 461,
+    "u": 678,
+    "v": 679,
     "key": 0,
-    "osmid": "910",
+    "osmid": "1342",
     "length": 74.49305344013285,
     "weight": 19.15
    },
@@ -964,11 +964,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174978810,
-    "v": 462,
+    "v": 680,
     "key": 0,
-    "osmid": "911",
+    "osmid": "1343",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -987,10 +987,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 462,
+    "u": 680,
     "v": 9174978810,
     "key": 0,
-    "osmid": "911",
+    "osmid": "1343",
     "length": 0.01,
     "weight": 10
    },
@@ -1011,10 +1011,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 461,
-    "v": 462,
+    "u": 679,
+    "v": 680,
     "key": 0,
-    "osmid": "912",
+    "osmid": "1344",
     "length": 37.519009641694296,
     "weight": 9.65
    },
@@ -1036,11 +1036,11 @@
    "type": "Feature",
    "properties": {
     "u": 854298207,
-    "v": 463,
+    "v": 681,
     "key": 0,
-    "osmid": "913",
+    "osmid": "1345",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1059,10 +1059,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 463,
+    "u": 681,
     "v": 854298207,
     "key": 0,
-    "osmid": "913",
+    "osmid": "1345",
     "length": 0.01,
     "weight": 10
    },
@@ -1083,10 +1083,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 462,
-    "v": 463,
+    "u": 680,
+    "v": 681,
     "key": 0,
-    "osmid": "914",
+    "osmid": "1346",
     "length": 17.114715459306233,
     "weight": 4.4
    },
@@ -1112,11 +1112,11 @@
    "type": "Feature",
    "properties": {
     "u": 508035457,
-    "v": 464,
+    "v": 682,
     "key": 0,
-    "osmid": "915",
+    "osmid": "1347",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1135,10 +1135,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 464,
+    "u": 682,
     "v": 508035457,
     "key": 0,
-    "osmid": "915",
+    "osmid": "1347",
     "length": 0.01,
     "weight": 10
    },
@@ -1159,10 +1159,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 463,
-    "v": 464,
+    "u": 681,
+    "v": 682,
     "key": 0,
-    "osmid": "916",
+    "osmid": "1348",
     "length": 42.930558820160286,
     "weight": 11.04
    },
@@ -1184,11 +1184,11 @@
    "type": "Feature",
    "properties": {
     "u": 12022633769,
-    "v": 465,
+    "v": 683,
     "key": 0,
-    "osmid": "917",
+    "osmid": "1349",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1207,10 +1207,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 465,
+    "u": 683,
     "v": 12022633769,
     "key": 0,
-    "osmid": "917",
+    "osmid": "1349",
     "length": 0.01,
     "weight": 10
    },
@@ -1231,10 +1231,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 464,
-    "v": 465,
+    "u": 682,
+    "v": 683,
     "key": 0,
-    "osmid": "918",
+    "osmid": "1350",
     "length": 60.58850352828748,
     "weight": 15.58
    },
@@ -1256,11 +1256,11 @@
    "type": "Feature",
    "properties": {
     "u": 12022633771,
-    "v": 466,
+    "v": 684,
     "key": 0,
-    "osmid": "919",
+    "osmid": "1351",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1279,10 +1279,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 466,
+    "u": 684,
     "v": 12022633771,
     "key": 0,
-    "osmid": "919",
+    "osmid": "1351",
     "length": 0.01,
     "weight": 10
    },
@@ -1303,10 +1303,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 465,
-    "v": 466,
+    "u": 683,
+    "v": 684,
     "key": 0,
-    "osmid": "920",
+    "osmid": "1352",
     "length": 12.817962867224592,
     "weight": 3.3
    },
@@ -1328,11 +1328,11 @@
    "type": "Feature",
    "properties": {
     "u": 1843464661,
-    "v": 467,
+    "v": 685,
     "key": 0,
-    "osmid": "921",
+    "osmid": "1353",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1351,10 +1351,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 467,
+    "u": 685,
     "v": 1843464661,
     "key": 0,
-    "osmid": "921",
+    "osmid": "1353",
     "length": 0.01,
     "weight": 10
    },
@@ -1375,10 +1375,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 466,
-    "v": 467,
+    "u": 684,
+    "v": 685,
     "key": 0,
-    "osmid": "922",
+    "osmid": "1354",
     "length": 52.33178242009373,
     "weight": 13.45
    },
@@ -1412,11 +1412,11 @@
    "type": "Feature",
    "properties": {
     "u": 6471612671,
-    "v": 468,
+    "v": 686,
     "key": 0,
-    "osmid": "923",
+    "osmid": "1355",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1435,10 +1435,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 468,
+    "u": 686,
     "v": 6471612671,
     "key": 0,
-    "osmid": "923",
+    "osmid": "1355",
     "length": 0.01,
     "weight": 10
    },
@@ -1459,10 +1459,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 467,
-    "v": 468,
+    "u": 685,
+    "v": 686,
     "key": 0,
-    "osmid": "924",
+    "osmid": "1356",
     "length": 11.830580955245923,
     "weight": 3.04
    },
@@ -1484,11 +1484,11 @@
    "type": "Feature",
    "properties": {
     "u": 12272206774,
-    "v": 469,
+    "v": 687,
     "key": 0,
-    "osmid": "925",
+    "osmid": "1357",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1507,10 +1507,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 469,
+    "u": 687,
     "v": 12272206774,
     "key": 0,
-    "osmid": "925",
+    "osmid": "1357",
     "length": 0.01,
     "weight": 10
    },
@@ -1531,10 +1531,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 468,
-    "v": 469,
+    "u": 686,
+    "v": 687,
     "key": 0,
-    "osmid": "926",
+    "osmid": "1358",
     "length": 24.031650371735104,
     "weight": 6.18
    },
@@ -1556,11 +1556,11 @@
    "type": "Feature",
    "properties": {
     "u": 12272206781,
-    "v": 470,
+    "v": 688,
     "key": 0,
-    "osmid": "927",
+    "osmid": "1359",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1579,10 +1579,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 470,
+    "u": 688,
     "v": 12272206781,
     "key": 0,
-    "osmid": "927",
+    "osmid": "1359",
     "length": 0.01,
     "weight": 10
    },
@@ -1603,10 +1603,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 469,
-    "v": 470,
+    "u": 687,
+    "v": 688,
     "key": 0,
-    "osmid": "928",
+    "osmid": "1360",
     "length": 18.074905440903574,
     "weight": 4.65
    },
@@ -1628,11 +1628,11 @@
    "type": "Feature",
    "properties": {
     "u": 518296295,
-    "v": 471,
+    "v": 689,
     "key": 0,
-    "osmid": "929",
+    "osmid": "1361",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1651,10 +1651,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 471,
+    "u": 689,
     "v": 518296295,
     "key": 0,
-    "osmid": "929",
+    "osmid": "1361",
     "length": 0.01,
     "weight": 10
    },
@@ -1675,10 +1675,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 470,
-    "v": 471,
+    "u": 688,
+    "v": 689,
     "key": 0,
-    "osmid": "930",
+    "osmid": "1362",
     "length": 52.490381035985656,
     "weight": 13.49
    },
@@ -1712,11 +1712,11 @@
    "type": "Feature",
    "properties": {
     "u": 7675114210,
-    "v": 472,
+    "v": 690,
     "key": 0,
-    "osmid": "931",
+    "osmid": "1363",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1735,10 +1735,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 472,
+    "u": 690,
     "v": 7675114210,
     "key": 0,
-    "osmid": "931",
+    "osmid": "1363",
     "length": 0.01,
     "weight": 10
    },
@@ -1759,10 +1759,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 471,
-    "v": 472,
+    "u": 689,
+    "v": 690,
     "key": 0,
-    "osmid": "932",
+    "osmid": "1364",
     "length": 19.425383978791672,
     "weight": 4.99
    },
@@ -1784,11 +1784,11 @@
    "type": "Feature",
    "properties": {
     "u": 7675097457,
-    "v": 473,
+    "v": 691,
     "key": 0,
-    "osmid": "933",
+    "osmid": "1365",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1807,10 +1807,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 473,
+    "u": 691,
     "v": 7675097457,
     "key": 0,
-    "osmid": "933",
+    "osmid": "1365",
     "length": 0.01,
     "weight": 10
    },
@@ -1831,10 +1831,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 472,
-    "v": 473,
+    "u": 690,
+    "v": 691,
     "key": 0,
-    "osmid": "934",
+    "osmid": "1366",
     "length": 37.599810560224824,
     "weight": 9.67
    },
@@ -1864,11 +1864,11 @@
    "type": "Feature",
    "properties": {
     "u": 8856752776,
-    "v": 474,
+    "v": 692,
     "key": 0,
-    "osmid": "935",
+    "osmid": "1367",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1887,10 +1887,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 474,
+    "u": 692,
     "v": 8856752776,
     "key": 0,
-    "osmid": "935",
+    "osmid": "1367",
     "length": 0.01,
     "weight": 10
    },
@@ -1911,10 +1911,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 473,
-    "v": 474,
+    "u": 691,
+    "v": 692,
     "key": 0,
-    "osmid": "936",
+    "osmid": "1368",
     "length": 34.002533199810436,
     "weight": 8.74
    },
@@ -1936,11 +1936,11 @@
    "type": "Feature",
    "properties": {
     "u": 660578739,
-    "v": 475,
+    "v": 693,
     "key": 0,
-    "osmid": "937",
+    "osmid": "1369",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -1959,10 +1959,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 475,
+    "u": 693,
     "v": 660578739,
     "key": 0,
-    "osmid": "937",
+    "osmid": "1369",
     "length": 0.01,
     "weight": 10
    },
@@ -1983,10 +1983,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 474,
-    "v": 475,
+    "u": 692,
+    "v": 693,
     "key": 0,
-    "osmid": "938",
+    "osmid": "1370",
     "length": 33.349059357596516,
     "weight": 8.57
    },
@@ -2016,11 +2016,11 @@
    "type": "Feature",
    "properties": {
     "u": 1843464640,
-    "v": 476,
+    "v": 694,
     "key": 0,
-    "osmid": "939",
+    "osmid": "1371",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2039,10 +2039,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 476,
+    "u": 694,
     "v": 1843464640,
     "key": 0,
-    "osmid": "939",
+    "osmid": "1371",
     "length": 0.01,
     "weight": 10
    },
@@ -2063,10 +2063,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 475,
-    "v": 476,
+    "u": 693,
+    "v": 694,
     "key": 0,
-    "osmid": "940",
+    "osmid": "1372",
     "length": 14.071871351449547,
     "weight": 3.62
    },
@@ -2088,11 +2088,11 @@
    "type": "Feature",
    "properties": {
     "u": 660578733,
-    "v": 477,
+    "v": 695,
     "key": 0,
-    "osmid": "941",
+    "osmid": "1373",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2111,10 +2111,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 477,
+    "u": 695,
     "v": 660578733,
     "key": 0,
-    "osmid": "941",
+    "osmid": "1373",
     "length": 0.01,
     "weight": 10
    },
@@ -2135,10 +2135,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 476,
-    "v": 477,
+    "u": 694,
+    "v": 695,
     "key": 0,
-    "osmid": "942",
+    "osmid": "1374",
     "length": 93.38751023210892,
     "weight": 24.01
    },
@@ -2160,11 +2160,11 @@
    "type": "Feature",
    "properties": {
     "u": 660578714,
-    "v": 478,
+    "v": 696,
     "key": 0,
-    "osmid": "943",
+    "osmid": "1375",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2183,10 +2183,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 478,
+    "u": 696,
     "v": 660578714,
     "key": 0,
-    "osmid": "943",
+    "osmid": "1375",
     "length": 0.01,
     "weight": 10
    },
@@ -2207,10 +2207,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 477,
-    "v": 478,
+    "u": 695,
+    "v": 696,
     "key": 0,
-    "osmid": "944",
+    "osmid": "1376",
     "length": 72.40799932491319,
     "weight": 18.61
    },
@@ -2232,11 +2232,11 @@
    "type": "Feature",
    "properties": {
     "u": 283119889,
-    "v": 479,
+    "v": 697,
     "key": 0,
-    "osmid": "945",
+    "osmid": "1377",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2255,10 +2255,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 479,
+    "u": 697,
     "v": 283119889,
     "key": 0,
-    "osmid": "945",
+    "osmid": "1377",
     "length": 0.01,
     "weight": 10
    },
@@ -2279,10 +2279,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 478,
-    "v": 479,
+    "u": 696,
+    "v": 697,
     "key": 0,
-    "osmid": "946",
+    "osmid": "1378",
     "length": 95.67942310767224,
     "weight": 24.6
    },
@@ -2312,11 +2312,11 @@
    "type": "Feature",
    "properties": {
     "u": 6266014252,
-    "v": 480,
+    "v": 698,
     "key": 0,
-    "osmid": "947",
+    "osmid": "1379",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2335,10 +2335,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 480,
+    "u": 698,
     "v": 6266014252,
     "key": 0,
-    "osmid": "947",
+    "osmid": "1379",
     "length": 0.01,
     "weight": 10
    },
@@ -2359,10 +2359,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 479,
-    "v": 480,
+    "u": 697,
+    "v": 698,
     "key": 0,
-    "osmid": "948",
+    "osmid": "1380",
     "length": 77.10985806431705,
     "weight": 19.82
    },
@@ -2392,11 +2392,11 @@
    "type": "Feature",
    "properties": {
     "u": 9175071247,
-    "v": 481,
+    "v": 699,
     "key": 0,
-    "osmid": "949",
+    "osmid": "1381",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2415,10 +2415,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 481,
+    "u": 699,
     "v": 9175071247,
     "key": 0,
-    "osmid": "949",
+    "osmid": "1381",
     "length": 0.01,
     "weight": 10
    },
@@ -2439,10 +2439,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 480,
-    "v": 481,
+    "u": 698,
+    "v": 699,
     "key": 0,
-    "osmid": "950",
+    "osmid": "1382",
     "length": 16.021051881224196,
     "weight": 4.12
    },
@@ -2468,11 +2468,11 @@
    "type": "Feature",
    "properties": {
     "u": 6266014256,
-    "v": 482,
+    "v": 700,
     "key": 0,
-    "osmid": "951",
+    "osmid": "1383",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2491,10 +2491,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 482,
+    "u": 700,
     "v": 6266014256,
     "key": 0,
-    "osmid": "951",
+    "osmid": "1383",
     "length": 0.01,
     "weight": 10
    },
@@ -2515,10 +2515,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 481,
-    "v": 482,
+    "u": 699,
+    "v": 700,
     "key": 0,
-    "osmid": "952",
+    "osmid": "1384",
     "length": 39.948001932596824,
     "weight": 10.27
    },
@@ -2544,11 +2544,11 @@
    "type": "Feature",
    "properties": {
     "u": 6266014261,
-    "v": 483,
+    "v": 701,
     "key": 0,
-    "osmid": "953",
+    "osmid": "1385",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2567,10 +2567,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 483,
+    "u": 701,
     "v": 6266014261,
     "key": 0,
-    "osmid": "953",
+    "osmid": "1385",
     "length": 0.01,
     "weight": 10
    },
@@ -2591,10 +2591,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 482,
-    "v": 483,
+    "u": 700,
+    "v": 701,
     "key": 0,
-    "osmid": "954",
+    "osmid": "1386",
     "length": 14.60748508257651,
     "weight": 3.76
    },
@@ -2616,11 +2616,11 @@
    "type": "Feature",
    "properties": {
     "u": 13478908834,
-    "v": 484,
+    "v": 702,
     "key": 0,
-    "osmid": "955",
+    "osmid": "1387",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2639,10 +2639,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 484,
+    "u": 702,
     "v": 13478908834,
     "key": 0,
-    "osmid": "955",
+    "osmid": "1387",
     "length": 0.01,
     "weight": 10
    },
@@ -2663,10 +2663,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 483,
-    "v": 484,
+    "u": 701,
+    "v": 702,
     "key": 0,
-    "osmid": "956",
+    "osmid": "1388",
     "length": 13.47372907559482,
     "weight": 3.46
    },
@@ -2696,11 +2696,11 @@
    "type": "Feature",
    "properties": {
     "u": 314892198,
-    "v": 485,
+    "v": 703,
     "key": 0,
-    "osmid": "957",
+    "osmid": "1389",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2719,10 +2719,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 485,
+    "u": 703,
     "v": 314892198,
     "key": 0,
-    "osmid": "957",
+    "osmid": "1389",
     "length": 0.01,
     "weight": 10
    },
@@ -2743,10 +2743,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 484,
-    "v": 485,
+    "u": 702,
+    "v": 703,
     "key": 0,
-    "osmid": "958",
+    "osmid": "1390",
     "length": 5.507198257718048,
     "weight": 1.42
    },
@@ -2768,11 +2768,11 @@
    "type": "Feature",
    "properties": {
     "u": 3192760788,
-    "v": 486,
+    "v": 704,
     "key": 0,
-    "osmid": "959",
+    "osmid": "1391",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2791,10 +2791,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 486,
+    "u": 704,
     "v": 3192760788,
     "key": 0,
-    "osmid": "959",
+    "osmid": "1391",
     "length": 0.01,
     "weight": 10
    },
@@ -2815,10 +2815,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 485,
-    "v": 486,
+    "u": 703,
+    "v": 704,
     "key": 0,
-    "osmid": "960",
+    "osmid": "1392",
     "length": 10.017141957293727,
     "weight": 2.58
    },
@@ -2844,11 +2844,11 @@
    "type": "Feature",
    "properties": {
     "u": 7690166269,
-    "v": 487,
+    "v": 705,
     "key": 0,
-    "osmid": "961",
+    "osmid": "1393",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2867,10 +2867,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 487,
+    "u": 705,
     "v": 7690166269,
     "key": 0,
-    "osmid": "961",
+    "osmid": "1393",
     "length": 0.01,
     "weight": 10
    },
@@ -2891,10 +2891,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 486,
-    "v": 487,
+    "u": 704,
+    "v": 705,
     "key": 0,
-    "osmid": "962",
+    "osmid": "1394",
     "length": 95.01045149592517,
     "weight": 24.42
    },
@@ -2936,11 +2936,11 @@
    "type": "Feature",
    "properties": {
     "u": 7170588670,
-    "v": 488,
+    "v": 706,
     "key": 0,
-    "osmid": "963",
+    "osmid": "1395",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -2959,10 +2959,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 488,
+    "u": 706,
     "v": 7170588670,
     "key": 0,
-    "osmid": "963",
+    "osmid": "1395",
     "length": 0.01,
     "weight": 10
    },
@@ -2983,10 +2983,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 487,
-    "v": 488,
+    "u": 705,
+    "v": 706,
     "key": 0,
-    "osmid": "964",
+    "osmid": "1396",
     "length": 33.13114875539594,
     "weight": 8.52
    },
@@ -3012,11 +3012,11 @@
    "type": "Feature",
    "properties": {
     "u": 9456891490,
-    "v": 489,
+    "v": 707,
     "key": 0,
-    "osmid": "965",
+    "osmid": "1397",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3035,10 +3035,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 489,
+    "u": 707,
     "v": 9456891490,
     "key": 0,
-    "osmid": "965",
+    "osmid": "1397",
     "length": 0.01,
     "weight": 10
    },
@@ -3059,10 +3059,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 488,
-    "v": 489,
+    "u": 706,
+    "v": 707,
     "key": 0,
-    "osmid": "966",
+    "osmid": "1398",
     "length": 14.61042909540455,
     "weight": 3.76
    },
@@ -3084,11 +3084,11 @@
    "type": "Feature",
    "properties": {
     "u": 9456891488,
-    "v": 490,
+    "v": 708,
     "key": 0,
-    "osmid": "967",
+    "osmid": "1399",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3107,10 +3107,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 490,
+    "u": 708,
     "v": 9456891488,
     "key": 0,
-    "osmid": "967",
+    "osmid": "1399",
     "length": 0.01,
     "weight": 10
    },
@@ -3131,10 +3131,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 489,
-    "v": 490,
+    "u": 707,
+    "v": 708,
     "key": 0,
-    "osmid": "968",
+    "osmid": "1400",
     "length": 44.02205456626907,
     "weight": 11.32
    },
@@ -3160,11 +3160,11 @@
    "type": "Feature",
    "properties": {
     "u": 3343162812,
-    "v": 491,
+    "v": 709,
     "key": 0,
-    "osmid": "969",
+    "osmid": "1401",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3183,10 +3183,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 491,
+    "u": 709,
     "v": 3343162812,
     "key": 0,
-    "osmid": "969",
+    "osmid": "1401",
     "length": 0.01,
     "weight": 10
    },
@@ -3207,10 +3207,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 490,
-    "v": 491,
+    "u": 708,
+    "v": 709,
     "key": 0,
-    "osmid": "970",
+    "osmid": "1402",
     "length": 13.10899986418697,
     "weight": 3.37
    },
@@ -3236,11 +3236,11 @@
    "type": "Feature",
    "properties": {
     "u": 3350956127,
-    "v": 492,
+    "v": 710,
     "key": 0,
-    "osmid": "971",
+    "osmid": "1403",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3259,10 +3259,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 492,
+    "u": 710,
     "v": 3350956127,
     "key": 0,
-    "osmid": "971",
+    "osmid": "1403",
     "length": 0.01,
     "weight": 10
    },
@@ -3283,10 +3283,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 491,
-    "v": 492,
+    "u": 709,
+    "v": 710,
     "key": 0,
-    "osmid": "972",
+    "osmid": "1404",
     "length": 411.72053099793675,
     "weight": 105.84
    },
@@ -3320,11 +3320,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833798,
-    "v": 493,
+    "v": 711,
     "key": 0,
-    "osmid": "973",
+    "osmid": "1405",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3343,10 +3343,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 493,
+    "u": 711,
     "v": 3377833798,
     "key": 0,
-    "osmid": "973",
+    "osmid": "1405",
     "length": 0.01,
     "weight": 10
    },
@@ -3367,10 +3367,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 492,
-    "v": 493,
+    "u": 710,
+    "v": 711,
     "key": 0,
-    "osmid": "974",
+    "osmid": "1406",
     "length": 28.309406935153827,
     "weight": 7.28
    },
@@ -3392,11 +3392,11 @@
    "type": "Feature",
    "properties": {
     "u": 7690178685,
-    "v": 494,
+    "v": 712,
     "key": 0,
-    "osmid": "975",
+    "osmid": "1407",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3415,10 +3415,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 494,
+    "u": 712,
     "v": 7690178685,
     "key": 0,
-    "osmid": "975",
+    "osmid": "1407",
     "length": 0.01,
     "weight": 10
    },
@@ -3439,10 +3439,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 493,
-    "v": 494,
+    "u": 711,
+    "v": 712,
     "key": 0,
-    "osmid": "976",
+    "osmid": "1408",
     "length": 1.7592500633980492,
     "weight": 0.45
    },
@@ -3464,11 +3464,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833806,
-    "v": 495,
+    "v": 713,
     "key": 0,
-    "osmid": "977",
+    "osmid": "1409",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3487,10 +3487,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 495,
+    "u": 713,
     "v": 3377833806,
     "key": 0,
-    "osmid": "977",
+    "osmid": "1409",
     "length": 0.01,
     "weight": 10
    },
@@ -3511,10 +3511,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 494,
-    "v": 495,
+    "u": 712,
+    "v": 713,
     "key": 0,
-    "osmid": "978",
+    "osmid": "1410",
     "length": 10.955732149794706,
     "weight": 2.82
    },
@@ -3544,11 +3544,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833811,
-    "v": 496,
+    "v": 714,
     "key": 0,
-    "osmid": "979",
+    "osmid": "1411",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3567,10 +3567,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 496,
+    "u": 714,
     "v": 3377833811,
     "key": 0,
-    "osmid": "979",
+    "osmid": "1411",
     "length": 0.01,
     "weight": 10
    },
@@ -3591,10 +3591,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 495,
-    "v": 496,
+    "u": 713,
+    "v": 714,
     "key": 0,
-    "osmid": "980",
+    "osmid": "1412",
     "length": 7.7798183729418335,
     "weight": 2.0
    },
@@ -3620,11 +3620,11 @@
    "type": "Feature",
    "properties": {
     "u": 3339677203,
-    "v": 497,
+    "v": 715,
     "key": 0,
-    "osmid": "981",
+    "osmid": "1413",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3643,10 +3643,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 497,
+    "u": 715,
     "v": 3339677203,
     "key": 0,
-    "osmid": "981",
+    "osmid": "1413",
     "length": 0.01,
     "weight": 10
    },
@@ -3667,10 +3667,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 496,
-    "v": 497,
+    "u": 714,
+    "v": 715,
     "key": 0,
-    "osmid": "982",
+    "osmid": "1414",
     "length": 94.33938365737038,
     "weight": 24.25
    },
@@ -3696,11 +3696,11 @@
    "type": "Feature",
    "properties": {
     "u": 7690166237,
-    "v": 498,
+    "v": 716,
     "key": 0,
-    "osmid": "983",
+    "osmid": "1415",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3719,10 +3719,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 498,
+    "u": 716,
     "v": 7690166237,
     "key": 0,
-    "osmid": "983",
+    "osmid": "1415",
     "length": 0.01,
     "weight": 10
    },
@@ -3743,10 +3743,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 497,
-    "v": 498,
+    "u": 715,
+    "v": 716,
     "key": 0,
-    "osmid": "984",
+    "osmid": "1416",
     "length": 9.071354568159858,
     "weight": 2.33
    },
@@ -3776,11 +3776,11 @@
    "type": "Feature",
    "properties": {
     "u": 9176768661,
-    "v": 499,
+    "v": 717,
     "key": 0,
-    "osmid": "985",
+    "osmid": "1417",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3799,10 +3799,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 499,
+    "u": 717,
     "v": 9176768661,
     "key": 0,
-    "osmid": "985",
+    "osmid": "1417",
     "length": 0.01,
     "weight": 10
    },
@@ -3823,10 +3823,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 498,
-    "v": 499,
+    "u": 716,
+    "v": 717,
     "key": 0,
-    "osmid": "986",
+    "osmid": "1418",
     "length": 45.66441146591387,
     "weight": 11.74
    },
@@ -3848,11 +3848,11 @@
    "type": "Feature",
    "properties": {
     "u": 538127247,
-    "v": 500,
+    "v": 718,
     "key": 0,
-    "osmid": "987",
+    "osmid": "1419",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3871,10 +3871,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 500,
+    "u": 718,
     "v": 538127247,
     "key": 0,
-    "osmid": "987",
+    "osmid": "1419",
     "length": 0.01,
     "weight": 10
    },
@@ -3895,10 +3895,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 499,
-    "v": 500,
+    "u": 717,
+    "v": 718,
     "key": 0,
-    "osmid": "988",
+    "osmid": "1420",
     "length": 50.88254839981698,
     "weight": 13.08
    },
@@ -3920,11 +3920,11 @@
    "type": "Feature",
    "properties": {
     "u": 9176771003,
-    "v": 501,
+    "v": 719,
     "key": 0,
-    "osmid": "989",
+    "osmid": "1421",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -3943,10 +3943,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 501,
+    "u": 719,
     "v": 9176771003,
     "key": 0,
-    "osmid": "989",
+    "osmid": "1421",
     "length": 0.01,
     "weight": 10
    },
@@ -3967,10 +3967,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 500,
-    "v": 501,
+    "u": 718,
+    "v": 719,
     "key": 0,
-    "osmid": "990",
+    "osmid": "1422",
     "length": 248.13899970335703,
     "weight": 63.79
    },
@@ -3996,11 +3996,11 @@
    "type": "Feature",
    "properties": {
     "u": 9176770995,
-    "v": 502,
+    "v": 720,
     "key": 0,
-    "osmid": "991",
+    "osmid": "1423",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4019,10 +4019,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 502,
+    "u": 720,
     "v": 9176770995,
     "key": 0,
-    "osmid": "991",
+    "osmid": "1423",
     "length": 0.01,
     "weight": 10
    },
@@ -4043,10 +4043,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 501,
-    "v": 502,
+    "u": 719,
+    "v": 720,
     "key": 0,
-    "osmid": "992",
+    "osmid": "1424",
     "length": 44.683918872758284,
     "weight": 11.49
    },
@@ -4068,11 +4068,11 @@
    "type": "Feature",
    "properties": {
     "u": 1853859118,
-    "v": 503,
+    "v": 721,
     "key": 0,
-    "osmid": "993",
+    "osmid": "1425",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4091,10 +4091,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 503,
+    "u": 721,
     "v": 1853859118,
     "key": 0,
-    "osmid": "993",
+    "osmid": "1425",
     "length": 0.01,
     "weight": 10
    },
@@ -4115,10 +4115,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 502,
-    "v": 503,
+    "u": 720,
+    "v": 721,
     "key": 0,
-    "osmid": "994",
+    "osmid": "1426",
     "length": 17.691408983908854,
     "weight": 4.55
    },
@@ -4140,11 +4140,11 @@
    "type": "Feature",
    "properties": {
     "u": 7675733172,
-    "v": 504,
+    "v": 722,
     "key": 0,
-    "osmid": "995",
+    "osmid": "1427",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4163,10 +4163,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 504,
+    "u": 722,
     "v": 7675733172,
     "key": 0,
-    "osmid": "995",
+    "osmid": "1427",
     "length": 0.01,
     "weight": 10
    },
@@ -4187,10 +4187,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 503,
-    "v": 504,
+    "u": 721,
+    "v": 722,
     "key": 0,
-    "osmid": "996",
+    "osmid": "1428",
     "length": 32.11842086691021,
     "weight": 8.26
    },
@@ -4216,11 +4216,11 @@
    "type": "Feature",
    "properties": {
     "u": 6869893309,
-    "v": 505,
+    "v": 723,
     "key": 0,
-    "osmid": "997",
+    "osmid": "1429",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4239,10 +4239,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 505,
+    "u": 723,
     "v": 6869893309,
     "key": 0,
-    "osmid": "997",
+    "osmid": "1429",
     "length": 0.01,
     "weight": 10
    },
@@ -4263,10 +4263,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 504,
-    "v": 505,
+    "u": 722,
+    "v": 723,
     "key": 0,
-    "osmid": "998",
+    "osmid": "1430",
     "length": 16.115120562527647,
     "weight": 4.14
    },
@@ -4292,11 +4292,11 @@
    "type": "Feature",
    "properties": {
     "u": 311674612,
-    "v": 506,
+    "v": 724,
     "key": 0,
-    "osmid": "999",
+    "osmid": "1431",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4315,10 +4315,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 506,
+    "u": 724,
     "v": 311674612,
     "key": 0,
-    "osmid": "999",
+    "osmid": "1431",
     "length": 0.01,
     "weight": 10
    },
@@ -4339,10 +4339,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 505,
-    "v": 506,
+    "u": 723,
+    "v": 724,
     "key": 0,
-    "osmid": "1000",
+    "osmid": "1432",
     "length": 23.68219035332199,
     "weight": 6.09
    },
@@ -4368,11 +4368,11 @@
    "type": "Feature",
    "properties": {
     "u": 13476114367,
-    "v": 507,
+    "v": 725,
     "key": 0,
-    "osmid": "1001",
+    "osmid": "1433",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4391,10 +4391,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 507,
+    "u": 725,
     "v": 13476114367,
     "key": 0,
-    "osmid": "1001",
+    "osmid": "1433",
     "length": 0.01,
     "weight": 10
    },
@@ -4415,10 +4415,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 506,
-    "v": 507,
+    "u": 724,
+    "v": 725,
     "key": 0,
-    "osmid": "1002",
+    "osmid": "1434",
     "length": 10.434139911387675,
     "weight": 2.68
    },
@@ -4440,11 +4440,11 @@
    "type": "Feature",
    "properties": {
     "u": 9176915517,
-    "v": 508,
+    "v": 726,
     "key": 0,
-    "osmid": "1003",
+    "osmid": "1435",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4463,10 +4463,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 508,
+    "u": 726,
     "v": 9176915517,
     "key": 0,
-    "osmid": "1003",
+    "osmid": "1435",
     "length": 0.01,
     "weight": 10
    },
@@ -4487,10 +4487,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 507,
-    "v": 508,
+    "u": 725,
+    "v": 726,
     "key": 0,
-    "osmid": "1004",
+    "osmid": "1436",
     "length": 7.6706002309884465,
     "weight": 1.97
    },
@@ -4512,11 +4512,11 @@
    "type": "Feature",
    "properties": {
     "u": 1301475778,
-    "v": 509,
+    "v": 727,
     "key": 0,
-    "osmid": "1005",
+    "osmid": "1437",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4535,10 +4535,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 509,
+    "u": 727,
     "v": 1301475778,
     "key": 0,
-    "osmid": "1005",
+    "osmid": "1437",
     "length": 0.01,
     "weight": 10
    },
@@ -4559,10 +4559,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 508,
-    "v": 509,
+    "u": 726,
+    "v": 727,
     "key": 0,
-    "osmid": "1006",
+    "osmid": "1438",
     "length": 183.4722357337675,
     "weight": 47.16
    },
@@ -4600,11 +4600,11 @@
    "type": "Feature",
    "properties": {
     "u": 9176915518,
-    "v": 510,
+    "v": 728,
     "key": 0,
-    "osmid": "1007",
+    "osmid": "1439",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4623,10 +4623,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 510,
+    "u": 728,
     "v": 9176915518,
     "key": 0,
-    "osmid": "1007",
+    "osmid": "1439",
     "length": 0.01,
     "weight": 10
    },
@@ -4647,10 +4647,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 509,
-    "v": 510,
+    "u": 727,
+    "v": 728,
     "key": 0,
-    "osmid": "1008",
+    "osmid": "1440",
     "length": 44.89220284590803,
     "weight": 11.54
    },
@@ -4672,11 +4672,11 @@
    "type": "Feature",
    "properties": {
     "u": 6869976572,
-    "v": 511,
+    "v": 729,
     "key": 0,
-    "osmid": "1009",
+    "osmid": "1441",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4695,10 +4695,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 511,
+    "u": 729,
     "v": 6869976572,
     "key": 0,
-    "osmid": "1009",
+    "osmid": "1441",
     "length": 0.01,
     "weight": 10
    },
@@ -4719,10 +4719,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 510,
-    "v": 511,
+    "u": 728,
+    "v": 729,
     "key": 0,
-    "osmid": "1010",
+    "osmid": "1442",
     "length": 28.755603268023524,
     "weight": 7.39
    },
@@ -4744,11 +4744,11 @@
    "type": "Feature",
    "properties": {
     "u": 279718156,
-    "v": 512,
+    "v": 730,
     "key": 0,
-    "osmid": "1011",
+    "osmid": "1443",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4767,10 +4767,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 512,
+    "u": 730,
     "v": 279718156,
     "key": 0,
-    "osmid": "1011",
+    "osmid": "1443",
     "length": 0.01,
     "weight": 10
    },
@@ -4791,10 +4791,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 511,
-    "v": 512,
+    "u": 729,
+    "v": 730,
     "key": 0,
-    "osmid": "1012",
+    "osmid": "1444",
     "length": 81.29152841128335,
     "weight": 20.9
    },
@@ -4824,11 +4824,11 @@
    "type": "Feature",
    "properties": {
     "u": 279718155,
-    "v": 513,
+    "v": 731,
     "key": 0,
-    "osmid": "1013",
+    "osmid": "1445",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4847,10 +4847,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 513,
+    "u": 731,
     "v": 279718155,
     "key": 0,
-    "osmid": "1013",
+    "osmid": "1445",
     "length": 0.01,
     "weight": 10
    },
@@ -4871,10 +4871,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 512,
-    "v": 513,
+    "u": 730,
+    "v": 731,
     "key": 0,
-    "osmid": "1014",
+    "osmid": "1446",
     "length": 174.4448815088131,
     "weight": 44.84
    },
@@ -4904,11 +4904,11 @@
    "type": "Feature",
    "properties": {
     "u": 529856382,
-    "v": 514,
+    "v": 732,
     "key": 0,
-    "osmid": "1015",
+    "osmid": "1447",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4927,10 +4927,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 514,
+    "u": 732,
     "v": 529856382,
     "key": 0,
-    "osmid": "1015",
+    "osmid": "1447",
     "length": 0.01,
     "weight": 10
    },
@@ -4951,10 +4951,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 513,
-    "v": 514,
+    "u": 731,
+    "v": 732,
     "key": 0,
-    "osmid": "1016",
+    "osmid": "1448",
     "length": 44.56561592605024,
     "weight": 11.46
    },
@@ -4976,11 +4976,11 @@
    "type": "Feature",
    "properties": {
     "u": 4952801798,
-    "v": 515,
+    "v": 733,
     "key": 0,
-    "osmid": "1017",
+    "osmid": "1449",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -4999,10 +4999,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 515,
+    "u": 733,
     "v": 4952801798,
     "key": 0,
-    "osmid": "1017",
+    "osmid": "1449",
     "length": 0.01,
     "weight": 10
    },
@@ -5023,10 +5023,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 514,
-    "v": 515,
+    "u": 732,
+    "v": 733,
     "key": 0,
-    "osmid": "1018",
+    "osmid": "1450",
     "length": 23.49473350761409,
     "weight": 6.04
    },
@@ -5048,11 +5048,11 @@
    "type": "Feature",
    "properties": {
     "u": 457281472,
-    "v": 516,
+    "v": 734,
     "key": 0,
-    "osmid": "1019",
+    "osmid": "1451",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5071,10 +5071,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 516,
+    "u": 734,
     "v": 457281472,
     "key": 0,
-    "osmid": "1019",
+    "osmid": "1451",
     "length": 0.01,
     "weight": 10
    },
@@ -5095,10 +5095,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 515,
-    "v": 516,
+    "u": 733,
+    "v": 734,
     "key": 0,
-    "osmid": "1020",
+    "osmid": "1452",
     "length": 120.42090666529535,
     "weight": 30.96
    },
@@ -5128,11 +5128,11 @@
    "type": "Feature",
    "properties": {
     "u": 517417851,
-    "v": 517,
+    "v": 735,
     "key": 0,
-    "osmid": "1021",
+    "osmid": "1453",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5151,10 +5151,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 517,
+    "u": 735,
     "v": 517417851,
     "key": 0,
-    "osmid": "1021",
+    "osmid": "1453",
     "length": 0.01,
     "weight": 10
    },
@@ -5175,10 +5175,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 516,
-    "v": 517,
+    "u": 734,
+    "v": 735,
     "key": 0,
-    "osmid": "1022",
+    "osmid": "1454",
     "length": 59.35649634249321,
     "weight": 15.26
    },
@@ -5200,11 +5200,11 @@
    "type": "Feature",
    "properties": {
     "u": 279718148,
-    "v": 518,
+    "v": 736,
     "key": 0,
-    "osmid": "1023",
+    "osmid": "1455",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5223,10 +5223,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 518,
+    "u": 736,
     "v": 279718148,
     "key": 0,
-    "osmid": "1023",
+    "osmid": "1455",
     "length": 0.01,
     "weight": 10
    },
@@ -5247,10 +5247,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 517,
-    "v": 518,
+    "u": 735,
+    "v": 736,
     "key": 0,
-    "osmid": "1024",
+    "osmid": "1456",
     "length": 94.83898572461695,
     "weight": 24.38
    },
@@ -5284,11 +5284,11 @@
    "type": "Feature",
    "properties": {
     "u": 3556332238,
-    "v": 519,
+    "v": 737,
     "key": 0,
-    "osmid": "1025",
+    "osmid": "1457",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5307,10 +5307,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 519,
+    "u": 737,
     "v": 3556332238,
     "key": 0,
-    "osmid": "1025",
+    "osmid": "1457",
     "length": 0.01,
     "weight": 10
    },
@@ -5331,10 +5331,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 518,
-    "v": 519,
+    "u": 736,
+    "v": 737,
     "key": 0,
-    "osmid": "1026",
+    "osmid": "1458",
     "length": 147.4033900404691,
     "weight": 37.89
    },
@@ -5372,11 +5372,11 @@
    "type": "Feature",
    "properties": {
     "u": 6831097023,
-    "v": 520,
+    "v": 738,
     "key": 0,
-    "osmid": "1027",
+    "osmid": "1459",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5395,10 +5395,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 520,
+    "u": 738,
     "v": 6831097023,
     "key": 0,
-    "osmid": "1027",
+    "osmid": "1459",
     "length": 0.01,
     "weight": 10
    },
@@ -5419,10 +5419,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 519,
-    "v": 520,
+    "u": 737,
+    "v": 738,
     "key": 0,
-    "osmid": "1028",
+    "osmid": "1460",
     "length": 11.798939289008437,
     "weight": 3.03
    },
@@ -5444,11 +5444,11 @@
    "type": "Feature",
    "properties": {
     "u": 3393291352,
-    "v": 521,
+    "v": 739,
     "key": 0,
-    "osmid": "1029",
+    "osmid": "1461",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5467,10 +5467,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 521,
+    "u": 739,
     "v": 3393291352,
     "key": 0,
-    "osmid": "1029",
+    "osmid": "1461",
     "length": 0.01,
     "weight": 10
    },
@@ -5491,10 +5491,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 520,
-    "v": 521,
+    "u": 738,
+    "v": 739,
     "key": 0,
-    "osmid": "1030",
+    "osmid": "1462",
     "length": 35.43421683920247,
     "weight": 9.11
    },
@@ -5528,11 +5528,11 @@
    "type": "Feature",
    "properties": {
     "u": 7676166990,
-    "v": 522,
+    "v": 740,
     "key": 0,
-    "osmid": "1031",
+    "osmid": "1463",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5551,10 +5551,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 522,
+    "u": 740,
     "v": 7676166990,
     "key": 0,
-    "osmid": "1031",
+    "osmid": "1463",
     "length": 0.01,
     "weight": 10
    },
@@ -5575,10 +5575,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 521,
-    "v": 522,
+    "u": 739,
+    "v": 740,
     "key": 0,
-    "osmid": "1032",
+    "osmid": "1464",
     "length": 6.648579911593384,
     "weight": 1.71
    },
@@ -5600,11 +5600,11 @@
    "type": "Feature",
    "properties": {
     "u": 1872304937,
-    "v": 523,
+    "v": 741,
     "key": 0,
-    "osmid": "1033",
+    "osmid": "1465",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5623,10 +5623,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 523,
+    "u": 741,
     "v": 1872304937,
     "key": 0,
-    "osmid": "1033",
+    "osmid": "1465",
     "length": 0.01,
     "weight": 10
    },
@@ -5647,10 +5647,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 522,
-    "v": 523,
+    "u": 740,
+    "v": 741,
     "key": 0,
-    "osmid": "1034",
+    "osmid": "1466",
     "length": 92.02604908457292,
     "weight": 23.66
    },
@@ -5676,11 +5676,11 @@
    "type": "Feature",
    "properties": {
     "u": 9191121906,
-    "v": 524,
+    "v": 742,
     "key": 0,
-    "osmid": "1035",
+    "osmid": "1467",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5699,10 +5699,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 524,
+    "u": 742,
     "v": 9191121906,
     "key": 0,
-    "osmid": "1035",
+    "osmid": "1467",
     "length": 0.01,
     "weight": 10
    },
@@ -5723,10 +5723,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 523,
-    "v": 524,
+    "u": 741,
+    "v": 742,
     "key": 0,
-    "osmid": "1036",
+    "osmid": "1468",
     "length": 73.44811541582511,
     "weight": 18.88
    },
@@ -5748,11 +5748,11 @@
    "type": "Feature",
    "properties": {
     "u": 529853828,
-    "v": 525,
+    "v": 743,
     "key": 0,
-    "osmid": "1037",
+    "osmid": "1469",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5771,10 +5771,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 525,
+    "u": 743,
     "v": 529853828,
     "key": 0,
-    "osmid": "1037",
+    "osmid": "1469",
     "length": 0.01,
     "weight": 10
    },
@@ -5795,10 +5795,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 524,
-    "v": 525,
+    "u": 742,
+    "v": 743,
     "key": 0,
-    "osmid": "1038",
+    "osmid": "1470",
     "length": 53.986823019970714,
     "weight": 13.88
    },
@@ -5828,11 +5828,11 @@
    "type": "Feature",
    "properties": {
     "u": 5549726320,
-    "v": 526,
+    "v": 744,
     "key": 0,
-    "osmid": "1039",
+    "osmid": "1471",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5851,10 +5851,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 526,
+    "u": 744,
     "v": 5549726320,
     "key": 0,
-    "osmid": "1039",
+    "osmid": "1471",
     "length": 0.01,
     "weight": 10
    },
@@ -5875,10 +5875,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 525,
-    "v": 526,
+    "u": 743,
+    "v": 744,
     "key": 0,
-    "osmid": "1040",
+    "osmid": "1472",
     "length": 147.80706723780528,
     "weight": 38.0
    },
@@ -5900,11 +5900,11 @@
    "type": "Feature",
    "properties": {
     "u": 312296969,
-    "v": 527,
+    "v": 745,
     "key": 0,
-    "osmid": "1041",
+    "osmid": "1473",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -5923,10 +5923,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 527,
+    "u": 745,
     "v": 312296969,
     "key": 0,
-    "osmid": "1041",
+    "osmid": "1473",
     "length": 0.01,
     "weight": 10
    },
@@ -5947,10 +5947,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 526,
-    "v": 527,
+    "u": 744,
+    "v": 745,
     "key": 0,
-    "osmid": "1042",
+    "osmid": "1474",
     "length": 104.79231488927883,
     "weight": 26.94
    },
@@ -5984,11 +5984,11 @@
    "type": "Feature",
    "properties": {
     "u": 7675835589,
-    "v": 528,
+    "v": 746,
     "key": 0,
-    "osmid": "1043",
+    "osmid": "1475",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6007,10 +6007,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 528,
+    "u": 746,
     "v": 7675835589,
     "key": 0,
-    "osmid": "1043",
+    "osmid": "1475",
     "length": 0.01,
     "weight": 10
    },
@@ -6031,10 +6031,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 527,
-    "v": 528,
+    "u": 745,
+    "v": 746,
     "key": 0,
-    "osmid": "1044",
+    "osmid": "1476",
     "length": 46.34290196456278,
     "weight": 11.91
    },
@@ -6056,11 +6056,11 @@
    "type": "Feature",
    "properties": {
     "u": 3393291362,
-    "v": 529,
+    "v": 747,
     "key": 0,
-    "osmid": "1045",
+    "osmid": "1477",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6079,10 +6079,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 529,
+    "u": 747,
     "v": 3393291362,
     "key": 0,
-    "osmid": "1045",
+    "osmid": "1477",
     "length": 0.01,
     "weight": 10
    },
@@ -6103,10 +6103,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 528,
-    "v": 529,
+    "u": 746,
+    "v": 747,
     "key": 0,
-    "osmid": "1046",
+    "osmid": "1478",
     "length": 52.64788718525606,
     "weight": 13.53
    },
@@ -6132,11 +6132,11 @@
    "type": "Feature",
    "properties": {
     "u": 1872304943,
-    "v": 530,
+    "v": 748,
     "key": 0,
-    "osmid": "1047",
+    "osmid": "1479",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6155,10 +6155,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 530,
+    "u": 748,
     "v": 1872304943,
     "key": 0,
-    "osmid": "1047",
+    "osmid": "1479",
     "length": 0.01,
     "weight": 10
    },
@@ -6179,10 +6179,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 529,
-    "v": 530,
+    "u": 747,
+    "v": 748,
     "key": 0,
-    "osmid": "1048",
+    "osmid": "1480",
     "length": 78.38283996979094,
     "weight": 20.15
    },
@@ -6208,11 +6208,11 @@
    "type": "Feature",
    "properties": {
     "u": 9191109020,
-    "v": 531,
+    "v": 749,
     "key": 0,
-    "osmid": "1049",
+    "osmid": "1481",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6231,10 +6231,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 531,
+    "u": 749,
     "v": 9191109020,
     "key": 0,
-    "osmid": "1049",
+    "osmid": "1481",
     "length": 0.01,
     "weight": 10
    },
@@ -6255,10 +6255,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 530,
-    "v": 531,
+    "u": 748,
+    "v": 749,
     "key": 0,
-    "osmid": "1050",
+    "osmid": "1482",
     "length": 64.39913738157875,
     "weight": 16.56
    },
@@ -6288,11 +6288,11 @@
    "type": "Feature",
    "properties": {
     "u": 3393291365,
-    "v": 532,
+    "v": 750,
     "key": 0,
-    "osmid": "1051",
+    "osmid": "1483",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6311,10 +6311,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 532,
+    "u": 750,
     "v": 3393291365,
     "key": 0,
-    "osmid": "1051",
+    "osmid": "1483",
     "length": 0.01,
     "weight": 10
    },
@@ -6335,10 +6335,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 531,
-    "v": 532,
+    "u": 749,
+    "v": 750,
     "key": 0,
-    "osmid": "1052",
+    "osmid": "1484",
     "length": 26.657710031038814,
     "weight": 6.85
    },
@@ -6368,11 +6368,11 @@
    "type": "Feature",
    "properties": {
     "u": 6831097024,
-    "v": 533,
+    "v": 751,
     "key": 0,
-    "osmid": "1053",
+    "osmid": "1485",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -6391,10 +6391,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 533,
+    "u": 751,
     "v": 6831097024,
     "key": 0,
-    "osmid": "1053",
+    "osmid": "1485",
     "length": 0.01,
     "weight": 10
    },
@@ -6415,10 +6415,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 532,
-    "v": 533,
+    "u": 750,
+    "v": 751,
     "key": 0,
-    "osmid": "1054",
+    "osmid": "1486",
     "length": 22.42315686045572,
     "weight": 5.76
    },
@@ -6439,10 +6439,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 533,
-    "v": 519,
+    "u": 751,
+    "v": 737,
     "key": 0,
-    "osmid": "1056",
+    "osmid": "1488",
     "length": 15.547285862321115,
     "weight": 4.0
    },
@@ -6463,10 +6463,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 519,
-    "v": 518,
+    "u": 737,
+    "v": 736,
     "key": 0,
-    "osmid": "1058",
+    "osmid": "1490",
     "length": 147.40339004046908,
     "weight": 37.89
    },
@@ -6503,10 +6503,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 518,
-    "v": 517,
+    "u": 736,
+    "v": 735,
     "key": 0,
-    "osmid": "1060",
+    "osmid": "1492",
     "length": 94.83898572461695,
     "weight": 24.38
    },
@@ -6539,10 +6539,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 517,
-    "v": 516,
+    "u": 735,
+    "v": 734,
     "key": 0,
-    "osmid": "1062",
+    "osmid": "1494",
     "length": 59.35649634249321,
     "weight": 15.26
    },
@@ -6563,10 +6563,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 516,
-    "v": 515,
+    "u": 734,
+    "v": 733,
     "key": 0,
-    "osmid": "1064",
+    "osmid": "1496",
     "length": 120.42090666529535,
     "weight": 30.96
    },
@@ -6595,10 +6595,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 515,
-    "v": 514,
+    "u": 733,
+    "v": 732,
     "key": 0,
-    "osmid": "1066",
+    "osmid": "1498",
     "length": 23.49473350761409,
     "weight": 6.04
    },
@@ -6619,10 +6619,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 514,
-    "v": 513,
+    "u": 732,
+    "v": 731,
     "key": 0,
-    "osmid": "1068",
+    "osmid": "1500",
     "length": 44.56561592605024,
     "weight": 11.46
    },
@@ -6643,10 +6643,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 513,
-    "v": 512,
+    "u": 731,
+    "v": 730,
     "key": 0,
-    "osmid": "1070",
+    "osmid": "1502",
     "length": 174.44488150881307,
     "weight": 44.84
    },
@@ -6675,10 +6675,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 512,
-    "v": 511,
+    "u": 730,
+    "v": 729,
     "key": 0,
-    "osmid": "1072",
+    "osmid": "1504",
     "length": 81.29152841128335,
     "weight": 20.9
    },
@@ -6707,10 +6707,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 511,
-    "v": 510,
+    "u": 729,
+    "v": 728,
     "key": 0,
-    "osmid": "1074",
+    "osmid": "1506",
     "length": 28.755603268023524,
     "weight": 7.39
    },
@@ -6731,10 +6731,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 510,
-    "v": 509,
+    "u": 728,
+    "v": 727,
     "key": 0,
-    "osmid": "1076",
+    "osmid": "1508",
     "length": 44.89220284590803,
     "weight": 11.54
    },
@@ -6755,10 +6755,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 509,
-    "v": 508,
+    "u": 727,
+    "v": 726,
     "key": 0,
-    "osmid": "1078",
+    "osmid": "1510",
     "length": 183.47223573376746,
     "weight": 47.16
    },
@@ -6795,10 +6795,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 508,
-    "v": 507,
+    "u": 726,
+    "v": 725,
     "key": 0,
-    "osmid": "1080",
+    "osmid": "1512",
     "length": 7.6706002309884465,
     "weight": 1.97
    },
@@ -6819,10 +6819,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 507,
-    "v": 506,
+    "u": 725,
+    "v": 724,
     "key": 0,
-    "osmid": "1082",
+    "osmid": "1514",
     "length": 10.434139911387675,
     "weight": 2.68
    },
@@ -6843,10 +6843,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 506,
-    "v": 505,
+    "u": 724,
+    "v": 723,
     "key": 0,
-    "osmid": "1084",
+    "osmid": "1516",
     "length": 23.68219035332199,
     "weight": 6.09
    },
@@ -6871,10 +6871,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 505,
-    "v": 504,
+    "u": 723,
+    "v": 722,
     "key": 0,
-    "osmid": "1086",
+    "osmid": "1518",
     "length": 16.115120562527647,
     "weight": 4.14
    },
@@ -6899,10 +6899,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 504,
-    "v": 503,
+    "u": 722,
+    "v": 721,
     "key": 0,
-    "osmid": "1088",
+    "osmid": "1520",
     "length": 32.11842086691021,
     "weight": 8.26
    },
@@ -6927,10 +6927,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 503,
-    "v": 502,
+    "u": 721,
+    "v": 720,
     "key": 0,
-    "osmid": "1090",
+    "osmid": "1522",
     "length": 17.691408983908854,
     "weight": 4.55
    },
@@ -6951,10 +6951,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 502,
-    "v": 501,
+    "u": 720,
+    "v": 719,
     "key": 0,
-    "osmid": "1092",
+    "osmid": "1524",
     "length": 44.683918872758284,
     "weight": 11.49
    },
@@ -6975,10 +6975,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 501,
-    "v": 500,
+    "u": 719,
+    "v": 718,
     "key": 0,
-    "osmid": "1094",
+    "osmid": "1526",
     "length": 248.13899970335703,
     "weight": 63.79
    },
@@ -7003,10 +7003,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 500,
-    "v": 499,
+    "u": 718,
+    "v": 717,
     "key": 0,
-    "osmid": "1096",
+    "osmid": "1528",
     "length": 50.88254839981698,
     "weight": 13.08
    },
@@ -7027,10 +7027,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 499,
-    "v": 498,
+    "u": 717,
+    "v": 716,
     "key": 0,
-    "osmid": "1098",
+    "osmid": "1530",
     "length": 45.66441146591387,
     "weight": 11.74
    },
@@ -7051,10 +7051,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 498,
-    "v": 497,
+    "u": 716,
+    "v": 715,
     "key": 0,
-    "osmid": "1100",
+    "osmid": "1532",
     "length": 9.071354568159858,
     "weight": 2.33
    },
@@ -7084,11 +7084,11 @@
    "type": "Feature",
    "properties": {
     "u": 538127234,
-    "v": 557,
+    "v": 775,
     "key": 0,
-    "osmid": "1101",
+    "osmid": "1533",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7107,10 +7107,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 557,
+    "u": 775,
     "v": 538127234,
     "key": 0,
-    "osmid": "1101",
+    "osmid": "1533",
     "length": 0.01,
     "weight": 10
    },
@@ -7131,10 +7131,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 497,
-    "v": 557,
+    "u": 715,
+    "v": 775,
     "key": 0,
-    "osmid": "1102",
+    "osmid": "1534",
     "length": 55.268981345124615,
     "weight": 14.21
    },
@@ -7160,11 +7160,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833803,
-    "v": 558,
+    "v": 776,
     "key": 0,
-    "osmid": "1103",
+    "osmid": "1535",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7183,10 +7183,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 558,
+    "u": 776,
     "v": 3377833803,
     "key": 0,
-    "osmid": "1103",
+    "osmid": "1535",
     "length": 0.01,
     "weight": 10
    },
@@ -7207,10 +7207,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 557,
-    "v": 558,
+    "u": 775,
+    "v": 776,
     "key": 0,
-    "osmid": "1104",
+    "osmid": "1536",
     "length": 32.34237797844351,
     "weight": 8.31
    },
@@ -7232,11 +7232,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833810,
-    "v": 559,
+    "v": 777,
     "key": 0,
-    "osmid": "1105",
+    "osmid": "1537",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7255,10 +7255,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 559,
+    "u": 777,
     "v": 3377833810,
     "key": 0,
-    "osmid": "1105",
+    "osmid": "1537",
     "length": 0.01,
     "weight": 10
    },
@@ -7279,10 +7279,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 558,
-    "v": 559,
+    "u": 776,
+    "v": 777,
     "key": 0,
-    "osmid": "1106",
+    "osmid": "1538",
     "length": 6.64106469613927,
     "weight": 1.71
    },
@@ -7308,11 +7308,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833805,
-    "v": 560,
+    "v": 778,
     "key": 0,
-    "osmid": "1107",
+    "osmid": "1539",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7331,10 +7331,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 560,
+    "u": 778,
     "v": 3377833805,
     "key": 0,
-    "osmid": "1107",
+    "osmid": "1539",
     "length": 0.01,
     "weight": 10
    },
@@ -7355,10 +7355,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 559,
-    "v": 560,
+    "u": 777,
+    "v": 778,
     "key": 0,
-    "osmid": "1108",
+    "osmid": "1540",
     "length": 17.61796003954251,
     "weight": 4.53
    },
@@ -7392,11 +7392,11 @@
    "type": "Feature",
    "properties": {
     "u": 3377833800,
-    "v": 561,
+    "v": 779,
     "key": 0,
-    "osmid": "1109",
+    "osmid": "1541",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7415,10 +7415,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 561,
+    "u": 779,
     "v": 3377833800,
     "key": 0,
-    "osmid": "1109",
+    "osmid": "1541",
     "length": 0.01,
     "weight": 10
    },
@@ -7439,10 +7439,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 560,
-    "v": 561,
+    "u": 778,
+    "v": 779,
     "key": 0,
-    "osmid": "1110",
+    "osmid": "1542",
     "length": 19.865316219135803,
     "weight": 5.11
    },
@@ -7480,11 +7480,11 @@
    "type": "Feature",
    "properties": {
     "u": 9839968433,
-    "v": 562,
+    "v": 780,
     "key": 0,
-    "osmid": "1111",
+    "osmid": "1543",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7503,10 +7503,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 562,
+    "u": 780,
     "v": 9839968433,
     "key": 0,
-    "osmid": "1111",
+    "osmid": "1543",
     "length": 0.01,
     "weight": 10
    },
@@ -7527,10 +7527,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 561,
-    "v": 562,
+    "u": 779,
+    "v": 780,
     "key": 0,
-    "osmid": "1112",
+    "osmid": "1544",
     "length": 34.46128860064936,
     "weight": 8.86
    },
@@ -7552,11 +7552,11 @@
    "type": "Feature",
    "properties": {
     "u": 3339677215,
-    "v": 563,
+    "v": 781,
     "key": 0,
-    "osmid": "1113",
+    "osmid": "1545",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7575,10 +7575,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 563,
+    "u": 781,
     "v": 3339677215,
     "key": 0,
-    "osmid": "1113",
+    "osmid": "1545",
     "length": 0.01,
     "weight": 10
    },
@@ -7599,10 +7599,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 562,
-    "v": 563,
+    "u": 780,
+    "v": 781,
     "key": 0,
-    "osmid": "1114",
+    "osmid": "1546",
     "length": 6.683039996219382,
     "weight": 1.72
    },
@@ -7624,11 +7624,11 @@
    "type": "Feature",
    "properties": {
     "u": 7141979357,
-    "v": 564,
+    "v": 782,
     "key": 0,
-    "osmid": "1115",
+    "osmid": "1547",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7647,10 +7647,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 564,
+    "u": 782,
     "v": 7141979357,
     "key": 0,
-    "osmid": "1115",
+    "osmid": "1547",
     "length": 0.01,
     "weight": 10
    },
@@ -7671,10 +7671,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 563,
-    "v": 564,
+    "u": 781,
+    "v": 782,
     "key": 0,
-    "osmid": "1116",
+    "osmid": "1548",
     "length": 388.53574721691655,
     "weight": 99.88
    },
@@ -7704,11 +7704,11 @@
    "type": "Feature",
    "properties": {
     "u": 7141979356,
-    "v": 565,
+    "v": 783,
     "key": 0,
-    "osmid": "1117",
+    "osmid": "1549",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7727,10 +7727,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 565,
+    "u": 783,
     "v": 7141979356,
     "key": 0,
-    "osmid": "1117",
+    "osmid": "1549",
     "length": 0.01,
     "weight": 10
    },
@@ -7751,10 +7751,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 564,
-    "v": 565,
+    "u": 782,
+    "v": 783,
     "key": 0,
-    "osmid": "1118",
+    "osmid": "1550",
     "length": 43.39423554445598,
     "weight": 11.15
    },
@@ -7780,11 +7780,11 @@
    "type": "Feature",
    "properties": {
     "u": 7690166266,
-    "v": 566,
+    "v": 784,
     "key": 0,
-    "osmid": "1119",
+    "osmid": "1551",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7803,10 +7803,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 566,
+    "u": 784,
     "v": 7690166266,
     "key": 0,
-    "osmid": "1119",
+    "osmid": "1551",
     "length": 0.01,
     "weight": 10
    },
@@ -7827,10 +7827,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 565,
-    "v": 566,
+    "u": 783,
+    "v": 784,
     "key": 0,
-    "osmid": "1120",
+    "osmid": "1552",
     "length": 10.888114794863219,
     "weight": 2.8
    },
@@ -7852,11 +7852,11 @@
    "type": "Feature",
    "properties": {
     "u": 7141979338,
-    "v": 567,
+    "v": 785,
     "key": 0,
-    "osmid": "1121",
+    "osmid": "1553",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7875,10 +7875,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 567,
+    "u": 785,
     "v": 7141979338,
     "key": 0,
-    "osmid": "1121",
+    "osmid": "1553",
     "length": 0.01,
     "weight": 10
    },
@@ -7899,10 +7899,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 566,
-    "v": 567,
+    "u": 784,
+    "v": 785,
     "key": 0,
-    "osmid": "1122",
+    "osmid": "1554",
     "length": 45.92492119429407,
     "weight": 11.8
    },
@@ -7928,11 +7928,11 @@
    "type": "Feature",
    "properties": {
     "u": 10673981164,
-    "v": 568,
+    "v": 786,
     "key": 0,
-    "osmid": "1123",
+    "osmid": "1555",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -7951,10 +7951,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 568,
+    "u": 786,
     "v": 10673981164,
     "key": 0,
-    "osmid": "1123",
+    "osmid": "1555",
     "length": 0.01,
     "weight": 10
    },
@@ -7975,10 +7975,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 567,
-    "v": 568,
+    "u": 785,
+    "v": 786,
     "key": 0,
-    "osmid": "1124",
+    "osmid": "1556",
     "length": 20.351660213085367,
     "weight": 5.23
    },
@@ -8000,11 +8000,11 @@
    "type": "Feature",
    "properties": {
     "u": 8180600311,
-    "v": 569,
+    "v": 787,
     "key": 0,
-    "osmid": "1125",
+    "osmid": "1557",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8023,10 +8023,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 569,
+    "u": 787,
     "v": 8180600311,
     "key": 0,
-    "osmid": "1125",
+    "osmid": "1557",
     "length": 0.01,
     "weight": 10
    },
@@ -8047,10 +8047,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 568,
-    "v": 569,
+    "u": 786,
+    "v": 787,
     "key": 0,
-    "osmid": "1126",
+    "osmid": "1558",
     "length": 39.651050007648365,
     "weight": 10.19
    },
@@ -8072,11 +8072,11 @@
    "type": "Feature",
    "properties": {
     "u": 13478908836,
-    "v": 570,
+    "v": 788,
     "key": 0,
-    "osmid": "1127",
+    "osmid": "1559",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8095,10 +8095,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 570,
+    "u": 788,
     "v": 13478908836,
     "key": 0,
-    "osmid": "1127",
+    "osmid": "1559",
     "length": 0.01,
     "weight": 10
    },
@@ -8119,10 +8119,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 569,
-    "v": 570,
+    "u": 787,
+    "v": 788,
     "key": 0,
-    "osmid": "1128",
+    "osmid": "1560",
     "length": 36.61876130758793,
     "weight": 9.41
    },
@@ -8147,10 +8147,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 570,
-    "v": 486,
+    "u": 788,
+    "v": 704,
     "key": 0,
-    "osmid": "1130",
+    "osmid": "1562",
     "length": 16.258590035619267,
     "weight": 4.18
    },
@@ -8183,10 +8183,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 486,
-    "v": 485,
+    "u": 704,
+    "v": 703,
     "key": 0,
-    "osmid": "1132",
+    "osmid": "1564",
     "length": 10.017141957293727,
     "weight": 2.58
    },
@@ -8211,10 +8211,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 485,
-    "v": 484,
+    "u": 703,
+    "v": 702,
     "key": 0,
-    "osmid": "1134",
+    "osmid": "1566",
     "length": 5.507198257718048,
     "weight": 1.42
    },
@@ -8235,10 +8235,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 484,
-    "v": 483,
+    "u": 702,
+    "v": 701,
     "key": 0,
-    "osmid": "1136",
+    "osmid": "1568",
     "length": 13.473729075594818,
     "weight": 3.46
    },
@@ -8267,10 +8267,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 483,
-    "v": 482,
+    "u": 701,
+    "v": 700,
     "key": 0,
-    "osmid": "1138",
+    "osmid": "1570",
     "length": 14.60748508257651,
     "weight": 3.76
    },
@@ -8291,10 +8291,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 482,
-    "v": 481,
+    "u": 700,
+    "v": 699,
     "key": 0,
-    "osmid": "1140",
+    "osmid": "1572",
     "length": 39.948001932596824,
     "weight": 10.27
    },
@@ -8319,10 +8319,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 481,
-    "v": 480,
+    "u": 699,
+    "v": 698,
     "key": 0,
-    "osmid": "1142",
+    "osmid": "1574",
     "length": 16.021051881224196,
     "weight": 4.12
    },
@@ -8347,10 +8347,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 480,
-    "v": 479,
+    "u": 698,
+    "v": 697,
     "key": 0,
-    "osmid": "1144",
+    "osmid": "1576",
     "length": 77.10985806431705,
     "weight": 19.82
    },
@@ -8379,10 +8379,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 479,
-    "v": 478,
+    "u": 697,
+    "v": 696,
     "key": 0,
-    "osmid": "1146",
+    "osmid": "1578",
     "length": 95.67942310767222,
     "weight": 24.6
    },
@@ -8411,10 +8411,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 478,
-    "v": 477,
+    "u": 696,
+    "v": 695,
     "key": 0,
-    "osmid": "1148",
+    "osmid": "1580",
     "length": 72.40799932491319,
     "weight": 18.61
    },
@@ -8435,10 +8435,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 477,
-    "v": 476,
+    "u": 695,
+    "v": 694,
     "key": 0,
-    "osmid": "1150",
+    "osmid": "1582",
     "length": 93.38751023210892,
     "weight": 24.01
    },
@@ -8459,10 +8459,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 476,
-    "v": 475,
+    "u": 694,
+    "v": 693,
     "key": 0,
-    "osmid": "1152",
+    "osmid": "1584",
     "length": 14.071871351449547,
     "weight": 3.62
    },
@@ -8483,10 +8483,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 475,
-    "v": 474,
+    "u": 693,
+    "v": 692,
     "key": 0,
-    "osmid": "1154",
+    "osmid": "1586",
     "length": 33.34905935759651,
     "weight": 8.57
    },
@@ -8515,10 +8515,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 474,
-    "v": 473,
+    "u": 692,
+    "v": 691,
     "key": 0,
-    "osmid": "1156",
+    "osmid": "1588",
     "length": 34.002533199810436,
     "weight": 8.74
    },
@@ -8539,10 +8539,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 473,
-    "v": 472,
+    "u": 691,
+    "v": 690,
     "key": 0,
-    "osmid": "1158",
+    "osmid": "1590",
     "length": 37.599810560224824,
     "weight": 9.67
    },
@@ -8571,10 +8571,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 472,
-    "v": 471,
+    "u": 690,
+    "v": 689,
     "key": 0,
-    "osmid": "1160",
+    "osmid": "1592",
     "length": 19.425383978791672,
     "weight": 4.99
    },
@@ -8595,10 +8595,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 471,
-    "v": 470,
+    "u": 689,
+    "v": 688,
     "key": 0,
-    "osmid": "1162",
+    "osmid": "1594",
     "length": 52.490381035985656,
     "weight": 13.49
    },
@@ -8631,10 +8631,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 470,
-    "v": 469,
+    "u": 688,
+    "v": 687,
     "key": 0,
-    "osmid": "1164",
+    "osmid": "1596",
     "length": 18.074905440903574,
     "weight": 4.65
    },
@@ -8655,10 +8655,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 469,
-    "v": 468,
+    "u": 687,
+    "v": 686,
     "key": 0,
-    "osmid": "1166",
+    "osmid": "1598",
     "length": 24.031650371735104,
     "weight": 6.18
    },
@@ -8679,10 +8679,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 468,
-    "v": 467,
+    "u": 686,
+    "v": 685,
     "key": 0,
-    "osmid": "1168",
+    "osmid": "1600",
     "length": 11.830580955245923,
     "weight": 3.04
    },
@@ -8704,11 +8704,11 @@
    "type": "Feature",
    "properties": {
     "u": 12022625863,
-    "v": 591,
+    "v": 809,
     "key": 0,
-    "osmid": "1169",
+    "osmid": "1601",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8727,10 +8727,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 591,
+    "u": 809,
     "v": 12022625863,
     "key": 0,
-    "osmid": "1169",
+    "osmid": "1601",
     "length": 0.01,
     "weight": 10
    },
@@ -8751,10 +8751,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 467,
-    "v": 591,
+    "u": 685,
+    "v": 809,
     "key": 0,
-    "osmid": "1170",
+    "osmid": "1602",
     "length": 16.74098248236551,
     "weight": 4.3
    },
@@ -8780,11 +8780,11 @@
    "type": "Feature",
    "properties": {
     "u": 12022633772,
-    "v": 592,
+    "v": 810,
     "key": 0,
-    "osmid": "1171",
+    "osmid": "1603",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8803,10 +8803,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 592,
+    "u": 810,
     "v": 12022633772,
     "key": 0,
-    "osmid": "1171",
+    "osmid": "1603",
     "length": 0.01,
     "weight": 10
    },
@@ -8827,10 +8827,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 591,
-    "v": 592,
+    "u": 809,
+    "v": 810,
     "key": 0,
-    "osmid": "1172",
+    "osmid": "1604",
     "length": 35.99394085596133,
     "weight": 9.25
    },
@@ -8856,11 +8856,11 @@
    "type": "Feature",
    "properties": {
     "u": 283119899,
-    "v": 593,
+    "v": 811,
     "key": 0,
-    "osmid": "1173",
+    "osmid": "1605",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8879,10 +8879,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 593,
+    "u": 811,
     "v": 283119899,
     "key": 0,
-    "osmid": "1173",
+    "osmid": "1605",
     "length": 0.01,
     "weight": 10
    },
@@ -8903,10 +8903,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 592,
-    "v": 593,
+    "u": 810,
+    "v": 811,
     "key": 0,
-    "osmid": "1174",
+    "osmid": "1606",
     "length": 12.601082377596931,
     "weight": 3.24
    },
@@ -8928,11 +8928,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174978813,
-    "v": 594,
+    "v": 812,
     "key": 0,
-    "osmid": "1175",
+    "osmid": "1607",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -8951,10 +8951,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 594,
+    "u": 812,
     "v": 9174978813,
     "key": 0,
-    "osmid": "1175",
+    "osmid": "1607",
     "length": 0.01,
     "weight": 10
    },
@@ -8975,10 +8975,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 593,
-    "v": 594,
+    "u": 811,
+    "v": 812,
     "key": 0,
-    "osmid": "1176",
+    "osmid": "1608",
     "length": 120.55730889742003,
     "weight": 30.99
    },
@@ -9004,11 +9004,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174978804,
-    "v": 595,
+    "v": 813,
     "key": 0,
-    "osmid": "1177",
+    "osmid": "1609",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9027,10 +9027,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 595,
+    "u": 813,
     "v": 9174978804,
     "key": 0,
-    "osmid": "1177",
+    "osmid": "1609",
     "length": 0.01,
     "weight": 10
    },
@@ -9051,10 +9051,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 594,
-    "v": 595,
+    "u": 812,
+    "v": 813,
     "key": 0,
-    "osmid": "1178",
+    "osmid": "1610",
     "length": 79.4319144246688,
     "weight": 20.42
    },
@@ -9080,11 +9080,11 @@
    "type": "Feature",
    "properties": {
     "u": 9174978797,
-    "v": 596,
+    "v": 814,
     "key": 0,
-    "osmid": "1179",
+    "osmid": "1611",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9103,10 +9103,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 596,
+    "u": 814,
     "v": 9174978797,
     "key": 0,
-    "osmid": "1179",
+    "osmid": "1611",
     "length": 0.01,
     "weight": 10
    },
@@ -9127,10 +9127,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 595,
-    "v": 596,
+    "u": 813,
+    "v": 814,
     "key": 0,
-    "osmid": "1180",
+    "osmid": "1612",
     "length": 19.6726693261563,
     "weight": 5.06
    },
@@ -9152,11 +9152,11 @@
    "type": "Feature",
    "properties": {
     "u": 7920872766,
-    "v": 597,
+    "v": 815,
     "key": 0,
-    "osmid": "1181",
+    "osmid": "1613",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9175,10 +9175,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 597,
+    "u": 815,
     "v": 7920872766,
     "key": 0,
-    "osmid": "1181",
+    "osmid": "1613",
     "length": 0.01,
     "weight": 10
    },
@@ -9199,10 +9199,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 596,
-    "v": 597,
+    "u": 814,
+    "v": 815,
     "key": 0,
-    "osmid": "1182",
+    "osmid": "1614",
     "length": 19.995532148370142,
     "weight": 5.14
    },
@@ -9224,11 +9224,11 @@
    "type": "Feature",
    "properties": {
     "u": 485657698,
-    "v": 598,
+    "v": 816,
     "key": 0,
-    "osmid": "1183",
+    "osmid": "1615",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9247,10 +9247,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 598,
+    "u": 816,
     "v": 485657698,
     "key": 0,
-    "osmid": "1183",
+    "osmid": "1615",
     "length": 0.01,
     "weight": 10
    },
@@ -9271,10 +9271,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 597,
-    "v": 598,
+    "u": 815,
+    "v": 816,
     "key": 0,
-    "osmid": "1184",
+    "osmid": "1616",
     "length": 43.822370201071045,
     "weight": 11.26
    },
@@ -9304,11 +9304,11 @@
    "type": "Feature",
    "properties": {
     "u": 5548939411,
-    "v": 599,
+    "v": 817,
     "key": 0,
-    "osmid": "1185",
+    "osmid": "1617",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9327,10 +9327,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 599,
+    "u": 817,
     "v": 5548939411,
     "key": 0,
-    "osmid": "1185",
+    "osmid": "1617",
     "length": 0.01,
     "weight": 10
    },
@@ -9351,10 +9351,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 598,
-    "v": 599,
+    "u": 816,
+    "v": 817,
     "key": 0,
-    "osmid": "1186",
+    "osmid": "1618",
     "length": 178.10514075611664,
     "weight": 45.79
    },
@@ -9380,11 +9380,11 @@
    "type": "Feature",
    "properties": {
     "u": 3289714301,
-    "v": 600,
+    "v": 818,
     "key": 0,
-    "osmid": "1187",
+    "osmid": "1619",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9403,10 +9403,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 600,
+    "u": 818,
     "v": 3289714301,
     "key": 0,
-    "osmid": "1187",
+    "osmid": "1619",
     "length": 0.01,
     "weight": 10
    },
@@ -9427,10 +9427,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 599,
-    "v": 600,
+    "u": 817,
+    "v": 818,
     "key": 0,
-    "osmid": "1188",
+    "osmid": "1620",
     "length": 10.506163989859312,
     "weight": 2.7
    },
@@ -9452,11 +9452,11 @@
    "type": "Feature",
    "properties": {
     "u": 3289714306,
-    "v": 601,
+    "v": 819,
     "key": 0,
-    "osmid": "1189",
+    "osmid": "1621",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9475,10 +9475,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 601,
+    "u": 819,
     "v": 3289714306,
     "key": 0,
-    "osmid": "1189",
+    "osmid": "1621",
     "length": 0.01,
     "weight": 10
    },
@@ -9499,10 +9499,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 600,
-    "v": 601,
+    "u": 818,
+    "v": 819,
     "key": 0,
-    "osmid": "1190",
+    "osmid": "1622",
     "length": 68.59285097809573,
     "weight": 17.63
    },
@@ -9544,11 +9544,11 @@
    "type": "Feature",
    "properties": {
     "u": 1540323475,
-    "v": 602,
+    "v": 820,
     "key": 0,
-    "osmid": "1191",
+    "osmid": "1623",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9567,10 +9567,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 602,
+    "u": 820,
     "v": 1540323475,
     "key": 0,
-    "osmid": "1191",
+    "osmid": "1623",
     "length": 0.01,
     "weight": 10
    },
@@ -9591,10 +9591,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 601,
-    "v": 602,
+    "u": 819,
+    "v": 820,
     "key": 0,
-    "osmid": "1192",
+    "osmid": "1624",
     "length": 21.95656914586204,
     "weight": 5.65
    },
@@ -9616,11 +9616,11 @@
    "type": "Feature",
    "properties": {
     "u": 3289714286,
-    "v": 603,
+    "v": 821,
     "key": 0,
-    "osmid": "1193",
+    "osmid": "1625",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9639,10 +9639,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 603,
+    "u": 821,
     "v": 3289714286,
     "key": 0,
-    "osmid": "1193",
+    "osmid": "1625",
     "length": 0.01,
     "weight": 10
    },
@@ -9663,10 +9663,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 602,
-    "v": 603,
+    "u": 820,
+    "v": 821,
     "key": 0,
-    "osmid": "1194",
+    "osmid": "1626",
     "length": 47.499914209378275,
     "weight": 12.21
    },
@@ -9688,11 +9688,11 @@
    "type": "Feature",
    "properties": {
     "u": 3289714296,
-    "v": 604,
+    "v": 822,
     "key": 0,
-    "osmid": "1195",
+    "osmid": "1627",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9711,10 +9711,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 604,
+    "u": 822,
     "v": 3289714296,
     "key": 0,
-    "osmid": "1195",
+    "osmid": "1627",
     "length": 0.01,
     "weight": 10
    },
@@ -9735,10 +9735,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 603,
-    "v": 604,
+    "u": 821,
+    "v": 822,
     "key": 0,
-    "osmid": "1196",
+    "osmid": "1628",
     "length": 81.67671212718176,
     "weight": 21.0
    },
@@ -9760,11 +9760,11 @@
    "type": "Feature",
    "properties": {
     "u": 1540323472,
-    "v": 605,
+    "v": 823,
     "key": 0,
-    "osmid": "1197",
+    "osmid": "1629",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9783,10 +9783,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 605,
+    "u": 823,
     "v": 1540323472,
     "key": 0,
-    "osmid": "1197",
+    "osmid": "1629",
     "length": 0.01,
     "weight": 10
    },
@@ -9807,10 +9807,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 604,
-    "v": 605,
+    "u": 822,
+    "v": 823,
     "key": 0,
-    "osmid": "1198",
+    "osmid": "1630",
     "length": 15.369156970780796,
     "weight": 3.95
    },
@@ -9832,11 +9832,11 @@
    "type": "Feature",
    "properties": {
     "u": 3289717496,
-    "v": 606,
+    "v": 824,
     "key": 0,
-    "osmid": "1199",
+    "osmid": "1631",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9855,10 +9855,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 606,
+    "u": 824,
     "v": 3289717496,
     "key": 0,
-    "osmid": "1199",
+    "osmid": "1631",
     "length": 0.01,
     "weight": 10
    },
@@ -9879,10 +9879,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 605,
-    "v": 606,
+    "u": 823,
+    "v": 824,
     "key": 0,
-    "osmid": "1200",
+    "osmid": "1632",
     "length": 67.30902298844572,
     "weight": 17.3
    },
@@ -9904,11 +9904,11 @@
    "type": "Feature",
    "properties": {
     "u": 1540323469,
-    "v": 607,
+    "v": 825,
     "key": 0,
-    "osmid": "1201",
+    "osmid": "1633",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9927,10 +9927,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 607,
+    "u": 825,
     "v": 1540323469,
     "key": 0,
-    "osmid": "1201",
+    "osmid": "1633",
     "length": 0.01,
     "weight": 10
    },
@@ -9951,10 +9951,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 606,
-    "v": 607,
+    "u": 824,
+    "v": 825,
     "key": 0,
-    "osmid": "1202",
+    "osmid": "1634",
     "length": 91.54375860559122,
     "weight": 23.53
    },
@@ -9976,11 +9976,11 @@
    "type": "Feature",
    "properties": {
     "u": 5548940641,
-    "v": 608,
+    "v": 826,
     "key": 0,
-    "osmid": "1203",
+    "osmid": "1635",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -9999,10 +9999,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 608,
+    "u": 826,
     "v": 5548940641,
     "key": 0,
-    "osmid": "1203",
+    "osmid": "1635",
     "length": 0.01,
     "weight": 10
    },
@@ -10023,10 +10023,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 607,
-    "v": 608,
+    "u": 825,
+    "v": 826,
     "key": 0,
-    "osmid": "1204",
+    "osmid": "1636",
     "length": 170.647176044633,
     "weight": 43.87
    },
@@ -10048,11 +10048,11 @@
    "type": "Feature",
    "properties": {
     "u": 6814957201,
-    "v": 609,
+    "v": 827,
     "key": 0,
-    "osmid": "1205",
+    "osmid": "1637",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10071,10 +10071,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 609,
+    "u": 827,
     "v": 6814957201,
     "key": 0,
-    "osmid": "1205",
+    "osmid": "1637",
     "length": 0.01,
     "weight": 10
    },
@@ -10095,10 +10095,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 608,
-    "v": 609,
+    "u": 826,
+    "v": 827,
     "key": 0,
-    "osmid": "1206",
+    "osmid": "1638",
     "length": 59.308720965963474,
     "weight": 15.25
    },
@@ -10132,11 +10132,11 @@
    "type": "Feature",
    "properties": {
     "u": 507044703,
-    "v": 610,
+    "v": 828,
     "key": 0,
-    "osmid": "1207",
+    "osmid": "1639",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10155,10 +10155,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 610,
+    "u": 828,
     "v": 507044703,
     "key": 0,
-    "osmid": "1207",
+    "osmid": "1639",
     "length": 0.01,
     "weight": 10
    },
@@ -10179,10 +10179,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 609,
-    "v": 610,
+    "u": 827,
+    "v": 828,
     "key": 0,
-    "osmid": "1208",
+    "osmid": "1640",
     "length": 18.138073060924214,
     "weight": 4.66
    },
@@ -10204,11 +10204,11 @@
    "type": "Feature",
    "properties": {
     "u": 8333736630,
-    "v": 611,
+    "v": 829,
     "key": 0,
-    "osmid": "1209",
+    "osmid": "1641",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10227,10 +10227,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 611,
+    "u": 829,
     "v": 8333736630,
     "key": 0,
-    "osmid": "1209",
+    "osmid": "1641",
     "length": 0.01,
     "weight": 10
    },
@@ -10251,10 +10251,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 610,
-    "v": 611,
+    "u": 828,
+    "v": 829,
     "key": 0,
-    "osmid": "1210",
+    "osmid": "1642",
     "length": 38.99566873942944,
     "weight": 10.03
    },
@@ -10284,11 +10284,11 @@
    "type": "Feature",
    "properties": {
     "u": 1540323460,
-    "v": 612,
+    "v": 830,
     "key": 0,
-    "osmid": "1211",
+    "osmid": "1643",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10307,10 +10307,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 612,
+    "u": 830,
     "v": 1540323460,
     "key": 0,
-    "osmid": "1211",
+    "osmid": "1643",
     "length": 0.01,
     "weight": 10
    },
@@ -10331,10 +10331,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 611,
-    "v": 612,
+    "u": 829,
+    "v": 830,
     "key": 0,
-    "osmid": "1212",
+    "osmid": "1644",
     "length": 26.77789187935313,
     "weight": 6.88
    },
@@ -10356,11 +10356,11 @@
    "type": "Feature",
    "properties": {
     "u": 10897890037,
-    "v": 613,
+    "v": 831,
     "key": 0,
-    "osmid": "1213",
+    "osmid": "1645",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10379,10 +10379,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 613,
+    "u": 831,
     "v": 10897890037,
     "key": 0,
-    "osmid": "1213",
+    "osmid": "1645",
     "length": 0.01,
     "weight": 10
    },
@@ -10403,10 +10403,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 612,
-    "v": 613,
+    "u": 830,
+    "v": 831,
     "key": 0,
-    "osmid": "1214",
+    "osmid": "1646",
     "length": 22.448277031425658,
     "weight": 5.77
    },
@@ -10428,11 +10428,11 @@
    "type": "Feature",
    "properties": {
     "u": 10981724689,
-    "v": 614,
+    "v": 832,
     "key": 0,
-    "osmid": "1215",
+    "osmid": "1647",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10451,10 +10451,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 614,
+    "u": 832,
     "v": 10981724689,
     "key": 0,
-    "osmid": "1215",
+    "osmid": "1647",
     "length": 0.01,
     "weight": 10
    },
@@ -10475,10 +10475,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 613,
-    "v": 614,
+    "u": 831,
+    "v": 832,
     "key": 0,
-    "osmid": "1216",
+    "osmid": "1648",
     "length": 19.5323161484,
     "weight": 5.02
    },
@@ -10508,11 +10508,11 @@
    "type": "Feature",
    "properties": {
     "u": 1540323467,
-    "v": 615,
+    "v": 833,
     "key": 0,
-    "osmid": "1217",
+    "osmid": "1649",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10531,10 +10531,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 615,
+    "u": 833,
     "v": 1540323467,
     "key": 0,
-    "osmid": "1217",
+    "osmid": "1649",
     "length": 0.01,
     "weight": 10
    },
@@ -10555,10 +10555,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 614,
-    "v": 615,
+    "u": 832,
+    "v": 833,
     "key": 0,
-    "osmid": "1218",
+    "osmid": "1650",
     "length": 99.31788687111872,
     "weight": 25.53
    },
@@ -10588,11 +10588,11 @@
    "type": "Feature",
    "properties": {
     "u": 8693517510,
-    "v": 616,
+    "v": 834,
     "key": 0,
-    "osmid": "1219",
+    "osmid": "1651",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10611,10 +10611,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 616,
+    "u": 834,
     "v": 8693517510,
     "key": 0,
-    "osmid": "1219",
+    "osmid": "1651",
     "length": 0.01,
     "weight": 10
    },
@@ -10635,10 +10635,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 615,
-    "v": 616,
+    "u": 833,
+    "v": 834,
     "key": 0,
-    "osmid": "1220",
+    "osmid": "1652",
     "length": 52.408651678461716,
     "weight": 13.47
    },
@@ -10680,11 +10680,11 @@
    "type": "Feature",
    "properties": {
     "u": 7920872738,
-    "v": 617,
+    "v": 835,
     "key": 0,
-    "osmid": "1221",
+    "osmid": "1653",
     "length": 0.01,
-    "weight": 350
+    "weight": 300
    },
    "geometry": {
     "type": "LineString",
@@ -10703,10 +10703,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 617,
+    "u": 835,
     "v": 7920872738,
     "key": 0,
-    "osmid": "1221",
+    "osmid": "1653",
     "length": 0.01,
     "weight": 10
    },
@@ -10727,10 +10727,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 616,
-    "v": 617,
+    "u": 834,
+    "v": 835,
     "key": 0,
-    "osmid": "1222",
+    "osmid": "1654",
     "length": 45.76325651198226,
     "weight": 11.76
    },
