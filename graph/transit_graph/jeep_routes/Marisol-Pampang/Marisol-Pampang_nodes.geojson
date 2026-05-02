@@ -11,7 +11,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 837,
+    "osmid": 1130,
     "y": 15.1524897,
     "x": 120.5918293,
     "street_count": 3,
@@ -35,7 +35,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 838,
+    "osmid": 1131,
     "y": 15.152431,
     "x": 120.5921198,
     "street_count": 3,
@@ -59,7 +59,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 839,
+    "osmid": 1132,
     "y": 15.1522456,
     "x": 120.5921725,
     "street_count": 3,
@@ -83,7 +83,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 840,
+    "osmid": 1133,
     "y": 15.1520931,
     "x": 120.5922821,
     "street_count": 3,
@@ -107,7 +107,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 841,
+    "osmid": 1134,
     "y": 15.152064,
     "x": 120.5922875,
     "street_count": 3,
@@ -131,7 +131,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 842,
+    "osmid": 1135,
     "y": 15.1520226,
     "x": 120.5922967,
     "street_count": 3,
@@ -155,7 +155,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 843,
+    "osmid": 1136,
     "y": 15.1518708,
     "x": 120.5923297,
     "street_count": 3,
@@ -179,7 +179,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 844,
+    "osmid": 1137,
     "y": 15.1517928,
     "x": 120.5923473,
     "street_count": 3,
@@ -203,7 +203,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 845,
+    "osmid": 1138,
     "y": 15.1517112,
     "x": 120.5923675,
     "street_count": 3,
@@ -227,7 +227,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 846,
+    "osmid": 1139,
     "y": 15.1515802,
     "x": 120.592407,
     "street_count": 3,
@@ -251,7 +251,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 847,
+    "osmid": 1140,
     "y": 15.1513992,
     "x": 120.5924595,
     "street_count": 3,
@@ -275,7 +275,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 848,
+    "osmid": 1141,
     "y": 15.1511666,
     "x": 120.5925275,
     "street_count": 3,
@@ -299,7 +299,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 849,
+    "osmid": 1142,
     "y": 15.1510285,
     "x": 120.5925728,
     "street_count": 3,
@@ -323,7 +323,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 850,
+    "osmid": 1143,
     "y": 15.150788,
     "x": 120.5926448,
     "street_count": 3,
@@ -347,7 +347,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 851,
+    "osmid": 1144,
     "y": 15.1498868,
     "x": 120.5929872,
     "street_count": 3,
@@ -371,7 +371,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 852,
+    "osmid": 1145,
     "y": 15.1493805,
     "x": 120.5932061,
     "street_count": 3,
@@ -395,7 +395,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 853,
+    "osmid": 1146,
     "y": 15.1492618,
     "x": 120.5932604,
     "street_count": 3,
@@ -419,7 +419,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 854,
+    "osmid": 1147,
     "y": 15.1486097,
     "x": 120.5935738,
     "street_count": 4,
@@ -443,7 +443,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 855,
+    "osmid": 1148,
     "y": 15.1483247,
     "x": 120.5937139,
     "street_count": 3,
@@ -467,7 +467,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 856,
+    "osmid": 1149,
     "y": 15.1480713,
     "x": 120.5938468,
     "street_count": 3,
@@ -491,7 +491,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 857,
+    "osmid": 1150,
     "y": 15.1477858,
     "x": 120.593998,
     "street_count": 3,
@@ -515,7 +515,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 858,
+    "osmid": 1151,
     "y": 15.1476258,
     "x": 120.5940835,
     "street_count": 3,
@@ -539,7 +539,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 859,
+    "osmid": 1152,
     "y": 15.1474964,
     "x": 120.5941509,
     "street_count": 4,
@@ -563,7 +563,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 860,
+    "osmid": 1153,
     "y": 15.1472272,
     "x": 120.5942978,
     "street_count": 3,
@@ -587,7 +587,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 861,
+    "osmid": 1154,
     "y": 15.1469488,
     "x": 120.5944414,
     "street_count": 4,
@@ -611,7 +611,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 862,
+    "osmid": 1155,
     "y": 15.1466686,
     "x": 120.5945937,
     "street_count": 4,
@@ -635,7 +635,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 863,
+    "osmid": 1156,
     "y": 15.1464018,
     "x": 120.594735,
     "street_count": 5,
@@ -659,7 +659,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 864,
+    "osmid": 1157,
     "y": 15.1460708,
     "x": 120.5948733,
     "street_count": 3,
@@ -683,7 +683,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 865,
+    "osmid": 1158,
     "y": 15.1460289,
     "x": 120.594898,
     "street_count": 3,
@@ -707,7 +707,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 866,
+    "osmid": 1159,
     "y": 15.145503,
     "x": 120.5951724,
     "street_count": 3,
@@ -731,7 +731,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 867,
+    "osmid": 1160,
     "y": 15.145304,
     "x": 120.5952791,
     "street_count": 3,
@@ -755,7 +755,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 868,
+    "osmid": 1161,
     "y": 15.1449553,
     "x": 120.5954543,
     "street_count": 3,
@@ -779,7 +779,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 869,
+    "osmid": 1162,
     "y": 15.1447101,
     "x": 120.5955825,
     "street_count": 3,
@@ -803,7 +803,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 870,
+    "osmid": 1163,
     "y": 15.1446826,
     "x": 120.5955959,
     "street_count": 3,
@@ -827,7 +827,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 871,
+    "osmid": 1164,
     "y": 15.144464,
     "x": 120.5957756,
     "street_count": 3,
@@ -851,7 +851,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 872,
+    "osmid": 1165,
     "y": 15.1443935,
     "x": 120.5958115,
     "street_count": 4,
@@ -875,7 +875,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 873,
+    "osmid": 1166,
     "y": 15.1441362,
     "x": 120.5959529,
     "street_count": 4,
@@ -899,7 +899,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 874,
+    "osmid": 1167,
     "y": 15.1438786,
     "x": 120.5960903,
     "street_count": 4,
@@ -923,7 +923,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 875,
+    "osmid": 1168,
     "y": 15.1435841,
     "x": 120.5962493,
     "street_count": 4,
@@ -947,7 +947,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 876,
+    "osmid": 1169,
     "y": 15.1433025,
     "x": 120.5963965,
     "street_count": 3,
@@ -971,7 +971,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 877,
+    "osmid": 1170,
     "y": 15.1431985,
     "x": 120.5964508,
     "street_count": 3,
@@ -995,7 +995,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 878,
+    "osmid": 1171,
     "y": 15.1431344,
     "x": 120.5964784,
     "street_count": 3,
@@ -1019,7 +1019,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 879,
+    "osmid": 1172,
     "y": 15.1428447,
     "x": 120.5965299,
     "street_count": 3,
@@ -1043,7 +1043,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 880,
+    "osmid": 1173,
     "y": 15.1427344,
     "x": 120.5965024,
     "street_count": 3,
@@ -1067,7 +1067,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 881,
+    "osmid": 1174,
     "y": 15.1426689,
     "x": 120.5964689,
     "street_count": 3,
@@ -1091,7 +1091,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 882,
+    "osmid": 1175,
     "y": 15.1425933,
     "x": 120.5964321,
     "street_count": 3,
@@ -1115,7 +1115,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 883,
+    "osmid": 1176,
     "y": 15.1424748,
     "x": 120.5963943,
     "street_count": 3,
@@ -1139,7 +1139,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 884,
+    "osmid": 1177,
     "y": 15.1424474,
     "x": 120.5963782,
     "street_count": 3,
@@ -1163,7 +1163,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 885,
+    "osmid": 1178,
     "y": 15.1423191,
     "x": 120.5962828,
     "street_count": 3,
@@ -1187,7 +1187,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 886,
+    "osmid": 1179,
     "y": 15.1420087,
     "x": 120.5960558,
     "street_count": 4,
@@ -1211,7 +1211,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 887,
+    "osmid": 1180,
     "y": 15.141402,
     "x": 120.5955982,
     "street_count": 3,
@@ -1235,7 +1235,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 888,
+    "osmid": 1181,
     "y": 15.1412863,
     "x": 120.595511,
     "street_count": 3,
@@ -1259,7 +1259,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 889,
+    "osmid": 1182,
     "y": 15.1411712,
     "x": 120.5954249,
     "street_count": 3,
@@ -1283,7 +1283,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 890,
+    "osmid": 1183,
     "y": 15.1409995,
     "x": 120.5952904,
     "street_count": 3,
@@ -1307,7 +1307,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 891,
+    "osmid": 1184,
     "y": 15.1407502,
     "x": 120.5950987,
     "street_count": 4,
@@ -1331,7 +1331,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 892,
+    "osmid": 1185,
     "y": 15.140377,
     "x": 120.5948522,
     "street_count": 3,
@@ -1355,7 +1355,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 893,
+    "osmid": 1186,
     "y": 15.140238,
     "x": 120.5947475,
     "street_count": 3,
@@ -1379,7 +1379,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 894,
+    "osmid": 1187,
     "y": 15.1397282,
     "x": 120.5943633,
     "street_count": 3,
@@ -1403,7 +1403,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 895,
+    "osmid": 1188,
     "y": 15.139611,
     "x": 120.594275,
     "street_count": 3,
@@ -1427,7 +1427,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 896,
+    "osmid": 1189,
     "y": 15.139454,
     "x": 120.5941567,
     "street_count": 3,
@@ -1451,7 +1451,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 897,
+    "osmid": 1190,
     "y": 15.1393376,
     "x": 120.594069,
     "street_count": 3,
@@ -1475,7 +1475,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 898,
+    "osmid": 1191,
     "y": 15.1392301,
     "x": 120.5939885,
     "street_count": 3,
@@ -1499,7 +1499,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 899,
+    "osmid": 1192,
     "y": 15.1391695,
     "x": 120.5939424,
     "street_count": 3,
@@ -1523,7 +1523,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 900,
+    "osmid": 1193,
     "y": 15.1389642,
     "x": 120.5937877,
     "street_count": 3,
@@ -1547,7 +1547,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 901,
+    "osmid": 1194,
     "y": 15.1388707,
     "x": 120.5937095,
     "street_count": 3,
@@ -1571,7 +1571,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 902,
+    "osmid": 1195,
     "y": 15.1381214,
     "x": 120.5931732,
     "street_count": 3,
@@ -1595,7 +1595,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 903,
+    "osmid": 1196,
     "y": 15.13783,
     "x": 120.5929579,
     "street_count": 3,
@@ -1619,7 +1619,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 904,
+    "osmid": 1197,
     "y": 15.1371162,
     "x": 120.5923909,
     "street_count": 3,
@@ -1643,7 +1643,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 905,
+    "osmid": 1198,
     "y": 15.1370828,
     "x": 120.5923668,
     "street_count": 3,
@@ -1667,7 +1667,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 906,
+    "osmid": 1199,
     "y": 15.1368624,
     "x": 120.5922079,
     "street_count": 3,
@@ -1691,7 +1691,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 907,
+    "osmid": 1200,
     "y": 15.1366445,
     "x": 120.5920435,
     "street_count": 4,
@@ -1715,7 +1715,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 908,
+    "osmid": 1201,
     "y": 15.1359513,
     "x": 120.5914958,
     "street_count": 4,
@@ -1739,7 +1739,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 909,
+    "osmid": 1202,
     "y": 15.1353974,
     "x": 120.591057,
     "street_count": 3,
@@ -1763,7 +1763,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 910,
+    "osmid": 1203,
     "y": 15.1351073,
     "x": 120.5908515,
     "street_count": 3,
@@ -1787,7 +1787,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 911,
+    "osmid": 1204,
     "y": 15.1349996,
     "x": 120.5907678,
     "street_count": 3,
@@ -1811,7 +1811,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 912,
+    "osmid": 1205,
     "y": 15.1347931,
     "x": 120.5906073,
     "street_count": 3,
@@ -1835,7 +1835,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 913,
+    "osmid": 1206,
     "y": 15.1350793,
     "x": 120.5901804,
     "street_count": 3,
@@ -1859,7 +1859,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 914,
+    "osmid": 1207,
     "y": 15.1352085,
     "x": 120.5899567,
     "street_count": 3,
@@ -1883,7 +1883,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 915,
+    "osmid": 1208,
     "y": 15.1354946,
     "x": 120.5894532,
     "street_count": 3,
@@ -1907,7 +1907,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 916,
+    "osmid": 1209,
     "y": 15.1355435,
     "x": 120.5893547,
     "street_count": 3,
@@ -1931,7 +1931,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 917,
+    "osmid": 1210,
     "y": 15.1355604,
     "x": 120.589321,
     "street_count": 3,
@@ -1955,7 +1955,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 918,
+    "osmid": 1211,
     "y": 15.1355658,
     "x": 120.5893104,
     "street_count": 3,
@@ -1979,7 +1979,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 919,
+    "osmid": 1212,
     "y": 15.1358916,
     "x": 120.5887147,
     "street_count": 3,
@@ -2003,7 +2003,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 920,
+    "osmid": 1213,
     "y": 15.1360287,
     "x": 120.5884592,
     "street_count": 3,
@@ -2027,7 +2027,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 921,
+    "osmid": 1214,
     "y": 15.1360715,
     "x": 120.588379,
     "street_count": 3,
@@ -2051,7 +2051,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 922,
+    "osmid": 1215,
     "y": 15.1361139,
     "x": 120.5882936,
     "street_count": 3,
@@ -2075,7 +2075,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 923,
+    "osmid": 1216,
     "y": 15.1362209,
     "x": 120.5880784,
     "street_count": 3,
@@ -2099,7 +2099,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 924,
+    "osmid": 1217,
     "y": 15.1363919,
     "x": 120.5877296,
     "street_count": 4,
@@ -2123,7 +2123,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 925,
+    "osmid": 1218,
     "y": 15.1371951,
     "x": 120.588238,
     "street_count": 3,
@@ -2147,7 +2147,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 926,
+    "osmid": 1219,
     "y": 15.137519,
     "x": 120.5885097,
     "street_count": 3,
@@ -2171,7 +2171,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 927,
+    "osmid": 1220,
     "y": 15.1378835,
     "x": 120.5888227,
     "street_count": 3,
@@ -2195,7 +2195,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 928,
+    "osmid": 1221,
     "y": 15.1383044,
     "x": 120.5882372,
     "street_count": 4,
@@ -2219,7 +2219,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 929,
+    "osmid": 1222,
     "y": 15.1386563,
     "x": 120.5877607,
     "street_count": 3,
@@ -2243,7 +2243,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 930,
+    "osmid": 1223,
     "y": 15.1388553,
     "x": 120.5876235,
     "street_count": 4,
@@ -2267,7 +2267,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 931,
+    "osmid": 1224,
     "y": 15.139509,
     "x": 120.5880675,
     "street_count": 3,
@@ -2291,7 +2291,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 932,
+    "osmid": 1225,
     "y": 15.1399394,
     "x": 120.5883881,
     "street_count": 4,
@@ -2315,7 +2315,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 933,
+    "osmid": 1226,
     "y": 15.1408703,
     "x": 120.5888902,
     "street_count": 4,
@@ -2339,7 +2339,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 934,
+    "osmid": 1227,
     "y": 15.1426164,
     "x": 120.589741,
     "street_count": 4,
@@ -2363,7 +2363,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 935,
+    "osmid": 1228,
     "y": 15.1441175,
     "x": 120.5905037,
     "street_count": 3,
@@ -2387,7 +2387,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 936,
+    "osmid": 1229,
     "y": 15.1444946,
     "x": 120.5907103,
     "street_count": 3,
@@ -2411,7 +2411,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 937,
+    "osmid": 1230,
     "y": 15.1448168,
     "x": 120.5908706,
     "street_count": 3,
@@ -2435,7 +2435,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 938,
+    "osmid": 1231,
     "y": 15.1455848,
     "x": 120.5905983,
     "street_count": 3,
@@ -2459,7 +2459,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 939,
+    "osmid": 1232,
     "y": 15.1459796,
     "x": 120.5904539,
     "street_count": 3,
@@ -2483,7 +2483,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 940,
+    "osmid": 1233,
     "y": 15.1464068,
     "x": 120.5903167,
     "street_count": 3,
@@ -2507,7 +2507,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 941,
+    "osmid": 1234,
     "y": 15.1468308,
     "x": 120.5901635,
     "street_count": 3,
@@ -2531,7 +2531,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 942,
+    "osmid": 1235,
     "y": 15.146908,
     "x": 120.5901328,
     "street_count": 4,
@@ -2555,7 +2555,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 943,
+    "osmid": 1236,
     "y": 15.147272,
     "x": 120.5900113,
     "street_count": 3,
@@ -2579,7 +2579,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 944,
+    "osmid": 1237,
     "y": 15.1479421,
     "x": 120.5897437,
     "street_count": 3,
@@ -2603,7 +2603,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 945,
+    "osmid": 1238,
     "y": 15.1480244,
     "x": 120.5897904,
     "street_count": 3,
@@ -2627,7 +2627,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 946,
+    "osmid": 1239,
     "y": 15.148214,
     "x": 120.5898906,
     "street_count": 4,
@@ -2651,7 +2651,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 947,
+    "osmid": 1240,
     "y": 15.1483456,
     "x": 120.5899534,
     "street_count": 3,
@@ -2675,7 +2675,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 948,
+    "osmid": 1241,
     "y": 15.1486113,
     "x": 120.5900707,
     "street_count": 3,
@@ -2699,7 +2699,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 949,
+    "osmid": 1242,
     "y": 15.1487596,
     "x": 120.5901304,
     "street_count": 3,
@@ -2723,7 +2723,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 950,
+    "osmid": 1243,
     "y": 15.1491342,
     "x": 120.5902811,
     "street_count": 3,
@@ -2747,7 +2747,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 951,
+    "osmid": 1244,
     "y": 15.1511847,
     "x": 120.5911928,
     "street_count": 4,
@@ -2771,7 +2771,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 952,
+    "osmid": 1245,
     "y": 15.1516087,
     "x": 120.5913711,
     "street_count": 3,
@@ -2795,7 +2795,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 953,
+    "osmid": 1246,
     "y": 15.151976,
     "x": 120.5915614,
     "street_count": 3,
@@ -2819,7 +2819,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 954,
+    "osmid": 1247,
     "y": 15.1520492,
     "x": 120.5915983,
     "street_count": 3,
