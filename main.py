@@ -87,8 +87,9 @@ with perfTimer("add routes"):
                 print("Throw not correct format")
 # -------------------------------------------------- #
 # ------------------ ADD COLOR HASH ---------------- #
-with open(f"color.json") as f:
+with open(f"graph_config/color.json") as f:
     colors = json.load(f)
+# -------------------------------------------------- #
 
 app = FastAPI()
 
@@ -234,6 +235,91 @@ def shortestPathTest(src: str, dest: str):
         #     finalDistance, pathList = nx.multi_source_dijkstra(G, [start], end, weight="length")
     except Exception as e:
         raise Exception(status_code=500, detail=str(e))
+    
+@app.get("/k_shortest_paths")
+def kShortestPathsTest(src: str, dest: str):
+    try:
+        pair = {
+            'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
+            'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
+        }
+
+        # Gets the nearest node from each source/destination coordinates
+        with perfTimer("get nearest node id"):
+            srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
+            destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
+
+        routesResultsList = []
+
+        theList = None
+        nextG = G.copy()
+        for i in range(0,3):
+            theList = list(itertools.chain.from_iterable(ox.k_shortest_paths(nextG, srcNode, destNode, 1, weight="weight")))
+            routesResultsList.append(theList)
+
+            nextG = nextG.copy()
+
+            routeToRemove = None
+            for i in theList:
+                if G.nodes[i]['mode']['type'] != 'walk':
+                    routeToRemove = G.nodes[i]['mode']['details']['name']
+                    break
+
+            if routeToRemove != None:
+                for i in theList:
+                    if nextG.nodes[i]['mode']['type'] != 'walk':
+                        if nextG.nodes[i]['mode']['details']['name'] == routeToRemove:
+                            nextG.remove_node(i)
+        
+        print(len(routesResultsList))
+        resultsObj = {}
+        resultsJson = {'routes': resultsObj}
+
+
+        count = 1
+        for i in routesResultsList:
+            nodeList = []
+            for j in i:
+                node = G.nodes[j]
+                if nodeList:
+                    # print(f'{node['mode']['type']}: {i}')
+                    if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                        nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                    else:
+                        nodeList.append({
+                            'mode': {
+                                'type': node['mode']['type'],
+                                'details': {
+                                    'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                    'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                }
+                            },
+                            'geometry': [
+                                [float(node['x']), float(node['y'])]
+                            ] 
+                        })
+                else:
+                    nodeList.append({
+                        'mode': {
+                            'type': node['mode']['type'],
+                            'details': {
+                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                            }
+                        },
+                        'geometry': [
+                            [float(node['x']), float(node['y'])]
+                        ]
+                    })
+            resultsObj[f'result-{count}'] = nodeList
+            count+=1
+        return resultsJson
+            
+            
+            
+
+    except Exception as e:
+        raise Exception(status_code=500, detail=str(e))
 
 # Testing single directional Dijkstra's
 @app.get("/shortest_path_test")
@@ -262,3 +348,67 @@ def shortestPathTestf():
 
     with perfTimer("do Dijkstra's"):
         finalDistance, pathList = nx.multi_source_dijkstra(G, [start], end, weight="length")
+
+# Testing single directional Dijkstra's
+@app.get("/test_yens")
+def shortestPathTestf(src: str, dest: str):
+    try:
+        pair = {
+            'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
+            'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
+        }
+
+        # Gets the nearest node from each source/destination coordinates
+        with perfTimer("get nearest node id"):
+            srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
+            destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
+
+        
+
+        # The shortest path algorithm (weight attribute is pre-calculated as the time it takes to  
+        # traverse an edge in seconds based on its mode's average speed
+        with perfTimer('do shortest path'):
+            pathList = ox.k_shortest_paths(G, srcNode, destNode, 5, weight="weight")
+
+        with perfTimer('append'):
+            final = list(itertools.chain.from_iterable(pathList))
+        nodeList = []
+        for i in final:
+            node = G.nodes[i]
+            if nodeList:
+                # print(f'{node['mode']['type']}: {i}')
+                if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                    nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                else:
+                    nodeList.append({
+                        'mode': {
+                            'type': node['mode']['type'],
+                            'details': {
+                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                            }
+                        },
+                        'geometry': [
+                            [float(node['x']), float(node['y'])]
+                        ] 
+                    })
+            else:
+                nodeList.append({
+                    'mode': {
+                        'type': node['mode']['type'],
+                        'details': {
+                            'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                            'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                        }
+                    },
+                    'geometry': [
+                        [float(node['x']), float(node['y'])]
+                    ]
+                })
+
+        return {'route': nodeList}
+
+        # with perfTimer("do Dijkstra's"):
+        #     finalDistance, pathList = nx.multi_source_dijkstra(G, [start], end, weight="length")
+    except Exception as e:
+        raise Exception(status_code=500, detail=str(e))
