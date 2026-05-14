@@ -7,6 +7,7 @@ import geopandas as gpd
 import numpy as np
 import os
 import json
+import copy
 from shapely.geometry import shape
 from func import getNearestNodeId
 import itertools
@@ -251,40 +252,79 @@ def kShortestPathsTest(src: str, dest: str):
 
         routesResultsList = []
 
-        theList = None
-        nextG = G.copy()
-        for i in range(0,3):
-            theList = list(itertools.chain.from_iterable(ox.k_shortest_paths(nextG, srcNode, destNode, 1, weight="weight")))
-            routesResultsList.append(theList)
+        initialModes = []
+        modeList = []
+        with perfTimer("make a copy of G"):
+            nextG = copy.deepcopy(G)
+        lastLength = None
+        while (len(routesResultsList) < 3):
+            with perfTimer("calculate an iteration:"):
+                theList = list(itertools.chain.from_iterable(ox.k_shortest_paths(nextG, srcNode, destNode, 1, weight="weight")))
+                
+                # Check if current k shortest path is more than 25% of the previous k shortest path, which means you've exhausted all possible paths for that nextG
+                length = nx.path_weight(G, theList, weight="weight")
+                print(length)
+                if lastLength and lastLength * 1.25 < length:
+                    print("True")
+                    if modeList:
+                        if modeList[0] in initialModes:
+                            nextG = copy.deepcopy(G)
+                    else:
+                        break
+                else:
+                    print("Not true")
+                lastLength = length
 
-            nextG = nextG.copy()
+                routesResultsList.append(theList)
 
-            routeToRemove = None
-            for i in theList:
-                if G.nodes[i]['mode']['type'] != 'walk':
-                    routeToRemove = G.nodes[i]['mode']['details']['name']
-                    break
-
-            if routeToRemove != None:
+                routeToRemove = None
+                # Get all modes of route
                 for i in theList:
-                    if nextG.nodes[i]['mode']['type'] != 'walk':
-                        if nextG.nodes[i]['mode']['details']['name'] == routeToRemove:
-                            nextG.remove_node(i)
-        
-        print(len(routesResultsList))
+                    if G.nodes[i]['mode']['type'] != 'walk':
+                        modeList.append(G.nodes[i]['mode']['details']['name'])
+                        
+                if not initialModes:
+                    initialModes = modeList
+
+                if modeList:
+                    routeToRemove = modeList.pop()
+                else:
+                    routeToRemove = None
+                # Removes nodes from a mode's route
+                if routeToRemove != None:
+                    for i in theList:
+                        if nextG.nodes[i]['mode']['type'] != 'walk':
+                            if nextG.nodes[i]['mode']['details']['name'] == routeToRemove:
+                                nextG.remove_node(i)
+                else:
+                    break
+            
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
 
-
-        count = 1
-        for i in routesResultsList:
-            nodeList = []
-            for j in i:
-                node = G.nodes[j]
-                if nodeList:
-                    # print(f'{node['mode']['type']}: {i}')
-                    if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
-                        nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+        with perfTimer("convert nodes of each result into json format:"):
+            count = 1
+            for i in routesResultsList:
+                nodeList = []
+                for j in i:
+                    node = G.nodes[j]
+                    if nodeList:
+                        # print(f'{node['mode']['type']}: {i}')
+                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                            nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                        else:
+                            nodeList.append({
+                                'mode': {
+                                    'type': node['mode']['type'],
+                                    'details': {
+                                        'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                        'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                    }
+                                },
+                                'geometry': [
+                                    [float(node['x']), float(node['y'])]
+                                ] 
+                            })
                     else:
                         nodeList.append({
                             'mode': {
@@ -296,24 +336,11 @@ def kShortestPathsTest(src: str, dest: str):
                             },
                             'geometry': [
                                 [float(node['x']), float(node['y'])]
-                            ] 
+                            ]
                         })
-                else:
-                    nodeList.append({
-                        'mode': {
-                            'type': node['mode']['type'],
-                            'details': {
-                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                            }
-                        },
-                        'geometry': [
-                            [float(node['x']), float(node['y'])]
-                        ]
-                    })
-            resultsObj[f'result-{count}'] = nodeList
-            count+=1
-        return resultsJson
+                resultsObj[f'result-{count}'] = nodeList
+                count+=1
+            return resultsJson
             
             
             
