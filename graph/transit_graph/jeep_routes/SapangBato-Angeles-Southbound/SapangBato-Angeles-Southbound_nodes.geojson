@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "name": "SapangBato-Angeles_nodes",
+ "name": "SapangBato-Angeles-Southbound_nodes",
  "crs": {
   "type": "name",
   "properties": {
@@ -11,7 +11,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 2,
+    "osmid": 147,
     "y": 15.1697476,
     "x": 120.5133672,
     "street_count": 3,
@@ -20,7 +20,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -35,7 +36,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 3,
+    "osmid": 148,
     "y": 15.170186,
     "x": 120.5142132,
     "street_count": 3,
@@ -44,7 +45,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -59,7 +61,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 4,
+    "osmid": 149,
     "y": 15.1702133,
     "x": 120.5142593,
     "street_count": 3,
@@ -68,7 +70,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -83,7 +86,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 5,
+    "osmid": 150,
     "y": 15.1704706,
     "x": 120.5146405,
     "street_count": 3,
@@ -92,7 +95,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -107,7 +111,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 6,
+    "osmid": 151,
     "y": 15.1709841,
     "x": 120.51514,
     "street_count": 3,
@@ -116,7 +120,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -131,7 +136,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 7,
+    "osmid": 152,
     "y": 15.171027,
     "x": 120.5155104,
     "street_count": 3,
@@ -140,7 +145,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -155,7 +161,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 8,
+    "osmid": 153,
     "y": 15.1710297,
     "x": 120.515722,
     "street_count": 3,
@@ -164,7 +170,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -179,7 +186,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 9,
+    "osmid": 154,
     "y": 15.1711223,
     "x": 120.5162458,
     "street_count": 3,
@@ -188,7 +195,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -203,7 +211,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 10,
+    "osmid": 155,
     "y": 15.1718921,
     "x": 120.5170679,
     "street_count": 3,
@@ -212,7 +220,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -227,7 +236,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 11,
+    "osmid": 156,
     "y": 15.1722037,
     "x": 120.5170851,
     "street_count": 3,
@@ -236,7 +245,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -251,7 +261,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 12,
+    "osmid": 157,
     "y": 15.1723199,
     "x": 120.5183762,
     "street_count": 3,
@@ -260,7 +270,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -275,7 +286,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 13,
+    "osmid": 158,
     "y": 15.1727471,
     "x": 120.5215317,
     "street_count": 3,
@@ -284,7 +295,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -299,7 +311,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 14,
+    "osmid": 159,
     "y": 15.172548,
     "x": 120.5230531,
     "street_count": 3,
@@ -308,7 +320,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -323,7 +336,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 15,
+    "osmid": 160,
     "y": 15.1718851,
     "x": 120.5248405,
     "street_count": 3,
@@ -332,7 +345,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -347,7 +361,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 16,
+    "osmid": 161,
     "y": 15.1711216,
     "x": 120.5264642,
     "street_count": 3,
@@ -356,7 +370,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -371,7 +386,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 17,
+    "osmid": 162,
     "y": 15.1702451,
     "x": 120.5278681,
     "street_count": 3,
@@ -380,7 +395,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -395,7 +411,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 18,
+    "osmid": 163,
     "y": 15.1704922,
     "x": 120.5287286,
     "street_count": 3,
@@ -404,7 +420,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -419,7 +436,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 19,
+    "osmid": 164,
     "y": 15.1705818,
     "x": 120.5339368,
     "street_count": 3,
@@ -428,7 +445,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -443,7 +461,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 20,
+    "osmid": 165,
     "y": 15.170653,
     "x": 120.5344257,
     "street_count": 3,
@@ -452,7 +470,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -467,7 +486,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 21,
+    "osmid": 166,
     "y": 15.1707248,
     "x": 120.5349282,
     "street_count": 3,
@@ -476,7 +495,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -491,7 +511,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 22,
+    "osmid": 167,
     "y": 15.170732,
     "x": 120.5349865,
     "street_count": 3,
@@ -500,7 +520,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -515,7 +536,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 23,
+    "osmid": 168,
     "y": 15.1707896,
     "x": 120.5354489,
     "street_count": 3,
@@ -524,7 +545,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -539,7 +561,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 24,
+    "osmid": 169,
     "y": 15.1707948,
     "x": 120.5354845,
     "street_count": 3,
@@ -548,7 +570,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -563,7 +586,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 25,
+    "osmid": 170,
     "y": 15.1708631,
     "x": 120.5359588,
     "street_count": 3,
@@ -572,7 +595,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -587,7 +611,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 26,
+    "osmid": 171,
     "y": 15.1709523,
     "x": 120.5364872,
     "street_count": 3,
@@ -596,7 +620,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -611,7 +636,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 27,
+    "osmid": 172,
     "y": 15.1710284,
     "x": 120.5369866,
     "street_count": 3,
@@ -620,7 +645,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -635,7 +661,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 28,
+    "osmid": 173,
     "y": 15.1710485,
     "x": 120.5372158,
     "street_count": 3,
@@ -644,7 +670,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -659,7 +686,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 29,
+    "osmid": 174,
     "y": 15.1710771,
     "x": 120.5375313,
     "street_count": 3,
@@ -668,7 +695,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -683,7 +711,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 30,
+    "osmid": 175,
     "y": 15.1711164,
     "x": 120.5380239,
     "street_count": 3,
@@ -692,7 +720,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -707,7 +736,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 31,
+    "osmid": 176,
     "y": 15.1707033,
     "x": 120.539163,
     "street_count": 3,
@@ -716,7 +745,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -731,7 +761,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 32,
+    "osmid": 177,
     "y": 15.1678331,
     "x": 120.5429839,
     "street_count": 3,
@@ -740,7 +770,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -755,7 +786,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 33,
+    "osmid": 178,
     "y": 15.1673512,
     "x": 120.543667,
     "street_count": 3,
@@ -764,7 +795,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -779,7 +811,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 34,
+    "osmid": 179,
     "y": 15.1672572,
     "x": 120.5437953,
     "street_count": 3,
@@ -788,7 +820,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -803,7 +836,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 35,
+    "osmid": 180,
     "y": 15.1667012,
     "x": 120.5444842,
     "street_count": 3,
@@ -812,7 +845,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -827,7 +861,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 36,
+    "osmid": 181,
     "y": 15.1665757,
     "x": 120.5446295,
     "street_count": 3,
@@ -836,7 +870,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -851,7 +886,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 37,
+    "osmid": 182,
     "y": 15.1665493,
     "x": 120.5446625,
     "street_count": 3,
@@ -860,7 +895,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -875,7 +911,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 38,
+    "osmid": 183,
     "y": 15.1664598,
     "x": 120.5447744,
     "street_count": 3,
@@ -884,7 +920,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -899,7 +936,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 39,
+    "osmid": 184,
     "y": 15.1654727,
     "x": 120.546082,
     "street_count": 3,
@@ -908,7 +945,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -923,7 +961,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 40,
+    "osmid": 185,
     "y": 15.1652919,
     "x": 120.54632,
     "street_count": 3,
@@ -932,7 +970,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -947,7 +986,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 41,
+    "osmid": 186,
     "y": 15.1648445,
     "x": 120.5469181,
     "street_count": 3,
@@ -956,7 +995,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -971,7 +1011,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 42,
+    "osmid": 187,
     "y": 15.1614544,
     "x": 120.5484965,
     "street_count": 3,
@@ -980,7 +1020,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -995,7 +1036,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 43,
+    "osmid": 188,
     "y": 15.1611709,
     "x": 120.5492911,
     "street_count": 3,
@@ -1004,7 +1045,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1019,7 +1061,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 44,
+    "osmid": 189,
     "y": 15.1605289,
     "x": 120.5511496,
     "street_count": 3,
@@ -1028,7 +1070,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1043,7 +1086,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 45,
+    "osmid": 190,
     "y": 15.1605603,
     "x": 120.5511925,
     "street_count": 3,
@@ -1052,7 +1095,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1067,7 +1111,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 46,
+    "osmid": 191,
     "y": 15.1608525,
     "x": 120.551276,
     "street_count": 3,
@@ -1076,7 +1120,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1091,7 +1136,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 47,
+    "osmid": 192,
     "y": 15.1612683,
     "x": 120.5513951,
     "street_count": 3,
@@ -1100,7 +1145,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1115,7 +1161,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 48,
+    "osmid": 193,
     "y": 15.1614567,
     "x": 120.5514456,
     "street_count": 3,
@@ -1124,7 +1170,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1139,7 +1186,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 49,
+    "osmid": 194,
     "y": 15.1616433,
     "x": 120.5514989,
     "street_count": 3,
@@ -1148,7 +1195,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1163,7 +1211,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 50,
+    "osmid": 195,
     "y": 15.161777,
     "x": 120.5515269,
     "street_count": 3,
@@ -1172,7 +1220,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1187,7 +1236,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 51,
+    "osmid": 196,
     "y": 15.1619258,
     "x": 120.5515627,
     "street_count": 3,
@@ -1196,7 +1245,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1211,7 +1261,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 52,
+    "osmid": 197,
     "y": 15.162104,
     "x": 120.5516149,
     "street_count": 3,
@@ -1220,7 +1270,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1235,7 +1286,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 53,
+    "osmid": 198,
     "y": 15.1625307,
     "x": 120.5521068,
     "street_count": 3,
@@ -1244,7 +1295,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1259,7 +1311,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 54,
+    "osmid": 199,
     "y": 15.1624945,
     "x": 120.5526493,
     "street_count": 3,
@@ -1268,7 +1320,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1283,7 +1336,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 55,
+    "osmid": 200,
     "y": 15.1625152,
     "x": 120.5532347,
     "street_count": 3,
@@ -1292,7 +1345,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1307,7 +1361,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 56,
+    "osmid": 201,
     "y": 15.1625734,
     "x": 120.5535726,
     "street_count": 3,
@@ -1316,7 +1370,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1331,7 +1386,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 57,
+    "osmid": 202,
     "y": 15.1627359,
     "x": 120.5541138,
     "street_count": 3,
@@ -1340,7 +1395,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1355,7 +1411,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 58,
+    "osmid": 203,
     "y": 15.1628652,
     "x": 120.5543975,
     "street_count": 3,
@@ -1364,7 +1420,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1379,7 +1436,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 59,
+    "osmid": 204,
     "y": 15.1630232,
     "x": 120.5547441,
     "street_count": 3,
@@ -1388,7 +1445,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1403,7 +1461,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 60,
+    "osmid": 205,
     "y": 15.1627829,
     "x": 120.5548724,
     "street_count": 3,
@@ -1412,7 +1470,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1427,7 +1486,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 61,
+    "osmid": 206,
     "y": 15.1627484,
     "x": 120.5548908,
     "street_count": 3,
@@ -1436,7 +1495,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1451,7 +1511,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 62,
+    "osmid": 207,
     "y": 15.162709,
     "x": 120.5549118,
     "street_count": 3,
@@ -1460,7 +1520,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1475,7 +1536,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 63,
+    "osmid": 208,
     "y": 15.1610628,
     "x": 120.5557895,
     "street_count": 4,
@@ -1484,7 +1545,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1499,7 +1561,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 64,
+    "osmid": 209,
     "y": 15.1596474,
     "x": 120.5565432,
     "street_count": 3,
@@ -1508,7 +1570,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1523,7 +1586,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 65,
+    "osmid": 210,
     "y": 15.1587239,
     "x": 120.5575315,
     "street_count": 4,
@@ -1532,7 +1595,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1547,7 +1611,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 66,
+    "osmid": 211,
     "y": 15.1583124,
     "x": 120.5588493,
     "street_count": 3,
@@ -1556,7 +1620,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1571,7 +1636,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 67,
+    "osmid": 212,
     "y": 15.1581449,
     "x": 120.5594292,
     "street_count": 4,
@@ -1580,7 +1645,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1595,7 +1661,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 68,
+    "osmid": 213,
     "y": 15.1578523,
     "x": 120.5597172,
     "street_count": 3,
@@ -1604,7 +1670,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1619,7 +1686,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 69,
+    "osmid": 214,
     "y": 15.1550627,
     "x": 120.5602875,
     "street_count": 3,
@@ -1628,7 +1695,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1643,7 +1711,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 70,
+    "osmid": 215,
     "y": 15.1547945,
     "x": 120.5602972,
     "street_count": 3,
@@ -1652,7 +1720,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1667,7 +1736,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 71,
+    "osmid": 216,
     "y": 15.1537062,
     "x": 120.5602845,
     "street_count": 3,
@@ -1676,7 +1745,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1691,7 +1761,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 72,
+    "osmid": 217,
     "y": 15.1532734,
     "x": 120.5601375,
     "street_count": 3,
@@ -1700,7 +1770,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1715,7 +1786,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 73,
+    "osmid": 218,
     "y": 15.1530563,
     "x": 120.5599657,
     "street_count": 3,
@@ -1724,7 +1795,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1739,7 +1811,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 74,
+    "osmid": 219,
     "y": 15.1527726,
     "x": 120.5597309,
     "street_count": 3,
@@ -1748,7 +1820,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1763,7 +1836,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 75,
+    "osmid": 220,
     "y": 15.1526055,
     "x": 120.55961,
     "street_count": 3,
@@ -1772,7 +1845,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1787,7 +1861,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 76,
+    "osmid": 221,
     "y": 15.1522028,
     "x": 120.5594276,
     "street_count": 3,
@@ -1796,7 +1870,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1811,7 +1886,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 77,
+    "osmid": 222,
     "y": 15.1520779,
     "x": 120.5594067,
     "street_count": 3,
@@ -1820,7 +1895,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1835,7 +1911,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 78,
+    "osmid": 223,
     "y": 15.151999,
     "x": 120.5594023,
     "street_count": 3,
@@ -1844,7 +1920,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1859,7 +1936,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 79,
+    "osmid": 224,
     "y": 15.1517029,
     "x": 120.5594001,
     "street_count": 3,
@@ -1868,7 +1945,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1883,7 +1961,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 80,
+    "osmid": 225,
     "y": 15.1508523,
     "x": 120.5593954,
     "street_count": 3,
@@ -1892,7 +1970,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1907,7 +1986,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 81,
+    "osmid": 226,
     "y": 15.1506246,
     "x": 120.5593991,
     "street_count": 3,
@@ -1916,7 +1995,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1931,7 +2011,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 82,
+    "osmid": 227,
     "y": 15.1501901,
     "x": 120.5593864,
     "street_count": 3,
@@ -1940,7 +2020,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1955,7 +2036,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 83,
+    "osmid": 228,
     "y": 15.1497581,
     "x": 120.5593816,
     "street_count": 3,
@@ -1964,7 +2045,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -1979,7 +2061,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 84,
+    "osmid": 229,
     "y": 15.1491866,
     "x": 120.5593716,
     "street_count": 3,
@@ -1988,7 +2070,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2003,7 +2086,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 85,
+    "osmid": 230,
     "y": 15.1490728,
     "x": 120.5593731,
     "street_count": 3,
@@ -2012,7 +2095,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2027,7 +2111,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 86,
+    "osmid": 231,
     "y": 15.1483363,
     "x": 120.5593801,
     "street_count": 3,
@@ -2036,7 +2120,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2051,7 +2136,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 87,
+    "osmid": 232,
     "y": 15.1477212,
     "x": 120.5593904,
     "street_count": 3,
@@ -2060,7 +2145,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2075,7 +2161,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 88,
+    "osmid": 233,
     "y": 15.1448184,
     "x": 120.5593975,
     "street_count": 3,
@@ -2084,7 +2170,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2099,7 +2186,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 89,
+    "osmid": 234,
     "y": 15.1446165,
     "x": 120.5593964,
     "street_count": 3,
@@ -2108,7 +2195,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2123,7 +2211,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 90,
+    "osmid": 235,
     "y": 15.1445926,
     "x": 120.5593963,
     "street_count": 3,
@@ -2132,7 +2220,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2147,7 +2236,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 91,
+    "osmid": 236,
     "y": 15.14445,
     "x": 120.5593972,
     "street_count": 4,
@@ -2156,7 +2245,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2171,7 +2261,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 92,
+    "osmid": 237,
     "y": 15.1444618,
     "x": 120.5594994,
     "street_count": 4,
@@ -2180,7 +2270,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2195,7 +2286,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 93,
+    "osmid": 238,
     "y": 15.1444663,
     "x": 120.5595912,
     "street_count": 3,
@@ -2204,7 +2295,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2219,7 +2311,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 94,
+    "osmid": 239,
     "y": 15.1444891,
     "x": 120.5598726,
     "street_count": 3,
@@ -2228,7 +2320,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2243,7 +2336,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 95,
+    "osmid": 240,
     "y": 15.1444974,
     "x": 120.5599682,
     "street_count": 3,
@@ -2252,7 +2345,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2267,7 +2361,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 96,
+    "osmid": 241,
     "y": 15.1445217,
     "x": 120.5601847,
     "street_count": 3,
@@ -2276,7 +2370,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2291,7 +2386,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 97,
+    "osmid": 242,
     "y": 15.1450344,
     "x": 120.5648177,
     "street_count": 4,
@@ -2300,7 +2395,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2315,7 +2411,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 98,
+    "osmid": 243,
     "y": 15.1450903,
     "x": 120.5652053,
     "street_count": 3,
@@ -2324,7 +2420,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2339,7 +2436,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 99,
+    "osmid": 244,
     "y": 15.1453221,
     "x": 120.5663266,
     "street_count": 4,
@@ -2348,7 +2445,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2363,7 +2461,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 100,
+    "osmid": 245,
     "y": 15.145634,
     "x": 120.5675402,
     "street_count": 3,
@@ -2372,7 +2470,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2387,7 +2486,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 101,
+    "osmid": 246,
     "y": 15.1458683,
     "x": 120.5684637,
     "street_count": 3,
@@ -2396,7 +2495,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2411,7 +2511,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 102,
+    "osmid": 247,
     "y": 15.1463701,
     "x": 120.5699717,
     "street_count": 3,
@@ -2420,7 +2520,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2435,7 +2536,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 103,
+    "osmid": 248,
     "y": 15.1464015,
     "x": 120.5700522,
     "street_count": 3,
@@ -2444,7 +2545,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2459,7 +2561,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 104,
+    "osmid": 249,
     "y": 15.1466928,
     "x": 120.5708128,
     "street_count": 3,
@@ -2468,7 +2570,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2483,7 +2586,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 105,
+    "osmid": 250,
     "y": 15.1467196,
     "x": 120.5708825,
     "street_count": 3,
@@ -2492,7 +2595,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2507,7 +2611,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 106,
+    "osmid": 251,
     "y": 15.1471687,
     "x": 120.5719233,
     "street_count": 3,
@@ -2516,7 +2620,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2531,7 +2636,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 107,
+    "osmid": 252,
     "y": 15.1474713,
     "x": 120.5727128,
     "street_count": 3,
@@ -2540,7 +2645,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2555,7 +2661,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 108,
+    "osmid": 253,
     "y": 15.1475871,
     "x": 120.5729748,
     "street_count": 3,
@@ -2564,7 +2670,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2579,7 +2686,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 109,
+    "osmid": 254,
     "y": 15.1476323,
     "x": 120.5730688,
     "street_count": 3,
@@ -2588,7 +2695,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2603,7 +2711,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 110,
+    "osmid": 255,
     "y": 15.1478425,
     "x": 120.5734679,
     "street_count": 3,
@@ -2612,7 +2720,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2627,7 +2736,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 111,
+    "osmid": 256,
     "y": 15.1479965,
     "x": 120.5737925,
     "street_count": 3,
@@ -2636,7 +2745,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2651,7 +2761,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 112,
+    "osmid": 257,
     "y": 15.1482308,
     "x": 120.5743383,
     "street_count": 4,
@@ -2660,7 +2770,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2675,7 +2786,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 113,
+    "osmid": 258,
     "y": 15.1485014,
     "x": 120.5750987,
     "street_count": 3,
@@ -2684,7 +2795,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2699,7 +2811,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 114,
+    "osmid": 259,
     "y": 15.1485221,
     "x": 120.5751805,
     "street_count": 3,
@@ -2708,7 +2820,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2723,7 +2836,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 115,
+    "osmid": 260,
     "y": 15.1485735,
     "x": 120.5753707,
     "street_count": 3,
@@ -2732,7 +2845,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2747,7 +2861,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 116,
+    "osmid": 261,
     "y": 15.1486295,
     "x": 120.5755775,
     "street_count": 3,
@@ -2756,7 +2870,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2771,7 +2886,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 117,
+    "osmid": 262,
     "y": 15.1488222,
     "x": 120.5765047,
     "street_count": 3,
@@ -2780,7 +2895,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2795,7 +2911,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 118,
+    "osmid": 263,
     "y": 15.1488592,
     "x": 120.5766893,
     "street_count": 3,
@@ -2804,7 +2920,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2819,7 +2936,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 119,
+    "osmid": 264,
     "y": 15.1489873,
     "x": 120.5771793,
     "street_count": 4,
@@ -2828,7 +2945,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2843,7 +2961,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 120,
+    "osmid": 265,
     "y": 15.1490564,
     "x": 120.5774728,
     "street_count": 3,
@@ -2852,7 +2970,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2867,7 +2986,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 121,
+    "osmid": 266,
     "y": 15.1493005,
     "x": 120.578416,
     "street_count": 3,
@@ -2876,7 +2995,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2891,7 +3011,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 122,
+    "osmid": 267,
     "y": 15.1493202,
     "x": 120.5789147,
     "street_count": 3,
@@ -2900,7 +3020,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2915,7 +3036,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 123,
+    "osmid": 268,
     "y": 15.1493333,
     "x": 120.5791315,
     "street_count": 3,
@@ -2924,7 +3045,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2939,7 +3061,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 124,
+    "osmid": 269,
     "y": 15.1489331,
     "x": 120.5791141,
     "street_count": 4,
@@ -2948,7 +3070,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2963,7 +3086,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 125,
+    "osmid": 270,
     "y": 15.1484347,
     "x": 120.5791273,
     "street_count": 3,
@@ -2972,7 +3095,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -2987,7 +3111,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 126,
+    "osmid": 271,
     "y": 15.1470789,
     "x": 120.5803681,
     "street_count": 4,
@@ -2996,7 +3120,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3011,7 +3136,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 127,
+    "osmid": 272,
     "y": 15.1467303,
     "x": 120.5808113,
     "street_count": 3,
@@ -3020,7 +3145,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3035,7 +3161,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 128,
+    "osmid": 273,
     "y": 15.1461902,
     "x": 120.5815175,
     "street_count": 4,
@@ -3044,7 +3170,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3059,7 +3186,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 129,
+    "osmid": 274,
     "y": 15.1458394,
     "x": 120.5819876,
     "street_count": 3,
@@ -3068,7 +3195,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3083,7 +3211,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 130,
+    "osmid": 275,
     "y": 15.1457458,
     "x": 120.582113,
     "street_count": 3,
@@ -3092,7 +3220,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3107,7 +3236,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 131,
+    "osmid": 276,
     "y": 15.1456788,
     "x": 120.5822034,
     "street_count": 3,
@@ -3116,7 +3245,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3131,7 +3261,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 132,
+    "osmid": 277,
     "y": 15.1453124,
     "x": 120.5826715,
     "street_count": 3,
@@ -3140,7 +3270,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3155,7 +3286,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 133,
+    "osmid": 278,
     "y": 15.1450316,
     "x": 120.5830311,
     "street_count": 3,
@@ -3164,7 +3295,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3179,7 +3311,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 134,
+    "osmid": 279,
     "y": 15.1447549,
     "x": 120.583391,
     "street_count": 3,
@@ -3188,7 +3320,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3203,7 +3336,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 135,
+    "osmid": 280,
     "y": 15.1444785,
     "x": 120.5837475,
     "street_count": 3,
@@ -3212,7 +3345,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3227,7 +3361,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 136,
+    "osmid": 281,
     "y": 15.1441654,
     "x": 120.5841641,
     "street_count": 4,
@@ -3236,7 +3370,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3251,7 +3386,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 137,
+    "osmid": 282,
     "y": 15.143768,
     "x": 120.5848069,
     "street_count": 4,
@@ -3260,7 +3395,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3275,7 +3411,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 138,
+    "osmid": 283,
     "y": 15.1435182,
     "x": 120.5852331,
     "street_count": 3,
@@ -3284,7 +3420,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3299,7 +3436,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 139,
+    "osmid": 284,
     "y": 15.1434484,
     "x": 120.5853365,
     "street_count": 3,
@@ -3308,7 +3445,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3323,7 +3461,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 140,
+    "osmid": 285,
     "y": 15.1433309,
     "x": 120.5855171,
     "street_count": 3,
@@ -3332,7 +3470,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3347,7 +3486,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 141,
+    "osmid": 286,
     "y": 15.1428313,
     "x": 120.5863292,
     "street_count": 3,
@@ -3356,7 +3495,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3371,7 +3511,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 142,
+    "osmid": 287,
     "y": 15.1426368,
     "x": 120.5866761,
     "street_count": 4,
@@ -3380,7 +3520,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3395,7 +3536,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 143,
+    "osmid": 288,
     "y": 15.1423643,
     "x": 120.5870477,
     "street_count": 4,
@@ -3404,7 +3545,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3419,7 +3561,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 144,
+    "osmid": 289,
     "y": 15.1421757,
     "x": 120.5873392,
     "street_count": 4,
@@ -3428,7 +3570,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3443,7 +3586,7 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 145,
+    "osmid": 290,
     "y": 15.1419936,
     "x": 120.5876421,
     "street_count": 4,
@@ -3452,7 +3595,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "SapangBato-Angeles"
+      "name": "SapangBato-Angeles-Southbound",
+      "bound": "south"
      }
     }
    },
@@ -3461,150 +3605,6 @@
     "coordinates": [
      120.5876421,
      15.1419936
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 146,
-    "y": 15.1418167,
-    "x": 120.5879866,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "SapangBato-Angeles"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5879866,
-     15.1418167
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 172,
-    "y": 15.1493975,
-    "x": 120.5784074,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "SapangBato-Angeles"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5784074,
-     15.1493975
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 173,
-    "y": 15.1491801,
-    "x": 120.5774551,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "SapangBato-Angeles"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5774551,
-     15.1491801
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 174,
-    "y": 15.1491194,
-    "x": 120.5771513,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "SapangBato-Angeles"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5771513,
-     15.1491194
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 175,
-    "y": 15.1486692,
-    "x": 120.5755612,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "SapangBato-Angeles"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5755612,
-     15.1486692
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 224,
-    "y": 15.1578405,
-    "x": 120.5598201,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "SapangBato-Angeles"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5598201,
-     15.1578405
     ]
    }
   }
