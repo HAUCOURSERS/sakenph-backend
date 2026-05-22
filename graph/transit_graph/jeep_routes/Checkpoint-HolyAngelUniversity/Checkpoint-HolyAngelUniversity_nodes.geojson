@@ -12,23 +12,24 @@
    "type": "Feature",
    "properties": {
     "osmid": 957,
-    "y": 15.166435,
-    "x": 120.5830056,
+    "y": 15.1681939,
+    "x": 120.5822837,
     "street_count": 3,
-    "highway": "traffic_signals",
+    "highway": null,
     "ref": null,
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
      }
     }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     120.5830056,
-     15.166435
+     120.5822837,
+     15.1681939
     ]
    }
   },
@@ -36,3030 +37,6 @@
    "type": "Feature",
    "properties": {
     "osmid": 958,
-    "y": 15.166478,
-    "x": 120.5832484,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5832484,
-     15.166478
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 959,
-    "y": 15.1665051,
-    "x": 120.5833949,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5833949,
-     15.1665051
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 960,
-    "y": 15.1667069,
-    "x": 120.584558,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.584558,
-     15.1667069
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 961,
-    "y": 15.1669771,
-    "x": 120.5856715,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5856715,
-     15.1669771
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 962,
-    "y": 15.1671266,
-    "x": 120.5860584,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5860584,
-     15.1671266
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 963,
-    "y": 15.1672047,
-    "x": 120.5861934,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5861934,
-     15.1672047
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 964,
-    "y": 15.1683556,
-    "x": 120.5895317,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5895317,
-     15.1683556
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 965,
-    "y": 15.167484,
-    "x": 120.5897521,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897521,
-     15.167484
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 966,
-    "y": 15.1673978,
-    "x": 120.5897741,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897741,
-     15.1673978
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 967,
-    "y": 15.16732,
-    "x": 120.5897934,
-    "street_count": 3,
-    "highway": "crossing",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897934,
-     15.16732
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 968,
-    "y": 15.1672549,
-    "x": 120.5898115,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5898115,
-     15.1672549
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 969,
-    "y": 15.1666029,
-    "x": 120.589971,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.589971,
-     15.1666029
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 970,
-    "y": 15.1662765,
-    "x": 120.5900596,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5900596,
-     15.1662765
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 971,
-    "y": 15.1661269,
-    "x": 120.5900971,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5900971,
-     15.1661269
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 972,
-    "y": 15.1657521,
-    "x": 120.5901931,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5901931,
-     15.1657521
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 973,
-    "y": 15.165223,
-    "x": 120.590328,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.590328,
-     15.165223
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 974,
-    "y": 15.1651108,
-    "x": 120.5903554,
-    "street_count": 3,
-    "highway": "crossing",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5903554,
-     15.1651108
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 975,
-    "y": 15.1646679,
-    "x": 120.5905116,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5905116,
-     15.1646679
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 976,
-    "y": 15.1645643,
-    "x": 120.5905367,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5905367,
-     15.1645643
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 977,
-    "y": 15.1643554,
-    "x": 120.5905941,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5905941,
-     15.1643554
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 978,
-    "y": 15.1641975,
-    "x": 120.5906341,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5906341,
-     15.1641975
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 979,
-    "y": 15.16374,
-    "x": 120.5907542,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5907542,
-     15.16374
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 980,
-    "y": 15.1635704,
-    "x": 120.5907976,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5907976,
-     15.1635704
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 981,
-    "y": 15.1632432,
-    "x": 120.590886,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.590886,
-     15.1632432
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 982,
-    "y": 15.1629461,
-    "x": 120.590961,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.590961,
-     15.1629461
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 983,
-    "y": 15.1626559,
-    "x": 120.5910393,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5910393,
-     15.1626559
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 984,
-    "y": 15.1625332,
-    "x": 120.5910714,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5910714,
-     15.1625332
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 985,
-    "y": 15.1617176,
-    "x": 120.591279,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.591279,
-     15.1617176
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 986,
-    "y": 15.1610854,
-    "x": 120.5914407,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5914407,
-     15.1610854
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 987,
-    "y": 15.1602513,
-    "x": 120.5916595,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5916595,
-     15.1602513
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 988,
-    "y": 15.1595784,
-    "x": 120.591833,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.591833,
-     15.1595784
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 989,
-    "y": 15.1594386,
-    "x": 120.5918691,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5918691,
-     15.1594386
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 990,
-    "y": 15.1590891,
-    "x": 120.5919552,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5919552,
-     15.1590891
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 991,
-    "y": 15.1589629,
-    "x": 120.591993,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.591993,
-     15.1589629
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 992,
-    "y": 15.1588456,
-    "x": 120.5920242,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5920242,
-     15.1588456
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 993,
-    "y": 15.1587974,
-    "x": 120.592036,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.592036,
-     15.1587974
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 994,
-    "y": 15.1587099,
-    "x": 120.592058,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.592058,
-     15.1587099
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 995,
-    "y": 15.1578717,
-    "x": 120.5922064,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5922064,
-     15.1578717
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 996,
-    "y": 15.1575765,
-    "x": 120.5922475,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5922475,
-     15.1575765
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 997,
-    "y": 15.1574456,
-    "x": 120.5922593,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5922593,
-     15.1574456
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 998,
-    "y": 15.1570498,
-    "x": 120.5922571,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5922571,
-     15.1570498
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 999,
-    "y": 15.1569321,
-    "x": 120.5922505,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5922505,
-     15.1569321
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1000,
-    "y": 15.1532388,
-    "x": 120.5919823,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5919823,
-     15.1532388
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1001,
-    "y": 15.1529843,
-    "x": 120.5919752,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5919752,
-     15.1529843
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1002,
-    "y": 15.1529775,
-    "x": 120.5919604,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5919604,
-     15.1529775
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1003,
-    "y": 15.1529026,
-    "x": 120.5918975,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5918975,
-     15.1529026
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1004,
-    "y": 15.1528333,
-    "x": 120.5918952,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5918952,
-     15.1528333
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1005,
-    "y": 15.1520492,
-    "x": 120.5915983,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5915983,
-     15.1520492
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1006,
-    "y": 15.151976,
-    "x": 120.5915614,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5915614,
-     15.151976
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1007,
-    "y": 15.1516087,
-    "x": 120.5913711,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5913711,
-     15.1516087
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1008,
-    "y": 15.1511847,
-    "x": 120.5911928,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5911928,
-     15.1511847
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1009,
-    "y": 15.1491342,
-    "x": 120.5902811,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5902811,
-     15.1491342
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1010,
-    "y": 15.1487596,
-    "x": 120.5901304,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5901304,
-     15.1487596
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1011,
-    "y": 15.1486113,
-    "x": 120.5900707,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5900707,
-     15.1486113
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1012,
-    "y": 15.1483456,
-    "x": 120.5899534,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5899534,
-     15.1483456
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1013,
-    "y": 15.148214,
-    "x": 120.5898906,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5898906,
-     15.148214
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1014,
-    "y": 15.1480244,
-    "x": 120.5897904,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897904,
-     15.1480244
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1015,
-    "y": 15.1479421,
-    "x": 120.5897437,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897437,
-     15.1479421
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1016,
-    "y": 15.1478794,
-    "x": 120.5897139,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897139,
-     15.1478794
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1017,
-    "y": 15.1463518,
-    "x": 120.589079,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.589079,
-     15.1463518
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1018,
-    "y": 15.145962,
-    "x": 120.5889701,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5889701,
-     15.145962
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1019,
-    "y": 15.1457123,
-    "x": 120.5889004,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5889004,
-     15.1457123
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1020,
-    "y": 15.1450038,
-    "x": 120.5887147,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5887147,
-     15.1450038
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1021,
-    "y": 15.1434723,
-    "x": 120.5883629,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5883629,
-     15.1434723
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1022,
-    "y": 15.1430799,
-    "x": 120.5882784,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5882784,
-     15.1430799
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1023,
-    "y": 15.1428729,
-    "x": 120.5882345,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5882345,
-     15.1428729
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1024,
-    "y": 15.1418167,
-    "x": 120.5879866,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5879866,
-     15.1418167
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1025,
-    "y": 15.1413021,
-    "x": 120.5878396,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5878396,
-     15.1413021
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1026,
-    "y": 15.1404719,
-    "x": 120.5876372,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5876372,
-     15.1404719
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1027,
-    "y": 15.1391581,
-    "x": 120.58746,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.58746,
-     15.1391581
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1028,
-    "y": 15.1390523,
-    "x": 120.5874684,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5874684,
-     15.1390523
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1029,
-    "y": 15.1387472,
-    "x": 120.5875493,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5875493,
-     15.1387472
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1030,
-    "y": 15.1386966,
-    "x": 120.5875163,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5875163,
-     15.1386966
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1031,
-    "y": 15.1379871,
-    "x": 120.5870749,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5870749,
-     15.1379871
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1032,
-    "y": 15.1374113,
-    "x": 120.5867396,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5867396,
-     15.1374113
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1033,
-    "y": 15.1369857,
-    "x": 120.5864976,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5864976,
-     15.1369857
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1034,
-    "y": 15.1363919,
-    "x": 120.5877296,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5877296,
-     15.1363919
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1035,
-    "y": 15.1371951,
-    "x": 120.588238,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.588238,
-     15.1371951
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1036,
-    "y": 15.137519,
-    "x": 120.5885097,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5885097,
-     15.137519
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1037,
-    "y": 15.1378835,
-    "x": 120.5888227,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5888227,
-     15.1378835
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1038,
-    "y": 15.1383044,
-    "x": 120.5882372,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5882372,
-     15.1383044
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1039,
-    "y": 15.1386563,
-    "x": 120.5877607,
-    "street_count": 3,
-    "highway": "crossing",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5877607,
-     15.1386563
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1040,
-    "y": 15.1388553,
-    "x": 120.5876235,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5876235,
-     15.1388553
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1041,
-    "y": 15.1390348,
-    "x": 120.5875283,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5875283,
-     15.1390348
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1065,
-    "y": 15.1524897,
-    "x": 120.5918293,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5918293,
-     15.1524897
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1066,
-    "y": 15.1527429,
-    "x": 120.5919776,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5919776,
-     15.1527429
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1067,
-    "y": 15.1527348,
-    "x": 120.5920385,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5920385,
-     15.1527348
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1068,
-    "y": 15.1528317,
-    "x": 120.5921562,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5921562,
-     15.1528317
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1069,
-    "y": 15.1529814,
-    "x": 120.5920835,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5920835,
-     15.1529814
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1070,
-    "y": 15.1532913,
-    "x": 120.5920869,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5920869,
-     15.1532913
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1071,
-    "y": 15.1533514,
-    "x": 120.5920874,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5920874,
-     15.1533514
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1072,
-    "y": 15.1568383,
-    "x": 120.592318,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.592318,
-     15.1568383
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1073,
-    "y": 15.157228,
-    "x": 120.5923393,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5923393,
-     15.157228
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1074,
-    "y": 15.1573259,
-    "x": 120.5923373,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5923373,
-     15.1573259
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1075,
-    "y": 15.157738,
-    "x": 120.5923105,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5923105,
-     15.157738
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1076,
-    "y": 15.1579179,
-    "x": 120.5922756,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5922756,
-     15.1579179
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1077,
-    "y": 15.1582667,
-    "x": 120.5921988,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5921988,
-     15.1582667
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1078,
-    "y": 15.158588,
-    "x": 120.592124,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.592124,
-     15.158588
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1099,
-    "y": 15.1648175,
-    "x": 120.5905158,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5905158,
-     15.1648175
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1100,
-    "y": 15.1651322,
-    "x": 120.5904376,
-    "street_count": 3,
-    "highway": "crossing",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5904376,
-     15.1651322
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1101,
-    "y": 15.1652426,
-    "x": 120.5904111,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5904111,
-     15.1652426
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1102,
-    "y": 15.166294,
-    "x": 120.5901369,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5901369,
-     15.166294
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1103,
-    "y": 15.1669899,
-    "x": 120.5899698,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5899698,
-     15.1669899
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1104,
-    "y": 15.1671616,
-    "x": 120.5899256,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5899256,
-     15.1671616
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1105,
-    "y": 15.1673361,
-    "x": 120.5898806,
-    "street_count": 3,
-    "highway": "crossing",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5898806,
-     15.1673361
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1106,
-    "y": 15.1677182,
-    "x": 120.5897806,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5897806,
-     15.1677182
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1107,
-    "y": 15.169273,
-    "x": 120.5893818,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5893818,
-     15.169273
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1108,
-    "y": 15.169365,
-    "x": 120.5893595,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5893595,
-     15.169365
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1109,
-    "y": 15.1697489,
-    "x": 120.588893,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.588893,
-     15.1697489
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1110,
-    "y": 15.1697007,
-    "x": 120.5886946,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5886946,
-     15.1697007
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1111,
-    "y": 15.1695999,
-    "x": 120.5882645,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5882645,
-     15.1695999
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1112,
-    "y": 15.1693768,
-    "x": 120.5875394,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5875394,
-     15.1693768
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1113,
-    "y": 15.1693385,
-    "x": 120.5874018,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5874018,
-     15.1693385
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1114,
-    "y": 15.1691378,
-    "x": 120.5868101,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5868101,
-     15.1691378
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1115,
-    "y": 15.1688751,
-    "x": 120.5860017,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5860017,
-     15.1688751
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1116,
-    "y": 15.1684174,
-    "x": 120.584484,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.584484,
-     15.1684174
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1117,
-    "y": 15.1682145,
-    "x": 120.5839773,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5839773,
-     15.1682145
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1118,
-    "y": 15.1681271,
-    "x": 120.5838346,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5838346,
-     15.1681271
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1119,
-    "y": 15.1680078,
-    "x": 120.5834936,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5834936,
-     15.1680078
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1120,
-    "y": 15.1679406,
-    "x": 120.583254,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.583254,
-     15.1679406
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1121,
-    "y": 15.1678818,
-    "x": 120.5830539,
-    "street_count": 4,
-    "highway": "crossing",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5830539,
-     15.1678818
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1122,
-    "y": 15.1678631,
-    "x": 120.5829903,
-    "street_count": 4,
-    "highway": "traffic_signals",
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5829903,
-     15.1678631
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1123,
-    "y": 15.1679688,
-    "x": 120.582974,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.582974,
-     15.1679688
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1124,
-    "y": 15.1688531,
-    "x": 120.5828439,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5828439,
-     15.1688531
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1125,
-    "y": 15.168517,
-    "x": 120.5826897,
-    "street_count": 3,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5826897,
-     15.168517
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1126,
-    "y": 15.1681714,
-    "x": 120.5826045,
-    "street_count": 4,
-    "highway": null,
-    "ref": null,
-    "mode": {
-     "type": "jeep",
-     "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
-     }
-    }
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     120.5826045,
-     15.1681714
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "properties": {
-    "osmid": 1127,
     "y": 15.1681692,
     "x": 120.5824977,
     "street_count": 3,
@@ -3068,7 +45,8 @@
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
      }
     }
    },
@@ -3083,24 +61,3100 @@
   {
    "type": "Feature",
    "properties": {
-    "osmid": 1128,
-    "y": 15.1681939,
-    "x": 120.5822837,
-    "street_count": 3,
+    "osmid": 959,
+    "y": 15.1681714,
+    "x": 120.5826045,
+    "street_count": 4,
     "highway": null,
     "ref": null,
     "mode": {
      "type": "jeep",
      "details": {
-      "name": "Checkpoint-HolyAngelUniversity"
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
      }
     }
    },
    "geometry": {
     "type": "Point",
     "coordinates": [
-     120.5822837,
-     15.1681939
+     120.5826045,
+     15.1681714
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 960,
+    "y": 15.168517,
+    "x": 120.5826897,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826897,
+     15.168517
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 961,
+    "y": 15.1688531,
+    "x": 120.5828439,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5828439,
+     15.1688531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 962,
+    "y": 15.1679688,
+    "x": 120.582974,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582974,
+     15.1679688
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 963,
+    "y": 15.1678631,
+    "x": 120.5829903,
+    "street_count": 4,
+    "highway": "traffic_signals",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5829903,
+     15.1678631
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 964,
+    "y": 15.1678818,
+    "x": 120.5830539,
+    "street_count": 4,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5830539,
+     15.1678818
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 965,
+    "y": 15.1679406,
+    "x": 120.583254,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.583254,
+     15.1679406
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 966,
+    "y": 15.1680078,
+    "x": 120.5834936,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5834936,
+     15.1680078
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 967,
+    "y": 15.1681271,
+    "x": 120.5838346,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5838346,
+     15.1681271
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 968,
+    "y": 15.1682145,
+    "x": 120.5839773,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5839773,
+     15.1682145
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 969,
+    "y": 15.1684174,
+    "x": 120.584484,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584484,
+     15.1684174
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 970,
+    "y": 15.1688751,
+    "x": 120.5860017,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5860017,
+     15.1688751
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 971,
+    "y": 15.1691378,
+    "x": 120.5868101,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5868101,
+     15.1691378
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 972,
+    "y": 15.1693385,
+    "x": 120.5874018,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874018,
+     15.1693385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 973,
+    "y": 15.1693768,
+    "x": 120.5875394,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875394,
+     15.1693768
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 974,
+    "y": 15.1691696,
+    "x": 120.5880267,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5880267,
+     15.1691696
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 975,
+    "y": 15.1687112,
+    "x": 120.5881919,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5881919,
+     15.1687112
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 976,
+    "y": 15.1685738,
+    "x": 120.5886031,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5886031,
+     15.1685738
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 977,
+    "y": 15.1687232,
+    "x": 120.5890249,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5890249,
+     15.1687232
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 978,
+    "y": 15.1683556,
+    "x": 120.5895317,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5895317,
+     15.1683556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 979,
+    "y": 15.167484,
+    "x": 120.5897521,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897521,
+     15.167484
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 980,
+    "y": 15.1673978,
+    "x": 120.5897741,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897741,
+     15.1673978
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 981,
+    "y": 15.16732,
+    "x": 120.5897934,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897934,
+     15.16732
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 982,
+    "y": 15.1672549,
+    "x": 120.5898115,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5898115,
+     15.1672549
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 983,
+    "y": 15.1666029,
+    "x": 120.589971,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.589971,
+     15.1666029
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 984,
+    "y": 15.1662765,
+    "x": 120.5900596,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5900596,
+     15.1662765
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 985,
+    "y": 15.1661269,
+    "x": 120.5900971,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5900971,
+     15.1661269
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 986,
+    "y": 15.1657521,
+    "x": 120.5901931,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5901931,
+     15.1657521
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 987,
+    "y": 15.165223,
+    "x": 120.590328,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.590328,
+     15.165223
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 988,
+    "y": 15.1651108,
+    "x": 120.5903554,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5903554,
+     15.1651108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 989,
+    "y": 15.1646679,
+    "x": 120.5905116,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5905116,
+     15.1646679
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 990,
+    "y": 15.1645643,
+    "x": 120.5905367,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5905367,
+     15.1645643
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 991,
+    "y": 15.1643554,
+    "x": 120.5905941,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5905941,
+     15.1643554
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 992,
+    "y": 15.1641975,
+    "x": 120.5906341,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5906341,
+     15.1641975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 993,
+    "y": 15.16374,
+    "x": 120.5907542,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5907542,
+     15.16374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 994,
+    "y": 15.1635704,
+    "x": 120.5907976,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5907976,
+     15.1635704
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 995,
+    "y": 15.1632432,
+    "x": 120.590886,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.590886,
+     15.1632432
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 996,
+    "y": 15.1629461,
+    "x": 120.590961,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.590961,
+     15.1629461
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 997,
+    "y": 15.1626559,
+    "x": 120.5910393,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5910393,
+     15.1626559
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 998,
+    "y": 15.1625332,
+    "x": 120.5910714,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5910714,
+     15.1625332
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 999,
+    "y": 15.1617176,
+    "x": 120.591279,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.591279,
+     15.1617176
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1000,
+    "y": 15.1610854,
+    "x": 120.5914407,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5914407,
+     15.1610854
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1001,
+    "y": 15.1602513,
+    "x": 120.5916595,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5916595,
+     15.1602513
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1002,
+    "y": 15.1595784,
+    "x": 120.591833,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.591833,
+     15.1595784
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1003,
+    "y": 15.1594386,
+    "x": 120.5918691,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5918691,
+     15.1594386
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1004,
+    "y": 15.1590891,
+    "x": 120.5919552,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5919552,
+     15.1590891
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1005,
+    "y": 15.1589629,
+    "x": 120.591993,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.591993,
+     15.1589629
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1006,
+    "y": 15.1588456,
+    "x": 120.5920242,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920242,
+     15.1588456
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1007,
+    "y": 15.1587974,
+    "x": 120.592036,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.592036,
+     15.1587974
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1008,
+    "y": 15.1587099,
+    "x": 120.592058,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.592058,
+     15.1587099
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1009,
+    "y": 15.1578717,
+    "x": 120.5922064,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922064,
+     15.1578717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1010,
+    "y": 15.1575765,
+    "x": 120.5922475,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922475,
+     15.1575765
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1011,
+    "y": 15.1574456,
+    "x": 120.5922593,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922593,
+     15.1574456
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1012,
+    "y": 15.1570498,
+    "x": 120.5922571,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922571,
+     15.1570498
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1013,
+    "y": 15.1569321,
+    "x": 120.5922505,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922505,
+     15.1569321
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1014,
+    "y": 15.1532388,
+    "x": 120.5919823,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5919823,
+     15.1532388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1015,
+    "y": 15.1529843,
+    "x": 120.5919752,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5919752,
+     15.1529843
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1016,
+    "y": 15.1529775,
+    "x": 120.5919604,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5919604,
+     15.1529775
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1017,
+    "y": 15.1529026,
+    "x": 120.5918975,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5918975,
+     15.1529026
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1018,
+    "y": 15.1528333,
+    "x": 120.5918952,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5918952,
+     15.1528333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1019,
+    "y": 15.1520492,
+    "x": 120.5915983,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5915983,
+     15.1520492
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1020,
+    "y": 15.151976,
+    "x": 120.5915614,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5915614,
+     15.151976
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1021,
+    "y": 15.1516087,
+    "x": 120.5913711,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5913711,
+     15.1516087
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1022,
+    "y": 15.1511847,
+    "x": 120.5911928,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5911928,
+     15.1511847
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1023,
+    "y": 15.1491342,
+    "x": 120.5902811,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5902811,
+     15.1491342
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1024,
+    "y": 15.1487596,
+    "x": 120.5901304,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5901304,
+     15.1487596
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1025,
+    "y": 15.1486113,
+    "x": 120.5900707,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5900707,
+     15.1486113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1026,
+    "y": 15.1483456,
+    "x": 120.5899534,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5899534,
+     15.1483456
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1027,
+    "y": 15.148214,
+    "x": 120.5898906,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5898906,
+     15.148214
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1028,
+    "y": 15.1480244,
+    "x": 120.5897904,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897904,
+     15.1480244
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1029,
+    "y": 15.1479421,
+    "x": 120.5897437,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897437,
+     15.1479421
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1030,
+    "y": 15.1478794,
+    "x": 120.5897139,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897139,
+     15.1478794
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1031,
+    "y": 15.1463518,
+    "x": 120.589079,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.589079,
+     15.1463518
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1032,
+    "y": 15.145962,
+    "x": 120.5889701,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5889701,
+     15.145962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1033,
+    "y": 15.1457123,
+    "x": 120.5889004,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5889004,
+     15.1457123
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1034,
+    "y": 15.1450038,
+    "x": 120.5887147,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5887147,
+     15.1450038
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1035,
+    "y": 15.1434723,
+    "x": 120.5883629,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5883629,
+     15.1434723
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1036,
+    "y": 15.1430799,
+    "x": 120.5882784,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882784,
+     15.1430799
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1037,
+    "y": 15.1428729,
+    "x": 120.5882345,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882345,
+     15.1428729
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1038,
+    "y": 15.1418167,
+    "x": 120.5879866,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5879866,
+     15.1418167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1039,
+    "y": 15.1413021,
+    "x": 120.5878396,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5878396,
+     15.1413021
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1040,
+    "y": 15.1404719,
+    "x": 120.5876372,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5876372,
+     15.1404719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1041,
+    "y": 15.1391581,
+    "x": 120.58746,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.58746,
+     15.1391581
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1042,
+    "y": 15.1390523,
+    "x": 120.5874684,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874684,
+     15.1390523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1043,
+    "y": 15.1387472,
+    "x": 120.5875493,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875493,
+     15.1387472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1044,
+    "y": 15.1386966,
+    "x": 120.5875163,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875163,
+     15.1386966
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1045,
+    "y": 15.1379871,
+    "x": 120.5870749,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5870749,
+     15.1379871
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1046,
+    "y": 15.1374113,
+    "x": 120.5867396,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5867396,
+     15.1374113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1047,
+    "y": 15.1369857,
+    "x": 120.5864976,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5864976,
+     15.1369857
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1048,
+    "y": 15.1363919,
+    "x": 120.5877296,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877296,
+     15.1363919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1049,
+    "y": 15.1371951,
+    "x": 120.588238,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.588238,
+     15.1371951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1050,
+    "y": 15.137519,
+    "x": 120.5885097,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5885097,
+     15.137519
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1051,
+    "y": 15.1378835,
+    "x": 120.5888227,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5888227,
+     15.1378835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1052,
+    "y": 15.1383044,
+    "x": 120.5882372,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882372,
+     15.1383044
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1053,
+    "y": 15.1386563,
+    "x": 120.5877607,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877607,
+     15.1386563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1054,
+    "y": 15.1388553,
+    "x": 120.5876235,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5876235,
+     15.1388553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1055,
+    "y": 15.1390348,
+    "x": 120.5875283,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875283,
+     15.1390348
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1079,
+    "y": 15.1524897,
+    "x": 120.5918293,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5918293,
+     15.1524897
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1080,
+    "y": 15.1527429,
+    "x": 120.5919776,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5919776,
+     15.1527429
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1081,
+    "y": 15.1527348,
+    "x": 120.5920385,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920385,
+     15.1527348
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1082,
+    "y": 15.1528317,
+    "x": 120.5921562,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5921562,
+     15.1528317
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1083,
+    "y": 15.1529814,
+    "x": 120.5920835,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920835,
+     15.1529814
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1084,
+    "y": 15.1532913,
+    "x": 120.5920869,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920869,
+     15.1532913
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1085,
+    "y": 15.1533514,
+    "x": 120.5920874,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920874,
+     15.1533514
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1086,
+    "y": 15.1568383,
+    "x": 120.592318,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.592318,
+     15.1568383
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1087,
+    "y": 15.157228,
+    "x": 120.5923393,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5923393,
+     15.157228
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1088,
+    "y": 15.1573259,
+    "x": 120.5923373,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5923373,
+     15.1573259
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1089,
+    "y": 15.157738,
+    "x": 120.5923105,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5923105,
+     15.157738
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1090,
+    "y": 15.1579179,
+    "x": 120.5922756,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922756,
+     15.1579179
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1091,
+    "y": 15.1582667,
+    "x": 120.5921988,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5921988,
+     15.1582667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1092,
+    "y": 15.158588,
+    "x": 120.592124,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.592124,
+     15.158588
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1113,
+    "y": 15.1648175,
+    "x": 120.5905158,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5905158,
+     15.1648175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1114,
+    "y": 15.1651322,
+    "x": 120.5904376,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5904376,
+     15.1651322
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1115,
+    "y": 15.1652426,
+    "x": 120.5904111,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5904111,
+     15.1652426
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1116,
+    "y": 15.166294,
+    "x": 120.5901369,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5901369,
+     15.166294
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1117,
+    "y": 15.1669899,
+    "x": 120.5899698,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5899698,
+     15.1669899
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1118,
+    "y": 15.1671616,
+    "x": 120.5899256,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5899256,
+     15.1671616
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1119,
+    "y": 15.1673361,
+    "x": 120.5898806,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5898806,
+     15.1673361
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1120,
+    "y": 15.1677182,
+    "x": 120.5897806,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897806,
+     15.1677182
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1121,
+    "y": 15.169273,
+    "x": 120.5893818,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893818,
+     15.169273
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1122,
+    "y": 15.169365,
+    "x": 120.5893595,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893595,
+     15.169365
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1123,
+    "y": 15.1697489,
+    "x": 120.588893,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.588893,
+     15.1697489
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1124,
+    "y": 15.1697007,
+    "x": 120.5886946,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5886946,
+     15.1697007
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1125,
+    "y": 15.1695999,
+    "x": 120.5882645,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-HolyAngelUniversity",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882645,
+     15.1695999
     ]
    }
   }
