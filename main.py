@@ -239,7 +239,89 @@ def shortestPathTest(src: str, dest: str):
     
 @app.get("/k_shortest_paths")
 def kShortestPathsTest(src: str, dest: str):
+    '''
+    Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
+    routes to traverse including the path of the mode in order.
+
+    --- EXAMPLE RESULT ---
+    {
+        routes: 
+            result-1: {
+                0: {
+                    'mode': {
+                        'type': 'walk',
+                        'details: {
+                            'name': 'On foot',
+                            'color': '#2005ed'
+                        }
+                    },
+                    'geometry': [
+                        [120.58758878271912, 15.14365473416789],
+                        [120.58833604642595, 15.1434826439334]
+                    ]
+                },
+                1: {
+                    'mode': {
+                        'type': 'jeep',
+                        'details: {
+                            'name': 'route-1',
+                            'color': '#1d7021'
+                        }
+                    },
+                    'geometry': [
+                        [120.58833604642595, 15.1434826439334],
+                        [120.58791499937249, 15.14178736453769],
+                        [120.58745810400315, 15.139206114741604]
+                    ]
+                },
+                2: {
+                    'mode': {
+                        'type': 'walk',
+                        'details: {
+                            'name': 'On foot',
+                            'color': '#2005ed'
+                        }
+                    },
+                    'geometry': [
+                        [120.58745810400315, 15.139206114741604],
+                        [120.58704485986307, 15.139215965542231],
+                        [120.58680435135506, 15.138876276435527]
+                    ]
+                }
+            },
+            result-2: {
+                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                1: {'mode': {'type': 'walk', 'details': {'name': 'route-2', 'color': '#a11ea6'}}, 'geometry': []},
+                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                3: {'mode': {'type': 'walk', 'details': {'name': 'route-3', 'color': '#f0cf13'}}, 'geometry': []},
+                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
+            },
+            result-3: {
+                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                1: {'mode': {'type': 'walk', 'details': {'name': 'route-4', 'color': '#7c4dc4'}}, 'geometry': []},
+                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                3: {'mode': {'type': 'walk', 'details': {'name': 'toda-1', 'color': '#ba1c59'}}, 'geometry': []},
+                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
+            }
+    }
+    In the example above, a calculated "result-x" would contain a list of routes or modes a person would have to traverse through from
+    a source to a destination. Each list element inside result-x represents a modal route that a person has to use in going to 
+    their destination.
+    -------------------
+    
+    Parameters
+    ----------
+    src
+        A string literal containing latitude and longitude values for source coordinates separated by comma
+
+    dest
+        A string literal containing latitude and longitude values for destination coordinates separated by comma
+    Returns
+    ----------
+    dict
+    '''
     try:
+        # Splits source and destination arguments from API link into separate dicts of coordinates
         pair = {
             'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
             'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
@@ -250,8 +332,10 @@ def kShortestPathsTest(src: str, dest: str):
             srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
             destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
 
+        # Contains list of results
         routesResultsList = []
 
+        # In
         initialModes = []
         modeList = []
         with perfTimer("make a copy of G"):
