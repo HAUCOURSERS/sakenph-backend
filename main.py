@@ -44,6 +44,22 @@ with perfTimer("convert np arrays to lists"):
 
 with perfTimer("initialize MultiDiGraph"):
     G = ox.graph_from_gdfs(nodes, edges)
+
+with perfTimer("deepcopy MultiDiGraph to walking graph"):
+    walkingG = copy.deepcopy(G)
+# -------------------------------------------------- #
+# --------- INITIALIZE SIMPLIFIED GRAPH ------------ #
+
+with perfTimer("read nodes and edges of minimized transit graph"):
+    nodes = gpd.read_file("graph/transit_graph/simplified_graph/simplifiedGraph_nodes.geojson")
+    edges = gpd.read_file("graph/transit_graph/simplified_graph/simplifiedGraph_edges.geojson")
+
+with perfTimer("Fix index of nodes and edges"):
+    nodes = nodes.set_index("osmid")
+    edges = edges.set_index(["u", "v", "key"])
+
+with perfTimer("initialize minimized MultiDiGraph"):
+    minimizedG = ox.graph_from_gdfs(nodes, edges)
 # -------------------------------------------------- #
 # ------------------ ADD ROUTES -------------------- #
 with perfTimer("add routes"):
@@ -238,6 +254,185 @@ def shortestPathTest(src: str, dest: str):
         raise Exception(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths")
+def kShortestPathsTestTwo(src: str, dest: str):
+
+    try:
+        # Splits source and destination arguments from API link into separate dicts of coordinates
+        pair = {
+            'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
+            'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
+        }
+
+        with perfTimer("get nearest node id"):
+            srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
+            destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
+
+        node_data = G.nodes[srcNode]
+        minimizedG.add_node(srcNode, **node_data)
+
+        node_data = G.nodes[destNode]
+        minimizedG.add_node(destNode, **node_data)
+
+
+        # Loop through each route for srcNodeUser to find its shortest path
+        with perfTimer("connect source and dest nodes to each route"):
+            for route in os.listdir(relativePath):
+
+                routeNodes = {'northbound': {}, 'southbound': {}}
+
+                with open(f'{relativePath}/{route}/{route}_nodes.geojson', 'r') as file:
+                    f = json.load(file)
+
+
+                for i in f['features']:
+                    if i['properties']['mode']['details']['bound'] == 'north':
+                        routeNodes['northbound'][i['properties']['osmid']] = {
+                            'x': i['properties']['x'],
+                            'y': i['properties']['y']
+                        }
+                    else:
+                        routeNodes['southbound'][i['properties']['osmid']] = {
+                            'x': i['properties']['x'],
+                            'y': i['properties']['y']
+                        }
+                        
+
+                # route (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
+                for route, routeArr in routeNodes.items():
+                    if routeArr:
+                        # list of equivalent nodes on the walking graph
+                        routeOnWalkingG = []
+
+                        for key, value in routeArr.items():
+                            for node, data in G.nodes(data=True):
+                                if data['x'] == value['x'] and data['y'] == value['y']:
+                                    routeOnWalkingG.append(node)
+                                    break
+
+                        # From user source node to route
+                        distance, path = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
+
+            
+
+                        # Gets the best equivalent route node with on the walking graph
+                        best_node = min(routeOnWalkingG, key=lambda n: distance.get(n, float('inf')))
+
+                        # Looks for its route node counterpart
+                        for key, value in routeArr.items():
+                            if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                                bestRouteNode = key
+                                break
+
+
+                        minimizedG.add_edge(path[best_node][0], bestRouteNode, weight=distance[best_node])
+
+                        # From route to user destination node
+                        distance, path = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
+                        best_node = path[0]
+
+                        for key, value in routeArr.items():
+                            if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                                bestRouteNode = key
+                                break
+                        
+                        minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
+
+        with perfTimer("find shortest paths"):
+            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+
+            permutationList = []
+            routeList = []
+            for i in theList:
+                permutation = []
+                route = i.copy()
+
+                # Used to offset the index of where to insert extension of two routes with walking path
+                offset = 0
+                for j in range(len(i)):
+                    
+                    if permutation:
+                        modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
+
+                        if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
+                            extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
+
+                            # Checks if there are additional nodes after extending the different modes
+                            if len(extended) > 2:
+                                route[j+offset:j+offset] = extended[1:-1]
+                                offset += len(extended[1:-1])
+
+                            permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                                minimizedG.nodes[i[j]]['mode']['details']['name']
+                            )
+
+                    else:  # First node in the calculated path
+                        permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                            minimizedG.nodes[i[j]]['mode']['details']['name']
+                        )
+
+
+                total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
+                # print(f"Weight: {total_weight:.2f}: {permutation}")
+
+                if permutation not in permutationList:
+                    # print(f"1: {i}")
+                    # print(f"2: {route}")
+                    routeList.append(route)
+                    permutationList.append(permutation)
+
+        resultsObj = {}
+        resultsJson = {'routes': resultsObj}
+
+        with perfTimer("convert nodes of each result into json format:"):
+            count = 1
+            for i in routeList:
+
+                # Maximum of 3 routes
+                if count == 3:
+                    break # FIX THIS LATER
+                nodeList = []
+                # Loop through each node of the route
+                for j in i:
+                    node = G.nodes[j]
+                    if nodeList:
+                        # print(f'{node['mode']['type']}: {i}')
+                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                            nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                        else:
+                            nodeList.append({
+                                'mode': {
+                                    'type': node['mode']['type'],
+                                    'details': {
+                                        'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                        'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                    }
+                                },
+                                'geometry': [
+                                    [float(node['x']), float(node['y'])]
+                                ] 
+                            })
+                    else:
+                        nodeList.append({
+                            'mode': {
+                                'type': node['mode']['type'],
+                                'details': {
+                                    'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                    'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                }
+                            },
+                            'geometry': [
+                                [float(node['x']), float(node['y'])]
+                            ]
+                        })
+                resultsObj[f'result-{count}'] = nodeList
+                count+=1
+            return resultsJson
+                   
+    except Exception as e:
+        raise Exception(status_code=500, detail=str(e))
+
+        
+@app.get("/k_shortest_paths_legacy")
 def kShortestPathsTest(src: str, dest: str):
     '''
     Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
