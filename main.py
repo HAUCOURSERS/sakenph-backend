@@ -254,14 +254,357 @@ def shortestPathTest(src: str, dest: str):
         raise Exception(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths")
-def kShortestPathsTestTwo(src: str, dest: str):
+def kShortestPaths(src: str, dest: str):
+    '''
+    Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
+    routes to traverse including the path of the mode in order.
 
+    --- EXAMPLE RESULT ---
+    {
+        routes: 
+            result-1: {
+                0: {
+                    'mode': {
+                        'type': 'walk',
+                        'details: {
+                            'name': 'On foot',
+                            'color': '#2005ed'
+                        }
+                    },
+                    'geometry': [
+                        [120.58758878271912, 15.14365473416789],
+                        [120.58833604642595, 15.1434826439334]
+                    ]
+                },
+                1: {
+                    'mode': {
+                        'type': 'jeep',
+                        'details: {
+                            'name': 'route-1',
+                            'color': '#1d7021'
+                        }
+                    },
+                    'geometry': [
+                        [120.58833604642595, 15.1434826439334],
+                        [120.58791499937249, 15.14178736453769],
+                        [120.58745810400315, 15.139206114741604]
+                    ]
+                },
+                2: {
+                    'mode': {
+                        'type': 'walk',
+                        'details: {
+                            'name': 'On foot',
+                            'color': '#2005ed'
+                        }
+                    },
+                    'geometry': [
+                        [120.58745810400315, 15.139206114741604],
+                        [120.58704485986307, 15.139215965542231],
+                        [120.58680435135506, 15.138876276435527]
+                    ]
+                }
+            },
+            result-2: {
+                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                1: {'mode': {'type': 'walk', 'details': {'name': 'route-2', 'color': '#a11ea6'}}, 'geometry': []},
+                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                3: {'mode': {'type': 'walk', 'details': {'name': 'route-3', 'color': '#f0cf13'}}, 'geometry': []},
+                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
+            },
+            result-3: {
+                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                1: {'mode': {'type': 'walk', 'details': {'name': 'route-4', 'color': '#7c4dc4'}}, 'geometry': []},
+                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                3: {'mode': {'type': 'walk', 'details': {'name': 'toda-1', 'color': '#ba1c59'}}, 'geometry': []},
+                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
+            }
+    }
+    In the example above, a calculated "result-x" would contain a list of routes or modes a person would have to traverse through from
+    a source to a destination. Each list element inside result-x represents a modal route that a person has to use in going to 
+    their destination.
+    -------------------
+    
+    Parameters
+    ----------
+    src
+        A string literal containing latitude and longitude values for source coordinates separated by comma
+
+    dest
+        A string literal containing latitude and longitude values for destination coordinates separated by comma
+    Returns
+    ----------
+    dict
+    '''
     try:
         # Splits source and destination arguments from API link into separate dicts of coordinates
         pair = {
             'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
             'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
         }
+
+        
+        print(f'src lat-y,long-x: {pair['source']['lat']},{pair['source']['long']}')
+        print(f'dest lat-y,long-x: { pair['destination']['lat']},{pair['destination']['long']}')
+
+        srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
+        destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
+
+        node_data = G.nodes[srcNode]
+        minimizedG.add_node(srcNode, **node_data)
+
+        node_data = G.nodes[destNode]
+        minimizedG.add_node(destNode, **node_data)
+
+
+        # Loop through each route for srcNodeUser to find its shortest path
+        for route in os.listdir(relativePath):
+
+            routeNodes = {'northbound': {}, 'southbound': {}}
+
+            with open(f'{relativePath}/{route}/{route}_nodes.geojson', 'r') as file:
+                f = json.load(file)
+
+
+            for i in f['features']:
+                if i['properties']['mode']['details']['bound'] == 'north':
+                    routeNodes['northbound'][i['properties']['osmid']] = {
+                        'x': i['properties']['x'],
+                        'y': i['properties']['y']
+                    }
+                else:
+                    routeNodes['southbound'][i['properties']['osmid']] = {
+                        'x': i['properties']['x'],
+                        'y': i['properties']['y']
+                    }
+                    
+
+            # route (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
+            for route, routeArr in routeNodes.items():
+                if routeArr:
+                    # list of equivalent nodes on the walking graph
+                    routeOnWalkingG = []
+
+                    for key, value in routeArr.items():
+                        for node, data in G.nodes(data=True):
+                            if data['x'] == value['x'] and data['y'] == value['y']:
+                                routeOnWalkingG.append(node)
+                                break
+
+                    # From user source node to route
+                    distance, path = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
+
+        
+
+                    # Gets the best equivalent route node with on the walking graph
+                    best_node = min(routeOnWalkingG, key=lambda n: distance.get(n, float('inf')))
+
+                    # Looks for its route node counterpart
+                    for key, value in routeArr.items():
+                        if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                            bestRouteNode = key
+                            break
+
+
+                    minimizedG.add_edge(path[best_node][0], bestRouteNode, weight=distance[best_node])
+
+                    # From route to user destination node
+                    distance, path = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
+                    best_node = path[0]
+
+                    for key, value in routeArr.items():
+                        if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                            bestRouteNode = key
+                            break
+                    
+                    minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
+
+
+        theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+
+        permutationList = []
+        routeList = []
+        for i in theList:
+            permutation = []
+            route = i.copy()
+
+        # Used to offset the index of where to insert extension of two routes with walking path
+            offset = 0
+            for j in range(len(i)):
+                
+                if permutation:
+                    modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
+
+                    if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
+                        extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
+
+                        # Checks if there are additional nodes after extending the different modes
+                        if len(extended) > 2:
+                            route[j+offset:j+offset] = extended[1:-1]
+                            offset += len(extended[1:-1])
+
+                        permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                            minimizedG.nodes[i[j]]['mode']['details']['name']
+                        )
+
+                else:  # First node in the calculated path
+                    permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                        minimizedG.nodes[i[j]]['mode']['details']['name']
+                    )
+
+
+            total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
+            # print(f"Weight: {total_weight:.2f}: {permutation}")
+
+            if permutation not in permutationList:
+                # print(f"1: {i}")
+                # print(f"2: {route}")
+                routeList.append(route)
+                permutationList.append(permutation)
+
+        resultsObj = {}
+        resultsJson = {'routes': resultsObj}
+
+        count = 1
+        for i in routeList:
+            print(i)
+
+            # Maximum of 3 routes
+            if count == 3:
+                break # FIX THIS LATER
+            nodeList = []
+            # Loop through each node of the route
+            for j in i:
+                node = G.nodes[j]
+                if nodeList:
+                    # print(f'{node['mode']['type']}: {i}')
+                    if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                        nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                    else:
+                        nodeList.append({
+                            'mode': {
+                                'type': node['mode']['type'],
+                                'details': {
+                                    'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                    'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                }
+                            },
+                            'geometry': [
+                                [float(node['x']), float(node['y'])]
+                            ] 
+                        })
+                else:
+                    nodeList.append({
+                        'mode': {
+                            'type': node['mode']['type'],
+                            'details': {
+                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                            }
+                        },
+                        'geometry': [
+                            [float(node['x']), float(node['y'])]
+                        ]
+                    })
+            resultsObj[f'result-{count}'] = nodeList
+            count+=1
+        return resultsJson
+                
+    except Exception as e:
+        raise Exception(status_code=500, detail=str(e))
+    
+@app.get("/k_shortest_paths_debug")
+def kShortestPathsDebug(src: str, dest: str):
+    '''
+    Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
+    routes to traverse including the path of the mode in order.
+
+    --- EXAMPLE RESULT ---
+    {
+        routes: 
+            result-1: {
+                0: {
+                    'mode': {
+                        'type': 'walk',
+                        'details: {
+                            'name': 'On foot',
+                            'color': '#2005ed'
+                        }
+                    },
+                    'geometry': [
+                        [120.58758878271912, 15.14365473416789],
+                        [120.58833604642595, 15.1434826439334]
+                    ]
+                },
+                1: {
+                    'mode': {
+                        'type': 'jeep',
+                        'details: {
+                            'name': 'route-1',
+                            'color': '#1d7021'
+                        }
+                    },
+                    'geometry': [
+                        [120.58833604642595, 15.1434826439334],
+                        [120.58791499937249, 15.14178736453769],
+                        [120.58745810400315, 15.139206114741604]
+                    ]
+                },
+                2: {
+                    'mode': {
+                        'type': 'walk',
+                        'details: {
+                            'name': 'On foot',
+                            'color': '#2005ed'
+                        }
+                    },
+                    'geometry': [
+                        [120.58745810400315, 15.139206114741604],
+                        [120.58704485986307, 15.139215965542231],
+                        [120.58680435135506, 15.138876276435527]
+                    ]
+                }
+            },
+            result-2: {
+                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                1: {'mode': {'type': 'walk', 'details': {'name': 'route-2', 'color': '#a11ea6'}}, 'geometry': []},
+                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                3: {'mode': {'type': 'walk', 'details': {'name': 'route-3', 'color': '#f0cf13'}}, 'geometry': []},
+                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
+            },
+            result-3: {
+                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                1: {'mode': {'type': 'walk', 'details': {'name': 'route-4', 'color': '#7c4dc4'}}, 'geometry': []},
+                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
+                3: {'mode': {'type': 'walk', 'details': {'name': 'toda-1', 'color': '#ba1c59'}}, 'geometry': []},
+                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
+            }
+    }
+    In the example above, a calculated "result-x" would contain a list of routes or modes a person would have to traverse through from
+    a source to a destination. Each list element inside result-x represents a modal route that a person has to use in going to 
+    their destination.
+    -------------------
+    
+    Parameters
+    ----------
+    src
+        A string literal containing latitude and longitude values for source coordinates separated by comma
+
+    dest
+        A string literal containing latitude and longitude values for destination coordinates separated by comma
+    Returns
+    ----------
+    dict
+    '''
+    try:
+
+        # Splits source and destination arguments from API link into separate dicts of coordinates
+        pair = {
+            'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
+            'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
+        }
+
+
 
         with perfTimer("get nearest node id"):
             srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
@@ -394,236 +737,29 @@ def kShortestPathsTestTwo(src: str, dest: str):
                 # Loop through each node of the route
                 for j in i:
                     node = G.nodes[j]
+
                     if nodeList:
                         # print(f'{node['mode']['type']}: {i}')
-                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
-                            nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']:
+                            nodeList[len(nodeList)-1]['nodes'].append({'osmid': j, 'y,x': f'{float(node['x'])},{float(node['y'])}'})
                         else:
                             nodeList.append({
-                                'mode': {
-                                    'type': node['mode']['type'],
-                                    'details': {
-                                        'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                        'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                                    }
-                                },
-                                'geometry': [
-                                    [float(node['x']), float(node['y'])]
+                                'mode': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                'nodes': [
+                                    {'osmid': j, 'y,x': f'{float(node['x'])},{float(node['y'])}'}
                                 ] 
                             })
                     else:
                         nodeList.append({
-                            'mode': {
-                                'type': node['mode']['type'],
-                                'details': {
-                                    'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                    'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                                }
-                            },
-                            'geometry': [
-                                [float(node['x']), float(node['y'])]
+                            'mode': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                            'nodes': [
+                                {'osmid': j, 'y,x': f'{float(node['x'])},{float(node['y'])}'}
                             ]
                         })
                 resultsObj[f'result-{count}'] = nodeList
                 count+=1
             return resultsJson
                    
-    except Exception as e:
-        raise Exception(status_code=500, detail=str(e))
-
-        
-@app.get("/k_shortest_paths_legacy")
-def kShortestPathsTest(src: str, dest: str):
-    '''
-    Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
-    routes to traverse including the path of the mode in order.
-
-    --- EXAMPLE RESULT ---
-    {
-        routes: 
-            result-1: {
-                0: {
-                    'mode': {
-                        'type': 'walk',
-                        'details: {
-                            'name': 'On foot',
-                            'color': '#2005ed'
-                        }
-                    },
-                    'geometry': [
-                        [120.58758878271912, 15.14365473416789],
-                        [120.58833604642595, 15.1434826439334]
-                    ]
-                },
-                1: {
-                    'mode': {
-                        'type': 'jeep',
-                        'details: {
-                            'name': 'route-1',
-                            'color': '#1d7021'
-                        }
-                    },
-                    'geometry': [
-                        [120.58833604642595, 15.1434826439334],
-                        [120.58791499937249, 15.14178736453769],
-                        [120.58745810400315, 15.139206114741604]
-                    ]
-                },
-                2: {
-                    'mode': {
-                        'type': 'walk',
-                        'details: {
-                            'name': 'On foot',
-                            'color': '#2005ed'
-                        }
-                    },
-                    'geometry': [
-                        [120.58745810400315, 15.139206114741604],
-                        [120.58704485986307, 15.139215965542231],
-                        [120.58680435135506, 15.138876276435527]
-                    ]
-                }
-            },
-            result-2: {
-                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
-                1: {'mode': {'type': 'walk', 'details': {'name': 'route-2', 'color': '#a11ea6'}}, 'geometry': []},
-                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
-                3: {'mode': {'type': 'walk', 'details': {'name': 'route-3', 'color': '#f0cf13'}}, 'geometry': []},
-                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
-            },
-            result-3: {
-                0: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
-                1: {'mode': {'type': 'walk', 'details': {'name': 'route-4', 'color': '#7c4dc4'}}, 'geometry': []},
-                2: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []},
-                3: {'mode': {'type': 'walk', 'details': {'name': 'toda-1', 'color': '#ba1c59'}}, 'geometry': []},
-                4: {'mode': {'type': 'walk', 'details': {'name': 'On foot', 'color': '#2005ed'}}, 'geometry': []}
-            }
-    }
-    In the example above, a calculated "result-x" would contain a list of routes or modes a person would have to traverse through from
-    a source to a destination. Each list element inside result-x represents a modal route that a person has to use in going to 
-    their destination.
-    -------------------
-    
-    Parameters
-    ----------
-    src
-        A string literal containing latitude and longitude values for source coordinates separated by comma
-
-    dest
-        A string literal containing latitude and longitude values for destination coordinates separated by comma
-    Returns
-    ----------
-    dict
-    '''
-    try:
-        # Splits source and destination arguments from API link into separate dicts of coordinates
-        pair = {
-            'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
-            'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
-        }
-
-        # Gets the nearest node from each source/destination coordinates
-        with perfTimer("get nearest node id"):
-            srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
-            destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
-
-        # Contains list of results
-        routesResultsList = []
-
-        # In
-        initialModes = []
-        modeList = []
-        with perfTimer("make a copy of G"):
-            nextG = copy.deepcopy(G)
-        lastLength = None
-        while (len(routesResultsList) < 3):
-            with perfTimer("calculate an iteration:"):
-                theList = list(itertools.chain.from_iterable(ox.k_shortest_paths(nextG, srcNode, destNode, 1, weight="weight")))
-                
-                # Check if current k shortest path is more than 25% of the previous k shortest path, which means you've exhausted all possible paths for that nextG
-                length = nx.path_weight(G, theList, weight="weight")
-                print(length)
-                if lastLength and lastLength * 1.25 < length:
-                    print("True")
-                    if modeList:
-                        if modeList[0] in initialModes:
-                            nextG = copy.deepcopy(G)
-                    else:
-                        break
-                else:
-                    print("Not true")
-                lastLength = length
-
-                routesResultsList.append(theList)
-
-                routeToRemove = None
-                # Get all modes of route
-                for i in theList:
-                    if G.nodes[i]['mode']['type'] != 'walk':
-                        modeList.append(G.nodes[i]['mode']['details']['name'])
-                        
-                if not initialModes:
-                    initialModes = modeList
-
-                if modeList:
-                    routeToRemove = modeList.pop()
-                else:
-                    routeToRemove = None
-                # Removes nodes from a mode's route
-                if routeToRemove != None:
-                    for i in theList:
-                        if nextG.nodes[i]['mode']['type'] != 'walk':
-                            if nextG.nodes[i]['mode']['details']['name'] == routeToRemove:
-                                nextG.remove_node(i)
-                else:
-                    break
-            
-        resultsObj = {}
-        resultsJson = {'routes': resultsObj}
-
-        with perfTimer("convert nodes of each result into json format:"):
-            count = 1
-            for i in routesResultsList:
-                nodeList = []
-                for j in i:
-                    node = G.nodes[j]
-                    if nodeList:
-                        # print(f'{node['mode']['type']}: {i}')
-                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
-                            nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
-                        else:
-                            nodeList.append({
-                                'mode': {
-                                    'type': node['mode']['type'],
-                                    'details': {
-                                        'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                        'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                                    }
-                                },
-                                'geometry': [
-                                    [float(node['x']), float(node['y'])]
-                                ] 
-                            })
-                    else:
-                        nodeList.append({
-                            'mode': {
-                                'type': node['mode']['type'],
-                                'details': {
-                                    'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                    'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                                }
-                            },
-                            'geometry': [
-                                [float(node['x']), float(node['y'])]
-                            ]
-                        })
-                resultsObj[f'result-{count}'] = nodeList
-                count+=1
-            return resultsJson
-            
-            
-            
-
     except Exception as e:
         raise Exception(status_code=500, detail=str(e))
 
