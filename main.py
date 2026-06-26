@@ -10,6 +10,7 @@ import json
 import copy
 from shapely.geometry import shape
 from func import getNearestNodeId
+from algo import get_k_shortest_paths
 import itertools
 
 # --------------- INITIALIZE GRAPH --------------- #
@@ -254,7 +255,7 @@ def shortestPathTest(src: str, dest: str):
         raise Exception(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths")
-def kShortestPaths(src: str, dest: str):
+def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
     '''
     Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
     routes to traverse including the path of the mode in order.
@@ -419,8 +420,13 @@ def kShortestPaths(src: str, dest: str):
                     
                     minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
 
-
-        theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+        if algo == 'dijkstra':
+            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+        elif algo == 'astar':
+            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+        else:
+            raise ValueError("Undefined algorithm")
+        
 
         permutationList = []
         routeList = []
@@ -514,7 +520,7 @@ def kShortestPaths(src: str, dest: str):
         raise Exception(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths_debug")
-def kShortestPathsDebug(src: str, dest: str):
+def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
     '''
     Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
     routes to traverse including the path of the mode in order.
@@ -596,6 +602,14 @@ def kShortestPathsDebug(src: str, dest: str):
     ----------
     dict
     '''
+    elapsedList = []
+    @contextmanager
+    def perfReturn(action=""):
+        start = time.perf_counter()
+        yield
+        end = time.perf_counter()
+        elapsedList.append({f"Elapsed time to {action}": f" {round(end - start, 2)}s"})
+
     try:
 
         # Splits source and destination arguments from API link into separate dicts of coordinates
@@ -603,10 +617,7 @@ def kShortestPathsDebug(src: str, dest: str):
             'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
             'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
         }
-
-
-
-        with perfTimer("get nearest node id"):
+        with perfReturn("get nearest node id"):
             srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
             destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
 
@@ -618,7 +629,7 @@ def kShortestPathsDebug(src: str, dest: str):
 
 
         # Loop through each route for srcNodeUser to find its shortest path
-        with perfTimer("connect source and dest nodes to each route"):
+        with perfReturn("connect source and dest nodes to each route"):
             for route in os.listdir(relativePath):
 
                 routeNodes = {'northbound': {}, 'southbound': {}}
@@ -680,11 +691,28 @@ def kShortestPathsDebug(src: str, dest: str):
                         
                         minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
 
-        with perfTimer("find shortest paths"):
-            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+        with perfReturn("get shortest paths"):
+            if algo == 'dijkstra':
+                theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+            elif algo == 'astar':
+                theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+            else:
+                raise ValueError("Undefined algorithm")
 
-            permutationList = []
-            routeList = []
+        permutationList = []
+        routeList = []
+
+        with perfReturn("Get modes of the list"):
+            for i in range(len(theList[0])):
+                node = theList[0][i]
+                data = minimizedG.nodes[node]
+                print(f"Node {i}: {node} | lat: {data['y']}, lon: {data['x']} | mode: {'walk' if data['mode']['type'] == 'walk' else (data['mode']['details']['name'])}")
+                if i > 0:
+                    prev = theList[0][i-1]
+                    edge = minimizedG[prev][node]
+                    print(f"  Edge {prev} -> {node} | weight: {edge.get('weight')}")
+
+        with perfReturn("Extend modes"):
             for i in theList:
                 permutation = []
                 route = i.copy()
@@ -724,9 +752,9 @@ def kShortestPathsDebug(src: str, dest: str):
                     permutationList.append(permutation)
 
         resultsObj = {}
-        resultsJson = {'routes': resultsObj}
+        resultsJson = {'performance': elapsedList, 'routes': resultsObj}
 
-        with perfTimer("convert nodes of each result into json format:"):
+        with perfReturn("convert nodes of each result into json format:"):
             count = 1
             for i in routeList:
 
