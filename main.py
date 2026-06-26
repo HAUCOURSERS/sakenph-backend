@@ -621,11 +621,18 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
             srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
             destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
 
+        # Add source and destination nodes to the minimized graph
         node_data = G.nodes[srcNode]
         minimizedG.add_node(srcNode, **node_data)
 
         node_data = G.nodes[destNode]
         minimizedG.add_node(destNode, **node_data)
+
+
+        coord_to_walking_node = {
+            (data['x'], data['y']): node
+            for node, data in G.nodes(data=True)
+        }
 
 
         # Loop through each route for srcNodeUser to find its shortest path
@@ -637,7 +644,7 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                 with open(f'{relativePath}/{route}/{route}_nodes.geojson', 'r') as file:
                     f = json.load(file)
 
-
+                # Get every node from the route
                 for i in f['features']:
                     if i['properties']['mode']['details']['bound'] == 'north':
                         routeNodes['northbound'][i['properties']['osmid']] = {
@@ -683,11 +690,12 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                         # From route to user destination node
                         distance, path = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
                         best_node = path[0]
-
-                        for key, value in routeArr.items():
-                            if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
-                                bestRouteNode = key
-                                break
+    
+                        routeOnWalkingG = [
+                            coord_to_walking_node[(val['x'], val['y'])]
+                            for val in routeArr.values()
+                            if (val['x'], val['y']) in coord_to_walking_node
+                        ]
                         
                         minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
 
