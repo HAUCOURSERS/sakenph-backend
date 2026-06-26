@@ -35,11 +35,28 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 '''
-
-
+import itertools
+import numpy as np
 import networkx as nx
+from osmnx import convert
+from osmnx.routing import _verify_edge_attribute
+from collections.abc import Iterator
 from heapq import heappop, heappush
-from itertools import count, islice
+from itertools import count, islice, islice
+import math
+
+# algo.py and func.py both have haversine function because unable to import hav from func
+def haversine(lat1, lon1, lat2, lon2):
+    R = 6371000
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    dphi = math.radians(lat2 - lat1)
+    dlambda = math.radians(lon2 - lon1)
+    a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(dlambda/2)**2
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+
+def getNodeDistance(G, x, y):
+    return haversine(G.nodes[x]['y'], G.nodes[x]['x'], G.nodes[y]['y'], G.nodes[y]['x'])
+    
 
 class PathBuffer:
     def __init__(self):
@@ -63,6 +80,7 @@ class PathBuffer:
         return path
 
 
+
 def _weight_function(G, weight):
     if callable(weight):
         return weight
@@ -73,7 +91,196 @@ def _weight_function(G, weight):
         return lambda u, v, d: min(attr.get(weight, 1) for attr in d.values())
     return lambda u, v, data: data.get(weight, 1)
 
-def multi_source_dijkstra(G, sources, target=None, cutoff=None, weight="weight"):
+
+def get_k_shortest_paths(
+    G: nx.MultiDiGraph,
+    orig: int,
+    dest: int,
+    k: int,
+    *,
+    weight: str = "length",
+) -> Iterator[list[int]]:
+    """
+    Solve `k` shortest paths from an origin node to a destination node.
+
+    Uses Yen's algorithm. See also `shortest_path` to solve just the one
+    shortest path.
+
+    Parameters
+    ----------
+    G
+        Input graph.
+    orig
+        Origin node ID.
+    dest
+        Destination node ID.
+    k
+        Number of shortest paths to solve.
+    weight
+        Edge attribute to minimize when solving shortest paths.
+
+    Yields
+    ------
+    path
+        The node IDs constituting the next-shortest path.
+    """
+    _verify_edge_attribute(G, weight)
+    paths_gen = shortest_paths(
+        G=convert.to_digraph(G, weight=weight),
+        source=orig,
+        target=dest,
+        weight=weight,
+    )
+    yield from itertools.islice(paths_gen, 0, k)
+
+@nx._dispatchable(edge_attrs="weight")
+def shortest_paths(G, source, target, weight=None):
+    """Generate all simple paths in the graph G from source to target,
+       starting from shortest ones.
+
+    A simple path is a path with no repeated nodes.
+
+    If a weighted shortest path search is to be used, no negative weights
+    are allowed.
+
+    Parameters
+    ----------
+    G : NetworkX graph
+
+    source : node
+       Starting node for path
+
+    target : node
+       Ending node for path
+
+    weight : string or function
+        If it is a string, it is the name of the edge attribute to be
+        used as a weight.
+
+        If it is a function, the weight of an edge is the value returned
+        by the function. The function must accept exactly three positional
+        arguments: the two endpoints of an edge and the dictionary of edge
+        attributes for that edge. The function must return a number or None.
+        The weight function can be used to hide edges by returning None.
+        So ``weight = lambda u, v, d: 1 if d['color']=="red" else None``
+        will find the shortest red path.
+
+        If None all edges are considered to have unit weight. Default
+        value None.
+
+    Returns
+    -------
+    path_generator: generator
+       A generator that produces lists of simple paths, in order from
+       shortest to longest.
+
+    Raises
+    ------
+    NetworkXNoPath
+       If no path exists between source and target.
+
+    NetworkXError
+       If source or target nodes are not in the input graph.
+
+    NetworkXNotImplemented
+       If the input graph is a Multi[Di]Graph.
+
+    Examples
+    --------
+
+    >>> G = nx.cycle_graph(7)
+    >>> paths = list(nx.shortest_simple_paths(G, 0, 3))
+    >>> print(paths)
+    [[0, 1, 2, 3], [0, 6, 5, 4, 3]]
+
+    You can use this function to efficiently compute the k shortest/best
+    paths between two nodes.
+
+    >>> from itertools import islice
+    >>> def k_shortest_paths(G, source, target, k, weight=None):
+    ...     return list(
+    ...         islice(nx.shortest_simple_paths(G, source, target, weight=weight), k)
+    ...     )
+    >>> for path in k_shortest_paths(G, 0, 3, 2):
+    ...     print(path)
+    [0, 1, 2, 3]
+    [0, 6, 5, 4, 3]
+
+    Notes
+    -----
+    This procedure is based on algorithm by Jin Y. Yen [1]_.  Finding
+    the first $K$ paths requires $O(KN^3)$ operations.
+
+    See Also
+    --------
+    all_shortest_paths
+    shortest_path
+    all_simple_paths
+
+    References
+    ----------
+    .. [1] Jin Y. Yen, "Finding the K Shortest Loopless Paths in a
+       Network", Management Science, Vol. 17, No. 11, Theory Series
+       (Jul., 1971), pp. 712-716.
+
+    """
+
+    if source not in G:
+        raise nx.NodeNotFound(f"source node {source} not in graph")
+
+    if target not in G:
+        raise nx.NodeNotFound(f"target node {target} not in graph")
+
+
+    wt = _weight_function(G, weight)
+
+    def length_func(path):
+        return sum(
+            wt(u, v, G.get_edge_data(u, v)) for (u, v) in zip(path, path[1:])
+        )
+
+    shortest_path_func = _bidirectional_astar
+
+    listA = []
+    listB = PathBuffer()
+    prev_path = None
+    while True:
+        if not prev_path:
+            length, path = shortest_path_func(G, source, target, weight=weight)
+            listB.push(length, path)
+        else:
+            ignore_nodes = set()
+            ignore_edges = set()
+            for i in range(1, len(prev_path)):
+                root = prev_path[:i]
+                root_length = length_func(root)
+                for path in listA:
+                    if path[:i] == root:
+                        ignore_edges.add((path[i - 1], path[i]))
+                try:
+                    length, spur = shortest_path_func(
+                        G,
+                        root[-1],
+                        target,
+                        ignore_nodes=ignore_nodes,
+                        ignore_edges=ignore_edges,
+                        weight=weight,
+                    )
+                    path = root[:-1] + spur
+                    listB.push(root_length + length, path)
+                except nx.NetworkXNoPath:
+                    pass
+                ignore_nodes.add(root[-1])
+
+        if listB:
+            path = listB.pop()
+            yield path
+            listA.append(path)
+            prev_path = path
+        else:
+            break
+
+def _multi_source_astar(G, sources, target=None, cutoff=None, ignore_nodes=None, ignore_edges=None, weight="weight"):
     """Find shortest weighted paths and lengths from a given set of
     source nodes.
 
@@ -172,6 +379,7 @@ def multi_source_dijkstra(G, sources, target=None, cutoff=None, weight="weight")
     multi_source_dijkstra_path_length
 
     """
+
     if not sources:
         raise ValueError("sources must not be empty")
     for s in sources:
@@ -181,8 +389,8 @@ def multi_source_dijkstra(G, sources, target=None, cutoff=None, weight="weight")
         return (0, [target])
     weight = _weight_function(G, weight)
     paths = {source: [source] for source in sources}  # dictionary of paths
-    dist = _dijkstra_multisource(
-        G, sources, weight, paths=paths, cutoff=cutoff, target=target
+    dist = _astar_multisource(
+        G, sources, weight, paths=paths, cutoff=cutoff, target=target, ignore_nodes=ignore_nodes, ignore_edges=ignore_edges
     )
     if target is None:
         return (dist, paths)
@@ -191,9 +399,10 @@ def multi_source_dijkstra(G, sources, target=None, cutoff=None, weight="weight")
     except KeyError as err:
         raise nx.NetworkXNoPath(f"No path to {target}.") from err
     
-    
-def _dijkstra_multisource(
-    G, sources, weight, pred=None, paths=None, cutoff=None, target=None
+
+## pred was removed
+def _astar_multisource(
+    G, sources, weight, pred=None, paths=None, cutoff=None, target=None, ignore_nodes=None, ignore_edges=None
 ):
     """Uses Dijkstra's algorithm to find shortest weighted paths
 
@@ -252,8 +461,8 @@ def _dijkstra_multisource(
     pred_dict = pred if paths is None or pred is not None else {}
 
     G_succ = G._adj  # For speed-up (and works for both directed and undirected graphs)
-    # print(G_succ)
-    # input()
+
+
 
     dist = {}  # dictionary of final distances
     seen = {}
@@ -265,20 +474,40 @@ def _dijkstra_multisource(
         seen[source] = 0
         heappush(fringe, (0, next(c), source))
     number_of_sources = len(seen)
+    
+    ## While there are still nodes to search for
     while fringe:
+        
+        ## Get the least cost from fringe
         (dist_v, _, v) = heappop(fringe)
         if v in dist:
             continue  # already searched this node.
+
+        ## Assign distance to node id
         dist[v] = dist_v
+
+        ## Reached the target
         if v == target:
             break
+
+
         for u, e in G_succ[v].items():
+            if ignore_nodes and u in ignore_nodes:
+                continue
+            if ignore_edges and (v, u) in ignore_edges:
+                continue
             cost = weight(v, u, e)
             if cost is None:
                 continue
+
+            ## vu_dist is g(n)
             vu_dist = dist_v + cost
+
+            ## Probably never true
             if cutoff is not None and vu_dist > cutoff:
                 continue
+
+
             if u in dist:
                 u_dist = dist[u]
                 if vu_dist < u_dist:
@@ -289,7 +518,8 @@ def _dijkstra_multisource(
                     pred_dict[u].append(v)
             elif u not in seen or vu_dist < seen[u]:
                 seen[u] = vu_dist
-                heappush(fringe, (vu_dist, next(c), u))
+                hn = vu_dist + (getNodeDistance(G, u, target) / 3.89)
+                heappush(fringe, (hn, next(c), u))
                 if pred_dict is not None:
                     pred_dict[u] = [v]
             elif pred is not None and vu_dist == seen[u]:
@@ -318,155 +548,6 @@ def _dijkstra_multisource(
     # The optional predecessor and path dictionaries can be accessed
     # by the caller via the pred and paths objects passed as arguments.
     return dist
-
-
-
-@not_implemented_for("multigraph")
-@nx._dispatchable(edge_attrs="weight")
-def shortest_simple_paths(G, source, target, weight=None):
-    """Generate all simple paths in the graph G from source to target,
-       starting from shortest ones.
-
-    A simple path is a path with no repeated nodes.
-
-    If a weighted shortest path search is to be used, no negative weights
-    are allowed.
-
-    Parameters
-    ----------
-    G : NetworkX graph
-
-    source : node
-       Starting node for path
-
-    target : node
-       Ending node for path
-
-    weight : string or function
-        If it is a string, it is the name of the edge attribute to be
-        used as a weight.
-
-        If it is a function, the weight of an edge is the value returned
-        by the function. The function must accept exactly three positional
-        arguments: the two endpoints of an edge and the dictionary of edge
-        attributes for that edge. The function must return a number or None.
-        The weight function can be used to hide edges by returning None.
-        So ``weight = lambda u, v, d: 1 if d['color']=="red" else None``
-        will find the shortest red path.
-
-        If None all edges are considered to have unit weight. Default
-        value None.
-
-    Returns
-    -------
-    path_generator: generator
-       A generator that produces lists of simple paths, in order from
-       shortest to longest.
-
-    Raises
-    ------
-    NetworkXNoPath
-       If no path exists between source and target.
-
-    NetworkXError
-       If source or target nodes are not in the input graph.
-
-    NetworkXNotImplemented
-       If the input graph is a Multi[Di]Graph.
-
-    Examples
-    --------
-
-    >>> G = nx.cycle_graph(7)
-    >>> paths = list(nx.shortest_simple_paths(G, 0, 3))
-    >>> print(paths)
-    [[0, 1, 2, 3], [0, 6, 5, 4, 3]]
-
-    You can use this function to efficiently compute the k shortest/best
-    paths between two nodes.
-
-    >>> from itertools import islice
-    >>> def k_shortest_paths(G, source, target, k, weight=None):
-    ...     return list(
-    ...         islice(nx.shortest_simple_paths(G, source, target, weight=weight), k)
-    ...     )
-    >>> for path in k_shortest_paths(G, 0, 3, 2):
-    ...     print(path)
-    [0, 1, 2, 3]
-    [0, 6, 5, 4, 3]
-
-    Notes
-    -----
-    This procedure is based on algorithm by Jin Y. Yen [1]_.  Finding
-    the first $K$ paths requires $O(KN^3)$ operations.
-
-    See Also
-    --------
-    all_shortest_paths
-    shortest_path
-    all_simple_paths
-
-    References
-    ----------
-    .. [1] Jin Y. Yen, "Finding the K Shortest Loopless Paths in a
-       Network", Management Science, Vol. 17, No. 11, Theory Series
-       (Jul., 1971), pp. 712-716.
-
-    """
-    if source not in G:
-        raise nx.NodeNotFound(f"source node {source} not in graph")
-
-    if target not in G:
-        raise nx.NodeNotFound(f"target node {target} not in graph")
-
-
-    wt = _weight_function(G, weight)
-
-    def length_func(path):
-        return sum(
-            wt(u, v, G.get_edge_data(u, v)) for (u, v) in zip(path, path[1:])
-        )
-
-    shortest_path_func = _bidirectional_astar
-
-    listA = []
-    listB = PathBuffer()
-    prev_path = None
-    while True:
-        if not prev_path:
-            length, path = shortest_path_func(G, source, target, weight=weight)
-            listB.push(length, path)
-        else:
-            ignore_nodes = set()
-            ignore_edges = set()
-            for i in range(1, len(prev_path)):
-                root = prev_path[:i]
-                root_length = length_func(root)
-                for path in listA:
-                    if path[:i] == root:
-                        ignore_edges.add((path[i - 1], path[i]))
-                try:
-                    length, spur = shortest_path_func(
-                        G,
-                        root[-1],
-                        target,
-                        ignore_nodes=ignore_nodes,
-                        ignore_edges=ignore_edges,
-                        weight=weight,
-                    )
-                    path = root[:-1] + spur
-                    listB.push(root_length + length, path)
-                except nx.NetworkXNoPath:
-                    pass
-                ignore_nodes.add(root[-1])
-
-        if listB:
-            path = listB.pop()
-            yield path
-            listA.append(path)
-            prev_path = path
-        else:
-            break
 
 def _bidirectional_astar(
     G, source, target, weight="weight", ignore_nodes=None, ignore_edges=None
@@ -621,23 +702,31 @@ def _bidirectional_astar(
     # nodes seen
     c = count()
     # initialize fringe heap
+
+    ## (1st distance is weight, 2nd is unique tiebreaker, 3rd is node id)
     heappush(fringe[0], (0, next(c), source))
     heappush(fringe[1], (0, next(c), target))
+    
     # neighs for extracting correct neighbor information
     neighs = [Gsucc, Gpred]
     # variables to hold shortest discovered path
     # finaldist = 1e30000
     finalpath = []
     dir = 1
+
+    ## While there are still nodes to search
     while fringe[0] and fringe[1]:
         # choose direction
         # dir == 0 is forward direction and dir == 1 is back
         dir = 1 - dir
         # extract closest to expand
         (dist, _, v) = heappop(fringe[dir])
+
+        ## Check if node id has already been travelled to
         if v in dists[dir]:
             # Shortest path to v has already been found
             continue
+        
         # update distance
         dists[dir][v] = dist  # equal to seen[dir][v]
         if v in dists[1 - dir]:
@@ -658,13 +747,14 @@ def _bidirectional_astar(
                 if vwLength < dists[dir][w]:
                     raise ValueError("Contradictory paths found: negative weights?")
             elif w not in seen[dir] or vwLength < seen[dir][w]:
-                # relaxing
                 seen[dir][w] = vwLength
-                heappush(fringe[dir], (vwLength, next(c), w))
+                if dir == 0:
+                    hn = vwLength + (getNodeDistance(G, w, target) / 3.89)
+                else:
+                    hn = vwLength
+                heappush(fringe[dir], (hn, next(c), w))
                 paths[dir][w] = paths[dir][v] + [w]
                 if w in seen[0] and w in seen[1]:
-                    # see if this path is better than the already
-                    # discovered shortest path
                     totaldist = seen[0][w] + seen[1][w]
                     if finalpath == [] or finaldist > totaldist:
                         finaldist = totaldist
