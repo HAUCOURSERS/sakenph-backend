@@ -678,7 +678,7 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                         ]
 
                         # Gets the best equivalent route node with on the walking graph
-                        best_node = min(routeOnWalkingG, key=lambda n: distance.get(n, float('inf')))
+                        best_node = min(routeOnWalkingG, key=lambda n: dist_src.get(n, float('inf')))
 
                         # Looks for its route node counterpart
                         for key, value in routeArr.items():
