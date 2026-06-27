@@ -1,0 +1,1087 @@
+{
+ "type": "FeatureCollection",
+ "name": "Villa-Pampang-Northbound_nodes",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1263,
+    "y": 15.1232438,
+    "x": 120.5996421,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5996421,
+     15.1232438
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1264,
+    "y": 15.1229781,
+    "x": 120.5994669,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5994669,
+     15.1229781
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1265,
+    "y": 15.123686,
+    "x": 120.5989761,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5989761,
+     15.123686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1266,
+    "y": 15.1241734,
+    "x": 120.5986937,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5986937,
+     15.1241734
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1267,
+    "y": 15.1249345,
+    "x": 120.5982991,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5982991,
+     15.1249345
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1268,
+    "y": 15.125654,
+    "x": 120.5980777,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5980777,
+     15.125654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1269,
+    "y": 15.1256784,
+    "x": 120.5980818,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5980818,
+     15.1256784
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1270,
+    "y": 15.1257661,
+    "x": 120.5980566,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5980566,
+     15.1257661
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1271,
+    "y": 15.1258667,
+    "x": 120.5978668,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5978668,
+     15.1258667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1272,
+    "y": 15.1258405,
+    "x": 120.5977963,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5977963,
+     15.1258405
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1273,
+    "y": 15.1261615,
+    "x": 120.597425,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.597425,
+     15.1261615
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1274,
+    "y": 15.1266035,
+    "x": 120.59717,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.59717,
+     15.1266035
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1275,
+    "y": 15.1267531,
+    "x": 120.5970798,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5970798,
+     15.1267531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1276,
+    "y": 15.1272462,
+    "x": 120.5967803,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5967803,
+     15.1272462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1277,
+    "y": 15.1274975,
+    "x": 120.5966377,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5966377,
+     15.1274975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1278,
+    "y": 15.1277501,
+    "x": 120.5964792,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5964792,
+     15.1277501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1279,
+    "y": 15.1279011,
+    "x": 120.59639,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.59639,
+     15.1279011
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1280,
+    "y": 15.1281812,
+    "x": 120.5962188,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5962188,
+     15.1281812
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1281,
+    "y": 15.1286059,
+    "x": 120.5959771,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5959771,
+     15.1286059
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1282,
+    "y": 15.1290802,
+    "x": 120.5957038,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5957038,
+     15.1290802
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1283,
+    "y": 15.1301574,
+    "x": 120.5950416,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5950416,
+     15.1301574
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1284,
+    "y": 15.1311012,
+    "x": 120.5942168,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5942168,
+     15.1311012
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1285,
+    "y": 15.1314553,
+    "x": 120.5938717,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5938717,
+     15.1314553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1286,
+    "y": 15.1320699,
+    "x": 120.5932898,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5932898,
+     15.1320699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1287,
+    "y": 15.1322026,
+    "x": 120.5931585,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5931585,
+     15.1322026
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1288,
+    "y": 15.132827,
+    "x": 120.5925505,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5925505,
+     15.132827
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1289,
+    "y": 15.1333089,
+    "x": 120.5920809,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920809,
+     15.1333089
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1290,
+    "y": 15.1335522,
+    "x": 120.5918389,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5918389,
+     15.1335522
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1291,
+    "y": 15.1338981,
+    "x": 120.5921233,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5921233,
+     15.1338981
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1292,
+    "y": 15.1349889,
+    "x": 120.5928662,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5928662,
+     15.1349889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1293,
+    "y": 15.135349,
+    "x": 120.5923541,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5923541,
+     15.135349
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1294,
+    "y": 15.1359513,
+    "x": 120.5914958,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5914958,
+     15.1359513
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1295,
+    "y": 15.1364626,
+    "x": 120.5907564,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5907564,
+     15.1364626
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1296,
+    "y": 15.136587,
+    "x": 120.5905842,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5905842,
+     15.136587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1297,
+    "y": 15.1366049,
+    "x": 120.5905594,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5905594,
+     15.1366049
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1298,
+    "y": 15.1366858,
+    "x": 120.5904474,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5904474,
+     15.1366858
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1299,
+    "y": 15.1368251,
+    "x": 120.5902546,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5902546,
+     15.1368251
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1300,
+    "y": 15.1370823,
+    "x": 120.5899019,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5899019,
+     15.1370823
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1301,
+    "y": 15.1372697,
+    "x": 120.589645,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.589645,
+     15.1372697
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1302,
+    "y": 15.1374639,
+    "x": 120.5893788,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893788,
+     15.1374639
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1303,
+    "y": 15.1376263,
+    "x": 120.5891561,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5891561,
+     15.1376263
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1304,
+    "y": 15.1378214,
+    "x": 120.5889086,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5889086,
+     15.1378214
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1305,
+    "y": 15.1378835,
+    "x": 120.5888227,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Northbound",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5888227,
+     15.1378835
+    ]
+   }
+  }
+ ]
+}

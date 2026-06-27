@@ -1,0 +1,1737 @@
+{
+ "type": "FeatureCollection",
+ "name": "Checkpoint-Hensonville-Holy_nodes",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1503,
+    "y": 15.1664884,
+    "x": 120.582733,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582733,
+     15.1664884
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1504,
+    "y": 15.1663887,
+    "x": 120.5827517,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5827517,
+     15.1663887
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1505,
+    "y": 15.166435,
+    "x": 120.5830056,
+    "street_count": 3,
+    "highway": "traffic_signals",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5830056,
+     15.166435
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1506,
+    "y": 15.1658662,
+    "x": 120.5831076,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5831076,
+     15.1658662
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1507,
+    "y": 15.1653211,
+    "x": 120.5831799,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5831799,
+     15.1653211
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1508,
+    "y": 15.1636227,
+    "x": 120.5835819,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5835819,
+     15.1636227
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1509,
+    "y": 15.1623763,
+    "x": 120.5840069,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5840069,
+     15.1623763
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1510,
+    "y": 15.1621311,
+    "x": 120.5834929,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5834929,
+     15.1621311
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1511,
+    "y": 15.1618369,
+    "x": 120.582882,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582882,
+     15.1618369
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1512,
+    "y": 15.1615848,
+    "x": 120.582322,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582322,
+     15.1615848
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1513,
+    "y": 15.1612193,
+    "x": 120.5817547,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5817547,
+     15.1612193
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1514,
+    "y": 15.1608875,
+    "x": 120.5821429,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5821429,
+     15.1608875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1515,
+    "y": 15.1607697,
+    "x": 120.5822428,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5822428,
+     15.1607697
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1516,
+    "y": 15.1606961,
+    "x": 120.5823013,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5823013,
+     15.1606961
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1517,
+    "y": 15.1602686,
+    "x": 120.5826535,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826535,
+     15.1602686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1518,
+    "y": 15.1601252,
+    "x": 120.5824661,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5824661,
+     15.1601252
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1519,
+    "y": 15.1592616,
+    "x": 120.5813308,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5813308,
+     15.1592616
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1520,
+    "y": 15.159198,
+    "x": 120.5812461,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5812461,
+     15.159198
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1521,
+    "y": 15.1590435,
+    "x": 120.5813777,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5813777,
+     15.1590435
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1522,
+    "y": 15.1587658,
+    "x": 120.581615,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.581615,
+     15.1587658
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1523,
+    "y": 15.1575581,
+    "x": 120.5828409,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5828409,
+     15.1575581
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1524,
+    "y": 15.1574562,
+    "x": 120.5829465,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5829465,
+     15.1574562
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1525,
+    "y": 15.1567942,
+    "x": 120.5833677,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833677,
+     15.1567942
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1526,
+    "y": 15.1562496,
+    "x": 120.5833449,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833449,
+     15.1562496
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1527,
+    "y": 15.1556883,
+    "x": 120.5833157,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833157,
+     15.1556883
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1528,
+    "y": 15.1534087,
+    "x": 120.5832684,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5832684,
+     15.1534087
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1529,
+    "y": 15.1527478,
+    "x": 120.5833357,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833357,
+     15.1527478
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1530,
+    "y": 15.1526422,
+    "x": 120.583344,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.583344,
+     15.1526422
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1531,
+    "y": 15.1504943,
+    "x": 120.5840426,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5840426,
+     15.1504943
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1532,
+    "y": 15.1504683,
+    "x": 120.5840542,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5840542,
+     15.1504683
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1533,
+    "y": 15.1502868,
+    "x": 120.5841352,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5841352,
+     15.1502868
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1534,
+    "y": 15.1499068,
+    "x": 120.584308,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584308,
+     15.1499068
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1535,
+    "y": 15.1490665,
+    "x": 120.5847056,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5847056,
+     15.1490665
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1536,
+    "y": 15.1488703,
+    "x": 120.5848154,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5848154,
+     15.1488703
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1537,
+    "y": 15.1486989,
+    "x": 120.5849139,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5849139,
+     15.1486989
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1538,
+    "y": 15.1483064,
+    "x": 120.5852392,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5852392,
+     15.1483064
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1539,
+    "y": 15.1481646,
+    "x": 120.5853531,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5853531,
+     15.1481646
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1540,
+    "y": 15.1476176,
+    "x": 120.5857914,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5857914,
+     15.1476176
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1541,
+    "y": 15.1474587,
+    "x": 120.5859187,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5859187,
+     15.1474587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1542,
+    "y": 15.146276,
+    "x": 120.5868555,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5868555,
+     15.146276
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1543,
+    "y": 15.1458879,
+    "x": 120.5871901,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5871901,
+     15.1458879
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1544,
+    "y": 15.1458595,
+    "x": 120.5872156,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5872156,
+     15.1458595
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1545,
+    "y": 15.1456209,
+    "x": 120.5874393,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874393,
+     15.1456209
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1546,
+    "y": 15.1453855,
+    "x": 120.5877982,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877982,
+     15.1453855
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1547,
+    "y": 15.1452908,
+    "x": 120.5880308,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5880308,
+     15.1452908
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1548,
+    "y": 15.14521,
+    "x": 120.5882386,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882386,
+     15.14521
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1549,
+    "y": 15.1451754,
+    "x": 120.5883191,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5883191,
+     15.1451754
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1550,
+    "y": 15.1450038,
+    "x": 120.5887147,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5887147,
+     15.1450038
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1551,
+    "y": 15.1434723,
+    "x": 120.5883629,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5883629,
+     15.1434723
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1552,
+    "y": 15.1430799,
+    "x": 120.5882784,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882784,
+     15.1430799
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1553,
+    "y": 15.1428729,
+    "x": 120.5882345,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882345,
+     15.1428729
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1554,
+    "y": 15.1418167,
+    "x": 120.5879866,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5879866,
+     15.1418167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1555,
+    "y": 15.1413021,
+    "x": 120.5878396,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5878396,
+     15.1413021
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1556,
+    "y": 15.1404719,
+    "x": 120.5876372,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5876372,
+     15.1404719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1557,
+    "y": 15.1391581,
+    "x": 120.58746,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.58746,
+     15.1391581
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1558,
+    "y": 15.1390523,
+    "x": 120.5874684,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874684,
+     15.1390523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1559,
+    "y": 15.1387472,
+    "x": 120.5875493,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875493,
+     15.1387472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1560,
+    "y": 15.1386966,
+    "x": 120.5875163,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875163,
+     15.1386966
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1561,
+    "y": 15.1379871,
+    "x": 120.5870749,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5870749,
+     15.1379871
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1562,
+    "y": 15.1374113,
+    "x": 120.5867396,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5867396,
+     15.1374113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1563,
+    "y": 15.1369857,
+    "x": 120.5864976,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5864976,
+     15.1369857
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1564,
+    "y": 15.1363919,
+    "x": 120.5877296,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877296,
+     15.1363919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1565,
+    "y": 15.1371951,
+    "x": 120.588238,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.588238,
+     15.1371951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1566,
+    "y": 15.137519,
+    "x": 120.5885097,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5885097,
+     15.137519
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1567,
+    "y": 15.1378835,
+    "x": 120.5888227,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5888227,
+     15.1378835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1568,
+    "y": 15.1383044,
+    "x": 120.5882372,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882372,
+     15.1383044
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1569,
+    "y": 15.1386563,
+    "x": 120.5877607,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877607,
+     15.1386563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1570,
+    "y": 15.1388553,
+    "x": 120.5876235,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5876235,
+     15.1388553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1571,
+    "y": 15.1390348,
+    "x": 120.5875283,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Checkpoint-Hensonville-Holy",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875283,
+     15.1390348
+    ]
+   }
+  }
+ ]
+}
