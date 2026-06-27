@@ -472,7 +472,7 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                 # print(f"2: {route}")
                 routeList.append(route)
                 permutationList.append(permutation)
-                
+
         # for i in permutationList:
         #     print(i)
 
@@ -640,6 +640,9 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
             for node, data in G.nodes(data=True)
         }
 
+        # From user source node to route
+        dist_src, path_src = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
+
 
         # Loop through each route for srcNodeUser to find its shortest path
         with perfReturn("connect source and dest nodes to each route"):
@@ -668,18 +671,11 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                 for route, routeArr in routeNodes.items():
                     if routeArr:
                         # list of equivalent nodes on the walking graph
-                        routeOnWalkingG = []
-
-                        for key, value in routeArr.items():
-                            for node, data in G.nodes(data=True):
-                                if data['x'] == value['x'] and data['y'] == value['y']:
-                                    routeOnWalkingG.append(node)
-                                    break
-
-                        # From user source node to route
-                        distance, path = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
-
-            
+                        routeOnWalkingG = [
+                            coord_to_walking_node[(val['x'], val['y'])]
+                            for val in routeArr.values()
+                            if (val['x'], val['y']) in coord_to_walking_node
+                        ]
 
                         # Gets the best equivalent route node with on the walking graph
                         best_node = min(routeOnWalkingG, key=lambda n: distance.get(n, float('inf')))
@@ -691,19 +687,19 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                                 break
 
 
-                        minimizedG.add_edge(path[best_node][0], bestRouteNode, weight=distance[best_node])
+                        minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
 
                         # From route to user destination node
-                        distance, path = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
-                        best_node = path[0]
+                        dist_dest, path_dest = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
+                        best_node = path_dest[0]
     
-                        routeOnWalkingG = [
-                            coord_to_walking_node[(val['x'], val['y'])]
-                            for val in routeArr.values()
-                            if (val['x'], val['y']) in coord_to_walking_node
-                        ]
+                        # Get the routeArr's node from the best walking node
+                        for key, value in routeArr.items():
+                            if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                                bestRouteNode = key
+                                break
                         
-                        minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
+                        minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
 
         with perfReturn("get shortest paths"):
             if algo == 'dijkstra':
@@ -771,7 +767,7 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
             print(i)
 
         resultsObj = {}
-        resultsJson = {'performance': elapsedList, 'routes': resultsObj}
+        resultsJson = {'performancee': elapsedList, 'routes': resultsObj}
 
         with perfReturn("convert nodes of each result into json format:"):
             count = 1
