@@ -357,6 +357,14 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
         node_data = G.nodes[destNode]
         minimizedG.add_node(destNode, **node_data)
 
+        # Dictionary of x,y and nodeid pairs
+        coord_to_walking_node = {
+            (data['x'], data['y']): node
+            for node, data in walkingG.nodes(data=True)
+        }
+
+        # From user source node to route
+        dist_src, path_src = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
 
         # Loop through each route for srcNodeUser to find its shortest path
         for route in os.listdir(relativePath):
@@ -384,21 +392,14 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
             for route, routeArr in routeNodes.items():
                 if routeArr:
                     # list of equivalent nodes on the walking graph
-                    routeOnWalkingG = []
-
-                    for key, value in routeArr.items():
-                        for node, data in G.nodes(data=True):
-                            if data['x'] == value['x'] and data['y'] == value['y']:
-                                routeOnWalkingG.append(node)
-                                break
-
-                    # From user source node to route
-                    distance, path = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
-
-        
+                    routeOnWalkingG = [
+                        coord_to_walking_node[(val['x'], val['y'])]
+                        for val in routeArr.values()
+                        if (val['x'], val['y']) in coord_to_walking_node
+                    ]
 
                     # Gets the best equivalent route node with on the walking graph
-                    best_node = min(routeOnWalkingG, key=lambda n: distance.get(n, float('inf')))
+                    best_node = min(routeOnWalkingG, key=lambda n: dist_src.get(n, float('inf')))
 
                     # Looks for its route node counterpart
                     for key, value in routeArr.items():
@@ -407,18 +408,19 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                             break
 
 
-                    minimizedG.add_edge(path[best_node][0], bestRouteNode, weight=distance[best_node])
+                    minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
 
                     # From route to user destination node
-                    distance, path = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
-                    best_node = path[0]
+                    dist_dest, path_dest = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
+                    best_node = path_dest[0]
 
+                    # Get the routeArr's node from the best walking node
                     for key, value in routeArr.items():
                         if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
                             bestRouteNode = key
                             break
                     
-                    minimizedG.add_edge(bestRouteNode, destNode, weight=distance)
+                    minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
 
         if algo == 'dijkstra':
             theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
@@ -441,6 +443,9 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                 if permutation:
                     modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
 
+                    # Removes bound suffix
+                    modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
+
                     if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
                         extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
 
@@ -450,12 +455,12 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                             offset += len(extended[1:-1])
 
                         permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                            minimizedG.nodes[i[j]]['mode']['details']['name']
+                            modeType
                         )
 
                 else:  # First node in the calculated path
                     permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                        minimizedG.nodes[i[j]]['mode']['details']['name']
+                        modeType
                     )
 
 
@@ -467,14 +472,15 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                 # print(f"2: {route}")
                 routeList.append(route)
                 permutationList.append(permutation)
+                
+        # for i in permutationList:
+        #     print(i)
 
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
 
         count = 1
         for i in routeList:
-            print(i)
-
             # Maximum of 3 routes
             if count == 3:
                 break # FIX THIS LATER
@@ -714,11 +720,9 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
             for i in range(len(theList[0])):
                 node = theList[0][i]
                 data = minimizedG.nodes[node]
-                print(f"Node {i}: {node} | lat: {data['y']}, lon: {data['x']} | mode: {'walk' if data['mode']['type'] == 'walk' else (data['mode']['details']['name'])}")
                 if i > 0:
                     prev = theList[0][i-1]
                     edge = minimizedG[prev][node]
-                    print(f"  Edge {prev} -> {node} | weight: {edge.get('weight')}")
 
         with perfReturn("Extend modes"):
             for i in theList:
@@ -732,6 +736,10 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                     if permutation:
                         modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
 
+                        # Removes bound suffix
+                        modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
+
+
                         if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
                             extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
 
@@ -741,12 +749,12 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                                 offset += len(extended[1:-1])
 
                             permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                                minimizedG.nodes[i[j]]['mode']['details']['name']
+                                modeType
                             )
 
                     else:  # First node in the calculated path
                         permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                            minimizedG.nodes[i[j]]['mode']['details']['name']
+                            modeType
                         )
 
 
@@ -758,6 +766,9 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                     # print(f"2: {route}")
                     routeList.append(route)
                     permutationList.append(permutation)
+
+        for i in permutationList:
+            print(i)
 
         resultsObj = {}
         resultsJson = {'performance': elapsedList, 'routes': resultsObj}
