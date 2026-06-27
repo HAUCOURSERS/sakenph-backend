@@ -1,0 +1,1262 @@
+{
+ "type": "FeatureCollection",
+ "name": "Villa-Pampang-Southbound_nodes",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1307,
+    "y": 15.1383044,
+    "x": 120.5882372,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882372,
+     15.1383044
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1308,
+    "y": 15.1386563,
+    "x": 120.5877607,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877607,
+     15.1386563
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1309,
+    "y": 15.1387472,
+    "x": 120.5875493,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875493,
+     15.1387472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1310,
+    "y": 15.1386966,
+    "x": 120.5875163,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5875163,
+     15.1386966
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1311,
+    "y": 15.1379871,
+    "x": 120.5870749,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5870749,
+     15.1379871
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1312,
+    "y": 15.1374113,
+    "x": 120.5867396,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5867396,
+     15.1374113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1313,
+    "y": 15.1369857,
+    "x": 120.5864976,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5864976,
+     15.1369857
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1314,
+    "y": 15.1363919,
+    "x": 120.5877296,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877296,
+     15.1363919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1315,
+    "y": 15.1362209,
+    "x": 120.5880784,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5880784,
+     15.1362209
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1316,
+    "y": 15.1361139,
+    "x": 120.5882936,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882936,
+     15.1361139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1317,
+    "y": 15.1360715,
+    "x": 120.588379,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.588379,
+     15.1360715
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1318,
+    "y": 15.1360287,
+    "x": 120.5884592,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5884592,
+     15.1360287
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1319,
+    "y": 15.1358916,
+    "x": 120.5887147,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5887147,
+     15.1358916
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1320,
+    "y": 15.1355658,
+    "x": 120.5893104,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893104,
+     15.1355658
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1321,
+    "y": 15.1355604,
+    "x": 120.589321,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.589321,
+     15.1355604
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1322,
+    "y": 15.1355435,
+    "x": 120.5893547,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893547,
+     15.1355435
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1323,
+    "y": 15.1354946,
+    "x": 120.5894532,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5894532,
+     15.1354946
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1324,
+    "y": 15.1352085,
+    "x": 120.5899567,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5899567,
+     15.1352085
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1325,
+    "y": 15.1350793,
+    "x": 120.5901804,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5901804,
+     15.1350793
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1326,
+    "y": 15.1347931,
+    "x": 120.5906073,
+    "street_count": 3,
+    "highway": "traffic_signals",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5906073,
+     15.1347931
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1327,
+    "y": 15.1347744,
+    "x": 120.5906297,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5906297,
+     15.1347744
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1328,
+    "y": 15.1346957,
+    "x": 120.5907267,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5907267,
+     15.1346957
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1329,
+    "y": 15.1345537,
+    "x": 120.5908775,
+    "street_count": 3,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5908775,
+     15.1345537
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1330,
+    "y": 15.1345007,
+    "x": 120.5909357,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5909357,
+     15.1345007
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1331,
+    "y": 15.1343074,
+    "x": 120.591115,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.591115,
+     15.1343074
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1332,
+    "y": 15.134101,
+    "x": 120.5913128,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5913128,
+     15.134101
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1333,
+    "y": 15.1335522,
+    "x": 120.5918389,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5918389,
+     15.1335522
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1334,
+    "y": 15.1333089,
+    "x": 120.5920809,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920809,
+     15.1333089
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1335,
+    "y": 15.132827,
+    "x": 120.5925505,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5925505,
+     15.132827
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1336,
+    "y": 15.1322026,
+    "x": 120.5931585,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5931585,
+     15.1322026
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1337,
+    "y": 15.1320699,
+    "x": 120.5932898,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5932898,
+     15.1320699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1338,
+    "y": 15.1314553,
+    "x": 120.5938717,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5938717,
+     15.1314553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1339,
+    "y": 15.1311012,
+    "x": 120.5942168,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5942168,
+     15.1311012
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1340,
+    "y": 15.1301574,
+    "x": 120.5950416,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5950416,
+     15.1301574
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1341,
+    "y": 15.1290802,
+    "x": 120.5957038,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5957038,
+     15.1290802
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1342,
+    "y": 15.1286059,
+    "x": 120.5959771,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5959771,
+     15.1286059
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1343,
+    "y": 15.1281812,
+    "x": 120.5962188,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5962188,
+     15.1281812
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1344,
+    "y": 15.1279011,
+    "x": 120.59639,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.59639,
+     15.1279011
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1345,
+    "y": 15.1277501,
+    "x": 120.5964792,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5964792,
+     15.1277501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1346,
+    "y": 15.1274975,
+    "x": 120.5966377,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5966377,
+     15.1274975
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1347,
+    "y": 15.1272462,
+    "x": 120.5967803,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5967803,
+     15.1272462
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1348,
+    "y": 15.1267531,
+    "x": 120.5970798,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5970798,
+     15.1267531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1349,
+    "y": 15.1266035,
+    "x": 120.59717,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.59717,
+     15.1266035
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1350,
+    "y": 15.1261615,
+    "x": 120.597425,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.597425,
+     15.1261615
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1351,
+    "y": 15.125618,
+    "x": 120.5977585,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5977585,
+     15.125618
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1352,
+    "y": 15.1255378,
+    "x": 120.5978144,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5978144,
+     15.1255378
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1353,
+    "y": 15.1244066,
+    "x": 120.5984574,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5984574,
+     15.1244066
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1354,
+    "y": 15.1229016,
+    "x": 120.5994307,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5994307,
+     15.1229016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1355,
+    "y": 15.1229781,
+    "x": 120.5994669,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5994669,
+     15.1229781
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 1356,
+    "y": 15.1232438,
+    "x": 120.5996421,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Villa-Pampang-Southbound",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5996421,
+     15.1232438
+    ]
+   }
+  }
+ ]
+}
