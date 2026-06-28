@@ -59,8 +59,23 @@ with perfTimer("Fix index of nodes and edges"):
     nodes = nodes.set_index("osmid")
     edges = edges.set_index(["u", "v", "key"])
 
+    with perfTimer("convert np arrays to lists"):
+        for attr in edges.columns:
+            new_values = []
+
+            for val in edges[attr]:
+                if isinstance(val, np.ndarray):
+                    new_values.append(val.tolist())
+                else:
+                    new_values.append(val)
+
+            edges[attr] = new_values
+
 with perfTimer("initialize minimized MultiDiGraph"):
+
     minimizedG = ox.graph_from_gdfs(nodes, edges)
+
+
 # -------------------------------------------------- #
 # ------------------ ADD ROUTES -------------------- #
 with perfTimer("add routes"):
@@ -423,7 +438,7 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                     minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
 
         if algo == 'dijkstra':
-            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
         elif algo == 'astar':
             theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
         else:
@@ -432,12 +447,11 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
 
         permutationList = []
         routeList = []
+        print(theList)
         for i in theList:
             permutation = []
             route = i.copy()
 
-        # Used to offset the index of where to insert extension of two routes with walking path
-            offset = 0
             for j in range(len(i)):
                 
                 if permutation:
@@ -447,13 +461,6 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                     modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
 
                     if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
-                        extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
-
-                        # Checks if there are additional nodes after extending the different modes
-                        if len(extended) > 2:
-                            route[j+offset:j+offset] = extended[1:-1]
-                            offset += len(extended[1:-1])
-
                         permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
                             modeType
                         )
@@ -464,8 +471,8 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                     )
 
 
-            total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
-            # print(f"Weight: {total_weight:.2f}: {permutation}")
+            # total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
+            # # print(f"Weight: {total_weight:.2f}: {permutation}")
 
             if permutation not in permutationList:
                 # print(f"1: {i}")
@@ -473,8 +480,8 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                 routeList.append(route)
                 permutationList.append(permutation)
 
-        # for i in permutationList:
-        #     print(i)
+        for i in permutationList:
+            print(i)
 
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
@@ -719,48 +726,48 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
                     prev = theList[0][i-1]
                     edge = minimizedG[prev][node]
 
-        with perfReturn("Extend modes"):
-            for i in theList:
-                permutation = []
-                route = i.copy()
+        # with perfReturn("Extend modes"):
+        #     for i in theList:
+        #         permutation = []
+        #         route = i.copy()
 
-                # Used to offset the index of where to insert extension of two routes with walking path
-                offset = 0
-                for j in range(len(i)):
+        #         # Used to offset the index of where to insert extension of two routes with walking path
+        #         offset = 0
+        #         for j in range(len(i)):
                     
-                    if permutation:
-                        modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
+        #             if permutation:
+        #                 modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
 
-                        # Removes bound suffix
-                        modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
-
-
-                        if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
-                            extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
-
-                            # Checks if there are additional nodes after extending the different modes
-                            if len(extended) > 2:
-                                route[j+offset:j+offset] = extended[1:-1]
-                                offset += len(extended[1:-1])
-
-                            permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                                modeType
-                            )
-
-                    else:  # First node in the calculated path
-                        permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                            modeType
-                        )
+        #                 # Removes bound suffix
+        #                 modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
 
 
-                total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
-                # print(f"Weight: {total_weight:.2f}: {permutation}")
+        #                 if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
+        #                     extended = ox.shortest_path(G, i[j-1], i[j], weight="weight")
 
-                if permutation not in permutationList:
-                    # print(f"1: {i}")
-                    # print(f"2: {route}")
-                    routeList.append(route)
-                    permutationList.append(permutation)
+        #                     # Checks if there are additional nodes after extending the different modes
+        #                     if len(extended) > 2:
+        #                         route[j+offset:j+offset] = extended[1:-1]
+        #                         offset += len(extended[1:-1])
+
+        #                     permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+        #                         modeType
+        #                     )
+
+        #             else:  # First node in the calculated path
+        #                 permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+        #                     modeType
+        #                 )
+
+
+        #         total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
+        #         # print(f"Weight: {total_weight:.2f}: {permutation}")
+
+        #         if permutation not in permutationList:
+        #             # print(f"1: {i}")
+        #             # print(f"2: {route}")
+        #             routeList.append(route)
+        #             permutationList.append(permutation)
 
         for i in permutationList:
             print(i)
