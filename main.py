@@ -637,12 +637,11 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
 
         coord_to_walking_node = {
             (data['x'], data['y']): node
-            for node, data in G.nodes(data=True)
+            for node, data in walkingG.nodes(data=True)
         }
 
         # From user source node to route
         dist_src, path_src = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
-
 
         # Loop through each route for srcNodeUser to find its shortest path
         with perfReturn("connect source and dest nodes to each route"):
