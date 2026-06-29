@@ -270,7 +270,7 @@ def shortestPathTest(src: str, dest: str):
         raise Exception(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths")
-def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
+def kShortestPaths(src: str, dest: str, algo:str='dijkstra', debug:str='false'):
     '''
     Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
     routes to traverse including the path of the mode in order.
@@ -378,6 +378,23 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
             for node, data in walkingG.nodes(data=True)
         }
 
+        # ADD WALKING PATH FROM SOURCE NODE TO DEST NODE
+        src_to_dest_dist, src_to_dest_path = nx.single_source_dijkstra(walkingG, source=srcNode, target=destNode, weight='weight')
+
+        
+        for osmid in src_to_dest_path:
+
+            # Remove osmid first to readd it (clunky fix)
+            attrs = G.nodes[osmid].copy()
+            attrs.pop("osmid", None)
+            minimizedG.add_node(osmid, **attrs)
+
+        # Add connection from source node to dest node
+        for u, v in zip(src_to_dest_path, src_to_dest_path[1:]):
+            attrs = G[u][v][0]
+            minimizedG.add_edge(u, v, **attrs)
+
+
         # From user source node to route
         dist_src, path_src = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
 
@@ -403,8 +420,8 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                     }
                     
 
-            # route (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
-            for route, routeArr in routeNodes.items():
+            # bound (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
+            for bound, routeArr in routeNodes.items():
                 if routeArr:
                     # list of equivalent nodes on the walking graph
                     routeOnWalkingG = [
@@ -416,14 +433,28 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                     # Gets the best equivalent route node with on the walking graph
                     best_node = min(routeOnWalkingG, key=lambda n: dist_src.get(n, float('inf')))
 
+
                     # Looks for its route node counterpart
                     for key, value in routeArr.items():
                         if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
                             bestRouteNode = key
                             break
+                    srcToFirstRoute = path_src[best_node]
+
+                    for osmid in srcToFirstRoute:
+
+                        # Remove osmid first to readd it (clunky fix)
+                        attrs = G.nodes[osmid].copy()
+                        attrs.pop("osmid", None)
+                        minimizedG.add_node(osmid, **attrs)
+
+                    # Add connection from source node to first route node
+                    for u, v in zip(srcToFirstRoute, srcToFirstRoute[1:]):
+                        attrs = G[u][v][0]
+                        minimizedG.add_edge(u, v, **attrs)
 
 
-                    minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
+                    # minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
 
                     # From route to user destination node
                     dist_dest, path_dest = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
@@ -434,20 +465,45 @@ def kShortestPaths(src: str, dest: str, algo:str='dijkstra'):
                         if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
                             bestRouteNode = key
                             break
+
+                    # Initialize path from route's best node to destination node
+                    srcRouteToDestNode = path_dest
+
+                    # Add walking nodes path to minimized graph
+                    for osmid in srcRouteToDestNode:
+
+                        # Remove osmid first to readd it (clunky fix)
+                        attrs = G.nodes[osmid].copy()
+                        attrs.pop("osmid", None)
+                        minimizedG.add_node(osmid, **attrs)
+
+
+                    srcRouteToDestNode.insert(0, bestRouteNode)
+
+                    for osmid in srcRouteToDestNode:
+
+                        # Remove osmid first to readd it (clunky fix)
+                        attrs = G.nodes[osmid].copy()
+                        attrs.pop("osmid", None)
+                        minimizedG.add_node(osmid, **attrs)
+
+                    # Add connection from route's best node to destination node
+                    for u, v in zip(srcRouteToDestNode, srcRouteToDestNode[1:]):
+                        attrs = G[u][v][0]
+                        minimizedG.add_edge(u, v, **attrs)
                     
-                    minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
+                    # minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
 
         if algo == 'dijkstra':
             theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
         elif algo == 'astar':
-            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
         else:
             raise ValueError("Undefined algorithm")
         
 
         permutationList = []
         routeList = []
-        print(theList)
         for i in theList:
             permutation = []
             route = i.copy()
