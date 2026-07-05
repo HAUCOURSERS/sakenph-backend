@@ -12,7 +12,6 @@ from shapely.geometry import shape
 from func import getNearestNodeId
 from algo import get_k_shortest_paths
 import itertools
-
 # --------------- INITIALIZE GRAPH --------------- #
 
 
@@ -141,6 +140,38 @@ def param(paramOne: str = "DefaultOne", paramTwo: str = "DefaultTwo"):
 @app.get("/flutterTest")
 def flutterTest():
     return {"key": "Hello from FastAPI!"}
+
+
+# ------------ ADD ROUTE TOGGLE API------------------- #
+@app.get("/jeep_routes")
+def jeep_routes():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    routes_path = os.path.join(
+        base_dir,
+        "graph",
+        "transit_graph",
+        "jeep_routes"
+    )
+
+    route_list = []
+
+    for route_name in os.listdir(routes_path):
+        route_dir = os.path.join(routes_path, route_name)
+        if not os.path.isdir(route_dir):
+            continue
+        edges_file = os.path.join(route_dir, f"{route_name}_edges.geojson")
+        if not os.path.exists(edges_file):
+            continue
+        with open(edges_file, "r") as file:
+            edges_geojson = json.load(file)
+        route_list.append({
+            "id": route_name,
+            "name": route_name,
+            "color": colors.get(route_name, "#1e8847"),
+            "geojson": edges_geojson
+        })
+    return {"routes": route_list}
+
 
 @app.get("/shortest_path")
 def shortestPathTest(src: str, dest: str):
