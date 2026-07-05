@@ -10,3 +10,4 @@ def haversine(lat1, lon1, lat2, lon2):
 
 def getNearestNodeId(G, lat, lon):
     return min(G.nodes, key=lambda n: haversine(lat, lon, G.nodes[n]['y'], G.nodes[n]['x']))
+
