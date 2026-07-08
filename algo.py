@@ -35,730 +35,526 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 '''
-import itertools
-import numpy as np
+import math
 import networkx as nx
 from osmnx import convert
-from osmnx.routing import _verify_edge_attribute
-from collections.abc import Iterator
 from heapq import heappop, heappush
-from itertools import count, islice, islice
-import math
+from itertools import count
+from networkx.algorithms.shortest_paths.weighted import _weight_function
 
-# algo.py and func.py both have haversine function because unable to import hav from func
-def haversine(lat1, lon1, lat2, lon2):
-    R = 6371000
-    phi1, phi2 = math.radians(lat1), math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlambda = math.radians(lon2 - lon1)
-    a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(dlambda/2)**2
-    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
-
-def getNodeDistance(G, x, y):
-    return haversine(G.nodes[x]['y'], G.nodes[x]['x'], G.nodes[y]['y'], G.nodes[y]['x'])
-    
-
-class PathBuffer:
-    def __init__(self):
-        self.paths = set()
-        self.sortedpaths = []
-        self.counter = count()
-
-    def __len__(self):
-        return len(self.sortedpaths)
-
-    def push(self, cost, path):
-        hashable_path = tuple(path)
-        if hashable_path not in self.paths:
-            heappush(self.sortedpaths, (cost, next(self.counter), path))
-            self.paths.add(hashable_path)
-
-    def pop(self):
-        (cost, num, path) = heappop(self.sortedpaths)
-        hashable_path = tuple(path)
-        self.paths.remove(hashable_path)
-        return path
-
-
-
-def _weight_function(G, weight):
-    if callable(weight):
-        return weight
-    # If the weight keyword argument is not callable, we assume it is a
-    # string representing the edge attribute containing the weight of
-    # the edge.
-    if G.is_multigraph():
-        return lambda u, v, d: min(attr.get(weight, 1) for attr in d.values())
-    return lambda u, v, data: data.get(weight, 1)
-
-
-def get_k_shortest_paths(
-    G: nx.MultiDiGraph,
-    orig: int,
-    dest: int,
-    k: int,
-    *,
-    weight: str = "length",
-) -> Iterator[list[int]]:
+def astar(
+    G,
+    source,
+    target,
+    heuristic=None,
+    weight="weight",
+    ignore_nodes=None,
+    ignore_edges=None,
+):
     """
-    Solve `k` shortest paths from an origin node to a destination node.
-
-    Uses Yen's algorithm. See also `shortest_path` to solve just the one
-    shortest path.
+    Generic A* Shortest Path Algorithm.
 
     Parameters
     ----------
-    G
-        Input graph.
-    orig
-        Origin node ID.
-    dest
-        Destination node ID.
-    k
-        Number of shortest paths to solve.
-    weight
-        Edge attribute to minimize when solving shortest paths.
+    G : NetworkX Graph
 
-    Yields
-    ------
-    path
-        The node IDs constituting the next-shortest path.
-    """
-    _verify_edge_attribute(G, weight)
-    paths_gen = shortest_paths(
-        G=convert.to_digraph(G, weight=weight),
-        source=orig,
-        target=dest,
-        weight=weight,
-    )
-    yield from itertools.islice(paths_gen, 0, k)
+    source : starting node
 
-@nx._dispatchable(edge_attrs="weight")
-def shortest_paths(G, source, target, weight=None):
-    """Generate all simple paths in the graph G from source to target,
-       starting from shortest ones.
+    target : destination node
 
-    A simple path is a path with no repeated nodes.
+    heuristic : function
+        A function that accepts (G, node, target)
+        and returns the heuristic estimate.
 
-    If a weighted shortest path search is to be used, no negative weights
-    are allowed.
+    weight : edge attribute name
 
-    Parameters
-    ----------
-    G : NetworkX graph
+    ignore_nodes : optional set of nodes to ignore
 
-    source : node
-       Starting node for path
-
-    target : node
-       Ending node for path
-
-    weight : string or function
-        If it is a string, it is the name of the edge attribute to be
-        used as a weight.
-
-        If it is a function, the weight of an edge is the value returned
-        by the function. The function must accept exactly three positional
-        arguments: the two endpoints of an edge and the dictionary of edge
-        attributes for that edge. The function must return a number or None.
-        The weight function can be used to hide edges by returning None.
-        So ``weight = lambda u, v, d: 1 if d['color']=="red" else None``
-        will find the shortest red path.
-
-        If None all edges are considered to have unit weight. Default
-        value None.
+    ignore_edges : optional set of edges to ignore
 
     Returns
     -------
-    path_generator: generator
-       A generator that produces lists of simple paths, in order from
-       shortest to longest.
-
-    Raises
-    ------
-    NetworkXNoPath
-       If no path exists between source and target.
-
-    NetworkXError
-       If source or target nodes are not in the input graph.
-
-    NetworkXNotImplemented
-       If the input graph is a Multi[Di]Graph.
-
-    Examples
-    --------
-
-    >>> G = nx.cycle_graph(7)
-    >>> paths = list(nx.shortest_simple_paths(G, 0, 3))
-    >>> print(paths)
-    [[0, 1, 2, 3], [0, 6, 5, 4, 3]]
-
-    You can use this function to efficiently compute the k shortest/best
-    paths between two nodes.
-
-    >>> from itertools import islice
-    >>> def k_shortest_paths(G, source, target, k, weight=None):
-    ...     return list(
-    ...         islice(nx.shortest_simple_paths(G, source, target, weight=weight), k)
-    ...     )
-    >>> for path in k_shortest_paths(G, 0, 3, 2):
-    ...     print(path)
-    [0, 1, 2, 3]
-    [0, 6, 5, 4, 3]
-
-    Notes
-    -----
-    This procedure is based on algorithm by Jin Y. Yen [1]_.  Finding
-    the first $K$ paths requires $O(KN^3)$ operations.
-
-    See Also
-    --------
-    all_shortest_paths
-    shortest_path
-    all_simple_paths
-
-    References
-    ----------
-    .. [1] Jin Y. Yen, "Finding the K Shortest Loopless Paths in a
-       Network", Management Science, Vol. 17, No. 11, Theory Series
-       (Jul., 1971), pp. 712-716.
-
+    (distance, path)
     """
 
     if source not in G:
-        raise nx.NodeNotFound(f"source node {source} not in graph")
-
+        raise nx.NodeNotFound(f"Node {source} not in graph")
     if target not in G:
-        raise nx.NodeNotFound(f"target node {target} not in graph")
+        raise nx.NodeNotFound(f"Node {target} not in graph")
+    if source == target:
+        return 0, [source]
 
+    ignore_nodes = set(ignore_nodes or [])
+    ignore_edges = set(ignore_edges or [])
+    heuristic = heuristic or zero_heuristic
 
-    wt = _weight_function(G, weight)
+    if source in ignore_nodes or target in ignore_nodes:
+        raise nx.NetworkXNoPath(f"No path between {source} and {target}.")
 
-    def length_func(path):
-        return sum(
-            wt(u, v, G.get_edge_data(u, v)) for (u, v) in zip(path, path[1:])
+    # Priority queue values are (f_score, tie_breaker, g_score, node).
+    open_set = []
+    counter = count()
+    adjacency = G._adj
+
+    heappush(
+        open_set,
+        (
+            heuristic(G, source, target),
+            next(counter),
+            0,
+            source,
         )
-
-    shortest_path_func = _bidirectional_astar
-
-    listA = []
-    listB = PathBuffer()
-    prev_path = None
-    while True:
-        if not prev_path:
-            length, path = shortest_path_func(G, source, target, weight=weight)
-            listB.push(length, path)
-        else:
-            ignore_nodes = set()
-            ignore_edges = set()
-            for i in range(1, len(prev_path)):
-                root = prev_path[:i]
-                root_length = length_func(root)
-                for path in listA:
-                    if path[:i] == root:
-                        ignore_edges.add((path[i - 1], path[i]))
-                try:
-                    length, spur = shortest_path_func(
-                        G,
-                        root[-1],
-                        target,
-                        ignore_nodes=ignore_nodes,
-                        ignore_edges=ignore_edges,
-                        weight=weight,
-                    )
-                    path = root[:-1] + spur
-                    listB.push(root_length + length, path)
-                except nx.NetworkXNoPath:
-                    pass
-                ignore_nodes.add(root[-1])
-
-        if listB:
-            path = listB.pop()
-            yield path
-            listA.append(path)
-            prev_path = path
-        else:
-            break
-
-def _multi_source_astar(G, sources, target=None, cutoff=None, ignore_nodes=None, ignore_edges=None, weight="weight"):
-    """Find shortest weighted paths and lengths from a given set of
-    source nodes.
-
-    Uses Dijkstra's algorithm to compute the shortest paths and lengths
-    between one of the source nodes and the given `target`, or all other
-    reachable nodes if not specified, for a weighted graph.
-
-    Parameters
-    ----------
-    G : NetworkX graph
-
-    sources : non-empty set of nodes
-        Starting nodes for paths. If this is just a set containing a
-        single node, then all paths computed by this function will start
-        from that node. If there are two or more nodes in the set, the
-        computed paths may begin from any one of the start nodes.
-
-    target : node label, optional
-        Ending node for path
-
-    cutoff : integer or float, optional
-        Length (sum of edge weights) at which the search is stopped.
-        If cutoff is provided, only return paths with summed weight <= cutoff.
-
-    weight : string or function
-        If this is a string, then edge weights will be accessed via the
-        edge attribute with this key (that is, the weight of the edge
-        joining `u` to `v` will be ``G.edges[u, v][weight]``). If no
-        such edge attribute exists, the weight of the edge is assumed to
-        be one.
-
-        If this is a function, the weight of an edge is the value
-        returned by the function. The function must accept exactly three
-        positional arguments: the two endpoints of an edge and the
-        dictionary of edge attributes for that edge. The function must
-        return a number or None to indicate a hidden edge.
-
-    Returns
-    -------
-    distance, path : pair of dictionaries, or numeric and list
-        If target is None, returns a tuple of two dictionaries keyed by node.
-        The first dictionary stores distance from one of the source nodes.
-        The second stores the path from one of the sources to that node.
-        If target is not None, returns a tuple of (distance, path) where
-        distance is the distance from source to target and path is a list
-        representing the path from source to target.
-
-    Examples
-    --------
-    >>> G = nx.path_graph(5)
-    >>> length, path = nx.multi_source_dijkstra(G, {0, 4})
-    >>> for node in [0, 1, 2, 3, 4]:
-    ...     print(f"{node}: {length[node]}")
-    0: 0
-    1: 1
-    2: 2
-    3: 1
-    4: 0
-    >>> path[1]
-    [0, 1]
-    >>> path[3]
-    [4, 3]
-
-    >>> length, path = nx.multi_source_dijkstra(G, {0, 4}, 1)
-    >>> length
-    1
-    >>> path
-    [0, 1]
-
-    Notes
-    -----
-    Edge weight attributes must be numerical.
-    Distances are calculated as sums of weighted edges traversed.
-
-    The weight function can be used to hide edges by returning None.
-    So ``weight = lambda u, v, d: 1 if d['color']=="red" else None``
-    will find the shortest red path.
-
-    Based on the Python cookbook recipe (119466) at
-    https://code.activestate.com/recipes/119466/
-
-    This algorithm is not guaranteed to work if edge weights
-    are negative or are floating point numbers
-    (overflows and roundoff errors can cause problems).
-
-    Raises
-    ------
-    ValueError
-        If `sources` is empty.
-    NodeNotFound
-        If any of `sources` is not in `G`.
-
-    See Also
-    --------
-    multi_source_dijkstra_path
-    multi_source_dijkstra_path_length
-
-    """
-
-    if not sources:
-        raise ValueError("sources must not be empty")
-    for s in sources:
-        if s not in G:
-            raise nx.NodeNotFound(f"Node {s} not found in graph")
-    if target in sources:
-        return (0, [target])
-    weight = _weight_function(G, weight)
-    paths = {source: [source] for source in sources}  # dictionary of paths
-    dist = _astar_multisource(
-        G, sources, weight, paths=paths, cutoff=cutoff, target=target, ignore_nodes=ignore_nodes, ignore_edges=ignore_edges
     )
-    if target is None:
-        return (dist, paths)
-    try:
-        return (dist[target], paths[target])
-    except KeyError as err:
-        raise nx.NetworkXNoPath(f"No path to {target}.") from err
-    
 
-## pred was removed
-def _astar_multisource(
-    G, sources, weight, pred=None, paths=None, cutoff=None, target=None, ignore_nodes=None, ignore_edges=None
-):
-    """Uses Dijkstra's algorithm to find shortest weighted paths
+    came_from = {}
 
-    Parameters
-    ----------
-    G : NetworkX graph
+    g_score = {
+        source: 0
+    }
 
-    sources : non-empty iterable of nodes
-        Starting nodes for paths. If this is just an iterable containing
-        a single node, then all paths computed by this function will
-        start from that node. If there are two or more nodes in this
-        iterable, the computed paths may begin from any one of the start
-        nodes.
+    visited = set()
 
-    weight: function
-        Function with (u, v, data) input that returns that edge's weight
-        or None to indicate a hidden edge
+    while open_set:
 
-    pred: dict of lists, optional(default=None)
-        dict to store a list of predecessors keyed by that node
-        If None, predecessors are not stored.
+        _, _, current_g, current = heappop(open_set)
 
-    paths: dict, optional (default=None)
-        dict to store the path list from source to each node, keyed by node.
-        If None, paths are not stored.
+        if current == target:
 
-    target : node label, optional
-        Ending node for path. Search is halted when target is found.
+            path = [current]
 
-    cutoff : integer or float, optional
-        Length (sum of edge weights) at which the search is stopped.
-        If cutoff is provided, only return paths with summed weight <= cutoff.
+            while current in came_from:
+                current = came_from[current]
+                path.append(current)
 
-    Returns
-    -------
-    distance : dictionary
-        A mapping from node to shortest distance to that node from one
-        of the source nodes.
-
-    Raises
-    ------
-    NodeNotFound
-        If any of `sources` is not in `G`.
-
-    Notes
-    -----
-    The optional predecessor and path dictionaries can be accessed by
-    the caller through the original pred and paths objects passed
-    as arguments. No need to explicitly return pred or paths.
-
-    """
-    # If `paths` is specified, we use a temporary internal dictionary (`pred_dict`) to
-    # store predecessors, used to reconstruct paths. However, if the caller
-    # passed in a `pred` dictionary, we must compute *all* predecessors, since the caller
-    # expects the full predecessor structure.
-    pred_dict = pred if paths is None or pred is not None else {}
-
-    G_succ = G._adj  # For speed-up (and works for both directed and undirected graphs)
-
-
-
-    dist = {}  # dictionary of final distances
-    seen = {}
-    # fringe is heapq with 3-tuples (distance,c,node)
-    # use the count c to avoid comparing nodes (may not be able to)
-    c = count()
-    fringe = []
-    for source in sources:
-        seen[source] = 0
-        heappush(fringe, (0, next(c), source))
-    number_of_sources = len(seen)
-    
-    ## While there are still nodes to search for
-    while fringe:
-        
-        ## Get the least cost from fringe
-        (dist_v, _, v) = heappop(fringe)
-        if v in dist:
-            continue  # already searched this node.
-
-        ## Assign distance to node id
-        dist[v] = dist_v
-
-        ## Reached the target
-        if v == target:
-            break
-
-
-        for u, e in G_succ[v].items():
-            if ignore_nodes and u in ignore_nodes:
-                continue
-            if ignore_edges and (v, u) in ignore_edges:
-                continue
-            cost = weight(v, u, e)
-            if cost is None:
-                continue
-
-            ## vu_dist is g(n)
-            vu_dist = dist_v + cost
-
-            ## Probably never true
-            if cutoff is not None and vu_dist > cutoff:
-                continue
-
-
-            if u in dist:
-                u_dist = dist[u]
-                if vu_dist < u_dist:
-                    raise ValueError("Contradictory paths found:", "negative weights?")
-                elif pred is not None and vu_dist == u_dist:
-                    # Found another shortest path to u with equal distance (including zero-weight edges).
-                    # We must store *all* predecessors because `pred` was provided by the caller.
-                    pred_dict[u].append(v)
-            elif u not in seen or vu_dist < seen[u]:
-                seen[u] = vu_dist
-                hn = vu_dist + (getNodeDistance(G, u, target) / 3.89)
-                heappush(fringe, (hn, next(c), u))
-                if pred_dict is not None:
-                    pred_dict[u] = [v]
-            elif pred is not None and vu_dist == seen[u]:
-                # Found another shortest path to u
-                # We must store *all* predecessors because `pred` was provided by the caller.
-                pred_dict[u].append(v)
-
-    if paths is not None:
-        # Reconstruct the path from source to target using the predecessor dictionary.
-        if target is None:
-            # Since `dist` is in increasing distance order, each predecessor's path is
-            # already computed by the time we process `v`. We skip the first
-            # `number_of_sources` entries because sources already have their paths defined.
-            for v in islice(dist, number_of_sources, None):
-                # `v` must be in `pred_dict`: any node with a distance (and not a source)
-                # has a predecessor.
-                paths[v] = paths[pred_dict[v][0]] + [v]
-        else:
-            # Caller requested the path to a specific target node.
-            path = paths[target] = [target]
-            while (current_preds := pred_dict.get(path[-1])) is not None:
-                path.append(current_preds[0])
-            # The path was built in reverse order, so reverse it at the end.
             path.reverse()
 
-    # The optional predecessor and path dictionaries can be accessed
-    # by the caller via the pred and paths objects passed as arguments.
-    return dist
+            return current_g, path
 
-def _bidirectional_astar(
-    G, source, target, weight="weight", ignore_nodes=None, ignore_edges=None
-):
-    """Dijkstra's algorithm for shortest paths using bidirectional search.
-
-    This function returns the shortest path between source and target
-    ignoring nodes and edges in the containers ignore_nodes and
-    ignore_edges.
-
-    This is a custom modification of the standard Dijkstra bidirectional
-    shortest path implementation at networkx.algorithms.weighted
-
-    Parameters
-    ----------
-    G : NetworkX graph
-
-    source : node
-        Starting node.
-
-    target : node
-        Ending node.
-
-    weight: string, function, optional (default='weight')
-        Edge data key or weight function corresponding to the edge weight
-        If this is a function, the weight of an edge is the value
-        returned by the function. The function must accept exactly three
-        positional arguments: the two endpoints of an edge and the
-        dictionary of edge attributes for that edge. The function must
-        return a number or None to indicate a hidden edge.
-
-    ignore_nodes : container of nodes
-        nodes to ignore, optional
-
-    ignore_edges : container of edges
-        edges to ignore, optional
-
-    Returns
-    -------
-    length : number
-        Shortest path length.
-
-    Returns a tuple of two dictionaries keyed by node.
-    The first dictionary stores distance from the source.
-    The second stores the path from the source to that node.
-
-    Raises
-    ------
-    NetworkXNoPath
-        If no path exists between source and target.
-
-    Notes
-    -----
-    Edge weight attributes must be numerical.
-    Distances are calculated as sums of weighted edges traversed.
-
-    The weight function can be used to hide edges by returning None.
-    So ``weight = lambda u, v, d: 1 if d['color']=="red" else None``
-    will find the shortest red path.
-
-    In practice  bidirectional Dijkstra is much more than twice as fast as
-    ordinary Dijkstra.
-
-    Ordinary Dijkstra expands nodes in a sphere-like manner from the
-    source. The radius of this sphere will eventually be the length
-    of the shortest path. Bidirectional Dijkstra will expand nodes
-    from both the source and the target, making two spheres of half
-    this radius. Volume of the first sphere is pi*r*r while the
-    others are 2*pi*r/2*r/2, making up half the volume.
-
-    This algorithm is not guaranteed to work if edge weights
-    are negative or are floating point numbers
-    (overflows and roundoff errors can cause problems).
-
-    See Also
-    --------
-    shortest_path
-    shortest_path_length
-    """
-    if ignore_nodes and (source in ignore_nodes or target in ignore_nodes):
-        raise nx.NetworkXNoPath(f"No path between {source} and {target}.")
-    if source == target:
-        if source not in G:
-            raise nx.NodeNotFound(f"Node {source} not in graph")
-        return (0, [source])
-
-    # handle either directed or undirected
-    if G.is_directed():
-        Gpred = G.predecessors
-        Gsucc = G.successors
-    else:
-        Gpred = G.neighbors
-        Gsucc = G.neighbors
-
-    # support optional nodes filter
-    if ignore_nodes:
-
-        def filter_iter(nodes):
-            def iterate(v):
-                for w in nodes(v):
-                    if w not in ignore_nodes:
-                        yield w
-
-            return iterate
-
-        Gpred = filter_iter(Gpred)
-        Gsucc = filter_iter(Gsucc)
-
-    # support optional edges filter
-    if ignore_edges:
-        if G.is_directed():
-
-            def filter_pred_iter(pred_iter):
-                def iterate(v):
-                    for w in pred_iter(v):
-                        if (w, v) not in ignore_edges:
-                            yield w
-
-                return iterate
-
-            def filter_succ_iter(succ_iter):
-                def iterate(v):
-                    for w in succ_iter(v):
-                        if (v, w) not in ignore_edges:
-                            yield w
-
-                return iterate
-
-            Gpred = filter_pred_iter(Gpred)
-            Gsucc = filter_succ_iter(Gsucc)
-
-        else:
-
-            def filter_iter(nodes):
-                def iterate(v):
-                    for w in nodes(v):
-                        if (v, w) not in ignore_edges and (w, v) not in ignore_edges:
-                            yield w
-
-                return iterate
-
-            Gpred = filter_iter(Gpred)
-            Gsucc = filter_iter(Gsucc)
-
-    wt = _weight_function(G, weight)
-    # Init:   Forward             Backward
-    dists = [{}, {}]  # dictionary of final distances
-    paths = [{source: [source]}, {target: [target]}]  # dictionary of paths
-    fringe = [[], []]  # heap of (distance, node) tuples for
-    # extracting next node to expand
-    seen = [{source: 0}, {target: 0}]  # dictionary of distances to
-    # nodes seen
-    c = count()
-    # initialize fringe heap
-
-    ## (1st distance is weight, 2nd is unique tiebreaker, 3rd is node id)
-    heappush(fringe[0], (0, next(c), source))
-    heappush(fringe[1], (0, next(c), target))
-    
-    # neighs for extracting correct neighbor information
-    neighs = [Gsucc, Gpred]
-    # variables to hold shortest discovered path
-    # finaldist = 1e30000
-    finalpath = []
-    dir = 1
-
-    ## While there are still nodes to search
-    while fringe[0] and fringe[1]:
-        # choose direction
-        # dir == 0 is forward direction and dir == 1 is back
-        dir = 1 - dir
-        # extract closest to expand
-        (dist, _, v) = heappop(fringe[dir])
-
-        ## Check if node id has already been travelled to
-        if v in dists[dir]:
-            # Shortest path to v has already been found
+        if current in visited:
             continue
-        
-        # update distance
-        dists[dir][v] = dist  # equal to seen[dir][v]
-        if v in dists[1 - dir]:
-            # if we have scanned v in both directions we are done
-            # we have now discovered the shortest path
-            return (finaldist, finalpath)
 
-        for w in neighs[dir](v):
-            if dir == 0:  # forward
-                minweight = wt(v, w, G.get_edge_data(v, w))
-            else:  # back, must remember to change v,w->w,v
-                minweight = wt(w, v, G.get_edge_data(w, v))
-            if minweight is None:
+        visited.add(current)
+
+        for neighbor, edge_data in adjacency[current].items():
+
+            if neighbor in ignore_nodes:
                 continue
-            vwLength = dists[dir][v] + minweight
 
-            if w in dists[dir]:
-                if vwLength < dists[dir][w]:
-                    raise ValueError("Contradictory paths found: negative weights?")
-            elif w not in seen[dir] or vwLength < seen[dir][w]:
-                seen[dir][w] = vwLength
-                if dir == 0:
-                    hn = vwLength + (getNodeDistance(G, w, target) / 3.89)
-                else:
-                    hn = vwLength
-                heappush(fringe[dir], (hn, next(c), w))
-                paths[dir][w] = paths[dir][v] + [w]
-                if w in seen[0] and w in seen[1]:
-                    totaldist = seen[0][w] + seen[1][w]
-                    if finalpath == [] or finaldist > totaldist:
-                        finaldist = totaldist
-                        revpath = paths[1][w][:]
-                        revpath.reverse()
-                        finalpath = paths[0][w] + revpath[1:]
-    raise nx.NetworkXNoPath(f"No path between {source} and {target}.")
+            edge_weight = _edge_weight(
+                G,
+                current,
+                neighbor,
+                weight,
+                ignore_edges,
+                edge_data,
+            )
+
+            if edge_weight is None:
+                continue
+
+            tentative_g = current_g + edge_weight
+
+            if (
+                neighbor not in g_score
+                or tentative_g < g_score[neighbor]
+            ):
+
+                g_score[neighbor] = tentative_g
+
+                came_from[neighbor] = current
+
+                f_score = tentative_g + heuristic(
+                    G,
+                    neighbor,
+                    target,
+                )
+
+                heappush(
+                    open_set,
+                    (
+                        f_score,
+                        next(counter),
+                        tentative_g,
+                        neighbor,
+                    )
+                )
+
+    raise nx.NetworkXNoPath(
+        f"No path between {source} and {target}"
+    )
+
+
+def _edge_is_ignored(G, u, v, key, ignore_edges):
+    if (u, v) in ignore_edges or (key is not None and (u, v, key) in ignore_edges):
+        return True
+
+    if not G.is_directed():
+        return (
+            (v, u) in ignore_edges
+            or (key is not None and (v, u, key) in ignore_edges)
+        )
+
+    return False
+
+
+def _edge_weight(G, u, v, weight, ignore_edges=None, data=None):
+    """Return the best usable edge weight between two nodes."""
+    ignore_edges = ignore_edges or set()
+    if data is None:
+        data = G.get_edge_data(u, v)
+
+    if data is None:
+        return None
+
+    if G.is_multigraph():
+        best_weight = None
+        for key, edge_data in data.items():
+            if _edge_is_ignored(G, u, v, key, ignore_edges):
+                continue
+            if callable(weight):
+                value = weight(u, v, edge_data)
+            else:
+                value = edge_data.get(weight, 1)
+            if value is not None and (best_weight is None or value < best_weight):
+                best_weight = value
+        return best_weight
+
+    if _edge_is_ignored(G, u, v, None, ignore_edges):
+        return None
+    if callable(weight):
+        return weight(u, v, data)
+    return data.get(weight, 1)
+
+
+def path_weight(G, path, weight="weight"):
+    total = 0
+
+    for u, v in zip(path, path[1:]):
+        edge_weight = _edge_weight(G, u, v, weight)
+        if edge_weight is None:
+            raise nx.NetworkXNoPath(f"No edge between {u} and {v}.")
+        total += edge_weight
+
+    return total
+
+
+def _node_lat_lon(G, node):
+    data = G.nodes[node]
+
+    if "lat" in data and "lon" in data:
+        return data["lat"], data["lon"]
+    if "y" in data and "x" in data:
+        return data["y"], data["x"]
+
+    raise KeyError(
+        f"Node {node} needs either lat/lon or y/x coordinates for Haversine."
+    )
+
+
+# ============================================================
+# Haversine Heuristic
+# ============================================================
+
+EARTH_RADIUS = 6371000  # meters
+DEFAULT_HEURISTIC_SPEED_MPS = 3.89
+_HEURISTIC_SCALE_CACHE = {}
+_NODE_RAD_CACHE = {}
+
+
+def _get_node_rad(G, node):
+    if node in _NODE_RAD_CACHE:
+        return _NODE_RAD_CACHE[node]
+    try:
+        lat, lon = _node_lat_lon(G, node)
+        lat_rad = math.radians(lat)
+        lon_rad = math.radians(lon)
+        cos_lat = math.cos(lat_rad)
+        val = (lat_rad, lon_rad, cos_lat)
+        _NODE_RAD_CACHE[node] = val
+        return val
+    except KeyError:
+        raise KeyError(
+            f"Node {node} needs either lat/lon or y/x coordinates for Haversine."
+        )
+
+
+def haversine_heuristic(G, node, target):
+    try:
+        lat1, lon1, cos_lat1 = _get_node_rad(G, node)
+        lat2, lon2, cos_lat2 = _get_node_rad(G, target)
+    except KeyError:
+        raise KeyError("Coordinates not found for Haversine heuristic calculation.")
+
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+
+    a = (
+        math.sin(dlat / 2) ** 2
+        + cos_lat1
+        * cos_lat2
+        * math.sin(dlon / 2) ** 2
+    )
+
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+    return EARTH_RADIUS * c
+
+
+def _haversine_distance(lat1, lon1, lat2, lon2):
+    lat1 = math.radians(lat1)
+    lon1 = math.radians(lon1)
+    lat2 = math.radians(lat2)
+    lon2 = math.radians(lon2)
+
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+
+    a = (
+        math.sin(dlat / 2) ** 2
+        + math.cos(lat1)
+        * math.cos(lat2)
+        * math.sin(dlon / 2) ** 2
+    )
+
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    return EARTH_RADIUS * c
+
+
+def make_haversine_heuristic(G, weight="weight"):
+    """
+    Build an admissible Haversine heuristic in the same unit as edge weights.
+
+    Raw Haversine returns meters. A* needs the heuristic in the same unit as
+    edge weights, so this scales distance by the smallest observed edge cost
+    per meter. The scale is cached per graph size to avoid repeat scans.
+    """
+    cost_per_meter = _get_haversine_cost_per_meter(G, weight)
+
+    def scaled_haversine_heuristic(graph, node, target):
+        try:
+            return haversine_heuristic(graph, node, target) * cost_per_meter
+        except KeyError:
+            return 0
+
+    return scaled_haversine_heuristic
+
+
+def make_target_haversine_heuristic(G, target, weight="weight"):
+    """Build a faster Haversine heuristic for one fixed target node."""
+    cost_per_meter = _get_haversine_cost_per_meter(G, weight)
+
+    if cost_per_meter <= 0:
+        return zero_heuristic
+
+    try:
+        target_lat, target_lon, target_cos_lat = _get_node_rad(G, target)
+    except KeyError:
+        return zero_heuristic
+
+    def target_haversine_heuristic(graph, node, goal):
+        try:
+            lat, lon, cos_lat = _get_node_rad(graph, node)
+        except KeyError:
+            return 0
+
+        dlat = target_lat - lat
+        dlon = target_lon - lon
+
+        a = (
+            math.sin(dlat / 2) ** 2
+            + cos_lat
+            * target_cos_lat
+            * math.sin(dlon / 2) ** 2
+        )
+        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+        return (EARTH_RADIUS * c) * cost_per_meter
+
+    return target_haversine_heuristic
+
+
+def _get_haversine_cost_per_meter(G, weight="weight"):
+    cache_key = (id(G), G.number_of_nodes(), G.number_of_edges(), weight)
+    if cache_key in _HEURISTIC_SCALE_CACHE:
+        return _HEURISTIC_SCALE_CACHE[cache_key]
+
+    min_cost_per_meter = math.inf
+
+    if G.is_multigraph():
+        edge_iter = G.edges(data=True, keys=True)
+        for u, v, _, data in edge_iter:
+            min_cost_per_meter = _update_min_cost_per_meter(
+                G,
+                u,
+                v,
+                data,
+                weight,
+                min_cost_per_meter,
+            )
+    else:
+        for u, v, data in G.edges(data=True):
+            min_cost_per_meter = _update_min_cost_per_meter(
+                G,
+                u,
+                v,
+                data,
+                weight,
+                min_cost_per_meter,
+            )
+
+    if min_cost_per_meter == math.inf or min_cost_per_meter <= 0:
+        min_cost_per_meter = 1 / DEFAULT_HEURISTIC_SPEED_MPS
+
+    _HEURISTIC_SCALE_CACHE[cache_key] = min_cost_per_meter
+    return min_cost_per_meter
+
+
+def _update_min_cost_per_meter(G, u, v, edge_data, weight, current_min):
+    if callable(weight):
+        edge_weight = weight(u, v, edge_data)
+    else:
+        edge_weight = edge_data.get(weight, 1)
+
+    if edge_weight is None:
+        return current_min
+
+    try:
+        lat1, lon1 = _node_lat_lon(G, u)
+        lat2, lon2 = _node_lat_lon(G, v)
+    except KeyError:
+        return current_min
+
+    distance = _haversine_distance(lat1, lon1, lat2, lon2)
+    if distance <= 0:
+        return current_min
+
+    return min(current_min, edge_weight / distance)
+
+
+# ============================================================
+# Zero Heuristic
+# (Makes A* behave exactly like Dijkstra)
+# ============================================================
+
+def zero_heuristic(G, node, target):
+    return 0
+
+
+def yens(
+    G,
+    source,
+    target,
+    k,
+    weight="weight",
+    heuristic=None,
+):
+    """
+    Yield up to k shortest simple paths using Yen's algorithm over A*.
+
+    A* finds the first shortest path and each later spur path. Yen's layer
+    keeps those A* searches loopless by temporarily ignoring root-path nodes
+    and edges already used by accepted paths.
+    """
+    if k <= 0:
+        return
+
+    heuristic = heuristic or make_target_haversine_heuristic(G, target, weight)
+
+    _, first_path = astar(
+        G,
+        source,
+        target,
+        heuristic=heuristic,
+        weight=weight,
+    )
+
+    accepted_paths = [first_path]
+    accepted_keys = {tuple(first_path)}
+    candidate_paths = []
+    candidate_keys = set()
+    counter = count()
+
+    yield first_path
+
+    for path_index in range(1, k):
+        previous_path = accepted_paths[path_index - 1]
+        prefix_costs = [0]
+
+        for u, v in zip(previous_path, previous_path[1:]):
+            edge_weight = _edge_weight(G, u, v, weight)
+            if edge_weight is None:
+                raise nx.NetworkXNoPath(f"No edge between {u} and {v}.")
+            prefix_costs.append(prefix_costs[-1] + edge_weight)
+
+        for spur_index in range(len(previous_path) - 1):
+            spur_node = previous_path[spur_index]
+            root_path = previous_path[: spur_index + 1]
+            root_cost = prefix_costs[spur_index]
+            ignored_nodes = set(root_path[:-1])
+            ignored_edges = set()
+
+            for path in accepted_paths:
+                if (
+                    len(path) > spur_index + 1
+                    and path[: spur_index + 1] == root_path
+                ):
+                    ignored_edges.add((path[spur_index], path[spur_index + 1]))
+
+            try:
+                spur_cost, spur_path = astar(
+                    G,
+                    spur_node,
+                    target,
+                    heuristic=heuristic,
+                    weight=weight,
+                    ignore_nodes=ignored_nodes,
+                    ignore_edges=ignored_edges,
+                )
+            except nx.NetworkXNoPath:
+                continue
+
+            candidate = root_path[:-1] + spur_path
+            candidate_key = tuple(candidate)
+
+            if candidate_key in accepted_keys or candidate_key in candidate_keys:
+                continue
+
+            candidate_keys.add(candidate_key)
+            heappush(
+                candidate_paths,
+                (root_cost + spur_cost, next(counter), candidate),
+            )
+
+        if not candidate_paths:
+            break
+
+        _, _, next_path = heappop(candidate_paths)
+        candidate_keys.remove(tuple(next_path))
+        accepted_paths.append(next_path)
+        accepted_keys.add(tuple(next_path))
+        yield next_path
+
+
+def get_k_shortest_paths(
+    G,
+    source,
+    target,
+    k,
+    weight="weight",
+    heuristic=None,
+):
+    """Compatibility wrapper used by main.py for the A* + Yen hybrid option."""
+    if k <= 0:
+        return
+
+    if G.is_multigraph():
+        G = convert.to_digraph(G, weight=weight)
+
+    heuristic = heuristic or make_target_haversine_heuristic(G, target, weight)
+    yield from yens(
+        G,
+        source,
+        target,
+        k,
+        weight=weight,
+        heuristic=heuristic,
+    )
