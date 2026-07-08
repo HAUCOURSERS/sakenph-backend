@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/sakenph-backend
+    destination: /home/ec2-user/sakenph-backend
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
