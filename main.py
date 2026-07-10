@@ -545,7 +545,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
         count = 1
         for i in routeList:
             # Maximum of 3 routes
-            if count == 3:
+            if count == 4:
                 break # FIX THIS LATER
             nodeList = []
             # Loop through each node of the route
