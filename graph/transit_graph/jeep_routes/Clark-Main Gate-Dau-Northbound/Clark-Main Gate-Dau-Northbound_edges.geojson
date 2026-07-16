@@ -12,9 +12,9 @@
    "type": "Feature",
    "properties": {
     "u": 9187628054,
-    "v": 3499,
+    "v": 3502,
     "key": 0,
-    "osmid": "8220",
+    "osmid": "8223",
     "length": 0.01,
     "weight": 300
    },
@@ -35,10 +35,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3499,
+    "u": 3502,
     "v": 9187628054,
     "key": 0,
-    "osmid": "8220",
+    "osmid": "8223",
     "length": 0.01,
     "weight": 10
    },
@@ -60,9 +60,9 @@
    "type": "Feature",
    "properties": {
     "u": 8278178678,
-    "v": 3500,
+    "v": 3503,
     "key": 0,
-    "osmid": "8221",
+    "osmid": "8224",
     "length": 0.01,
     "weight": 300
    },
@@ -83,10 +83,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3500,
+    "u": 3503,
     "v": 8278178678,
     "key": 0,
-    "osmid": "8221",
+    "osmid": "8224",
     "length": 0.01,
     "weight": 10
    },
@@ -107,10 +107,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3499,
-    "v": 3500,
+    "u": 3502,
+    "v": 3503,
     "key": 0,
-    "osmid": "8222",
+    "osmid": "8225",
     "length": 3.8536525008801097,
     "weight": 0.99
    },
@@ -132,9 +132,9 @@
    "type": "Feature",
    "properties": {
     "u": 13250223434,
-    "v": 3501,
+    "v": 3504,
     "key": 0,
-    "osmid": "8223",
+    "osmid": "8226",
     "length": 0.01,
     "weight": 300
    },
@@ -155,10 +155,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3501,
+    "u": 3504,
     "v": 13250223434,
     "key": 0,
-    "osmid": "8223",
+    "osmid": "8226",
     "length": 0.01,
     "weight": 10
    },
@@ -179,10 +179,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3500,
-    "v": 3501,
+    "u": 3503,
+    "v": 3504,
     "key": 0,
-    "osmid": "8224",
+    "osmid": "8227",
     "length": 20.285340163035446,
     "weight": 5.22
    },
@@ -204,9 +204,9 @@
    "type": "Feature",
    "properties": {
     "u": 7674980613,
-    "v": 3502,
+    "v": 3505,
     "key": 0,
-    "osmid": "8225",
+    "osmid": "8228",
     "length": 0.01,
     "weight": 300
    },
@@ -227,10 +227,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3502,
+    "u": 3505,
     "v": 7674980613,
     "key": 0,
-    "osmid": "8225",
+    "osmid": "8228",
     "length": 0.01,
     "weight": 10
    },
@@ -251,10 +251,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3501,
-    "v": 3502,
+    "u": 3504,
+    "v": 3505,
     "key": 0,
-    "osmid": "8226",
+    "osmid": "8229",
     "length": 34.94767599959619,
     "weight": 8.98
    },
@@ -280,9 +280,9 @@
    "type": "Feature",
    "properties": {
     "u": 10111017985,
-    "v": 3503,
+    "v": 3506,
     "key": 0,
-    "osmid": "8227",
+    "osmid": "8230",
     "length": 0.01,
     "weight": 300
    },
@@ -303,10 +303,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3503,
+    "u": 3506,
     "v": 10111017985,
     "key": 0,
-    "osmid": "8227",
+    "osmid": "8230",
     "length": 0.01,
     "weight": 10
    },
@@ -327,10 +327,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3502,
-    "v": 3503,
+    "u": 3505,
+    "v": 3506,
     "key": 0,
-    "osmid": "8228",
+    "osmid": "8231",
     "length": 30.23384387692449,
     "weight": 7.77
    },
@@ -352,9 +352,9 @@
    "type": "Feature",
    "properties": {
     "u": 9187628055,
-    "v": 3504,
+    "v": 3507,
     "key": 0,
-    "osmid": "8229",
+    "osmid": "8232",
     "length": 0.01,
     "weight": 300
    },
@@ -375,10 +375,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3504,
+    "u": 3507,
     "v": 9187628055,
     "key": 0,
-    "osmid": "8229",
+    "osmid": "8232",
     "length": 0.01,
     "weight": 10
    },
@@ -399,10 +399,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3503,
-    "v": 3504,
+    "u": 3506,
+    "v": 3507,
     "key": 0,
-    "osmid": "8230",
+    "osmid": "8233",
     "length": 5.8270063688780835,
     "weight": 1.5
    },
@@ -428,9 +428,9 @@
    "type": "Feature",
    "properties": {
     "u": 7357508289,
-    "v": 3505,
+    "v": 3508,
     "key": 0,
-    "osmid": "8231",
+    "osmid": "8234",
     "length": 0.01,
     "weight": 300
    },
@@ -451,10 +451,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3505,
+    "u": 3508,
     "v": 7357508289,
     "key": 0,
-    "osmid": "8231",
+    "osmid": "8234",
     "length": 0.01,
     "weight": 10
    },
@@ -475,10 +475,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3504,
-    "v": 3505,
+    "u": 3507,
+    "v": 3508,
     "key": 0,
-    "osmid": "8232",
+    "osmid": "8235",
     "length": 23.230837438581233,
     "weight": 5.97
    },
@@ -500,9 +500,9 @@
    "type": "Feature",
    "properties": {
     "u": 372577036,
-    "v": 3506,
+    "v": 3509,
     "key": 0,
-    "osmid": "8233",
+    "osmid": "8236",
     "length": 0.01,
     "weight": 300
    },
@@ -523,10 +523,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3506,
+    "u": 3509,
     "v": 372577036,
     "key": 0,
-    "osmid": "8233",
+    "osmid": "8236",
     "length": 0.01,
     "weight": 10
    },
@@ -547,10 +547,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3505,
-    "v": 3506,
+    "u": 3508,
+    "v": 3509,
     "key": 0,
-    "osmid": "8234",
+    "osmid": "8237",
     "length": 27.013341857523855,
     "weight": 6.94
    },
@@ -572,9 +572,9 @@
    "type": "Feature",
    "properties": {
     "u": 522301886,
-    "v": 3507,
+    "v": 3510,
     "key": 0,
-    "osmid": "8235",
+    "osmid": "8238",
     "length": 0.01,
     "weight": 300
    },
@@ -595,10 +595,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3507,
+    "u": 3510,
     "v": 522301886,
     "key": 0,
-    "osmid": "8235",
+    "osmid": "8238",
     "length": 0.01,
     "weight": 10
    },
@@ -619,10 +619,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3506,
-    "v": 3507,
+    "u": 3509,
+    "v": 3510,
     "key": 0,
-    "osmid": "8236",
+    "osmid": "8239",
     "length": 44.242252256305406,
     "weight": 11.37
    },
@@ -648,9 +648,9 @@
    "type": "Feature",
    "properties": {
     "u": 372578357,
-    "v": 3508,
+    "v": 3511,
     "key": 0,
-    "osmid": "8237",
+    "osmid": "8240",
     "length": 0.01,
     "weight": 300
    },
@@ -671,10 +671,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3508,
+    "u": 3511,
     "v": 372578357,
     "key": 0,
-    "osmid": "8237",
+    "osmid": "8240",
     "length": 0.01,
     "weight": 10
    },
@@ -695,10 +695,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3507,
-    "v": 3508,
+    "u": 3510,
+    "v": 3511,
     "key": 0,
-    "osmid": "8238",
+    "osmid": "8241",
     "length": 56.525762506797086,
     "weight": 14.53
    },
@@ -724,9 +724,9 @@
    "type": "Feature",
    "properties": {
     "u": 7357508288,
-    "v": 3509,
+    "v": 3512,
     "key": 0,
-    "osmid": "8239",
+    "osmid": "8242",
     "length": 0.01,
     "weight": 300
    },
@@ -747,10 +747,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3509,
+    "u": 3512,
     "v": 7357508288,
     "key": 0,
-    "osmid": "8239",
+    "osmid": "8242",
     "length": 0.01,
     "weight": 10
    },
@@ -771,10 +771,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3508,
-    "v": 3509,
+    "u": 3511,
+    "v": 3512,
     "key": 0,
-    "osmid": "8240",
+    "osmid": "8243",
     "length": 44.22092631086209,
     "weight": 11.37
    },
@@ -796,9 +796,9 @@
    "type": "Feature",
    "properties": {
     "u": 372546258,
-    "v": 3510,
+    "v": 3513,
     "key": 0,
-    "osmid": "8241",
+    "osmid": "8244",
     "length": 0.01,
     "weight": 300
    },
@@ -819,10 +819,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3510,
+    "u": 3513,
     "v": 372546258,
     "key": 0,
-    "osmid": "8241",
+    "osmid": "8244",
     "length": 0.01,
     "weight": 10
    },
@@ -843,10 +843,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3509,
-    "v": 3510,
+    "u": 3512,
+    "v": 3513,
     "key": 0,
-    "osmid": "8242",
+    "osmid": "8245",
     "length": 45.494925599499254,
     "weight": 11.69
    },
@@ -868,9 +868,9 @@
    "type": "Feature",
    "properties": {
     "u": 538858115,
-    "v": 3511,
+    "v": 3514,
     "key": 0,
-    "osmid": "8243",
+    "osmid": "8246",
     "length": 0.01,
     "weight": 300
    },
@@ -891,10 +891,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3511,
+    "u": 3514,
     "v": 538858115,
     "key": 0,
-    "osmid": "8243",
+    "osmid": "8246",
     "length": 0.01,
     "weight": 10
    },
@@ -915,10 +915,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3510,
-    "v": 3511,
+    "u": 3513,
+    "v": 3514,
     "key": 0,
-    "osmid": "8244",
+    "osmid": "8247",
     "length": 74.05462682898323,
     "weight": 19.04
    },
@@ -944,9 +944,9 @@
    "type": "Feature",
    "properties": {
     "u": 522298465,
-    "v": 3512,
+    "v": 3515,
     "key": 0,
-    "osmid": "8245",
+    "osmid": "8248",
     "length": 0.01,
     "weight": 300
    },
@@ -967,10 +967,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3512,
+    "u": 3515,
     "v": 522298465,
     "key": 0,
-    "osmid": "8245",
+    "osmid": "8248",
     "length": 0.01,
     "weight": 10
    },
@@ -991,10 +991,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3511,
-    "v": 3512,
+    "u": 3514,
+    "v": 3515,
     "key": 0,
-    "osmid": "8246",
+    "osmid": "8249",
     "length": 20.030202639966493,
     "weight": 5.15
    },
@@ -1016,9 +1016,9 @@
    "type": "Feature",
    "properties": {
     "u": 7675045550,
-    "v": 3513,
+    "v": 3516,
     "key": 0,
-    "osmid": "8247",
+    "osmid": "8250",
     "length": 0.01,
     "weight": 300
    },
@@ -1039,10 +1039,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3513,
+    "u": 3516,
     "v": 7675045550,
     "key": 0,
-    "osmid": "8247",
+    "osmid": "8250",
     "length": 0.01,
     "weight": 10
    },
@@ -1063,10 +1063,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3512,
-    "v": 3513,
+    "u": 3515,
+    "v": 3516,
     "key": 0,
-    "osmid": "8248",
+    "osmid": "8251",
     "length": 44.792746296038715,
     "weight": 11.51
    },
@@ -1092,9 +1092,9 @@
    "type": "Feature",
    "properties": {
     "u": 522298220,
-    "v": 3514,
+    "v": 3517,
     "key": 0,
-    "osmid": "8249",
+    "osmid": "8252",
     "length": 0.01,
     "weight": 300
    },
@@ -1115,10 +1115,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3514,
+    "u": 3517,
     "v": 522298220,
     "key": 0,
-    "osmid": "8249",
+    "osmid": "8252",
     "length": 0.01,
     "weight": 10
    },
@@ -1139,10 +1139,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3513,
-    "v": 3514,
+    "u": 3516,
+    "v": 3517,
     "key": 0,
-    "osmid": "8250",
+    "osmid": "8253",
     "length": 9.78314166541548,
     "weight": 2.51
    },
@@ -1164,9 +1164,9 @@
    "type": "Feature",
    "properties": {
     "u": 10911031191,
-    "v": 3515,
+    "v": 3518,
     "key": 0,
-    "osmid": "8251",
+    "osmid": "8254",
     "length": 0.01,
     "weight": 300
    },
@@ -1187,10 +1187,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3515,
+    "u": 3518,
     "v": 10911031191,
     "key": 0,
-    "osmid": "8251",
+    "osmid": "8254",
     "length": 0.01,
     "weight": 10
    },
@@ -1211,10 +1211,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3514,
-    "v": 3515,
+    "u": 3517,
+    "v": 3518,
     "key": 0,
-    "osmid": "8252",
+    "osmid": "8255",
     "length": 35.853429928127014,
     "weight": 9.22
    },
@@ -1236,9 +1236,9 @@
    "type": "Feature",
    "properties": {
     "u": 522298412,
-    "v": 3516,
+    "v": 3519,
     "key": 0,
-    "osmid": "8253",
+    "osmid": "8256",
     "length": 0.01,
     "weight": 300
    },
@@ -1259,10 +1259,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3516,
+    "u": 3519,
     "v": 522298412,
     "key": 0,
-    "osmid": "8253",
+    "osmid": "8256",
     "length": 0.01,
     "weight": 10
    },
@@ -1283,10 +1283,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3515,
-    "v": 3516,
+    "u": 3518,
+    "v": 3519,
     "key": 0,
-    "osmid": "8254",
+    "osmid": "8257",
     "length": 34.63437241910195,
     "weight": 8.9
    },
@@ -1312,9 +1312,9 @@
    "type": "Feature",
    "properties": {
     "u": 11084719234,
-    "v": 3517,
+    "v": 3520,
     "key": 0,
-    "osmid": "8255",
+    "osmid": "8258",
     "length": 0.01,
     "weight": 300
    },
@@ -1335,10 +1335,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3517,
+    "u": 3520,
     "v": 11084719234,
     "key": 0,
-    "osmid": "8255",
+    "osmid": "8258",
     "length": 0.01,
     "weight": 10
    },
@@ -1359,10 +1359,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3516,
-    "v": 3517,
+    "u": 3519,
+    "v": 3520,
     "key": 0,
-    "osmid": "8256",
+    "osmid": "8259",
     "length": 13.140422300780758,
     "weight": 3.38
    },
@@ -1384,9 +1384,9 @@
    "type": "Feature",
    "properties": {
     "u": 11084719235,
-    "v": 3518,
+    "v": 3521,
     "key": 0,
-    "osmid": "8257",
+    "osmid": "8260",
     "length": 0.01,
     "weight": 300
    },
@@ -1407,10 +1407,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3518,
+    "u": 3521,
     "v": 11084719235,
     "key": 0,
-    "osmid": "8257",
+    "osmid": "8260",
     "length": 0.01,
     "weight": 10
    },
@@ -1431,10 +1431,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3517,
-    "v": 3518,
+    "u": 3520,
+    "v": 3521,
     "key": 0,
-    "osmid": "8258",
+    "osmid": "8261",
     "length": 12.378861965204164,
     "weight": 3.18
    },
@@ -1456,9 +1456,9 @@
    "type": "Feature",
    "properties": {
     "u": 283119886,
-    "v": 3519,
+    "v": 3522,
     "key": 0,
-    "osmid": "8259",
+    "osmid": "8262",
     "length": 0.01,
     "weight": 300
    },
@@ -1479,10 +1479,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3519,
+    "u": 3522,
     "v": 283119886,
     "key": 0,
-    "osmid": "8259",
+    "osmid": "8262",
     "length": 0.01,
     "weight": 10
    },
@@ -1503,10 +1503,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3518,
-    "v": 3519,
+    "u": 3521,
+    "v": 3522,
     "key": 0,
-    "osmid": "8260",
+    "osmid": "8263",
     "length": 33.38792687505179,
     "weight": 8.58
    },
@@ -1528,9 +1528,9 @@
    "type": "Feature",
    "properties": {
     "u": 6266037530,
-    "v": 3520,
+    "v": 3523,
     "key": 0,
-    "osmid": "8261",
+    "osmid": "8264",
     "length": 0.01,
     "weight": 300
    },
@@ -1551,10 +1551,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3520,
+    "u": 3523,
     "v": 6266037530,
     "key": 0,
-    "osmid": "8261",
+    "osmid": "8264",
     "length": 0.01,
     "weight": 10
    },
@@ -1575,10 +1575,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3519,
-    "v": 3520,
+    "u": 3522,
+    "v": 3523,
     "key": 0,
-    "osmid": "8262",
+    "osmid": "8265",
     "length": 51.97906665003131,
     "weight": 13.36
    },
@@ -1604,9 +1604,9 @@
    "type": "Feature",
    "properties": {
     "u": 372443621,
-    "v": 3521,
+    "v": 3524,
     "key": 0,
-    "osmid": "8263",
+    "osmid": "8266",
     "length": 0.01,
     "weight": 300
    },
@@ -1627,10 +1627,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3521,
+    "u": 3524,
     "v": 372443621,
     "key": 0,
-    "osmid": "8263",
+    "osmid": "8266",
     "length": 0.01,
     "weight": 10
    },
@@ -1651,10 +1651,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3520,
-    "v": 3521,
+    "u": 3523,
+    "v": 3524,
     "key": 0,
-    "osmid": "8264",
+    "osmid": "8267",
     "length": 61.930193204397106,
     "weight": 15.92
    },
@@ -1676,9 +1676,9 @@
    "type": "Feature",
    "properties": {
     "u": 360697784,
-    "v": 3522,
+    "v": 3525,
     "key": 0,
-    "osmid": "8265",
+    "osmid": "8268",
     "length": 0.01,
     "weight": 300
    },
@@ -1699,10 +1699,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3522,
+    "u": 3525,
     "v": 360697784,
     "key": 0,
-    "osmid": "8265",
+    "osmid": "8268",
     "length": 0.01,
     "weight": 10
    },
@@ -1723,10 +1723,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3521,
-    "v": 3522,
+    "u": 3524,
+    "v": 3525,
     "key": 0,
-    "osmid": "8266",
+    "osmid": "8269",
     "length": 37.70780819233567,
     "weight": 9.69
    },
@@ -1748,9 +1748,9 @@
    "type": "Feature",
    "properties": {
     "u": 372528399,
-    "v": 3523,
+    "v": 3526,
     "key": 0,
-    "osmid": "8267",
+    "osmid": "8270",
     "length": 0.01,
     "weight": 300
    },
@@ -1771,10 +1771,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3523,
+    "u": 3526,
     "v": 372528399,
     "key": 0,
-    "osmid": "8267",
+    "osmid": "8270",
     "length": 0.01,
     "weight": 10
    },
@@ -1795,10 +1795,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3522,
-    "v": 3523,
+    "u": 3525,
+    "v": 3526,
     "key": 0,
-    "osmid": "8268",
+    "osmid": "8271",
     "length": 58.80674551594661,
     "weight": 15.12
    },
@@ -1824,9 +1824,9 @@
    "type": "Feature",
    "properties": {
     "u": 6732277546,
-    "v": 3524,
+    "v": 3527,
     "key": 0,
-    "osmid": "8269",
+    "osmid": "8272",
     "length": 0.01,
     "weight": 300
    },
@@ -1847,10 +1847,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3524,
+    "u": 3527,
     "v": 6732277546,
     "key": 0,
-    "osmid": "8269",
+    "osmid": "8272",
     "length": 0.01,
     "weight": 10
    },
@@ -1871,10 +1871,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3523,
-    "v": 3524,
+    "u": 3526,
+    "v": 3527,
     "key": 0,
-    "osmid": "8270",
+    "osmid": "8273",
     "length": 44.935622557607665,
     "weight": 11.55
    },
@@ -1896,9 +1896,9 @@
    "type": "Feature",
    "properties": {
     "u": 11070696329,
-    "v": 3525,
+    "v": 3528,
     "key": 0,
-    "osmid": "8271",
+    "osmid": "8274",
     "length": 0.01,
     "weight": 300
    },
@@ -1919,10 +1919,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3525,
+    "u": 3528,
     "v": 11070696329,
     "key": 0,
-    "osmid": "8271",
+    "osmid": "8274",
     "length": 0.01,
     "weight": 10
    },
@@ -1943,10 +1943,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3524,
-    "v": 3525,
+    "u": 3527,
+    "v": 3528,
     "key": 0,
-    "osmid": "8272",
+    "osmid": "8275",
     "length": 6.46733593132213,
     "weight": 1.66
    },
@@ -1968,9 +1968,9 @@
    "type": "Feature",
    "properties": {
     "u": 9187839297,
-    "v": 3526,
+    "v": 3529,
     "key": 0,
-    "osmid": "8273",
+    "osmid": "8276",
     "length": 0.01,
     "weight": 300
    },
@@ -1991,10 +1991,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3526,
+    "u": 3529,
     "v": 9187839297,
     "key": 0,
-    "osmid": "8273",
+    "osmid": "8276",
     "length": 0.01,
     "weight": 10
    },
@@ -2015,10 +2015,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3525,
-    "v": 3526,
+    "u": 3528,
+    "v": 3529,
     "key": 0,
-    "osmid": "8274",
+    "osmid": "8277",
     "length": 31.370155111463625,
     "weight": 8.06
    },
@@ -2044,9 +2044,9 @@
    "type": "Feature",
    "properties": {
     "u": 6732277551,
-    "v": 3527,
+    "v": 3530,
     "key": 0,
-    "osmid": "8275",
+    "osmid": "8278",
     "length": 0.01,
     "weight": 300
    },
@@ -2067,10 +2067,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3527,
+    "u": 3530,
     "v": 6732277551,
     "key": 0,
-    "osmid": "8275",
+    "osmid": "8278",
     "length": 0.01,
     "weight": 10
    },
@@ -2091,10 +2091,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3526,
-    "v": 3527,
+    "u": 3529,
+    "v": 3530,
     "key": 0,
-    "osmid": "8276",
+    "osmid": "8279",
     "length": 92.61704442971217,
     "weight": 23.81
    },
@@ -2124,9 +2124,9 @@
    "type": "Feature",
    "properties": {
     "u": 6732277555,
-    "v": 3528,
+    "v": 3531,
     "key": 0,
-    "osmid": "8277",
+    "osmid": "8280",
     "length": 0.01,
     "weight": 300
    },
@@ -2147,10 +2147,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3528,
+    "u": 3531,
     "v": 6732277555,
     "key": 0,
-    "osmid": "8277",
+    "osmid": "8280",
     "length": 0.01,
     "weight": 10
    },
@@ -2171,10 +2171,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3527,
-    "v": 3528,
+    "u": 3530,
+    "v": 3531,
     "key": 0,
-    "osmid": "8278",
+    "osmid": "8281",
     "length": 6.141418494638017,
     "weight": 1.58
    },
@@ -2196,9 +2196,9 @@
    "type": "Feature",
    "properties": {
     "u": 6732277553,
-    "v": 3529,
+    "v": 3532,
     "key": 0,
-    "osmid": "8279",
+    "osmid": "8282",
     "length": 0.01,
     "weight": 300
    },
@@ -2219,10 +2219,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3529,
+    "u": 3532,
     "v": 6732277553,
     "key": 0,
-    "osmid": "8279",
+    "osmid": "8282",
     "length": 0.01,
     "weight": 10
    },
@@ -2243,10 +2243,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3528,
-    "v": 3529,
+    "u": 3531,
+    "v": 3532,
     "key": 0,
-    "osmid": "8280",
+    "osmid": "8283",
     "length": 12.60231125283322,
     "weight": 3.24
    },
@@ -2268,9 +2268,9 @@
    "type": "Feature",
    "properties": {
     "u": 11138324288,
-    "v": 3530,
+    "v": 3533,
     "key": 0,
-    "osmid": "8281",
+    "osmid": "8284",
     "length": 0.01,
     "weight": 300
    },
@@ -2291,10 +2291,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3530,
+    "u": 3533,
     "v": 11138324288,
     "key": 0,
-    "osmid": "8281",
+    "osmid": "8284",
     "length": 0.01,
     "weight": 10
    },
@@ -2315,10 +2315,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3529,
-    "v": 3530,
+    "u": 3532,
+    "v": 3533,
     "key": 0,
-    "osmid": "8282",
+    "osmid": "8285",
     "length": 123.25259868330645,
     "weight": 31.68
    },
@@ -2352,9 +2352,9 @@
    "type": "Feature",
    "properties": {
     "u": 6732277533,
-    "v": 3531,
+    "v": 3534,
     "key": 0,
-    "osmid": "8283",
+    "osmid": "8286",
     "length": 0.01,
     "weight": 300
    },
@@ -2375,10 +2375,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3531,
+    "u": 3534,
     "v": 6732277533,
     "key": 0,
-    "osmid": "8283",
+    "osmid": "8286",
     "length": 0.01,
     "weight": 10
    },
@@ -2399,10 +2399,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3530,
-    "v": 3531,
+    "u": 3533,
+    "v": 3534,
     "key": 0,
-    "osmid": "8284",
+    "osmid": "8287",
     "length": 64.57963044119019,
     "weight": 16.6
    },
@@ -2432,9 +2432,9 @@
    "type": "Feature",
    "properties": {
     "u": 11138333012,
-    "v": 3532,
+    "v": 3535,
     "key": 0,
-    "osmid": "8285",
+    "osmid": "8288",
     "length": 0.01,
     "weight": 300
    },
@@ -2455,10 +2455,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3532,
+    "u": 3535,
     "v": 11138333012,
     "key": 0,
-    "osmid": "8285",
+    "osmid": "8288",
     "length": 0.01,
     "weight": 10
    },
@@ -2479,10 +2479,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3531,
-    "v": 3532,
+    "u": 3534,
+    "v": 3535,
     "key": 0,
-    "osmid": "8286",
+    "osmid": "8289",
     "length": 6.728718896988848,
     "weight": 1.73
    },
@@ -2504,9 +2504,9 @@
    "type": "Feature",
    "properties": {
     "u": 6732277535,
-    "v": 3533,
+    "v": 3536,
     "key": 0,
-    "osmid": "8287",
+    "osmid": "8290",
     "length": 0.01,
     "weight": 300
    },
@@ -2527,10 +2527,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3533,
+    "u": 3536,
     "v": 6732277535,
     "key": 0,
-    "osmid": "8287",
+    "osmid": "8290",
     "length": 0.01,
     "weight": 10
    },
@@ -2551,10 +2551,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3532,
-    "v": 3533,
+    "u": 3535,
+    "v": 3536,
     "key": 0,
-    "osmid": "8288",
+    "osmid": "8291",
     "length": 3.593814237862056,
     "weight": 0.92
    },
@@ -2576,9 +2576,9 @@
    "type": "Feature",
    "properties": {
     "u": 11138333010,
-    "v": 3534,
+    "v": 3537,
     "key": 0,
-    "osmid": "8289",
+    "osmid": "8292",
     "length": 0.01,
     "weight": 300
    },
@@ -2599,10 +2599,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3534,
+    "u": 3537,
     "v": 11138333010,
     "key": 0,
-    "osmid": "8289",
+    "osmid": "8292",
     "length": 0.01,
     "weight": 10
    },
@@ -2623,10 +2623,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3533,
-    "v": 3534,
+    "u": 3536,
+    "v": 3537,
     "key": 0,
-    "osmid": "8290",
+    "osmid": "8293",
     "length": 6.43124808305135,
     "weight": 1.65
    },
@@ -2648,9 +2648,9 @@
    "type": "Feature",
    "properties": {
     "u": 7673464378,
-    "v": 3535,
+    "v": 3538,
     "key": 0,
-    "osmid": "8291",
+    "osmid": "8294",
     "length": 0.01,
     "weight": 300
    },
@@ -2671,10 +2671,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3535,
+    "u": 3538,
     "v": 7673464378,
     "key": 0,
-    "osmid": "8291",
+    "osmid": "8294",
     "length": 0.01,
     "weight": 10
    },
@@ -2695,10 +2695,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3534,
-    "v": 3535,
+    "u": 3537,
+    "v": 3538,
     "key": 0,
-    "osmid": "8292",
+    "osmid": "8295",
     "length": 54.124249863153274,
     "weight": 13.91
    },
@@ -2720,9 +2720,9 @@
    "type": "Feature",
    "properties": {
     "u": 8682825680,
-    "v": 3536,
+    "v": 3539,
     "key": 0,
-    "osmid": "8293",
+    "osmid": "8296",
     "length": 0.01,
     "weight": 300
    },
@@ -2743,10 +2743,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3536,
+    "u": 3539,
     "v": 8682825680,
     "key": 0,
-    "osmid": "8293",
+    "osmid": "8296",
     "length": 0.01,
     "weight": 10
    },
@@ -2767,10 +2767,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3535,
-    "v": 3536,
+    "u": 3538,
+    "v": 3539,
     "key": 0,
-    "osmid": "8294",
+    "osmid": "8297",
     "length": 23.649151187969387,
     "weight": 6.08
    },
@@ -2796,9 +2796,9 @@
    "type": "Feature",
    "properties": {
     "u": 2748923904,
-    "v": 3537,
+    "v": 3540,
     "key": 0,
-    "osmid": "8295",
+    "osmid": "8298",
     "length": 0.01,
     "weight": 300
    },
@@ -2819,10 +2819,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3537,
+    "u": 3540,
     "v": 2748923904,
     "key": 0,
-    "osmid": "8295",
+    "osmid": "8298",
     "length": 0.01,
     "weight": 10
    },
@@ -2843,10 +2843,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3536,
-    "v": 3537,
+    "u": 3539,
+    "v": 3540,
     "key": 0,
-    "osmid": "8296",
+    "osmid": "8299",
     "length": 7.192785935621584,
     "weight": 1.85
    },
@@ -2868,9 +2868,9 @@
    "type": "Feature",
    "properties": {
     "u": 8682825683,
-    "v": 3538,
+    "v": 3541,
     "key": 0,
-    "osmid": "8297",
+    "osmid": "8300",
     "length": 0.01,
     "weight": 300
    },
@@ -2891,10 +2891,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3538,
+    "u": 3541,
     "v": 8682825683,
     "key": 0,
-    "osmid": "8297",
+    "osmid": "8300",
     "length": 0.01,
     "weight": 10
    },
@@ -2915,10 +2915,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3537,
-    "v": 3538,
+    "u": 3540,
+    "v": 3541,
     "key": 0,
-    "osmid": "8298",
+    "osmid": "8301",
     "length": 27.12036877593778,
     "weight": 6.97
    },
@@ -2940,9 +2940,9 @@
    "type": "Feature",
    "properties": {
     "u": 8682825685,
-    "v": 3539,
+    "v": 3542,
     "key": 0,
-    "osmid": "8299",
+    "osmid": "8302",
     "length": 0.01,
     "weight": 300
    },
@@ -2963,10 +2963,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3539,
+    "u": 3542,
     "v": 8682825685,
     "key": 0,
-    "osmid": "8299",
+    "osmid": "8302",
     "length": 0.01,
     "weight": 10
    },
@@ -2987,10 +2987,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3538,
-    "v": 3539,
+    "u": 3541,
+    "v": 3542,
     "key": 0,
-    "osmid": "8300",
+    "osmid": "8303",
     "length": 21.821586229557816,
     "weight": 5.61
    },
@@ -3012,9 +3012,9 @@
    "type": "Feature",
    "properties": {
     "u": 13504279964,
-    "v": 3540,
+    "v": 3543,
     "key": 0,
-    "osmid": "8301",
+    "osmid": "8304",
     "length": 0.01,
     "weight": 300
    },
@@ -3035,10 +3035,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3540,
+    "u": 3543,
     "v": 13504279964,
     "key": 0,
-    "osmid": "8301",
+    "osmid": "8304",
     "length": 0.01,
     "weight": 10
    },
@@ -3059,10 +3059,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3539,
-    "v": 3540,
+    "u": 3542,
+    "v": 3543,
     "key": 0,
-    "osmid": "8302",
+    "osmid": "8305",
     "length": 30.682111160744068,
     "weight": 7.89
    },
@@ -3088,9 +3088,9 @@
    "type": "Feature",
    "properties": {
     "u": 7357315008,
-    "v": 3541,
+    "v": 3544,
     "key": 0,
-    "osmid": "8303",
+    "osmid": "8306",
     "length": 0.01,
     "weight": 300
    },
@@ -3111,10 +3111,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3541,
+    "u": 3544,
     "v": 7357315008,
     "key": 0,
-    "osmid": "8303",
+    "osmid": "8306",
     "length": 0.01,
     "weight": 10
    },
@@ -3135,10 +3135,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3540,
-    "v": 3541,
+    "u": 3543,
+    "v": 3544,
     "key": 0,
-    "osmid": "8304",
+    "osmid": "8307",
     "length": 11.349877932534683,
     "weight": 2.92
    },
@@ -3160,9 +3160,9 @@
    "type": "Feature",
    "properties": {
     "u": 13504279973,
-    "v": 3542,
+    "v": 3545,
     "key": 0,
-    "osmid": "8305",
+    "osmid": "8308",
     "length": 0.01,
     "weight": 300
    },
@@ -3183,10 +3183,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3542,
+    "u": 3545,
     "v": 13504279973,
     "key": 0,
-    "osmid": "8305",
+    "osmid": "8308",
     "length": 0.01,
     "weight": 10
    },
@@ -3207,10 +3207,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3541,
-    "v": 3542,
+    "u": 3544,
+    "v": 3545,
     "key": 0,
-    "osmid": "8306",
+    "osmid": "8309",
     "length": 16.61214699122052,
     "weight": 4.27
    },
@@ -3232,9 +3232,9 @@
    "type": "Feature",
    "properties": {
     "u": 7357315004,
-    "v": 3543,
+    "v": 3546,
     "key": 0,
-    "osmid": "8307",
+    "osmid": "8310",
     "length": 0.01,
     "weight": 300
    },
@@ -3255,10 +3255,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3543,
+    "u": 3546,
     "v": 7357315004,
     "key": 0,
-    "osmid": "8307",
+    "osmid": "8310",
     "length": 0.01,
     "weight": 10
    },
@@ -3279,10 +3279,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3542,
-    "v": 3543,
+    "u": 3545,
+    "v": 3546,
     "key": 0,
-    "osmid": "8308",
+    "osmid": "8311",
     "length": 39.8290823447176,
     "weight": 10.24
    },
@@ -3308,9 +3308,9 @@
    "type": "Feature",
    "properties": {
     "u": 7357315018,
-    "v": 3544,
+    "v": 3547,
     "key": 0,
-    "osmid": "8309",
+    "osmid": "8312",
     "length": 0.01,
     "weight": 300
    },
@@ -3331,10 +3331,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3544,
+    "u": 3547,
     "v": 7357315018,
     "key": 0,
-    "osmid": "8309",
+    "osmid": "8312",
     "length": 0.01,
     "weight": 10
    },
@@ -3355,10 +3355,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3543,
-    "v": 3544,
+    "u": 3546,
+    "v": 3547,
     "key": 0,
-    "osmid": "8310",
+    "osmid": "8313",
     "length": 9.192974188681609,
     "weight": 2.36
    },
@@ -3380,9 +3380,9 @@
    "type": "Feature",
    "properties": {
     "u": 7357332269,
-    "v": 3545,
+    "v": 3548,
     "key": 0,
-    "osmid": "8311",
+    "osmid": "8314",
     "length": 0.01,
     "weight": 300
    },
@@ -3403,10 +3403,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3545,
+    "u": 3548,
     "v": 7357332269,
     "key": 0,
-    "osmid": "8311",
+    "osmid": "8314",
     "length": 0.01,
     "weight": 10
    },
@@ -3427,10 +3427,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3544,
-    "v": 3545,
+    "u": 3547,
+    "v": 3548,
     "key": 0,
-    "osmid": "8312",
+    "osmid": "8315",
     "length": 77.90366943619577,
     "weight": 20.03
    },
@@ -3464,9 +3464,9 @@
    "type": "Feature",
    "properties": {
     "u": 315735804,
-    "v": 3546,
+    "v": 3549,
     "key": 0,
-    "osmid": "8313",
+    "osmid": "8316",
     "length": 0.01,
     "weight": 300
    },
@@ -3487,10 +3487,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3546,
+    "u": 3549,
     "v": 315735804,
     "key": 0,
-    "osmid": "8313",
+    "osmid": "8316",
     "length": 0.01,
     "weight": 10
    },
@@ -3511,10 +3511,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3545,
-    "v": 3546,
+    "u": 3548,
+    "v": 3549,
     "key": 0,
-    "osmid": "8314",
+    "osmid": "8317",
     "length": 55.76899838445074,
     "weight": 14.34
    },
@@ -3540,9 +3540,9 @@
    "type": "Feature",
    "properties": {
     "u": 508035441,
-    "v": 3547,
+    "v": 3550,
     "key": 0,
-    "osmid": "8315",
+    "osmid": "8318",
     "length": 0.01,
     "weight": 300
    },
@@ -3563,10 +3563,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3547,
+    "u": 3550,
     "v": 508035441,
     "key": 0,
-    "osmid": "8315",
+    "osmid": "8318",
     "length": 0.01,
     "weight": 10
    },
@@ -3587,10 +3587,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3546,
-    "v": 3547,
+    "u": 3549,
+    "v": 3550,
     "key": 0,
-    "osmid": "8316",
+    "osmid": "8319",
     "length": 36.02836979793505,
     "weight": 9.26
    },
@@ -3612,9 +3612,9 @@
    "type": "Feature",
    "properties": {
     "u": 314854754,
-    "v": 3548,
+    "v": 3551,
     "key": 0,
-    "osmid": "8317",
+    "osmid": "8320",
     "length": 0.01,
     "weight": 300
    },
@@ -3635,10 +3635,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3548,
+    "u": 3551,
     "v": 314854754,
     "key": 0,
-    "osmid": "8317",
+    "osmid": "8320",
     "length": 0.01,
     "weight": 10
    },
@@ -3659,10 +3659,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3547,
-    "v": 3548,
+    "u": 3550,
+    "v": 3551,
     "key": 0,
-    "osmid": "8318",
+    "osmid": "8321",
     "length": 105.91218554387089,
     "weight": 27.23
    },
@@ -3684,9 +3684,9 @@
    "type": "Feature",
    "properties": {
     "u": 7695561764,
-    "v": 3549,
+    "v": 3552,
     "key": 0,
-    "osmid": "8319",
+    "osmid": "8322",
     "length": 0.01,
     "weight": 300
    },
@@ -3707,10 +3707,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3549,
+    "u": 3552,
     "v": 7695561764,
     "key": 0,
-    "osmid": "8319",
+    "osmid": "8322",
     "length": 0.01,
     "weight": 10
    },
@@ -3731,10 +3731,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3548,
-    "v": 3549,
+    "u": 3551,
+    "v": 3552,
     "key": 0,
-    "osmid": "8320",
+    "osmid": "8323",
     "length": 75.6113291446282,
     "weight": 19.44
    },
@@ -3756,9 +3756,9 @@
    "type": "Feature",
    "properties": {
     "u": 518296269,
-    "v": 3550,
+    "v": 3553,
     "key": 0,
-    "osmid": "8321",
+    "osmid": "8324",
     "length": 0.01,
     "weight": 300
    },
@@ -3779,10 +3779,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3550,
+    "u": 3553,
     "v": 518296269,
     "key": 0,
-    "osmid": "8321",
+    "osmid": "8324",
     "length": 0.01,
     "weight": 10
    },
@@ -3803,10 +3803,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3549,
-    "v": 3550,
+    "u": 3552,
+    "v": 3553,
     "key": 0,
-    "osmid": "8322",
+    "osmid": "8325",
     "length": 7.0160428717462615,
     "weight": 1.8
    },
@@ -3828,9 +3828,9 @@
    "type": "Feature",
    "properties": {
     "u": 6814692361,
-    "v": 3551,
+    "v": 3554,
     "key": 0,
-    "osmid": "8323",
+    "osmid": "8326",
     "length": 0.01,
     "weight": 300
    },
@@ -3851,10 +3851,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3551,
+    "u": 3554,
     "v": 6814692361,
     "key": 0,
-    "osmid": "8323",
+    "osmid": "8326",
     "length": 0.01,
     "weight": 10
    },
@@ -3875,10 +3875,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3550,
-    "v": 3551,
+    "u": 3553,
+    "v": 3554,
     "key": 0,
-    "osmid": "8324",
+    "osmid": "8327",
     "length": 85.60674344557192,
     "weight": 22.01
    },
@@ -3904,9 +3904,9 @@
    "type": "Feature",
    "properties": {
     "u": 3289714300,
-    "v": 3552,
+    "v": 3555,
     "key": 0,
-    "osmid": "8325",
+    "osmid": "8328",
     "length": 0.01,
     "weight": 300
    },
@@ -3927,10 +3927,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3552,
+    "u": 3555,
     "v": 3289714300,
     "key": 0,
-    "osmid": "8325",
+    "osmid": "8328",
     "length": 0.01,
     "weight": 10
    },
@@ -3951,10 +3951,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3551,
-    "v": 3552,
+    "u": 3554,
+    "v": 3555,
     "key": 0,
-    "osmid": "8326",
+    "osmid": "8329",
     "length": 56.755744151128255,
     "weight": 14.59
    },
@@ -4000,9 +4000,9 @@
    "type": "Feature",
    "properties": {
     "u": 3289714306,
-    "v": 3553,
+    "v": 3556,
     "key": 0,
-    "osmid": "8327",
+    "osmid": "8330",
     "length": 0.01,
     "weight": 300
    },
@@ -4023,10 +4023,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3553,
+    "u": 3556,
     "v": 3289714306,
     "key": 0,
-    "osmid": "8327",
+    "osmid": "8330",
     "length": 0.01,
     "weight": 10
    },
@@ -4047,10 +4047,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3552,
-    "v": 3553,
+    "u": 3555,
+    "v": 3556,
     "key": 0,
-    "osmid": "8328",
+    "osmid": "8331",
     "length": 7.223837991181871,
     "weight": 1.86
    },
@@ -4072,9 +4072,9 @@
    "type": "Feature",
    "properties": {
     "u": 1540323475,
-    "v": 3554,
+    "v": 3557,
     "key": 0,
-    "osmid": "8329",
+    "osmid": "8332",
     "length": 0.01,
     "weight": 300
    },
@@ -4095,10 +4095,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3554,
+    "u": 3557,
     "v": 1540323475,
     "key": 0,
-    "osmid": "8329",
+    "osmid": "8332",
     "length": 0.01,
     "weight": 10
    },
@@ -4119,10 +4119,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3553,
-    "v": 3554,
+    "u": 3556,
+    "v": 3557,
     "key": 0,
-    "osmid": "8330",
+    "osmid": "8333",
     "length": 21.95656914586204,
     "weight": 5.65
    },
@@ -4144,9 +4144,9 @@
    "type": "Feature",
    "properties": {
     "u": 3289714286,
-    "v": 3555,
+    "v": 3558,
     "key": 0,
-    "osmid": "8331",
+    "osmid": "8334",
     "length": 0.01,
     "weight": 300
    },
@@ -4167,10 +4167,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3555,
+    "u": 3558,
     "v": 3289714286,
     "key": 0,
-    "osmid": "8331",
+    "osmid": "8334",
     "length": 0.01,
     "weight": 10
    },
@@ -4191,10 +4191,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3554,
-    "v": 3555,
+    "u": 3557,
+    "v": 3558,
     "key": 0,
-    "osmid": "8332",
+    "osmid": "8335",
     "length": 47.499914209378275,
     "weight": 12.21
    },
@@ -4216,9 +4216,9 @@
    "type": "Feature",
    "properties": {
     "u": 3289714296,
-    "v": 3556,
+    "v": 3559,
     "key": 0,
-    "osmid": "8333",
+    "osmid": "8336",
     "length": 0.01,
     "weight": 300
    },
@@ -4239,10 +4239,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3556,
+    "u": 3559,
     "v": 3289714296,
     "key": 0,
-    "osmid": "8333",
+    "osmid": "8336",
     "length": 0.01,
     "weight": 10
    },
@@ -4263,10 +4263,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3555,
-    "v": 3556,
+    "u": 3558,
+    "v": 3559,
     "key": 0,
-    "osmid": "8334",
+    "osmid": "8337",
     "length": 81.67671212718176,
     "weight": 21.0
    },
@@ -4288,9 +4288,9 @@
    "type": "Feature",
    "properties": {
     "u": 1540323472,
-    "v": 3557,
+    "v": 3560,
     "key": 0,
-    "osmid": "8335",
+    "osmid": "8338",
     "length": 0.01,
     "weight": 300
    },
@@ -4311,10 +4311,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3557,
+    "u": 3560,
     "v": 1540323472,
     "key": 0,
-    "osmid": "8335",
+    "osmid": "8338",
     "length": 0.01,
     "weight": 10
    },
@@ -4335,10 +4335,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3556,
-    "v": 3557,
+    "u": 3559,
+    "v": 3560,
     "key": 0,
-    "osmid": "8336",
+    "osmid": "8339",
     "length": 15.369156970780796,
     "weight": 3.95
    },
@@ -4360,9 +4360,9 @@
    "type": "Feature",
    "properties": {
     "u": 3289717496,
-    "v": 3558,
+    "v": 3561,
     "key": 0,
-    "osmid": "8337",
+    "osmid": "8340",
     "length": 0.01,
     "weight": 300
    },
@@ -4383,10 +4383,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3558,
+    "u": 3561,
     "v": 3289717496,
     "key": 0,
-    "osmid": "8337",
+    "osmid": "8340",
     "length": 0.01,
     "weight": 10
    },
@@ -4407,10 +4407,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3557,
-    "v": 3558,
+    "u": 3560,
+    "v": 3561,
     "key": 0,
-    "osmid": "8338",
+    "osmid": "8341",
     "length": 67.30902298844572,
     "weight": 17.3
    },
@@ -4432,9 +4432,9 @@
    "type": "Feature",
    "properties": {
     "u": 1540323469,
-    "v": 3559,
+    "v": 3562,
     "key": 0,
-    "osmid": "8339",
+    "osmid": "8342",
     "length": 0.01,
     "weight": 300
    },
@@ -4455,10 +4455,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3559,
+    "u": 3562,
     "v": 1540323469,
     "key": 0,
-    "osmid": "8339",
+    "osmid": "8342",
     "length": 0.01,
     "weight": 10
    },
@@ -4479,10 +4479,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3558,
-    "v": 3559,
+    "u": 3561,
+    "v": 3562,
     "key": 0,
-    "osmid": "8340",
+    "osmid": "8343",
     "length": 91.54375860559122,
     "weight": 23.53
    },
@@ -4504,9 +4504,9 @@
    "type": "Feature",
    "properties": {
     "u": 5548940641,
-    "v": 3560,
+    "v": 3563,
     "key": 0,
-    "osmid": "8341",
+    "osmid": "8344",
     "length": 0.01,
     "weight": 300
    },
@@ -4527,10 +4527,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3560,
+    "u": 3563,
     "v": 5548940641,
     "key": 0,
-    "osmid": "8341",
+    "osmid": "8344",
     "length": 0.01,
     "weight": 10
    },
@@ -4551,10 +4551,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3559,
-    "v": 3560,
+    "u": 3562,
+    "v": 3563,
     "key": 0,
-    "osmid": "8342",
+    "osmid": "8345",
     "length": 170.647176044633,
     "weight": 43.87
    },
@@ -4576,9 +4576,9 @@
    "type": "Feature",
    "properties": {
     "u": 6814957201,
-    "v": 3561,
+    "v": 3564,
     "key": 0,
-    "osmid": "8343",
+    "osmid": "8346",
     "length": 0.01,
     "weight": 300
    },
@@ -4599,10 +4599,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3561,
+    "u": 3564,
     "v": 6814957201,
     "key": 0,
-    "osmid": "8343",
+    "osmid": "8346",
     "length": 0.01,
     "weight": 10
    },
@@ -4623,10 +4623,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3560,
-    "v": 3561,
+    "u": 3563,
+    "v": 3564,
     "key": 0,
-    "osmid": "8344",
+    "osmid": "8347",
     "length": 59.308720965963474,
     "weight": 15.25
    },
@@ -4660,9 +4660,9 @@
    "type": "Feature",
    "properties": {
     "u": 507044703,
-    "v": 3562,
+    "v": 3565,
     "key": 0,
-    "osmid": "8345",
+    "osmid": "8348",
     "length": 0.01,
     "weight": 300
    },
@@ -4683,10 +4683,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3562,
+    "u": 3565,
     "v": 507044703,
     "key": 0,
-    "osmid": "8345",
+    "osmid": "8348",
     "length": 0.01,
     "weight": 10
    },
@@ -4707,10 +4707,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3561,
-    "v": 3562,
+    "u": 3564,
+    "v": 3565,
     "key": 0,
-    "osmid": "8346",
+    "osmid": "8349",
     "length": 18.138073060924214,
     "weight": 4.66
    },
@@ -4732,9 +4732,9 @@
    "type": "Feature",
    "properties": {
     "u": 8333736630,
-    "v": 3563,
+    "v": 3566,
     "key": 0,
-    "osmid": "8347",
+    "osmid": "8350",
     "length": 0.01,
     "weight": 300
    },
@@ -4755,10 +4755,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3563,
+    "u": 3566,
     "v": 8333736630,
     "key": 0,
-    "osmid": "8347",
+    "osmid": "8350",
     "length": 0.01,
     "weight": 10
    },
@@ -4779,10 +4779,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3562,
-    "v": 3563,
+    "u": 3565,
+    "v": 3566,
     "key": 0,
-    "osmid": "8348",
+    "osmid": "8351",
     "length": 38.99566873942944,
     "weight": 10.03
    },
@@ -4812,9 +4812,9 @@
    "type": "Feature",
    "properties": {
     "u": 1540323460,
-    "v": 3564,
+    "v": 3567,
     "key": 0,
-    "osmid": "8349",
+    "osmid": "8352",
     "length": 0.01,
     "weight": 300
    },
@@ -4835,10 +4835,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3564,
+    "u": 3567,
     "v": 1540323460,
     "key": 0,
-    "osmid": "8349",
+    "osmid": "8352",
     "length": 0.01,
     "weight": 10
    },
@@ -4859,10 +4859,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3563,
-    "v": 3564,
+    "u": 3566,
+    "v": 3567,
     "key": 0,
-    "osmid": "8350",
+    "osmid": "8353",
     "length": 26.77789187935313,
     "weight": 6.88
    },
@@ -4884,9 +4884,9 @@
    "type": "Feature",
    "properties": {
     "u": 10897890037,
-    "v": 3565,
+    "v": 3568,
     "key": 0,
-    "osmid": "8351",
+    "osmid": "8354",
     "length": 0.01,
     "weight": 300
    },
@@ -4907,10 +4907,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3565,
+    "u": 3568,
     "v": 10897890037,
     "key": 0,
-    "osmid": "8351",
+    "osmid": "8354",
     "length": 0.01,
     "weight": 10
    },
@@ -4931,10 +4931,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3564,
-    "v": 3565,
+    "u": 3567,
+    "v": 3568,
     "key": 0,
-    "osmid": "8352",
+    "osmid": "8355",
     "length": 22.448277031425658,
     "weight": 5.77
    },
@@ -4956,9 +4956,9 @@
    "type": "Feature",
    "properties": {
     "u": 1540323459,
-    "v": 3566,
+    "v": 3569,
     "key": 0,
-    "osmid": "8353",
+    "osmid": "8356",
     "length": 0.01,
     "weight": 300
    },
@@ -4979,10 +4979,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3566,
+    "u": 3569,
     "v": 1540323459,
     "key": 0,
-    "osmid": "8353",
+    "osmid": "8356",
     "length": 0.01,
     "weight": 10
    },
@@ -5003,10 +5003,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3565,
-    "v": 3566,
+    "u": 3568,
+    "v": 3569,
     "key": 0,
-    "osmid": "8354",
+    "osmid": "8357",
     "length": 7.13534035001111,
     "weight": 1.84
    },
@@ -5028,9 +5028,9 @@
    "type": "Feature",
    "properties": {
     "u": 10981724689,
-    "v": 3567,
+    "v": 3570,
     "key": 0,
-    "osmid": "8355",
+    "osmid": "8358",
     "length": 0.01,
     "weight": 300
    },
@@ -5051,10 +5051,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3567,
+    "u": 3570,
     "v": 10981724689,
     "key": 0,
-    "osmid": "8355",
+    "osmid": "8358",
     "length": 0.01,
     "weight": 10
    },
@@ -5075,10 +5075,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3566,
-    "v": 3567,
+    "u": 3569,
+    "v": 3570,
     "key": 0,
-    "osmid": "8356",
+    "osmid": "8359",
     "length": 11.88279114847441,
     "weight": 3.05
    },
@@ -5100,9 +5100,9 @@
    "type": "Feature",
    "properties": {
     "u": 1540323467,
-    "v": 3568,
+    "v": 3571,
     "key": 0,
-    "osmid": "8357",
+    "osmid": "8360",
     "length": 0.01,
     "weight": 300
    },
@@ -5123,10 +5123,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3568,
+    "u": 3571,
     "v": 1540323467,
     "key": 0,
-    "osmid": "8357",
+    "osmid": "8360",
     "length": 0.01,
     "weight": 10
    },
@@ -5147,10 +5147,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3567,
-    "v": 3568,
+    "u": 3570,
+    "v": 3571,
     "key": 0,
-    "osmid": "8358",
+    "osmid": "8361",
     "length": 99.31788687111872,
     "weight": 25.53
    },
@@ -5180,9 +5180,9 @@
    "type": "Feature",
    "properties": {
     "u": 8693517510,
-    "v": 3569,
+    "v": 3572,
     "key": 0,
-    "osmid": "8359",
+    "osmid": "8362",
     "length": 0.01,
     "weight": 300
    },
@@ -5203,10 +5203,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3569,
+    "u": 3572,
     "v": 8693517510,
     "key": 0,
-    "osmid": "8359",
+    "osmid": "8362",
     "length": 0.01,
     "weight": 10
    },
@@ -5227,10 +5227,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3568,
-    "v": 3569,
+    "u": 3571,
+    "v": 3572,
     "key": 0,
-    "osmid": "8360",
+    "osmid": "8363",
     "length": 52.408651678461716,
     "weight": 13.47
    },
@@ -5272,9 +5272,9 @@
    "type": "Feature",
    "properties": {
     "u": 10298120829,
-    "v": 3570,
+    "v": 3573,
     "key": 0,
-    "osmid": "8361",
+    "osmid": "8364",
     "length": 0.01,
     "weight": 300
    },
@@ -5295,10 +5295,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3570,
+    "u": 3573,
     "v": 10298120829,
     "key": 0,
-    "osmid": "8361",
+    "osmid": "8364",
     "length": 0.01,
     "weight": 10
    },
@@ -5319,10 +5319,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3569,
-    "v": 3570,
+    "u": 3572,
+    "v": 3573,
     "key": 0,
-    "osmid": "8362",
+    "osmid": "8365",
     "length": 15.677135941108368,
     "weight": 4.03
    },
@@ -5348,9 +5348,9 @@
    "type": "Feature",
    "properties": {
     "u": 7920872738,
-    "v": 3571,
+    "v": 3574,
     "key": 0,
-    "osmid": "8363",
+    "osmid": "8366",
     "length": 0.01,
     "weight": 300
    },
@@ -5371,10 +5371,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3571,
+    "u": 3574,
     "v": 7920872738,
     "key": 0,
-    "osmid": "8363",
+    "osmid": "8366",
     "length": 0.01,
     "weight": 10
    },
@@ -5395,10 +5395,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3570,
-    "v": 3571,
+    "u": 3573,
+    "v": 3574,
     "key": 0,
-    "osmid": "8364",
+    "osmid": "8367",
     "length": 27.295160531319443,
     "weight": 7.02
    },
@@ -5424,9 +5424,9 @@
    "type": "Feature",
    "properties": {
     "u": 10298112466,
-    "v": 3572,
+    "v": 3575,
     "key": 0,
-    "osmid": "8365",
+    "osmid": "8368",
     "length": 0.01,
     "weight": 300
    },
@@ -5447,10 +5447,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3572,
+    "u": 3575,
     "v": 10298112466,
     "key": 0,
-    "osmid": "8365",
+    "osmid": "8368",
     "length": 0.01,
     "weight": 10
    },
@@ -5471,10 +5471,10 @@
   {
    "type": "Feature",
    "properties": {
-    "u": 3571,
-    "v": 3572,
+    "u": 3574,
+    "v": 3575,
     "key": 0,
-    "osmid": "8366",
+    "osmid": "8369",
     "length": 11.464521812369757,
     "weight": 2.95
    },
