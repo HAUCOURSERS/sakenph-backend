@@ -407,7 +407,7 @@ def _get_haversine_cost_per_meter(G, weight="weight"):
     _HEURISTIC_SCALE_CACHE[cache_key] = min_cost_per_meter
     return min_cost_per_meter
 
-
+# Finds the fastest mode speed
 def _update_min_cost_per_meter(G, u, v, edge_data, weight, current_min):
     if callable(weight):
         edge_weight = weight(u, v, edge_data)
