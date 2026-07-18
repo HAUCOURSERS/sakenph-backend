@@ -536,6 +536,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
 
         count = 1
         for idx, i in enumerate(routeList):
+            if count == 4:
+                break # FIX THIS LATER
             nodeList = []
             for j in i:
                 node = G.nodes[j]

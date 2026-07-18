@@ -119,14 +119,14 @@ def astar(
                 G, current, neighbor, weight, ignore_edges, edge_data,
             )
 
-            checked_edges.append((current, neighbor))
-
             if edge_weight is None:
                 continue
 
             tentative_g = current_g + edge_weight
 
             if neighbor not in g_score or tentative_g < g_score[neighbor]:
+
+                checked_edges.append((current, neighbor)) 
 
                 g_score[neighbor] = tentative_g
                 came_from[neighbor] = current
