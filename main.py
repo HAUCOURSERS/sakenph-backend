@@ -432,8 +432,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
         }
 
         
-        print(f'src lat-y,long-x: {pair['source']['lat']},{pair['source']['long']}')
-        print(f'dest lat-y,long-x: { pair['destination']['lat']},{pair['destination']['long']}')
+        print(f"src lat-y,long-x: {pair['source']['lat']},{pair['source']['long']}")
+        print(f"dest lat-y,long-x: { pair['destination']['lat']},{pair['destination']['long']}")
 
         srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
         destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
