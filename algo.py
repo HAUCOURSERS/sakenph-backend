@@ -54,27 +54,11 @@ def astar(
     """
     Generic A* Shortest Path Algorithm.
 
-    Parameters
-    ----------
-    G : NetworkX Graph
-
-    source : starting node
-
-    target : destination node
-
-    heuristic : function
-        A function that accepts (G, node, target)
-        and returns the heuristic estimate.
-
-    weight : edge attribute name
-
-    ignore_nodes : optional set of nodes to ignore
-
-    ignore_edges : optional set of edges to ignore
-
     Returns
     -------
-    (distance, path)
+    (distance, path, checked_edges)
+    checked_edges is an ordered list of (u, v) tuples — every edge A*
+    examined during relaxation, in the order it examined them.
     """
 
     if source not in G:
@@ -82,7 +66,7 @@ def astar(
     if target not in G:
         raise nx.NodeNotFound(f"Node {target} not in graph")
     if source == target:
-        return 0, [source]
+        return 0, [source], []
 
     ignore_nodes = set(ignore_nodes or [])
     ignore_edges = set(ignore_edges or [])
@@ -91,32 +75,28 @@ def astar(
     if source in ignore_nodes or target in ignore_nodes:
         raise nx.NetworkXNoPath(f"No path between {source} and {target}.")
 
-    # Priority queue values are (f_score, tie_breaker, g_score, node).
     open_set = []
     counter = count()
     adjacency = G._adj
 
     heappush(
         open_set,
-        (
-            heuristic(G, source, target),
-            next(counter),
-            0,
-            source,
-        )
+        (heuristic(G, source, target), next(counter), 0, source),
     )
 
     came_from = {}
-
-    g_score = {
-        source: 0
-    }
-
+    g_score = {source: 0}
     visited = set()
+    checked_edges = []  # ordered log of every edge examined
 
     while open_set:
 
         _, _, current_g, current = heappop(open_set)
+
+        if current in visited:
+            continue
+
+        visited.add(current)
 
         if current == target:
 
@@ -128,12 +108,7 @@ def astar(
 
             path.reverse()
 
-            return current_g, path
-
-        if current in visited:
-            continue
-
-        visited.add(current)
+            return current_g, path, checked_edges
 
         for neighbor, edge_data in adjacency[current].items():
 
@@ -141,47 +116,29 @@ def astar(
                 continue
 
             edge_weight = _edge_weight(
-                G,
-                current,
-                neighbor,
-                weight,
-                ignore_edges,
-                edge_data,
+                G, current, neighbor, weight, ignore_edges, edge_data,
             )
+
+            checked_edges.append((current, neighbor))
 
             if edge_weight is None:
                 continue
 
             tentative_g = current_g + edge_weight
 
-            if (
-                neighbor not in g_score
-                or tentative_g < g_score[neighbor]
-            ):
+            if neighbor not in g_score or tentative_g < g_score[neighbor]:
 
                 g_score[neighbor] = tentative_g
-
                 came_from[neighbor] = current
 
-                f_score = tentative_g + heuristic(
-                    G,
-                    neighbor,
-                    target,
-                )
+                f_score = tentative_g + heuristic(G, neighbor, target)
 
                 heappush(
                     open_set,
-                    (
-                        f_score,
-                        next(counter),
-                        tentative_g,
-                        neighbor,
-                    )
+                    (f_score, next(counter), tentative_g, neighbor),
                 )
 
-    raise nx.NetworkXNoPath(
-        f"No path between {source} and {target}"
-    )
+    raise nx.NetworkXNoPath(f"No path between {source} and {target}")
 
 
 def _edge_is_ignored(G, u, v, key, ignore_edges):
@@ -447,24 +404,13 @@ def yens(
     weight="weight",
     heuristic=None,
 ):
-    """
-    Yield up to k shortest simple paths using Yen's algorithm over A*.
-
-    A* finds the first shortest path and each later spur path. Yen's layer
-    keeps those A* searches loopless by temporarily ignoring root-path nodes
-    and edges already used by accepted paths.
-    """
     if k <= 0:
         return
 
     heuristic = heuristic or make_target_haversine_heuristic(G, target, weight)
 
-    _, first_path = astar(
-        G,
-        source,
-        target,
-        heuristic=heuristic,
-        weight=weight,
+    _, first_path, first_edges = astar(
+        G, source, target, heuristic=heuristic, weight=weight,
     )
 
     accepted_paths = [first_path]
@@ -473,7 +419,7 @@ def yens(
     candidate_keys = set()
     counter = count()
 
-    yield first_path
+    yield first_path, first_edges
 
     for path_index in range(1, k):
         previous_path = accepted_paths[path_index - 1]
@@ -500,7 +446,7 @@ def yens(
                     ignored_edges.add((path[spur_index], path[spur_index + 1]))
 
             try:
-                spur_cost, spur_path = astar(
+                spur_cost, spur_path, spur_edges = astar(
                     G,
                     spur_node,
                     target,
@@ -521,17 +467,17 @@ def yens(
             candidate_keys.add(candidate_key)
             heappush(
                 candidate_paths,
-                (root_cost + spur_cost, next(counter), candidate),
+                (root_cost + spur_cost, next(counter), candidate, spur_edges),
             )
 
         if not candidate_paths:
             break
 
-        _, _, next_path = heappop(candidate_paths)
+        _, _, next_path, next_edges = heappop(candidate_paths)
         candidate_keys.remove(tuple(next_path))
         accepted_paths.append(next_path)
         accepted_keys.add(tuple(next_path))
-        yield next_path
+        yield next_path, next_edges
 
 
 def get_k_shortest_paths(

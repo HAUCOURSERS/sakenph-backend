@@ -267,7 +267,7 @@ def shortestPathTest(src: str, dest: str):
         # with perfTimer("do Dijkstra's"):
         #     finalDistance, pathList = nx.multi_source_dijkstra(G, [start], end, weight="length")
     except Exception as e:
-        raise Exception(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths")
 def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
@@ -496,63 +496,50 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
 
         if algo == 'dijkstra':
             theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+            edgesList = [None] * len(theList)
         elif algo == 'astar':
-            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+            rawResults = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+            theList = [path for path, _ in rawResults]
+            edgesList = [edges for _, edges in rawResults]
         else:
             raise ValueError("Undefined algorithm")
-        
 
         permutationList = []
         routeList = []
-        for i in theList:
+        edgesForRoute = []
+        for idx, i in enumerate(theList):
             permutation = []
             route = i.copy()
 
             for j in range(len(i)):
-                
                 if permutation:
                     modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
-
-                    # Removes bound suffix
                     modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
-
-                    if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
-                        permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                            modeType
-                        )
-
-                else:  # First node in the calculated path
-                    permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                        modeType
-                    )
-
-
-            # total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
-            # # print(f"Weight: {total_weight:.2f}: {permutation}")
+                    if modeType != permutation[-1]:
+                        permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(modeType)
+                else:
+                    modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
+                    modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
+                    permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(modeType)
 
             if permutation not in permutationList:
-                # print(f"1: {i}")
-                # print(f"2: {route}")
                 routeList.append(route)
                 permutationList.append(permutation)
+                edgesForRoute.append(edgesList[idx])
 
         for i in permutationList:
             print(i)
 
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
+        edgesObj = {}
 
         count = 1
-        for i in routeList:
-            # Maximum of 3 routes
-            if count == 4:
-                break # FIX THIS LATER
+        for idx, i in enumerate(routeList):
             nodeList = []
-            # Loop through each node of the route
             for j in i:
                 node = G.nodes[j]
                 if nodeList:
-                    # print(f'{node['mode']['type']}: {i}')
                     if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
                         nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
                     else:
@@ -564,9 +551,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                                     'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
                                 }
                             },
-                            'geometry': [
-                                [float(node['x']), float(node['y'])]
-                            ] 
+                            'geometry': [[float(node['x']), float(node['y'])]]
                         })
                 else:
                     nodeList.append({
@@ -577,14 +562,39 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                                 'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
                             }
                         },
+                        'geometry': [[float(node['x']), float(node['y'])]]
+                    })
+
+            resultsObj[f'result-{count}'] = nodeList
+
+            if edgesForRoute[idx] is not None:
+                edgeSegments = []
+                for u, v in edgesForRoute[idx]:
+                    if u not in minimizedG.nodes or v not in minimizedG.nodes:
+                        continue  # skip if either endpoint lacks coordinate data
+                    u_node = minimizedG.nodes[u]
+                    v_node = minimizedG.nodes[v]
+                    edgeSegments.append({
+                        'mode': {
+                            'type': 'jeepney',
+                            'details': {
+                                'name': 'jeepney',
+                                'color': '#0000ff'
+                            }
+                        },
                         'geometry': [
-                            [float(node['x']), float(node['y'])]
+                            [float(u_node['x']), float(u_node['y'])],
+                            [float(v_node['x']), float(v_node['y'])]
                         ]
                     })
-            resultsObj[f'result-{count}'] = nodeList
-            count+=1
+                edgesObj[f'result-{count}'] = edgeSegments
+
+            count += 1
+
+        if edgesObj:
+            resultsJson['checked_edges'] = edgesObj
+
         return resultsJson
-                
     except Exception as e:
         raise Exception(status_code=500, detail=str(e))
     
@@ -686,7 +696,8 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
             if algo == 'dijkstra':
                 theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
             elif algo == 'astar':
-                theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+                rawResults = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 5, weight="weight"))
+                theList = [path for path, _ in rawResults]
             else:
                 raise ValueError("Undefined algorithm")
 
@@ -785,7 +796,7 @@ def kShortestPathsDebug(src: str, dest: str, algo: str = "dijkstra"):
             return resultsJson
                    
     except Exception as e:
-        raise Exception(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
 
 # Testing single directional Dijkstra's
 @app.get("/shortest_path_test")
