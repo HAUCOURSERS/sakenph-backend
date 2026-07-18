@@ -1,3 +1,4 @@
 #!/bin/bash
 
-systemctl stop uvicorn
+systemctl stop uvicorn || true
+exit 0
