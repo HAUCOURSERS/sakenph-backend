@@ -671,8 +671,11 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                             [float(v_node['x']), float(v_node['y'])]
                         ]
                     })
+                    edgesObj[f'result-{count}'] = edgeSegments
             resultsObj[f'result-{count}'] = nodeList
             count+=1
+        if edgesObj:
+            resultsJson['checked_edges'] = edgesObj
         return resultsJson
                 
     except Exception as e:
