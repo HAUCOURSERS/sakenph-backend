@@ -9,7 +9,7 @@ import os
 import json
 import copy
 from shapely.geometry import shape
-from func import getNearestNodeId
+from func import getNearestNodeId, getFare
 from algo import get_k_shortest_paths
 import itertools
 # --------------- INITIALIZE GRAPH --------------- #
@@ -573,7 +573,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
         else:
             raise ValueError("Undefined algorithm")
         
-
         permutationList = []
         routeList = []
         for i in theList:
@@ -628,6 +627,11 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
                         nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
                     else:
+                        # Add fare for mode path
+                        nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
+                            'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
+                            'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
+                        }
                         nodeList.append({
                             'mode': {
                                 'type': node['mode']['type'],
