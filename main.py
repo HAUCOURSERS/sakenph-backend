@@ -657,6 +657,10 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                             [float(node['x']), float(node['y'])]
                         ]
                     })
+            nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
+                'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
+                'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
+            }
             resultsObj[f'result-{count}'] = nodeList
             count+=1
         return resultsJson
