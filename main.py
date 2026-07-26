@@ -9,7 +9,7 @@ import os
 import json
 import copy
 from shapely.geometry import shape
-from func import getNearestNodeId, getFare
+from func import getNearestNodeId, getFare, haversine
 from algo import get_k_shortest_paths
 import itertools
 # --------------- INITIALIZE GRAPH --------------- #
@@ -76,9 +76,12 @@ with perfTimer("initialize minimized MultiDiGraph"):
 
 
 # -------------------------------------------------- #
-# ------------------ ADD ROUTES -------------------- #
+# ------------------ ADD SUBGRAPHS ----------------- #
 with perfTimer("add tricycle subgraphs"):
     relativePath = "graph/transit_graph/trike_routes"
+    subgraphG = nx.MultiDiGraph()
+    coord_to_node_subg = {}
+    coord_to_node_terminal = {}
 
     for route in os.listdir(relativePath):
 
@@ -96,6 +99,10 @@ with perfTimer("add tricycle subgraphs"):
                     props["x"] = lon
                     props["y"] = lat
 
+                    if feature['properties']['mode']['details']['terminal'] == True:
+                        coord_to_node_terminal[(lon, lat)] = feature
+                    coord_to_node_subg[(lon, lat)] = feature
+                    subgraphG.add_node(node_id, **props)
                     G.add_node(node_id, **props)
 
             elif file.endswith('_edges.geojson'):
@@ -109,6 +116,12 @@ with perfTimer("add tricycle subgraphs"):
                     u = props.pop("u")
                     v = props.pop("v")
 
+                    subgraphG.add_edge(
+                        u,
+                        v,
+                        geometry=shape(geom),
+                        **props
+                    )
                     G.add_edge(
                         u,
                         v,
@@ -117,6 +130,7 @@ with perfTimer("add tricycle subgraphs"):
                     )
             else:
                 print("Throw not correct format")
+# ------------------ ADD SUBGRAPHS ----------------- #
 
 with perfTimer("add jeep routes"):
     relativePath = "graph/transit_graph/jeep_routes"
@@ -565,6 +579,62 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                         minimizedG.add_edge(u, v, **attrs)
                     
                     # minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
+        with perfTimer("add trike connections"):
+            # --- Connect src node to nearest tricycle terminal --- #
+            closestTerminal = None
+            shortestDistance = None
+            for coord, feature in coord_to_node_terminal.items():
+
+                distance = haversine(walkingG.nodes[srcNode]['y'], walkingG.nodes[srcNode]['x'], coord[1], coord[0])
+
+                if shortestDistance is None or distance < shortestDistance:
+                    shortestDistance = distance
+                    closestTerminal = feature
+
+            terminalNodeOnWalking = None
+            for node, data in walkingG.nodes(data=True):
+                if data['x'] == closestTerminal['properties']['x'] and data['y'] == closestTerminal['properties']['y']:
+                    terminalNodeOnWalking = node
+
+            pathToTerminal = ox.shortest_path(walkingG, srcNode, terminalNodeOnWalking, weight="weight")
+            pathToTerminal.append(closestTerminal['properties']['osmid'])
+
+            for osmid in pathToTerminal:
+                if osmid not in minimizedG:
+                    # Remove osmid first to readd it (clunky fix)
+                    attrs = G.nodes[osmid].copy()
+                    attrs.pop("osmid", None)
+                    minimizedG.add_node(osmid, **attrs)
+
+            for u, v in zip(pathToTerminal, pathToTerminal[1:]):
+                attrs = G[u][v][0]
+                minimizedG.add_edge(u, v, **attrs)
+            # ----------------------------------------------------- #
+            # Connect dest node from every terminal inside subgraph #
+            # Checks if dest node is inside a trike subgraph
+            if (G.nodes[destNode]['x'], G.nodes[destNode]['y']) in coord_to_node_subg:
+                subgraphName = coord_to_node_subg[(G.nodes[destNode]['x'], G.nodes[destNode]['y'])]['properties']['mode']['details']['name']
+
+                # Collect all terminals belonging to a subgraph where the dest node is in
+                terminalsInSubgraph = [n['properties']['osmid'] for n in coord_to_node_terminal.values() 
+                                    if n['properties']['mode']['details']['name'] == subgraphName]
+
+                # Adds shortest path from every terminal in subgraph to dest node
+                for terminal in terminalsInSubgraph:
+                    pathToDestNode = ox.shortest_path(G, terminal, destNode, weight="weight")
+
+                    for osmid in pathToDestNode:
+                        if osmid not in minimizedG:
+                            # Remove osmid first to readd it (clunky fix)
+                            attrs = G.nodes[osmid].copy()
+                            attrs.pop("osmid", None)
+                            minimizedG.add_node(osmid, **attrs)
+            
+                    for u, v in zip(pathToDestNode, pathToDestNode[1:]):
+                        attrs = G[u][v][0]
+                        minimizedG.add_edge(u, v, **attrs)
+                # ----------------------------------------------------- #
+            
 
         if algo == 'dijkstra':
             theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
@@ -622,6 +692,14 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             # Loop through each node of the route
             for j in i:
                 node = G.nodes[j]
+
+                if node['mode']['type'] == 'walk':
+                    colorPick = "#005eff"
+                elif node['mode']['details']['name'] in colors:
+                    colorPick = colors[node['mode']['details']['name']]
+                else:
+                    colorPick = "#000000"
+
                 if nodeList:
                     # print(f'{node['mode']['type']}: {i}')
                     if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
@@ -637,7 +715,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                                 'type': node['mode']['type'],
                                 'details': {
                                     'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                    'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                    'color': colorPick
                                 }
                             },
                             'geometry': [
@@ -650,7 +728,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                             'type': node['mode']['type'],
                             'details': {
                                 'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
+                                'color': colorPick
                             }
                         },
                         'geometry': [
