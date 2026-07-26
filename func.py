@@ -45,7 +45,7 @@ def getFare(modePathList, mode="walk", discount=False):
             return 35.0
         else:
             increments = int(totalDist - 0.1)
-            fare = 35 + max(0, increments) * 15
+            fare = 35.0 + max(0, increments) * 15
             if discount:
                 return fare * 0.8
             return fare
