@@ -8,6 +8,7 @@ import numpy as np
 import os
 import json
 import copy
+import traceback
 from shapely.geometry import shape
 from func import getNearestNodeId, getFare, haversine
 from algo import get_k_shortest_paths
@@ -226,134 +227,6 @@ def jeep_routes():
             "geojson": edges_geojson
         })
     return {"routes": route_list}
-
-
-@app.get("/shortest_path")
-def shortestPathTest(src: str, dest: str):
-    '''
-    Returns a dictionary of a multimodal route calculated by shortest path algorithm which contains the separate
-    routes to traverse including the path of the mode in order.
-
-    --- EXAMPLE RESULT ---
-    {
-        route: [
-            { 
-            'mode': {
-                'type': 'walk',
-                'details: {
-                    'name': 'On foot',
-                    'color': '#2005ed'
-                }
-            },
-            'geometry': [
-                    [120.58758878271912, 15.14365473416789],
-                    [120.58833604642595, 15.1434826439334]
-                ]
-            },
-            { 
-            'mode': {
-                'type': 'jeep',
-                'details: {
-                    'name': 'route-1',
-                    'color': '#1d7021'
-                }
-            },
-            'jeep'
-            'geometry': [
-                    [120.58833604642595, 15.1434826439334],
-                    [120.58791499937249, 15.14178736453769],
-                    [120.58745810400315, 15.139206114741604]
-                ]
-            },
-            'mode': {
-                'type': 'walk',
-                'details: {
-                    'name': 'On foot',
-                    'color': '#2005ed'
-                }
-            },
-            'geometry': [
-                    [120.58745810400315, 15.139206114741604],
-                    [120.58704485986307, 15.139215965542231],
-                    [120.58680435135506, 15.138876276435527]
-                ]
-            }
-        ]
-    }
-    In the example above, a calculated route would be a person from its origin node walk to the nearest path
-    with a jeepney route, then hops on the line until it drops off to the nearest stop from its final destination,
-    where the person would walk until the destination node.
-    -------------------
-    
-    Parameters
-    ----------
-    src
-        A string literal containing latitude and longitude values for source coordinates separated by comma
-
-    dest
-        A string literal containing latitude and longitude values for destination coordinates separated by comma
-    Returns
-    ----------
-    None
-    '''
-    try:
-        pair = {
-            'source': {'lat': float(src.split(',')[0]), 'long': float(src.split(',')[1])},
-            'destination': {'lat': float(dest.split(',')[0]), 'long': float(dest.split(',')[1])},
-        }
-
-        # Gets the nearest node from each source/destination coordinates
-        with perfTimer("get nearest node id"):
-            srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
-            destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
-
-        # The shortest path algorithm (weight attribute is pre-calculated as the time it takes to  
-        # traverse an edge in seconds based on its mode's average speed
-        with perfTimer('do shortest path'):
-            pathList = ox.k_shortest_paths(G, srcNode, destNode, 1, weight="weight")
-
-        with perfTimer('append'):
-            final = list(itertools.chain.from_iterable(pathList))
-        nodeList = []
-        for i in final:
-            node = G.nodes[i]
-            if nodeList:
-                # print(f'{node['mode']['type']}: {i}')
-                if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
-                    nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
-                else:
-                    nodeList.append({
-                        'mode': {
-                            'type': node['mode']['type'],
-                            'details': {
-                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                            }
-                        },
-                        'geometry': [
-                            [float(node['x']), float(node['y'])]
-                        ] 
-                    })
-            else:
-                nodeList.append({
-                    'mode': {
-                        'type': node['mode']['type'],
-                        'details': {
-                            'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                            'color': colors[node['mode']['details']['name']] if node['mode']['type'] != 'walk' else "#005eff"
-                        }
-                    },
-                    'geometry': [
-                        [float(node['x']), float(node['y'])]
-                    ]
-                })
-
-        return {'route': nodeList}
-
-        # with perfTimer("do Dijkstra's"):
-        #     finalDistance, pathList = nx.multi_source_dijkstra(G, [start], end, weight="length")
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
     
 @app.get("/k_shortest_paths")
 def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
@@ -637,9 +510,9 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             
 
         if algo == 'dijkstra':
-            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 25, weight="weight"))
         elif algo == 'astar':
-            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 25, weight="weight"))
         else:
             raise ValueError("Undefined algorithm")
         
@@ -682,13 +555,19 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
 
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
-
+        
         count = 1
         for i in routeList:
             # Maximum of 3 routes
             if count == 4:
                 break
             nodeList = []
+
+            # Used to filter out paths that uses a route multiple times
+            validRoute = True
+            # Tracker for visited routes
+            routesVisited = []
+
             # Loop through each node of the route
             for j in i:
                 node = G.nodes[j]
@@ -705,6 +584,9 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
                         nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
                     else:
+                        if node['mode']['type'] != 'walk' and node['mode']['details']['name'] in routesVisited:
+                            validRoute = False
+                            break
                         # Add fare for mode path
                         nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
                             'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
@@ -722,6 +604,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                                 [float(node['x']), float(node['y'])]
                             ] 
                         })
+                        if node['mode']['type'] != "walk":
+                            routesVisited.append(node['mode']['details']['name']) 
                 else:
                     nodeList.append({
                         'mode': {
@@ -735,13 +619,19 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                             [float(node['x']), float(node['y'])]
                         ]
                     })
-            nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
-                'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
-                'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
-            }
-            resultsObj[f'result-{count}'] = nodeList
-            count+=1
+                    if node['mode']['type'] != "walk":
+                        routesVisited.append(node['mode']['details']['name']) 
+
+            if validRoute:
+                nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
+                    'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
+                    'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
+                }
+                resultsObj[f'result-{count}'] = nodeList
+                count+=1
+        
         return resultsJson
                 
     except Exception as e:
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
