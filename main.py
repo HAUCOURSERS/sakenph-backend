@@ -382,6 +382,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             # bound (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
             for bound, routeArr in routeNodes.items():
                 if routeArr:
+                    
                     # list of equivalent nodes on the walking graph
                     routeOnWalkingG = [
                         coord_to_walking_node[(val['x'], val['y'])]
@@ -392,26 +393,25 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     # Gets the best equivalent route node with on the walking graph
                     best_node = min(routeOnWalkingG, key=lambda n: dist_src.get(n, float('inf')))
 
-
                     # Looks for its route node counterpart
                     for key, value in routeArr.items():
                         if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
                             bestRouteNode = key
                             break
-                    srcToFirstRoute = path_src[best_node]
+                    srcToFirstRoute = list(path_src[best_node])
+                    srcToFirstRoute.append(bestRouteNode)
 
                     for osmid in srcToFirstRoute:
-
-                        # Remove osmid first to readd it (clunky fix)
-                        attrs = G.nodes[osmid].copy()
-                        attrs.pop("osmid", None)
-                        minimizedG.add_node(osmid, **attrs)
+                        if osmid not in minimizedG:
+                            # Remove osmid first to readd it (clunky fix)
+                            attrs = G.nodes[osmid].copy()
+                            attrs.pop("osmid", None)
+                            minimizedG.add_node(osmid, **attrs)
 
                     # Add connection from source node to first route node
                     for u, v in zip(srcToFirstRoute, srcToFirstRoute[1:]):
                         attrs = G[u][v][0]
                         minimizedG.add_edge(u, v, **attrs)
-
 
                     # minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
 
