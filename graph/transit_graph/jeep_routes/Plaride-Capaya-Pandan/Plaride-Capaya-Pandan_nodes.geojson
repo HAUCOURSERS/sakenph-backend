@@ -1,0 +1,3912 @@
+{
+ "type": "FeatureCollection",
+ "name": "Plaride-Capaya-Pandan_nodes",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2129,
+    "y": 15.1380836,
+    "x": 120.5904325,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5904325,
+     15.1380836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2130,
+    "y": 15.1383177,
+    "x": 120.5901853,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5901853,
+     15.1383177
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2131,
+    "y": 15.1387075,
+    "x": 120.5897738,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5897738,
+     15.1387075
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2132,
+    "y": 15.1397525,
+    "x": 120.5908404,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5908404,
+     15.1397525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2133,
+    "y": 15.1395117,
+    "x": 120.5910898,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5910898,
+     15.1395117
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2134,
+    "y": 15.1392985,
+    "x": 120.5913193,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5913193,
+     15.1392985
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2135,
+    "y": 15.1392024,
+    "x": 120.5914142,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5914142,
+     15.1392024
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2136,
+    "y": 15.1390837,
+    "x": 120.5915316,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5915316,
+     15.1390837
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2137,
+    "y": 15.138872,
+    "x": 120.5917512,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5917512,
+     15.138872
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2138,
+    "y": 15.1386457,
+    "x": 120.5919919,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5919919,
+     15.1386457
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2139,
+    "y": 15.1384463,
+    "x": 120.592204,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.592204,
+     15.1384463
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2140,
+    "y": 15.1379949,
+    "x": 120.592744,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.592744,
+     15.1379949
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2141,
+    "y": 15.13783,
+    "x": 120.5929579,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5929579,
+     15.13783
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2142,
+    "y": 15.1381214,
+    "x": 120.5931732,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5931732,
+     15.1381214
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2143,
+    "y": 15.1388707,
+    "x": 120.5937095,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5937095,
+     15.1388707
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2144,
+    "y": 15.1389642,
+    "x": 120.5937877,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5937877,
+     15.1389642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2145,
+    "y": 15.1391695,
+    "x": 120.5939424,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5939424,
+     15.1391695
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2146,
+    "y": 15.1392301,
+    "x": 120.5939885,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5939885,
+     15.1392301
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2147,
+    "y": 15.1393376,
+    "x": 120.594069,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.594069,
+     15.1393376
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2148,
+    "y": 15.139454,
+    "x": 120.5941567,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5941567,
+     15.139454
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2149,
+    "y": 15.139611,
+    "x": 120.594275,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.594275,
+     15.139611
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2150,
+    "y": 15.1397282,
+    "x": 120.5943633,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5943633,
+     15.1397282
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2151,
+    "y": 15.140238,
+    "x": 120.5947475,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5947475,
+     15.140238
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2152,
+    "y": 15.140377,
+    "x": 120.5948522,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5948522,
+     15.140377
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2153,
+    "y": 15.1407502,
+    "x": 120.5950987,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5950987,
+     15.1407502
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2154,
+    "y": 15.1409995,
+    "x": 120.5952904,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5952904,
+     15.1409995
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2155,
+    "y": 15.1411712,
+    "x": 120.5954249,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5954249,
+     15.1411712
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2156,
+    "y": 15.1412863,
+    "x": 120.595511,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.595511,
+     15.1412863
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2157,
+    "y": 15.141402,
+    "x": 120.5955982,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5955982,
+     15.141402
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2158,
+    "y": 15.1420087,
+    "x": 120.5960558,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5960558,
+     15.1420087
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2159,
+    "y": 15.1423191,
+    "x": 120.5962828,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5962828,
+     15.1423191
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2160,
+    "y": 15.1424474,
+    "x": 120.5963782,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5963782,
+     15.1424474
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2161,
+    "y": 15.1424748,
+    "x": 120.5963943,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5963943,
+     15.1424748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2162,
+    "y": 15.1426129,
+    "x": 120.5966012,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5966012,
+     15.1426129
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2163,
+    "y": 15.1426087,
+    "x": 120.5966258,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5966258,
+     15.1426087
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2164,
+    "y": 15.1426805,
+    "x": 120.5967543,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5967543,
+     15.1426805
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2165,
+    "y": 15.1428336,
+    "x": 120.5967508,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5967508,
+     15.1428336
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2166,
+    "y": 15.1429211,
+    "x": 120.5967861,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5967861,
+     15.1429211
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2167,
+    "y": 15.1431116,
+    "x": 120.5968766,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5968766,
+     15.1431116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2168,
+    "y": 15.1432583,
+    "x": 120.5969869,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5969869,
+     15.1432583
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2169,
+    "y": 15.1437718,
+    "x": 120.5973719,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5973719,
+     15.1437718
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2170,
+    "y": 15.1442606,
+    "x": 120.5977317,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5977317,
+     15.1442606
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2171,
+    "y": 15.1445674,
+    "x": 120.5979685,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5979685,
+     15.1445674
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2172,
+    "y": 15.1447328,
+    "x": 120.5981087,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5981087,
+     15.1447328
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2173,
+    "y": 15.1448497,
+    "x": 120.598215,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.598215,
+     15.1448497
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2174,
+    "y": 15.1458637,
+    "x": 120.5990823,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5990823,
+     15.1458637
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2175,
+    "y": 15.1460573,
+    "x": 120.5992439,
+    "street_count": 4,
+    "highway": "traffic_signals",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5992439,
+     15.1460573
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2176,
+    "y": 15.1462177,
+    "x": 120.5993725,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5993725,
+     15.1462177
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2177,
+    "y": 15.1463777,
+    "x": 120.5995008,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5995008,
+     15.1463777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2178,
+    "y": 15.1465441,
+    "x": 120.5996409,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5996409,
+     15.1465441
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2179,
+    "y": 15.1468522,
+    "x": 120.5999011,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5999011,
+     15.1468522
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2180,
+    "y": 15.1470554,
+    "x": 120.6000674,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6000674,
+     15.1470554
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2181,
+    "y": 15.1473023,
+    "x": 120.600282,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.600282,
+     15.1473023
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2182,
+    "y": 15.1473307,
+    "x": 120.600307,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.600307,
+     15.1473307
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2183,
+    "y": 15.1474511,
+    "x": 120.6004128,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6004128,
+     15.1474511
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2184,
+    "y": 15.1474962,
+    "x": 120.6004516,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6004516,
+     15.1474962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2185,
+    "y": 15.1478186,
+    "x": 120.6007263,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6007263,
+     15.1478186
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2186,
+    "y": 15.148091,
+    "x": 120.6009553,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6009553,
+     15.148091
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2187,
+    "y": 15.1486832,
+    "x": 120.6014393,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6014393,
+     15.1486832
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2188,
+    "y": 15.1488722,
+    "x": 120.6015943,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6015943,
+     15.1488722
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2189,
+    "y": 15.1490211,
+    "x": 120.6017196,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6017196,
+     15.1490211
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2190,
+    "y": 15.1492237,
+    "x": 120.6018826,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6018826,
+     15.1492237
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2191,
+    "y": 15.1496289,
+    "x": 120.6022011,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6022011,
+     15.1496289
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2192,
+    "y": 15.1497713,
+    "x": 120.6023125,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6023125,
+     15.1497713
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2193,
+    "y": 15.1504934,
+    "x": 120.6029059,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6029059,
+     15.1504934
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2194,
+    "y": 15.1506034,
+    "x": 120.6029972,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6029972,
+     15.1506034
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2195,
+    "y": 15.1506405,
+    "x": 120.6030266,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6030266,
+     15.1506405
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2196,
+    "y": 15.1507996,
+    "x": 120.6031534,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6031534,
+     15.1507996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2197,
+    "y": 15.1508756,
+    "x": 120.6032139,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6032139,
+     15.1508756
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2198,
+    "y": 15.1509194,
+    "x": 120.6032488,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6032488,
+     15.1509194
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2199,
+    "y": 15.151077,
+    "x": 120.6033773,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6033773,
+     15.151077
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2200,
+    "y": 15.1512263,
+    "x": 120.6034924,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6034924,
+     15.1512263
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2201,
+    "y": 15.1517815,
+    "x": 120.6037971,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6037971,
+     15.1517815
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2202,
+    "y": 15.151954,
+    "x": 120.603887,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.603887,
+     15.151954
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2203,
+    "y": 15.1521096,
+    "x": 120.60397,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.60397,
+     15.1521096
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2204,
+    "y": 15.1526528,
+    "x": 120.6042514,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6042514,
+     15.1526528
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2205,
+    "y": 15.1529006,
+    "x": 120.6043813,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6043813,
+     15.1529006
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2206,
+    "y": 15.15324,
+    "x": 120.6045625,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6045625,
+     15.15324
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2207,
+    "y": 15.1533417,
+    "x": 120.6046168,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6046168,
+     15.1533417
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2208,
+    "y": 15.1534143,
+    "x": 120.6046553,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6046553,
+     15.1534143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2209,
+    "y": 15.1537129,
+    "x": 120.6048136,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6048136,
+     15.1537129
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2210,
+    "y": 15.1536618,
+    "x": 120.6049399,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6049399,
+     15.1536618
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2211,
+    "y": 15.1535057,
+    "x": 120.6052329,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6052329,
+     15.1535057
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2212,
+    "y": 15.1532397,
+    "x": 120.6059071,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6059071,
+     15.1532397
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2213,
+    "y": 15.1523615,
+    "x": 120.6082357,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6082357,
+     15.1523615
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2214,
+    "y": 15.1521779,
+    "x": 120.6087072,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6087072,
+     15.1521779
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2215,
+    "y": 15.1520556,
+    "x": 120.6089918,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6089918,
+     15.1520556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2216,
+    "y": 15.1518408,
+    "x": 120.6095509,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6095509,
+     15.1518408
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2217,
+    "y": 15.1516146,
+    "x": 120.6101333,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6101333,
+     15.1516146
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2218,
+    "y": 15.1514787,
+    "x": 120.6104768,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6104768,
+     15.1514787
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2219,
+    "y": 15.1513145,
+    "x": 120.6109146,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6109146,
+     15.1513145
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2220,
+    "y": 15.1512969,
+    "x": 120.6109584,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6109584,
+     15.1512969
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2221,
+    "y": 15.1510165,
+    "x": 120.6117094,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6117094,
+     15.1510165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2222,
+    "y": 15.1509201,
+    "x": 120.6119553,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6119553,
+     15.1509201
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2223,
+    "y": 15.1506363,
+    "x": 120.6126728,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6126728,
+     15.1506363
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2224,
+    "y": 15.1504861,
+    "x": 120.6130524,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6130524,
+     15.1504861
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2225,
+    "y": 15.1503081,
+    "x": 120.6135021,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6135021,
+     15.1503081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2226,
+    "y": 15.150145,
+    "x": 120.6139145,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6139145,
+     15.150145
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2227,
+    "y": 15.1500406,
+    "x": 120.6141783,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6141783,
+     15.1500406
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2228,
+    "y": 15.1500198,
+    "x": 120.614319,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.614319,
+     15.1500198
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2229,
+    "y": 15.1499081,
+    "x": 120.6146161,
+    "street_count": 5,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6146161,
+     15.1499081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2230,
+    "y": 15.1480023,
+    "x": 120.6140554,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6140554,
+     15.1480023
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2231,
+    "y": 15.1468576,
+    "x": 120.6140584,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6140584,
+     15.1468576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2232,
+    "y": 15.1463008,
+    "x": 120.6140575,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6140575,
+     15.1463008
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2233,
+    "y": 15.1462485,
+    "x": 120.614374,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.614374,
+     15.1462485
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2234,
+    "y": 15.1462201,
+    "x": 120.6145098,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6145098,
+     15.1462201
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2235,
+    "y": 15.1461538,
+    "x": 120.6148275,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6148275,
+     15.1461538
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2236,
+    "y": 15.1461216,
+    "x": 120.6149642,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6149642,
+     15.1461216
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2237,
+    "y": 15.146102,
+    "x": 120.6150578,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6150578,
+     15.146102
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2238,
+    "y": 15.146058,
+    "x": 120.6152303,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6152303,
+     15.146058
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2239,
+    "y": 15.1460434,
+    "x": 120.6152877,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6152877,
+     15.1460434
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2240,
+    "y": 15.1459959,
+    "x": 120.6154966,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6154966,
+     15.1459959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2241,
+    "y": 15.1459414,
+    "x": 120.615731,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.615731,
+     15.1459414
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2242,
+    "y": 15.1458946,
+    "x": 120.6159667,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6159667,
+     15.1458946
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2243,
+    "y": 15.1458341,
+    "x": 120.6161964,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6161964,
+     15.1458341
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2244,
+    "y": 15.1457969,
+    "x": 120.6164103,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6164103,
+     15.1457969
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2245,
+    "y": 15.1457422,
+    "x": 120.6166461,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6166461,
+     15.1457422
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2246,
+    "y": 15.1456991,
+    "x": 120.6168743,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6168743,
+     15.1456991
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2247,
+    "y": 15.1456672,
+    "x": 120.6171053,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6171053,
+     15.1456672
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2248,
+    "y": 15.1456496,
+    "x": 120.6173339,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6173339,
+     15.1456496
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2249,
+    "y": 15.1456393,
+    "x": 120.6177168,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6177168,
+     15.1456393
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2250,
+    "y": 15.1456308,
+    "x": 120.6180934,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6180934,
+     15.1456308
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2251,
+    "y": 15.1456179,
+    "x": 120.6184338,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6184338,
+     15.1456179
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2252,
+    "y": 15.1456157,
+    "x": 120.6187703,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6187703,
+     15.1456157
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2253,
+    "y": 15.1456085,
+    "x": 120.6190927,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6190927,
+     15.1456085
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2254,
+    "y": 15.1455891,
+    "x": 120.6194434,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "north"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6194434,
+     15.1455891
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2255,
+    "y": 15.1455849,
+    "x": 120.6197923,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6197923,
+     15.1455849
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2283,
+    "y": 15.1500875,
+    "x": 120.6142051,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6142051,
+     15.1500875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2284,
+    "y": 15.1501926,
+    "x": 120.613935,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.613935,
+     15.1501926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2285,
+    "y": 15.1503531,
+    "x": 120.6135208,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6135208,
+     15.1503531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2286,
+    "y": 15.1504388,
+    "x": 120.6132997,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6132997,
+     15.1504388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2287,
+    "y": 15.1505286,
+    "x": 120.6130695,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6130695,
+     15.1505286
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2288,
+    "y": 15.1509651,
+    "x": 120.6119759,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6119759,
+     15.1509651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2289,
+    "y": 15.1513542,
+    "x": 120.6109827,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6109827,
+     15.1513542
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2290,
+    "y": 15.1515373,
+    "x": 120.6105006,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6105006,
+     15.1515373
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2291,
+    "y": 15.1516726,
+    "x": 120.6101586,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6101586,
+     15.1516726
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2292,
+    "y": 15.1518898,
+    "x": 120.6095717,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6095717,
+     15.1518898
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2293,
+    "y": 15.1521036,
+    "x": 120.6090142,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6090142,
+     15.1521036
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2294,
+    "y": 15.1524133,
+    "x": 120.6082573,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6082573,
+     15.1524133
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2295,
+    "y": 15.1528625,
+    "x": 120.6071051,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6071051,
+     15.1528625
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2296,
+    "y": 15.152906,
+    "x": 120.6069824,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6069824,
+     15.152906
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2297,
+    "y": 15.152914,
+    "x": 120.6069597,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6069597,
+     15.152914
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2298,
+    "y": 15.1530859,
+    "x": 120.6065283,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6065283,
+     15.1530859
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2299,
+    "y": 15.1531496,
+    "x": 120.6063449,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6063449,
+     15.1531496
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2300,
+    "y": 15.1533037,
+    "x": 120.605947,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.605947,
+     15.1533037
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2345,
+    "y": 15.1428945,
+    "x": 120.596656,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.596656,
+     15.1428945
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2346,
+    "y": 15.1428958,
+    "x": 120.5966348,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5966348,
+     15.1428958
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2347,
+    "y": 15.1428447,
+    "x": 120.5965299,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5965299,
+     15.1428447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2348,
+    "y": 15.1427344,
+    "x": 120.5965024,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5965024,
+     15.1427344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2349,
+    "y": 15.1426689,
+    "x": 120.5964689,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5964689,
+     15.1426689
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2350,
+    "y": 15.1425933,
+    "x": 120.5964321,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5964321,
+     15.1425933
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2372,
+    "y": 15.1371162,
+    "x": 120.5923909,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5923909,
+     15.1371162
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2373,
+    "y": 15.1370828,
+    "x": 120.5923668,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5923668,
+     15.1370828
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2374,
+    "y": 15.1368624,
+    "x": 120.5922079,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5922079,
+     15.1368624
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2375,
+    "y": 15.1366445,
+    "x": 120.5920435,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5920435,
+     15.1366445
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 2376,
+    "y": 15.1371949,
+    "x": 120.5913961,
+    "street_count": 3,
+    "highway": "milestone",
+    "ref": null,
+    "mode": {
+     "type": "jeep",
+     "details": {
+      "name": "Plaride-Capaya-Pandan",
+      "bound": "south"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5913961,
+     15.1371949
+    ]
+   }
+  }
+ ]
+}
