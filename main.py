@@ -227,6 +227,21 @@ def jeep_routes():
             "geojson": edges_geojson
         })
     return {"routes": route_list}
+
+@app.get("/trike_terminals_list")
+def jeep_routes():
+    trikeGraphsDir = r"graph/transit_graph/trike_routes"
+
+    terminalList = []
+
+    for subgraph in os.listdir(trikeGraphsDir):
+        with open(f"{trikeGraphsDir}/{subgraph}/{subgraph}_nodes.geojson", "r") as file:
+            nodesGeojson = json.load(file)
+        for node in nodesGeojson['features']:
+            if node['properties']['mode']['details']['terminal'] != False:
+                terminalList.append({"terminalName": node['properties']['mode']['details']['terminal'], "coordinates": {"lat": node['properties']['y'], "long": node['properties']['x']}})
+
+    return {"terminalList": terminalList}
     
 @app.get("/k_shortest_paths")
 def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
@@ -510,9 +525,9 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             
 
         if algo == 'dijkstra':
-            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 25, weight="weight"))
+            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 35, weight="weight"))
         elif algo == 'astar':
-            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 25, weight="weight"))
+            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 35, weight="weight"))
         else:
             raise ValueError("Undefined algorithm")
         
@@ -544,6 +559,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             # total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
             # # print(f"Weight: {total_weight:.2f}: {permutation}")
 
+
+            print(permutation)
             if permutation not in permutationList:
                 # print(f"1: {i}")
                 # print(f"2: {route}")
