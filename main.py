@@ -100,7 +100,7 @@ with perfTimer("add tricycle subgraphs"):
                     props["x"] = lon
                     props["y"] = lat
 
-                    if feature['properties']['mode']['details']['terminal'] == True:
+                    if feature['properties']['mode']['details']['terminal'] != False:
                         coord_to_node_terminal[(lon, lat)] = feature
                     coord_to_node_subg[(lon, lat)] = feature
                     subgraphG.add_node(node_id, **props)
@@ -352,121 +352,122 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             for node, data in walkingG.nodes(data=True)
         }
 
-        # ADD WALKING PATH FROM SOURCE NODE TO DEST NODE
-        src_to_dest_dist, src_to_dest_path = nx.single_source_dijkstra(walkingG, source=srcNode, target=destNode, weight='weight')
+        with perfTimer("add walking path from source to dest"):
+            # ADD WALKING PATH FROM SOURCE NODE TO DEST NODE
+            src_to_dest_dist, src_to_dest_path = nx.single_source_dijkstra(walkingG, source=srcNode, target=destNode, weight='weight')
 
-        
-        for osmid in src_to_dest_path:
+            
+            for osmid in src_to_dest_path:
 
-            # Remove osmid first to readd it (clunky fix)
-            attrs = G.nodes[osmid].copy()
-            attrs.pop("osmid", None)
-            minimizedG.add_node(osmid, **attrs)
+                # Remove osmid first to readd it (clunky fix)
+                attrs = G.nodes[osmid].copy()
+                attrs.pop("osmid", None)
+                minimizedG.add_node(osmid, **attrs)
 
-        # Add connection from source node to dest node
-        for u, v in zip(src_to_dest_path, src_to_dest_path[1:]):
-            attrs = G[u][v][0]
-            minimizedG.add_edge(u, v, **attrs)
+            # Add connection from source node to dest node
+            for u, v in zip(src_to_dest_path, src_to_dest_path[1:]):
+                attrs = G[u][v][0]
+                minimizedG.add_edge(u, v, **attrs)
+
+        with perfTimer("Add shortest path from src to every route"):
+            # From user source node to route
+            dist_src, path_src = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
+
+            # Loop through each route for srcNodeUser to find its shortest path
+            for route in os.listdir(relativePath):
+
+                routeNodes = {'northbound': {}, 'southbound': {}}
+
+                with open(f'{relativePath}/{route}/{route}_nodes.geojson', 'r') as file:
+                    f = json.load(file)
 
 
-        # From user source node to route
-        dist_src, path_src = nx.single_source_dijkstra(walkingG, source=srcNode, weight='weight')
+                for i in f['features']:
+                    if i['properties']['mode']['details']['bound'] == 'north':
+                        routeNodes['northbound'][i['properties']['osmid']] = {
+                            'x': i['properties']['x'],
+                            'y': i['properties']['y']
+                        }
+                    else:
+                        routeNodes['southbound'][i['properties']['osmid']] = {
+                            'x': i['properties']['x'],
+                            'y': i['properties']['y']
+                        }
+                        
 
-        # Loop through each route for srcNodeUser to find its shortest path
-        for route in os.listdir(relativePath):
+                # bound (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
+                for bound, routeArr in routeNodes.items():
+                    if routeArr:
+                        
+                        # list of equivalent nodes on the walking graph
+                        routeOnWalkingG = [
+                            coord_to_walking_node[(val['x'], val['y'])]
+                            for val in routeArr.values()
+                            if (val['x'], val['y']) in coord_to_walking_node
+                        ]
 
-            routeNodes = {'northbound': {}, 'southbound': {}}
+                        # Gets the best equivalent route node with on the walking graph
+                        best_node = min(routeOnWalkingG, key=lambda n: dist_src.get(n, float('inf')))
 
-            with open(f'{relativePath}/{route}/{route}_nodes.geojson', 'r') as file:
-                f = json.load(file)
+                        # Looks for its route node counterpart
+                        for key, value in routeArr.items():
+                            if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                                bestRouteNode = key
+                                break
+                        srcToFirstRoute = list(path_src[best_node])
+                        srcToFirstRoute.append(bestRouteNode)
 
+                        for osmid in srcToFirstRoute:
+                            if osmid not in minimizedG:
+                                # Remove osmid first to readd it (clunky fix)
+                                attrs = G.nodes[osmid].copy()
+                                attrs.pop("osmid", None)
+                                minimizedG.add_node(osmid, **attrs)
 
-            for i in f['features']:
-                if i['properties']['mode']['details']['bound'] == 'north':
-                    routeNodes['northbound'][i['properties']['osmid']] = {
-                        'x': i['properties']['x'],
-                        'y': i['properties']['y']
-                    }
-                else:
-                    routeNodes['southbound'][i['properties']['osmid']] = {
-                        'x': i['properties']['x'],
-                        'y': i['properties']['y']
-                    }
-                    
+                        # Add connection from source node to first route node
+                        for u, v in zip(srcToFirstRoute, srcToFirstRoute[1:]):
+                            attrs = G[u][v][0]
+                            minimizedG.add_edge(u, v, **attrs)
 
-            # bound (northbound, southbound) / routeArr {900: {'x': 1.2, 'y': 3.4}}
-            for bound, routeArr in routeNodes.items():
-                if routeArr:
-                    
-                    # list of equivalent nodes on the walking graph
-                    routeOnWalkingG = [
-                        coord_to_walking_node[(val['x'], val['y'])]
-                        for val in routeArr.values()
-                        if (val['x'], val['y']) in coord_to_walking_node
-                    ]
+                        # minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
 
-                    # Gets the best equivalent route node with on the walking graph
-                    best_node = min(routeOnWalkingG, key=lambda n: dist_src.get(n, float('inf')))
+                        # From route to user destination node
+                        dist_dest, path_dest = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
+                        best_node = path_dest[0]
 
-                    # Looks for its route node counterpart
-                    for key, value in routeArr.items():
-                        if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
-                            bestRouteNode = key
-                            break
-                    srcToFirstRoute = list(path_src[best_node])
-                    srcToFirstRoute.append(bestRouteNode)
+                        # Get the routeArr's node from the best walking node
+                        for key, value in routeArr.items():
+                            if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
+                                bestRouteNode = key
+                                break
 
-                    for osmid in srcToFirstRoute:
-                        if osmid not in minimizedG:
+                        # Initialize path from route's best node to destination node
+                        srcRouteToDestNode = path_dest
+
+                        # Add walking nodes path to minimized graph
+                        for osmid in srcRouteToDestNode:
+
                             # Remove osmid first to readd it (clunky fix)
                             attrs = G.nodes[osmid].copy()
                             attrs.pop("osmid", None)
                             minimizedG.add_node(osmid, **attrs)
 
-                    # Add connection from source node to first route node
-                    for u, v in zip(srcToFirstRoute, srcToFirstRoute[1:]):
-                        attrs = G[u][v][0]
-                        minimizedG.add_edge(u, v, **attrs)
 
-                    # minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
+                        srcRouteToDestNode.insert(0, bestRouteNode)
 
-                    # From route to user destination node
-                    dist_dest, path_dest = nx.multi_source_dijkstra(walkingG, sources=set(routeOnWalkingG), target=destNode, weight='weight')
-                    best_node = path_dest[0]
+                        for osmid in srcRouteToDestNode:
 
-                    # Get the routeArr's node from the best walking node
-                    for key, value in routeArr.items():
-                        if value['x'] == walkingG.nodes[best_node]['x'] and value['y'] == walkingG.nodes[best_node]['y']:
-                            bestRouteNode = key
-                            break
+                            # Remove osmid first to readd it (clunky fix)
+                            attrs = G.nodes[osmid].copy()
+                            attrs.pop("osmid", None)
+                            minimizedG.add_node(osmid, **attrs)
 
-                    # Initialize path from route's best node to destination node
-                    srcRouteToDestNode = path_dest
-
-                    # Add walking nodes path to minimized graph
-                    for osmid in srcRouteToDestNode:
-
-                        # Remove osmid first to readd it (clunky fix)
-                        attrs = G.nodes[osmid].copy()
-                        attrs.pop("osmid", None)
-                        minimizedG.add_node(osmid, **attrs)
-
-
-                    srcRouteToDestNode.insert(0, bestRouteNode)
-
-                    for osmid in srcRouteToDestNode:
-
-                        # Remove osmid first to readd it (clunky fix)
-                        attrs = G.nodes[osmid].copy()
-                        attrs.pop("osmid", None)
-                        minimizedG.add_node(osmid, **attrs)
-
-                    # Add connection from route's best node to destination node
-                    for u, v in zip(srcRouteToDestNode, srcRouteToDestNode[1:]):
-                        attrs = G[u][v][0]
-                        minimizedG.add_edge(u, v, **attrs)
-                    
-                    # minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
+                        # Add connection from route's best node to destination node
+                        for u, v in zip(srcRouteToDestNode, srcRouteToDestNode[1:]):
+                            attrs = G[u][v][0]
+                            minimizedG.add_edge(u, v, **attrs)
+                        
+                        # minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
         with perfTimer("add trike connections"):
             # --- Connect src node to nearest tricycle terminal --- #
             closestTerminal = None
@@ -523,92 +524,109 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                         minimizedG.add_edge(u, v, **attrs)
                 # ----------------------------------------------------- #
             
+        with perfTimer("do dijkstra"):
+            if algo == 'dijkstra':
+                theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 15, weight="weight"))
+            elif algo == 'astar':
+                theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 15, weight="weight"))
+            else:
+                raise ValueError("Undefined algorithm")
 
-        if algo == 'dijkstra':
-            theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 35, weight="weight"))
-        elif algo == 'astar':
-            theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 35, weight="weight"))
-        else:
-            raise ValueError("Undefined algorithm")
-        
-        permutationList = []
-        routeList = []
-        for i in theList:
-            permutation = []
-            route = i.copy()
+        with perfTimer("find all permutations"):
+            permutationList = []
+            routeList = []
+            for i in theList:
+                permutation = []
+                route = i.copy()
 
-            for j in range(len(i)):
-                
-                if permutation:
-                    modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
+                for j in range(len(i)):
+                    
+                    if permutation:
+                        modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
 
-                    # Removes bound suffix
-                    modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
+                        # Removes bound suffix
+                        modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
 
-                    if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
+                        if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
+                            permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                                modeType
+                            )
+
+                    else:  # First node in the calculated path
                         permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
                             modeType
                         )
 
-                else:  # First node in the calculated path
-                    permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
-                        modeType
-                    )
+
+                # total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
+                # # print(f"Weight: {total_weight:.2f}: {permutation}")
 
 
-            # total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
-            # # print(f"Weight: {total_weight:.2f}: {permutation}")
-
-
-            print(permutation)
-            if permutation not in permutationList:
-                # print(f"1: {i}")
-                # print(f"2: {route}")
-                routeList.append(route)
-                permutationList.append(permutation)
+                print(permutation)
+                if permutation not in permutationList:
+                    # print(f"1: {i}")
+                    # print(f"2: {route}")
+                    routeList.append(route)
+                    permutationList.append(permutation)
 
         for i in permutationList:
             print(i)
 
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
-        
-        count = 1
-        for i in routeList:
-            # Maximum of 3 routes
-            if count == 4:
-                break
-            nodeList = []
 
-            # Used to filter out paths that uses a route multiple times
-            validRoute = True
-            # Tracker for visited routes
-            routesVisited = []
+        with perfTimer("filter permutations"):
+            count = 1
+            for i in routeList:
+                # Maximum of 3 routes
+                if count == 4:
+                    break
+                nodeList = []
 
-            # Loop through each node of the route
-            for j in i:
-                node = G.nodes[j]
+                # Used to filter out paths that uses a route multiple times
+                validRoute = True
+                # Tracker for visited routes
+                routesVisited = []
 
-                if node['mode']['type'] == 'walk':
-                    colorPick = "#005eff"
-                elif node['mode']['details']['name'] in colors:
-                    colorPick = colors[node['mode']['details']['name']]
-                else:
-                    colorPick = "#000000"
+                # Loop through each node of the route
+                for j in i:
+                    node = G.nodes[j]
 
-                if nodeList:
-                    # print(f'{node['mode']['type']}: {i}')
-                    if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
-                        nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                    if node['mode']['type'] == 'walk':
+                        colorPick = "#005eff"
+                    elif node['mode']['details']['name'] in colors:
+                        colorPick = colors[node['mode']['details']['name']]
                     else:
-                        if node['mode']['type'] != 'walk' and node['mode']['details']['name'] in routesVisited:
-                            validRoute = False
-                            break
-                        # Add fare for mode path
-                        nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
-                            'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
-                            'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
-                        }
+                        colorPick = "#000000"
+
+                    if nodeList:
+                        # print(f'{node['mode']['type']}: {i}')
+                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                            nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
+                        else:
+                            if node['mode']['type'] != 'walk' and node['mode']['details']['name'] in routesVisited:
+                                validRoute = False
+                                break
+                            # Add fare for mode path
+                            nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
+                                'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
+                                'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
+                            }
+                            nodeList.append({
+                                'mode': {
+                                    'type': node['mode']['type'],
+                                    'details': {
+                                        'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
+                                        'color': colorPick
+                                    }
+                                },
+                                'geometry': [
+                                    [float(node['x']), float(node['y'])]
+                                ] 
+                            })
+                            if node['mode']['type'] != "walk":
+                                routesVisited.append(node['mode']['details']['name']) 
+                    else:
                         nodeList.append({
                             'mode': {
                                 'type': node['mode']['type'],
@@ -619,33 +637,18 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                             },
                             'geometry': [
                                 [float(node['x']), float(node['y'])]
-                            ] 
+                            ]
                         })
                         if node['mode']['type'] != "walk":
                             routesVisited.append(node['mode']['details']['name']) 
-                else:
-                    nodeList.append({
-                        'mode': {
-                            'type': node['mode']['type'],
-                            'details': {
-                                'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
-                                'color': colorPick
-                            }
-                        },
-                        'geometry': [
-                            [float(node['x']), float(node['y'])]
-                        ]
-                    })
-                    if node['mode']['type'] != "walk":
-                        routesVisited.append(node['mode']['details']['name']) 
 
-            if validRoute:
-                nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
-                    'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
-                    'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
-                }
-                resultsObj[f'result-{count}'] = nodeList
-                count+=1
+                if validRoute:
+                    nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
+                        'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
+                        'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
+                    }
+                    resultsObj[f'result-{count}'] = nodeList
+                    count+=1
         
         return resultsJson
                 
