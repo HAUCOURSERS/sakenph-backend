@@ -903,7 +903,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
 
                         try:
                             if traffic and modeRoute['mode']['type'] in ['jeep', 'trike'] and totalDist > 500:
-                                API_KEY = "DO NOT PUSH THIS"
+                                API_KEY = API_KEY_HERE
 
                                 
                                 line = LineString(modeRoute['geometry'])
