@@ -7,10 +7,9 @@ import geopandas as gpd
 import numpy as np
 import os
 import json
-from shapely.ops import linemerge
 import copy
 import traceback
-from shapely.geometry import shape, LineString
+from shapely.geometry import shape
 from func import getNearestNodeId, getFare, haversine
 from algo import get_k_shortest_paths
 import itertools
@@ -53,8 +52,8 @@ with perfTimer("deepcopy MultiDiGraph to walking graph"):
 # --------- INITIALIZE SIMPLIFIED GRAPH ------------ #
 
 with perfTimer("read nodes and edges of minimized transit graph"):
-    nodes = gpd.read_file("graph/transit_graph/simplified_graph/simplifiedGraphfix_nodes.geojson")
-    edges = gpd.read_file("graph/transit_graph/simplified_graph/simplifiedGraphfix_edges.geojson")
+    nodes = gpd.read_file("graph/transit_graph/simplified_graph/simplifiedGraph_nodes.geojson")
+    edges = gpd.read_file("graph/transit_graph/simplified_graph/simplifiedGraph_edges.geojson")
 
 with perfTimer("Fix index of nodes and edges"):
     nodes = nodes.set_index("osmid")
@@ -133,6 +132,7 @@ with perfTimer("add tricycle subgraphs"):
             else:
                 print("Throw not correct format")
 # ------------------ ADD SUBGRAPHS ----------------- #
+
 with perfTimer("add jeep routes"):
     relativePath = "graph/transit_graph/jeep_routes"
 
@@ -173,148 +173,6 @@ with perfTimer("add jeep routes"):
                     )
             else:
                 print("Throw not correct format")
-# -------------------------------------------------- #
-# ------ GET UNIQUE NODE AND EDGE ID FUNCTION ------ #
-nodeIdIndex = 0
-edgeIdIndex = 0
-
-def max_osmid(base_path, suffix):
-    max_id = 0
-    for route in os.listdir(base_path):
-        for file in os.listdir(f"{base_path}/{route}"):
-            if file.endswith(suffix):
-                with open(f"{base_path}/{route}/{file}") as f:
-                    data = json.load(f)
-                ids = [int(feat['properties']['osmid']) for feat in data['features']]
-                if ids:
-                    max_id = max(max_id, max(ids))
-    return max_id
-
-edgeIdIndex = max(
-    max_osmid("graph/transit_graph/trike_routes", "edges.geojson"),
-    max_osmid("graph/transit_graph/jeep_routes", "edges.geojson")
-)
-
-nodeIdIndex = max(
-    max_osmid("graph/transit_graph/trike_routes", "nodes.geojson"),
-    max_osmid("graph/transit_graph/jeep_routes", "nodes.geojson")
-)
-
-def getNodeId():
-    global edgeIdIndex
-    current = edgeIdIndex
-    edgeIdIndex +=1
-    return current
-
-def getEdgeId():
-    global nodeIdIndex
-    current = nodeIdIndex
-    nodeIdIndex +=1
-    return current
-# -------------------------------------------------- #
-# -------------- ADD EDGE SEGMENT ------------------ #
-def collapseBySegment(G, targetG, path):
-    '''
-    Iterates through a shortest path and collapses each contiguous same-mode segment into its own edge,
-    preserving mode transitions (e.g. trike -> walk -> jeep) instead of losing them
-    in a single flattened edge, then adds to a targetG which will contain the collapsed segments
-
-    Parameters
-    ----------
-    G
-        Source graph containing full node/edge data
-
-    targetG
-        Graph to add the collapsed nodes/edges into
-
-    path
-        List of node ids representing the path to collapse
-
-    Returns
-    ----------
-    None (mutates targetG directly)
-    '''
-
-    segments = []
-    currentSegment = [path[0]]
-    currentNodeMode = G.nodes[path[0]]['mode']
-    currentMode = currentNodeMode['type']
-    currentName = currentNodeMode['details']['name'] if currentMode != 'walk' else 'on foot'
-
-    for node in path[1:]:
-        nodeModeData = G.nodes[node]['mode']
-        nodeMode = nodeModeData['type']
-        nodeName = nodeModeData['details']['name'] if nodeMode != 'walk' else 'on foot'
-
-        if nodeMode == currentMode:
-            currentSegment.append(node)
-        else:
-            segments.append((currentSegment, currentMode, currentName))
-            currentSegment = [currentSegment[-1], node]
-            currentMode = nodeMode
-            currentName = nodeName
-
-    segments.append((currentSegment, currentMode, currentName))
-
-    collapsedEdges = []
-
-    for segmentNodes, mode, name in segments:
-        # Check if list of segment nodes is not a singular node, which means no mode edge
-        if len(segmentNodes) < 2:
-            continue  
-
-        # Increment tracker for weight, length, and line geomtry
-        totalWeight = 0; totalLength = 0; geometries = []
-
-        # Loop through u v pairs of a segment
-        for u, v in zip(segmentNodes, segmentNodes[1:]):
-            edgeAttrs = G[u][v][0]
-            totalWeight += edgeAttrs.get('weight', 0)
-            totalLength += edgeAttrs.get('length', 0)
-
-            if 'geometry' in edgeAttrs:
-                geometries.append(edgeAttrs['geometry'])
-            else:
-                geometries.append(shape({
-                    "type": "LineString",
-                    "coordinates": [
-                        [G.nodes[u]['x'], G.nodes[u]['y']],
-                        [G.nodes[v]['x'], G.nodes[v]['y']]
-                    ]
-                }))
-
-        # Something about geometry
-        allCoords = []
-        for geomPart in geometries:
-            coords = list(geomPart.coords)
-            if allCoords and allCoords[-1] == coords[0]:
-                coords = coords[1:]
-            allCoords.extend(coords)
-
-        # if s:
-        #     print(allCoords)
-
-        combinedGeometry = LineString(allCoords)
-
-        u, v = segmentNodes[0], segmentNodes[-1]
-
-
-
-        # Only add the two boundary nodes actually used by this edge
-        for osmid in (u, v):
-            attrs = G.nodes[osmid].copy()
-            targetG.add_node(osmid, **attrs)
-
-            
-        targetG.add_edge(
-            u, v,
-            osmid=str(getEdgeId()),
-            weight=totalWeight,
-            length=totalLength,
-            geometry=combinedGeometry,
-            original_osmids=segmentNodes,
-            mode={"type": mode, "details": {"name": name}}
-        )
 # -------------------------------------------------- #
 # ------------------ ADD COLOR HASH ---------------- #
 with open(f"graph_config/color.json") as f:
@@ -498,51 +356,18 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             # ADD WALKING PATH FROM SOURCE NODE TO DEST NODE
             src_to_dest_dist, src_to_dest_path = nx.single_source_dijkstra(walkingG, source=srcNode, target=destNode, weight='weight')
 
-            # Combine every node/edge of the walking path into a single collapsed edge
-            totalWeight = 0; totalLength = 0; geometries = []; originalOsmids = []
+            
+            for osmid in src_to_dest_path:
 
+                # Remove osmid first to readd it (clunky fix)
+                attrs = G.nodes[osmid].copy()
+                attrs.pop("osmid", None)
+                minimizedG.add_node(osmid, **attrs)
+
+            # Add connection from source node to dest node
             for u, v in zip(src_to_dest_path, src_to_dest_path[1:]):
-                edgeAttrs = G[u][v][0]
-
-                totalWeight += edgeAttrs.get('weight', 0)
-                totalLength += edgeAttrs.get('length', 0)
-                originalOsmids.append(u)
-
-                if 'geometry' in edgeAttrs:
-                    geometries.append(edgeAttrs['geometry'])
-                else:
-                    geometries.append(shape({
-                        "type": "LineString",
-                        "coordinates": [
-                            [G.nodes[u]['x'], G.nodes[u]['y']],
-                            [G.nodes[v]['x'], G.nodes[v]['y']]
-                        ]
-                    }))
-
-            # Add last node's osmid, since the loop above only appended u's
-            originalOsmids.append(src_to_dest_path[-1])
-
-            combinedGeometry = linemerge(geometries)
-
-            # Ensures source and dest nodes exist in minimizedG
-            for ogId in (srcNode, destNode):
-                attrs = G.nodes[ogId].copy()
-                minimizedG.add_node(ogId, **attrs)
-
-            # Adds a single collapsed edge from srcNode straight to destNode,
-            # carrying combined weight, length, geometry, and the full list of
-            # original osmids that made up the walking path
-            minimizedG.add_edge(
-                srcNode,
-                destNode,
-                key=0,
-                osmid=str(getEdgeId()),
-                weight=totalWeight,
-                length=totalLength,
-                geometry=combinedGeometry,
-                original_osmids=originalOsmids,
-                mode={"type": "walk"}
-            )
+                attrs = G[u][v][0]
+                minimizedG.add_edge(u, v, **attrs)
 
         with perfTimer("Add shortest path from src to every route"):
             # From user source node to route
@@ -592,7 +417,17 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                         srcToFirstRoute = list(path_src[best_node])
                         srcToFirstRoute.append(bestRouteNode)
 
-                        collapseBySegment(G, minimizedG, srcToFirstRoute)
+                        for osmid in srcToFirstRoute:
+                            if osmid not in minimizedG:
+                                # Remove osmid first to readd it (clunky fix)
+                                attrs = G.nodes[osmid].copy()
+                                attrs.pop("osmid", None)
+                                minimizedG.add_node(osmid, **attrs)
+
+                        # Add connection from source node to first route node
+                        for u, v in zip(srcToFirstRoute, srcToFirstRoute[1:]):
+                            attrs = G[u][v][0]
+                            minimizedG.add_edge(u, v, **attrs)
 
                         # minimizedG.add_edge(path_src[best_node][0], bestRouteNode, weight=dist_src[best_node])
 
@@ -608,83 +443,92 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
 
                         # Initialize path from route's best node to destination node
                         srcRouteToDestNode = path_dest
+
+                        # Add walking nodes path to minimized graph
+                        for osmid in srcRouteToDestNode:
+
+                            # Remove osmid first to readd it (clunky fix)
+                            attrs = G.nodes[osmid].copy()
+                            attrs.pop("osmid", None)
+                            minimizedG.add_node(osmid, **attrs)
+
+
                         srcRouteToDestNode.insert(0, bestRouteNode)
 
-                        collapseBySegment(G, minimizedG, srcRouteToDestNode)
-            
+                        for osmid in srcRouteToDestNode:
+
+                            # Remove osmid first to readd it (clunky fix)
+                            attrs = G.nodes[osmid].copy()
+                            attrs.pop("osmid", None)
+                            minimizedG.add_node(osmid, **attrs)
+
+                        # Add connection from route's best node to destination node
+                        for u, v in zip(srcRouteToDestNode, srcRouteToDestNode[1:]):
+                            attrs = G[u][v][0]
+                            minimizedG.add_edge(u, v, **attrs)
+                        
+                        # minimizedG.add_edge(bestRouteNode, destNode, weight=dist_dest)
         with perfTimer("add trike connections"):
-            with perfTimer("src to nearest"):
-                # --- Connect src node to nearest tricycle terminal --- #
-                closestTerminal = None
-                shortestDistance = None
-                for coord, feature in coord_to_node_terminal.items():
+            # --- Connect src node to nearest tricycle terminal --- #
+            closestTerminal = None
+            shortestDistance = None
+            for coord, feature in coord_to_node_terminal.items():
 
-                    distance = haversine(walkingG.nodes[srcNode]['y'], walkingG.nodes[srcNode]['x'], coord[1], coord[0])
+                distance = haversine(walkingG.nodes[srcNode]['y'], walkingG.nodes[srcNode]['x'], coord[1], coord[0])
 
-                    if shortestDistance is None or distance < shortestDistance:
-                        shortestDistance = distance
-                        closestTerminal = feature
+                if shortestDistance is None or distance < shortestDistance:
+                    shortestDistance = distance
+                    closestTerminal = feature
 
-                terminalNodeOnWalking = None
-                for node, data in walkingG.nodes(data=True):
-                    if data['x'] == closestTerminal['properties']['x'] and data['y'] == closestTerminal['properties']['y']:
-                        terminalNodeOnWalking = node
+            terminalNodeOnWalking = None
+            for node, data in walkingG.nodes(data=True):
+                if data['x'] == closestTerminal['properties']['x'] and data['y'] == closestTerminal['properties']['y']:
+                    terminalNodeOnWalking = node
 
-                pathToTerminal = ox.shortest_path(walkingG, srcNode, terminalNodeOnWalking, weight="weight")
-                pathToTerminal.append(closestTerminal['properties']['osmid'])
+            pathToTerminal = ox.shortest_path(walkingG, srcNode, terminalNodeOnWalking, weight="weight")
+            pathToTerminal.append(closestTerminal['properties']['osmid'])
 
+            for osmid in pathToTerminal:
+                if osmid not in minimizedG:
+                    # Remove osmid first to readd it (clunky fix)
+                    attrs = G.nodes[osmid].copy()
+                    attrs.pop("osmid", None)
+                    minimizedG.add_node(osmid, **attrs)
 
-                if pathToTerminal[0] == 4403 and pathToTerminal[-1] > 1000000:
+            for u, v in zip(pathToTerminal, pathToTerminal[1:]):
+                attrs = G[u][v][0]
+                minimizedG.add_edge(u, v, **attrs)
+            # ----------------------------------------------------- #
+            # Connect dest node from every terminal inside subgraph #
+            # Checks if dest node is inside a trike subgraph
+            if (G.nodes[destNode]['x'], G.nodes[destNode]['y']) in coord_to_node_subg:
+                subgraphName = coord_to_node_subg[(G.nodes[destNode]['x'], G.nodes[destNode]['y'])]['properties']['mode']['details']['name']
 
-                    print('---')
-                    print(f"{pathToTerminal[-1]}: collapseBySegment(G, minimizedG, pathToTerminal)")
-                    print(pathToTerminal)
-                    print('---')
-                collapseBySegment(G, minimizedG, pathToTerminal)
+                # Collect all terminals belonging to a subgraph where the dest node is in
+                terminalsInSubgraph = [n['properties']['osmid'] for n in coord_to_node_terminal.values() 
+                                    if n['properties']['mode']['details']['name'] == subgraphName]
 
-            with perfTimer("every terminal to dest"):
-                # ----------------------------------------------------- #
-                # Connect dest node from every terminal inside subgraph #
-                # Checks if dest node is inside a trike subgraph
-                if (G.nodes[destNode]['x'], G.nodes[destNode]['y']) in coord_to_node_subg:
-                    subgraphName = coord_to_node_subg[(G.nodes[destNode]['x'], G.nodes[destNode]['y'])]['properties']['mode']['details']['name']
+                # Adds shortest path from every terminal in subgraph to dest node
+                for terminal in terminalsInSubgraph:
+                    pathToDestNode = ox.shortest_path(G, terminal, destNode, weight="weight")
 
-                    # Collect all terminals belonging to a subgraph where the dest node is in
-                    terminalsInSubgraph = [n['properties']['osmid'] for n in coord_to_node_terminal.values() 
-                                        if n['properties']['mode']['details']['name'] == subgraphName]
-
-                    # Single shortest-path search from destNode outward (on reversed graph),
-                    # reused for every terminal instead of running a separate search per terminal
-                    lengths, pathsFromDest = nx.single_source_dijkstra(
-                        G.reverse(copy=False),
-                        source=destNode,
-                        weight="weight"
-                    )
-
-                    for terminal in terminalsInSubgraph:
-                        if terminal not in pathsFromDest:
-                            continue
-
-                        # Reverse back since the search ran from destNode outward
-                        pathToDestNode = pathsFromDest[terminal][::-1]
-
-                        # print("Terminal to dest")
-                        # print(pathToDestNode)
-
-                        if pathToDestNode[0] == 4403 and pathToDestNode[-1] > 1000000:
-
-                            print('---')
-                            print(f"{pathToDestNode[-1]}: collapseBySegment(G, minimizedG, pathToDestNode)")
-                            print(pathToDestNode)
-                            print('---')
-                        collapseBySegment(G, minimizedG, pathToDestNode)
+                    for osmid in pathToDestNode:
+                        if osmid not in minimizedG:
+                            # Remove osmid first to readd it (clunky fix)
+                            attrs = G.nodes[osmid].copy()
+                            attrs.pop("osmid", None)
+                            minimizedG.add_node(osmid, **attrs)
+            
+                    for u, v in zip(pathToDestNode, pathToDestNode[1:]):
+                        attrs = G[u][v][0]
+                        minimizedG.add_edge(u, v, **attrs)
                 # ----------------------------------------------------- #
             
         with perfTimer("do dijkstra"):
             if algo == 'dijkstra':
-                theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+                theList = list(ox.k_shortest_paths(minimizedG, srcNode, destNode, 15, weight="weight"))
             elif algo == 'astar':
-                theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 10, weight="weight"))
+                theList = list(get_k_shortest_paths(minimizedG, srcNode, destNode, 15, weight="weight"))
             else:
                 raise ValueError("Undefined algorithm")
 
@@ -692,70 +536,48 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
             permutationList = []
             routeList = []
             for i in theList:
-                # print(i)
                 permutation = []
                 route = i.copy()
 
                 for j in range(len(i)):
-
-                    # Determine this node's mode label
-                    nodeMode = minimizedG.nodes[i[j]]['mode']
-                    modeType = 'walk' if nodeMode['type'] == 'walk' else nodeMode['details']['name']
-                    modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
-
-                    # Check the edge leading into this node (if any) for a collapsed walk connector
-                    edgeIsWalk = False
-                    if j > 0:
-                        edgeAttrs = minimizedG[i[j-1]][i[j]][0]
-                        if edgeAttrs.get('mode', {}).get('type') == 'walk':
-                            edgeIsWalk = True
-
+                    
                     if permutation:
-                        # If the edge leading here was a collapsed walk segment, record 'walk'
-                        # before recording this node's own mode, unless the last entry already is 'walk'
-                        if edgeIsWalk and permutation[-1] != 'walk':
-                            permutation.append('walk')
+                        modeType = minimizedG.nodes[i[j]]['mode']['type'] if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else minimizedG.nodes[i[j]]['mode']['details']['name']
 
-                        if modeType != permutation[-1]:
-                            permutation.append('walk') if nodeMode['type'] == 'walk' else permutation.append(modeType)
+                        # Removes bound suffix
+                        modeType = modeType.removesuffix("-Southbound").removesuffix("-Northbound")
+
+                        if modeType != permutation[-1]:  # Check if the previous mode is the same as the current node's mode
+                            permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                                modeType
+                            )
 
                     else:  # First node in the calculated path
-                        permutation.append('walk') if nodeMode['type'] == 'walk' else permutation.append(modeType)
+                        permutation.append('walk') if minimizedG.nodes[i[j]]['mode']['type'] == 'walk' else permutation.append(
+                            modeType
+                        )
 
-                # print(permutation)
+
+                # total_weight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(i[:-1], i[1:]))
+                # # print(f"Weight: {total_weight:.2f}: {permutation}")
+
+
+                print(permutation)
                 if permutation not in permutationList:
+                    # print(f"1: {i}")
+                    # print(f"2: {route}")
                     routeList.append(route)
                     permutationList.append(permutation)
 
-                
-            for perm, path in zip(permutationList, routeList):
-                print('---')
-                totalWeight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(path, path[1:]))
-
-                # edgeBreakdown = str(path[0])
-                # for u, v in zip(path, path[1:]):
-                #     w = minimizedG[u][v][0].get('weight', 0)
-                #     edgeBreakdown += f"->'{w}'->{v}"      
-                print(path)
-                print(f"{perm}: TOTAL: {totalWeight}")
-                # print(f'"{edgeBreakdown}"')
-                print('---')
-
-        # for i in permutationList:
-        #     print(i)
+        for i in permutationList:
+            print(i)
 
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
 
         with perfTimer("filter permutations"):
             count = 1
-            print("Here in the routeList")
-            print(routeList)
-
-            print("AND THEN THE ACTUAL LIST: ")
             for i in routeList:
-                print(i)
-                print()
                 # Maximum of 3 routes
                 if count == 4:
                     break
@@ -766,18 +588,9 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                 # Tracker for visited routes
                 routesVisited = []
 
-                prevNode = None
-
                 # Loop through each node of the route
                 for j in i:
                     node = G.nodes[j]
-
-                    # Check if the edge leading into this node is a collapsed segment (any mode)
-                    collapsedEdge = None
-                    if prevNode is not None:
-                        edgeAttrs = minimizedG[prevNode][j][0]
-                        if 'original_osmids' in edgeAttrs and 'geometry' in edgeAttrs:
-                            collapsedEdge = edgeAttrs
 
                     if node['mode']['type'] == 'walk':
                         colorPick = "#005eff"
@@ -786,112 +599,39 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     else:
                         colorPick = "#000000"
 
-                    if collapsedEdge:
-                        geom = collapsedEdge['geometry']
-
-                        if isinstance(geom, dict):
-                            geom = shape(geom)
-
-                        if geom.geom_type == 'LineString':
-                            edgeCoords = [[float(x), float(y)] for x, y in geom.coords]
-                        elif geom.geom_type == 'Point':
-                            edgeCoords = [[float(geom.x), float(geom.y)]]
-                        elif geom.geom_type == 'MultiLineString':
-                            edgeCoords = []
-                            for part in geom.geoms:
-                                edgeCoords.extend([[float(x), float(y)] for x, y in part.coords])
-                        else:
-                            raise ValueError(f"Unexpected geometry type: {geom.geom_type}")
-
-                        segMode = collapsedEdge['mode']['type']
-                        segName = collapsedEdge['mode']['details']['name'] if segMode != 'walk' else 'On foot'
-                        segColor = "#005eff" if segMode == 'walk' else colors.get(collapsedEdge['mode']['details'].get('name'), "#000000")
-
-                        if nodeList and nodeList[-1]['mode']['type'] == segMode and (segMode == 'walk' or nodeList[-1]['mode']['details']['name'] == segName):
-                            # Extend existing same-mode segment with the full collapsed edge geometry
-                            nodeList[-1]['geometry'].extend(edgeCoords)
-                        else:
-                            if segMode != 'walk' and segName in routesVisited:
-                                validRoute = False
-                                break
-
-                            if nodeList:
-                                nodeList[-1]['mode']['details']['fare'] = {
-                                    'regular': getFare(modePathList=nodeList[-1]['geometry'], mode=nodeList[-1]['mode']['type'], discount=False),
-                                    'discounted': getFare(modePathList=nodeList[-1]['geometry'], mode=nodeList[-1]['mode']['type'], discount=True)
-                                }
-
-                            nodeList.append({
-                                'mode': {
-                                    'type': segMode,
-                                    'details': {
-                                        'name': segName,
-                                        'color': segColor
-                                    }
-                                },
-                                'geometry': edgeCoords
-                            })
-
-                            if segMode != 'walk':
-                                routesVisited.append(segName)
-
-                        prevNode = j
-                        continue
-
                     if nodeList:
-                        if node['mode']['type'] == nodeList[-1]['mode']['type']:
-                            nodeList[-1]['geometry'].append([float(node['x']), float(node['y'])])
-
-                            # If this is a trike segment and we haven't resolved a terminal name yet,
-                            # keep checking each subsequent node for a non-False terminal value
-                            if node['mode']['type'] == 'trike' and nodeList[-1]['mode']['details']['name'] is None:
-                                if node['mode']['details']['terminal'] is not False:
-                                    nodeList[-1]['mode']['details']['name'] = node['mode']['details']['terminal']
-
+                        # print(f'{node['mode']['type']}: {i}')
+                        if node['mode']['type'] == nodeList[len(nodeList)-1]['mode']['type']:
+                            nodeList[len(nodeList)-1]['geometry'].append([float(node['x']), float(node['y'])])
                         else:
                             if node['mode']['type'] != 'walk' and node['mode']['details']['name'] in routesVisited:
                                 validRoute = False
                                 break
                             # Add fare for mode path
-                            nodeList[-1]['mode']['details']['fare'] = {
-                                'regular': getFare(modePathList=nodeList[-1]['geometry'], mode=nodeList[-1]['mode']['type'], discount=False),
-                                'discounted': getFare(modePathList=nodeList[-1]['geometry'], mode=nodeList[-1]['mode']['type'], discount=True)
+                            nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
+                                'regular': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=False),
+                                'discounted': getFare(modePathList=nodeList[len(nodeList)-1]['geometry'], mode=nodeList[len(nodeList)-1]['mode']['type'], discount=True)
                             }
-
-                            if node['mode']['type'] == 'trike':
-                                resolvedName = node['mode']['details']['terminal'] if node['mode']['details']['terminal'] is not False else None
-                            elif node['mode']['type'] == 'walk':
-                                resolvedName = 'On foot'
-                            else:
-                                resolvedName = node['mode']['details']['name']
-
                             nodeList.append({
                                 'mode': {
                                     'type': node['mode']['type'],
                                     'details': {
-                                        'name': resolvedName,
+                                        'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
                                         'color': colorPick
                                     }
                                 },
                                 'geometry': [
                                     [float(node['x']), float(node['y'])]
-                                ]
+                                ] 
                             })
                             if node['mode']['type'] != "walk":
-                                routesVisited.append(node['mode']['details']['name'])
+                                routesVisited.append(node['mode']['details']['name']) 
                     else:
-                        if node['mode']['type'] == 'trike':
-                            resolvedName = node['mode']['details']['terminal'] if node['mode']['details']['terminal'] is not False else None
-                        elif node['mode']['type'] == 'walk':
-                            resolvedName = 'On foot'
-                        else:
-                            resolvedName = node['mode']['details']['name']
-
                         nodeList.append({
                             'mode': {
                                 'type': node['mode']['type'],
                                 'details': {
-                                    'name': resolvedName,
+                                    'name': node['mode']['details']['name'] if node['mode']['type'] != 'walk' else 'On foot',
                                     'color': colorPick
                                 }
                             },
@@ -900,9 +640,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                             ]
                         })
                         if node['mode']['type'] != "walk":
-                            routesVisited.append(node['mode']['details']['name'])
-
-                    prevNode = j
+                            routesVisited.append(node['mode']['details']['name']) 
 
                 if validRoute:
                     nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
@@ -911,8 +649,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     }
                     resultsObj[f'result-{count}'] = nodeList
                     count+=1
-
-
+        
         return resultsJson
                 
     except Exception as e:
