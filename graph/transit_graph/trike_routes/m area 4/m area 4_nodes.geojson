@@ -1,0 +1,9162 @@
+{
+ "type": "FeatureCollection",
+ "name": "m area 4_nodes",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17846,
+    "y": 15.2111974,
+    "x": 120.5784206,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5784206,
+     15.2111974
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17847,
+    "y": 15.2073108,
+    "x": 120.5768969,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5768969,
+     15.2073108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17848,
+    "y": 15.2118897,
+    "x": 120.5752442,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5752442,
+     15.2118897
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17849,
+    "y": 15.213273,
+    "x": 120.5778101,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5778101,
+     15.213273
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17850,
+    "y": 15.207866,
+    "x": 120.5771232,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5771232,
+     15.207866
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17851,
+    "y": 15.2130092,
+    "x": 120.5778772,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5778772,
+     15.2130092
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17852,
+    "y": 15.2139528,
+    "x": 120.5801286,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5801286,
+     15.2139528
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17853,
+    "y": 15.206071,
+    "x": 120.576948,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.576948,
+     15.206071
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17854,
+    "y": 15.2060302,
+    "x": 120.577428,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.577428,
+     15.2060302
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17855,
+    "y": 15.206023,
+    "x": 120.5778264,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5778264,
+     15.206023
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17856,
+    "y": 15.2060433,
+    "x": 120.5783429,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5783429,
+     15.2060433
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17857,
+    "y": 15.2063562,
+    "x": 120.5797381,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5797381,
+     15.2063562
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17858,
+    "y": 15.2078936,
+    "x": 120.5779705,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5779705,
+     15.2078936
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17859,
+    "y": 15.2044123,
+    "x": 120.5787734,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5787734,
+     15.2044123
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17860,
+    "y": 15.2084651,
+    "x": 120.5778382,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5778382,
+     15.2084651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17861,
+    "y": 15.2036288,
+    "x": 120.5775563,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5775563,
+     15.2036288
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17862,
+    "y": 15.2034327,
+    "x": 120.577154,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.577154,
+     15.2034327
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17863,
+    "y": 15.2085627,
+    "x": 120.5785733,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5785733,
+     15.2085627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17864,
+    "y": 15.2038815,
+    "x": 120.5779539,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5779539,
+     15.2038815
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17865,
+    "y": 15.2041272,
+    "x": 120.5783575,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5783575,
+     15.2041272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17866,
+    "y": 15.2080047,
+    "x": 120.5787227,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5787227,
+     15.2080047
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17867,
+    "y": 15.2079124,
+    "x": 120.5776098,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5776098,
+     15.2079124
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17868,
+    "y": 15.2074444,
+    "x": 120.5774376,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5774376,
+     15.2074444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17869,
+    "y": 15.2046727,
+    "x": 120.5791772,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5791772,
+     15.2046727
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17870,
+    "y": 15.206524,
+    "x": 120.5770998,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5770998,
+     15.206524
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17871,
+    "y": 15.2065018,
+    "x": 120.5781831,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5781831,
+     15.2065018
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17872,
+    "y": 15.2069702,
+    "x": 120.5772708,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5772708,
+     15.2069702
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17873,
+    "y": 15.2069504,
+    "x": 120.5780574,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5780574,
+     15.2069504
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17874,
+    "y": 15.2053804,
+    "x": 120.5766425,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5766425,
+     15.2053804
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17875,
+    "y": 15.2100112,
+    "x": 120.5787238,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5787238,
+     15.2100112
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17876,
+    "y": 15.2132127,
+    "x": 120.5784434,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5784434,
+     15.2132127
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17877,
+    "y": 15.2090915,
+    "x": 120.5796582,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5796582,
+     15.2090915
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17878,
+    "y": 15.2121333,
+    "x": 120.5841987,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5841987,
+     15.2121333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17879,
+    "y": 15.212709,
+    "x": 120.5852652,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5852652,
+     15.212709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17880,
+    "y": 15.2150123,
+    "x": 120.5840851,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5840851,
+     15.2150123
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17881,
+    "y": 15.2144109,
+    "x": 120.5821697,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5821697,
+     15.2144109
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17882,
+    "y": 15.2123181,
+    "x": 120.583303,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.583303,
+     15.2123181
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17883,
+    "y": 15.214823,
+    "x": 120.5830975,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5830975,
+     15.214823
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17884,
+    "y": 15.2137736,
+    "x": 120.5836746,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5836746,
+     15.2137736
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17885,
+    "y": 15.2128081,
+    "x": 120.5842096,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5842096,
+     15.2128081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17886,
+    "y": 15.2147045,
+    "x": 120.5827754,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5827754,
+     15.2147045
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17887,
+    "y": 15.2124974,
+    "x": 120.5836253,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5836253,
+     15.2124974
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17888,
+    "y": 15.213599,
+    "x": 120.5833719,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833719,
+     15.213599
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17889,
+    "y": 15.2129642,
+    "x": 120.5821128,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5821128,
+     15.2129642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17890,
+    "y": 15.2145646,
+    "x": 120.5824888,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5824888,
+     15.2145646
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17891,
+    "y": 15.2134092,
+    "x": 120.5789756,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5789756,
+     15.2134092
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17892,
+    "y": 15.2103308,
+    "x": 120.5798868,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5798868,
+     15.2103308
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17893,
+    "y": 15.2104658,
+    "x": 120.5803592,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5803592,
+     15.2104658
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17894,
+    "y": 15.213305,
+    "x": 120.5799334,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5799334,
+     15.213305
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17895,
+    "y": 15.2122282,
+    "x": 120.5807365,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5807365,
+     15.2122282
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17896,
+    "y": 15.2123539,
+    "x": 120.5812933,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5812933,
+     15.2123539
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17897,
+    "y": 15.2096235,
+    "x": 120.5795217,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5795217,
+     15.2096235
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17898,
+    "y": 15.2087035,
+    "x": 120.5823186,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5823186,
+     15.2087035
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17899,
+    "y": 15.2039282,
+    "x": 120.5811083,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5811083,
+     15.2039282
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17900,
+    "y": 15.204261,
+    "x": 120.5810032,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5810032,
+     15.204261
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17901,
+    "y": 15.2048784,
+    "x": 120.5808597,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5808597,
+     15.2048784
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17902,
+    "y": 15.2057998,
+    "x": 120.5841705,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5841705,
+     15.2057998
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17903,
+    "y": 15.2067571,
+    "x": 120.5852383,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5852383,
+     15.2067571
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17904,
+    "y": 15.2070769,
+    "x": 120.5855586,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5855586,
+     15.2070769
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17905,
+    "y": 15.2067138,
+    "x": 120.5834726,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5834726,
+     15.2067138
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17906,
+    "y": 15.2053415,
+    "x": 120.5807274,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5807274,
+     15.2053415
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17907,
+    "y": 15.2064158,
+    "x": 120.5819423,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5819423,
+     15.2064158
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17908,
+    "y": 15.2069836,
+    "x": 120.581565,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.581565,
+     15.2069836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17909,
+    "y": 15.2076234,
+    "x": 120.5834295,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5834295,
+     15.2076234
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17910,
+    "y": 15.206033,
+    "x": 120.5805329,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5805329,
+     15.206033
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17911,
+    "y": 15.2073613,
+    "x": 120.583681,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.583681,
+     15.2073613
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17912,
+    "y": 15.2081187,
+    "x": 120.5828218,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5828218,
+     15.2081187
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17913,
+    "y": 15.2038252,
+    "x": 120.5856883,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5856883,
+     15.2038252
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17914,
+    "y": 15.2048377,
+    "x": 120.584911,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584911,
+     15.2048377
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17915,
+    "y": 15.207022,
+    "x": 120.5832749,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5832749,
+     15.207022
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17916,
+    "y": 15.205684,
+    "x": 120.5806331,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5806331,
+     15.205684
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17917,
+    "y": 15.2060597,
+    "x": 120.5820746,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5820746,
+     15.2060597
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17918,
+    "y": 15.2074294,
+    "x": 120.5779723,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5779723,
+     15.2074294
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17919,
+    "y": 15.2061272,
+    "x": 120.5787702,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5787702,
+     15.2061272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17920,
+    "y": 15.2062188,
+    "x": 120.5792382,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5792382,
+     15.2062188
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17921,
+    "y": 15.2084323,
+    "x": 120.5825182,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5825182,
+     15.2084323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17922,
+    "y": 15.2101757,
+    "x": 120.579344,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.579344,
+     15.2101757
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17923,
+    "y": 15.2106411,
+    "x": 120.5763443,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5763443,
+     15.2106411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17924,
+    "y": 15.2105528,
+    "x": 120.5759887,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5759887,
+     15.2105528
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17925,
+    "y": 15.2104531,
+    "x": 120.5756238,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5756238,
+     15.2104531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17926,
+    "y": 15.2134441,
+    "x": 120.5830573,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5830573,
+     15.2134441
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17927,
+    "y": 15.2133127,
+    "x": 120.5827996,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5827996,
+     15.2133127
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17928,
+    "y": 15.2135224,
+    "x": 120.5826714,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826714,
+     15.2135224
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17929,
+    "y": 15.212637,
+    "x": 120.5838916,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5838916,
+     15.212637
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17930,
+    "y": 15.2071884,
+    "x": 120.5802157,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5802157,
+     15.2071884
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17931,
+    "y": 15.2139376,
+    "x": 120.5839299,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5839299,
+     15.2139376
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17932,
+    "y": 15.2045373,
+    "x": 120.5846436,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5846436,
+     15.2045373
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17933,
+    "y": 15.2102108,
+    "x": 120.5749549,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5749549,
+     15.2102108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17934,
+    "y": 15.2126547,
+    "x": 120.5747108,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5747108,
+     15.2126547
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17935,
+    "y": 15.2070137,
+    "x": 120.5761426,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5761426,
+     15.2070137
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17936,
+    "y": 15.2069587,
+    "x": 120.5758734,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5758734,
+     15.2069587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17937,
+    "y": 15.2070519,
+    "x": 120.5763478,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5763478,
+     15.2070519
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17938,
+    "y": 15.209029,
+    "x": 120.5768352,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5768352,
+     15.209029
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17939,
+    "y": 15.2089272,
+    "x": 120.5764362,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5764362,
+     15.2089272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17940,
+    "y": 15.2088351,
+    "x": 120.5760943,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5760943,
+     15.2088351
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17941,
+    "y": 15.2091176,
+    "x": 120.5771591,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5771591,
+     15.2091176
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17942,
+    "y": 15.2092955,
+    "x": 120.5775045,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5775045,
+     15.2092955
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17943,
+    "y": 15.2083299,
+    "x": 120.5786429,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5786429,
+     15.2083299
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17944,
+    "y": 15.2082717,
+    "x": 120.5777481,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5777481,
+     15.2082717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17945,
+    "y": 15.2096598,
+    "x": 120.578161,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.578161,
+     15.2096598
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17946,
+    "y": 15.2061155,
+    "x": 120.5808076,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5808076,
+     15.2061155
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17947,
+    "y": 15.2051306,
+    "x": 120.585218,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.585218,
+     15.2051306
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17948,
+    "y": 15.205816,
+    "x": 120.5858974,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5858974,
+     15.205816
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17949,
+    "y": 15.2063362,
+    "x": 120.5856881,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5856881,
+     15.2063362
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17950,
+    "y": 15.2109236,
+    "x": 120.5774149,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5774149,
+     15.2109236
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17951,
+    "y": 15.2108298,
+    "x": 120.5770668,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5770668,
+     15.2108298
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17952,
+    "y": 15.2107428,
+    "x": 120.576708,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.576708,
+     15.2107428
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17953,
+    "y": 15.2125759,
+    "x": 120.575562,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.575562,
+     15.2125759
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17954,
+    "y": 15.2127558,
+    "x": 120.5755551,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5755551,
+     15.2127558
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17955,
+    "y": 15.2110143,
+    "x": 120.5777739,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5777739,
+     15.2110143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17956,
+    "y": 15.2115727,
+    "x": 120.5800397,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5800397,
+     15.2115727
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17957,
+    "y": 15.2112089,
+    "x": 120.5801494,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5801494,
+     15.2112089
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17958,
+    "y": 15.2127835,
+    "x": 120.5779439,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5779439,
+     15.2127835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17959,
+    "y": 15.2137301,
+    "x": 120.5770198,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5770198,
+     15.2137301
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17960,
+    "y": 15.2143599,
+    "x": 120.5774959,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5774959,
+     15.2143599
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17961,
+    "y": 15.21419,
+    "x": 120.5768766,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5768766,
+     15.21419
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17962,
+    "y": 15.2114395,
+    "x": 120.5830727,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5830727,
+     15.2114395
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17963,
+    "y": 15.2111245,
+    "x": 120.583116,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.583116,
+     15.2111245
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17964,
+    "y": 15.211877,
+    "x": 120.5826227,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826227,
+     15.211877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17965,
+    "y": 15.2128963,
+    "x": 120.581646,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.581646,
+     15.2128963
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17966,
+    "y": 15.2122154,
+    "x": 120.5823188,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5823188,
+     15.2122154
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17967,
+    "y": 15.2040658,
+    "x": 120.5861339,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5861339,
+     15.2040658
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17968,
+    "y": 15.2043964,
+    "x": 120.5870782,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5870782,
+     15.2043964
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17969,
+    "y": 15.2047819,
+    "x": 120.5879078,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5879078,
+     15.2047819
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17970,
+    "y": 15.2045668,
+    "x": 120.5874695,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874695,
+     15.2045668
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17971,
+    "y": 15.2064377,
+    "x": 120.5865078,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5865078,
+     15.2064377
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17972,
+    "y": 15.2060959,
+    "x": 120.5862084,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5862084,
+     15.2060959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17973,
+    "y": 15.2041081,
+    "x": 120.5803727,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5803727,
+     15.2041081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17974,
+    "y": 15.206454,
+    "x": 120.5797074,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5797074,
+     15.206454
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17975,
+    "y": 15.2022856,
+    "x": 120.577498,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.577498,
+     15.2022856
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17976,
+    "y": 15.203363,
+    "x": 120.5768626,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5768626,
+     15.203363
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17977,
+    "y": 15.2091932,
+    "x": 120.5757646,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5757646,
+     15.2091932
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17978,
+    "y": 15.2102835,
+    "x": 120.5752308,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5752308,
+     15.2102835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17979,
+    "y": 15.2103346,
+    "x": 120.5754365,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5754365,
+     15.2103346
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17980,
+    "y": 15.2084587,
+    "x": 120.5886952,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5886952,
+     15.2084587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17981,
+    "y": 15.2105446,
+    "x": 120.5882313,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5882313,
+     15.2105446
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17982,
+    "y": 15.2105997,
+    "x": 120.5863192,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5863192,
+     15.2105997
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17983,
+    "y": 15.2099612,
+    "x": 120.5855174,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5855174,
+     15.2099612
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17984,
+    "y": 15.210192,
+    "x": 120.584939,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584939,
+     15.210192
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17985,
+    "y": 15.2053223,
+    "x": 120.5845324,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5845324,
+     15.2053223
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17986,
+    "y": 15.2043612,
+    "x": 120.5809722,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5809722,
+     15.2043612
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17987,
+    "y": 15.2052496,
+    "x": 120.5845975,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5845975,
+     15.2052496
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17988,
+    "y": 15.2042126,
+    "x": 120.5865644,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5865644,
+     15.2042126
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17989,
+    "y": 15.2054197,
+    "x": 120.5855136,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5855136,
+     15.2054197
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17990,
+    "y": 15.2060854,
+    "x": 120.5839185,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5839185,
+     15.2060854
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17991,
+    "y": 15.2055627,
+    "x": 120.5833884,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833884,
+     15.2055627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17992,
+    "y": 15.2060368,
+    "x": 120.584521,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584521,
+     15.2060368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17993,
+    "y": 15.206757,
+    "x": 120.5837695,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5837695,
+     15.206757
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17994,
+    "y": 15.2064015,
+    "x": 120.5848735,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5848735,
+     15.2064015
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17995,
+    "y": 15.2096321,
+    "x": 120.5816705,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5816705,
+     15.2096321
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17996,
+    "y": 15.2101776,
+    "x": 120.5815292,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5815292,
+     15.2101776
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17997,
+    "y": 15.21076,
+    "x": 120.5813527,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5813527,
+     15.21076
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17998,
+    "y": 15.2115911,
+    "x": 120.582922,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582922,
+     15.2115911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 17999,
+    "y": 15.2108575,
+    "x": 120.5802626,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5802626,
+     15.2108575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18000,
+    "y": 15.2127169,
+    "x": 120.5810437,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5810437,
+     15.2127169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18001,
+    "y": 15.2133574,
+    "x": 120.5812612,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5812612,
+     15.2133574
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18002,
+    "y": 15.213924,
+    "x": 120.5800514,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5800514,
+     15.213924
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18003,
+    "y": 15.2146068,
+    "x": 120.5805051,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5805051,
+     15.2146068
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18004,
+    "y": 15.2125495,
+    "x": 120.5820494,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5820494,
+     15.2125495
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18005,
+    "y": 15.2133211,
+    "x": 120.5777955,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5777955,
+     15.2133211
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18006,
+    "y": 15.2135769,
+    "x": 120.5784215,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5784215,
+     15.2135769
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18007,
+    "y": 15.2078562,
+    "x": 120.5831172,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5831172,
+     15.2078562
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18008,
+    "y": 15.2069531,
+    "x": 120.5820462,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5820462,
+     15.2069531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18009,
+    "y": 15.2067345,
+    "x": 120.581811,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.581811,
+     15.2067345
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18010,
+    "y": 15.2068168,
+    "x": 120.5817383,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5817383,
+     15.2068168
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18011,
+    "y": 15.2128143,
+    "x": 120.5755642,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5755642,
+     15.2128143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18012,
+    "y": 15.2131439,
+    "x": 120.5768721,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5768721,
+     15.2131439
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18013,
+    "y": 15.2141371,
+    "x": 120.5794642,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5794642,
+     15.2141371
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18014,
+    "y": 15.2136887,
+    "x": 120.5796448,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5796448,
+     15.2136887
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18015,
+    "y": 15.2121718,
+    "x": 120.5799141,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5799141,
+     15.2121718
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18016,
+    "y": 15.2122501,
+    "x": 120.5765328,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5765328,
+     15.2122501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18017,
+    "y": 15.2114216,
+    "x": 120.5835577,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5835577,
+     15.2114216
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18018,
+    "y": 15.211392,
+    "x": 120.5831078,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5831078,
+     15.211392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18019,
+    "y": 15.213809,
+    "x": 120.584732,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584732,
+     15.213809
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18020,
+    "y": 15.2141945,
+    "x": 120.582286,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582286,
+     15.2141945
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18021,
+    "y": 15.2088794,
+    "x": 120.5808387,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5808387,
+     15.2088794
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18022,
+    "y": 15.2145003,
+    "x": 120.5781048,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5781048,
+     15.2145003
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18023,
+    "y": 15.2099168,
+    "x": 120.5787528,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5787528,
+     15.2099168
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18024,
+    "y": 15.2076941,
+    "x": 120.5759549,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5759549,
+     15.2076941
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18025,
+    "y": 15.2076165,
+    "x": 120.5756743,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5756743,
+     15.2076165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18026,
+    "y": 15.2052783,
+    "x": 120.5766563,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5766563,
+     15.2052783
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18027,
+    "y": 15.20519,
+    "x": 120.5763467,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5763467,
+     15.20519
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18028,
+    "y": 15.2083011,
+    "x": 120.5783412,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5783412,
+     15.2083011
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18029,
+    "y": 15.2066232,
+    "x": 120.5803728,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5803728,
+     15.2066232
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18030,
+    "y": 15.2044402,
+    "x": 120.5816175,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5816175,
+     15.2044402
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18031,
+    "y": 15.2045308,
+    "x": 120.5815908,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5815908,
+     15.2045308
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18032,
+    "y": 15.2045933,
+    "x": 120.582168,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582168,
+     15.2045933
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18033,
+    "y": 15.2046624,
+    "x": 120.582142,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582142,
+     15.2046624
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18034,
+    "y": 15.2079281,
+    "x": 120.5784214,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5784214,
+     15.2079281
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18035,
+    "y": 15.2086548,
+    "x": 120.5769212,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5769212,
+     15.2086548
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18036,
+    "y": 15.2127807,
+    "x": 120.57613,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.57613,
+     15.2127807
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18037,
+    "y": 15.2110283,
+    "x": 120.579119,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.579119,
+     15.2110283
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18038,
+    "y": 15.2127016,
+    "x": 120.5803638,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5803638,
+     15.2127016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18039,
+    "y": 15.2048139,
+    "x": 120.5844756,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5844756,
+     15.2048139
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18040,
+    "y": 15.2137531,
+    "x": 120.5809848,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5809848,
+     15.2137531
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18041,
+    "y": 15.2104271,
+    "x": 120.5870555,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5870555,
+     15.2104271
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18042,
+    "y": 15.2092041,
+    "x": 120.5883289,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5883289,
+     15.2092041
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18043,
+    "y": 15.2103072,
+    "x": 120.587174,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.587174,
+     15.2103072
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18044,
+    "y": 15.2116984,
+    "x": 120.5871609,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5871609,
+     15.2116984
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18045,
+    "y": 15.2112797,
+    "x": 120.586422,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.586422,
+     15.2112797
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18046,
+    "y": 15.2122458,
+    "x": 120.5861658,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5861658,
+     15.2122458
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18047,
+    "y": 15.2097639,
+    "x": 120.5881316,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5881316,
+     15.2097639
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18048,
+    "y": 15.2098501,
+    "x": 120.5886592,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5886592,
+     15.2098501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18049,
+    "y": 15.2094613,
+    "x": 120.5890047,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5890047,
+     15.2094613
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18050,
+    "y": 15.2080646,
+    "x": 120.5843582,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5843582,
+     15.2080646
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18051,
+    "y": 15.2070118,
+    "x": 120.5765925,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5765925,
+     15.2070118
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18052,
+    "y": 15.2092273,
+    "x": 120.589194,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.589194,
+     15.2092273
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18053,
+    "y": 15.2064891,
+    "x": 120.5840767,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5840767,
+     15.2064891
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18054,
+    "y": 15.2085169,
+    "x": 120.5815515,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5815515,
+     15.2085169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18055,
+    "y": 15.2090651,
+    "x": 120.5822267,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5822267,
+     15.2090651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18056,
+    "y": 15.2056207,
+    "x": 120.5877738,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877738,
+     15.2056207
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18057,
+    "y": 15.2059825,
+    "x": 120.5874691,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874691,
+     15.2059825
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18058,
+    "y": 15.2053442,
+    "x": 120.5874657,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874657,
+     15.2053442
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18059,
+    "y": 15.2058118,
+    "x": 120.5851474,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5851474,
+     15.2058118
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18060,
+    "y": 15.2041807,
+    "x": 120.584919,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.584919,
+     15.2041807
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18061,
+    "y": 15.2039564,
+    "x": 120.5845398,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5845398,
+     15.2039564
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18062,
+    "y": 15.2044391,
+    "x": 120.5843632,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5843632,
+     15.2044391
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18063,
+    "y": 15.204179,
+    "x": 120.5843609,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5843609,
+     15.204179
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18064,
+    "y": 15.2054123,
+    "x": 120.5827418,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5827418,
+     15.2054123
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18065,
+    "y": 15.2052643,
+    "x": 120.5822668,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5822668,
+     15.2052643
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18066,
+    "y": 15.2136424,
+    "x": 120.5844234,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5844234,
+     15.2136424
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18067,
+    "y": 15.2149592,
+    "x": 120.5820456,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5820456,
+     15.2149592
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18068,
+    "y": 15.2130452,
+    "x": 120.5808135,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5808135,
+     15.2130452
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18069,
+    "y": 15.2066911,
+    "x": 120.5860479,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5860479,
+     15.2066911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18070,
+    "y": 15.2069136,
+    "x": 120.5862473,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5862473,
+     15.2069136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18071,
+    "y": 15.2036356,
+    "x": 120.5815688,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5815688,
+     15.2036356
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18072,
+    "y": 15.2037979,
+    "x": 120.5819625,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5819625,
+     15.2037979
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18073,
+    "y": 15.2041221,
+    "x": 120.5817995,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5817995,
+     15.2041221
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18074,
+    "y": 15.2039996,
+    "x": 120.582775,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582775,
+     15.2039996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18075,
+    "y": 15.2043282,
+    "x": 120.5826895,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826895,
+     15.2043282
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18076,
+    "y": 15.2040288,
+    "x": 120.5814508,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5814508,
+     15.2040288
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18077,
+    "y": 15.2036556,
+    "x": 120.5811806,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5811806,
+     15.2036556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18078,
+    "y": 15.2145402,
+    "x": 120.5811327,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5811327,
+     15.2145402
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18079,
+    "y": 15.2088846,
+    "x": 120.5832204,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5832204,
+     15.2088846
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18080,
+    "y": 15.2102385,
+    "x": 120.5887812,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5887812,
+     15.2102385
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18081,
+    "y": 15.210777,
+    "x": 120.585508,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.585508,
+     15.210777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18082,
+    "y": 15.2110646,
+    "x": 120.5855399,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5855399,
+     15.2110646
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18083,
+    "y": 15.2108167,
+    "x": 120.585772,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.585772,
+     15.2108167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18084,
+    "y": 15.2107364,
+    "x": 120.5870493,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5870493,
+     15.2107364
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18085,
+    "y": 15.2106336,
+    "x": 120.5877567,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877567,
+     15.2106336
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18086,
+    "y": 15.2107908,
+    "x": 120.5867288,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5867288,
+     15.2107908
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18087,
+    "y": 15.2108717,
+    "x": 120.586305,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.586305,
+     15.2108717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18088,
+    "y": 15.2108516,
+    "x": 120.5860489,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5860489,
+     15.2108516
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18089,
+    "y": 15.2106729,
+    "x": 120.5848491,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5848491,
+     15.2106729
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18090,
+    "y": 15.2101832,
+    "x": 120.5853018,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5853018,
+     15.2101832
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18091,
+    "y": 15.2113584,
+    "x": 120.5846005,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5846005,
+     15.2113584
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18092,
+    "y": 15.2117414,
+    "x": 120.5852697,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5852697,
+     15.2117414
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18093,
+    "y": 15.2118436,
+    "x": 120.5854842,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5854842,
+     15.2118436
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18094,
+    "y": 15.2119833,
+    "x": 120.5857014,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5857014,
+     15.2119833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18095,
+    "y": 15.2123962,
+    "x": 120.586411,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.586411,
+     15.2123962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18096,
+    "y": 15.2114126,
+    "x": 120.5866564,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5866564,
+     15.2114126
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18097,
+    "y": 15.2115615,
+    "x": 120.5869285,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5869285,
+     15.2115615
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18098,
+    "y": 15.2086367,
+    "x": 120.5888933,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5888933,
+     15.2086367
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18099,
+    "y": 15.2090081,
+    "x": 120.5885352,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5885352,
+     15.2090081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18100,
+    "y": 15.2093715,
+    "x": 120.5877464,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877464,
+     15.2093715
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18101,
+    "y": 15.2095686,
+    "x": 120.587933,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.587933,
+     15.2095686
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18102,
+    "y": 15.20994,
+    "x": 120.5883435,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5883435,
+     15.20994
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18103,
+    "y": 15.2121134,
+    "x": 120.5859457,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5859457,
+     15.2121134
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18104,
+    "y": 15.2114916,
+    "x": 120.5848231,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5848231,
+     15.2114916
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18105,
+    "y": 15.2124411,
+    "x": 120.5839965,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5839965,
+     15.2124411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18106,
+    "y": 15.2121063,
+    "x": 120.5841438,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5841438,
+     15.2121063
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18107,
+    "y": 15.2114883,
+    "x": 120.5830293,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5830293,
+     15.2114883
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18108,
+    "y": 15.2117089,
+    "x": 120.5833625,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833625,
+     15.2117089
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18109,
+    "y": 15.2140347,
+    "x": 120.5754994,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5754994,
+     15.2140347
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18110,
+    "y": 15.203254,
+    "x": 120.5845355,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5845355,
+     15.203254
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18111,
+    "y": 15.2088498,
+    "x": 120.5774648,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5774648,
+     15.2088498
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18112,
+    "y": 15.2091321,
+    "x": 120.5755477,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5755477,
+     15.2091321
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18113,
+    "y": 15.2095381,
+    "x": 120.5758854,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5758854,
+     15.2095381
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18114,
+    "y": 15.2094808,
+    "x": 120.575682,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.575682,
+     15.2094808
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18115,
+    "y": 15.211669,
+    "x": 120.5760563,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5760563,
+     15.211669
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18116,
+    "y": 15.2115777,
+    "x": 120.5756915,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5756915,
+     15.2115777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18117,
+    "y": 15.2114836,
+    "x": 120.57532,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.57532,
+     15.2114836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18118,
+    "y": 15.2117589,
+    "x": 120.5764156,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5764156,
+     15.2117589
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18119,
+    "y": 15.2119437,
+    "x": 120.576739,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.576739,
+     15.2119437
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18120,
+    "y": 15.2121827,
+    "x": 120.5770629,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5770629,
+     15.2121827
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18121,
+    "y": 15.2091476,
+    "x": 120.5772586,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5772586,
+     15.2091476
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18122,
+    "y": 15.2094997,
+    "x": 120.5778428,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5778428,
+     15.2094997
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18123,
+    "y": 15.2098523,
+    "x": 120.5786159,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5786159,
+     15.2098523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18124,
+    "y": 15.2104334,
+    "x": 120.5784233,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5784233,
+     15.2104334
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18125,
+    "y": 15.2111342,
+    "x": 120.5782462,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5782462,
+     15.2111342
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18126,
+    "y": 15.2124064,
+    "x": 120.577392,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.577392,
+     15.2124064
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18127,
+    "y": 15.2126758,
+    "x": 120.5777933,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5777933,
+     15.2126758
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18128,
+    "y": 15.2077435,
+    "x": 120.5761711,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5761711,
+     15.2077435
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18129,
+    "y": 15.2057122,
+    "x": 120.5821707,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5821707,
+     15.2057122
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18130,
+    "y": 15.2094702,
+    "x": 120.5833679,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5833679,
+     15.2094702
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18131,
+    "y": 15.2088513,
+    "x": 120.582915,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582915,
+     15.2088513
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18132,
+    "y": 15.213997,
+    "x": 120.5788605,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5788605,
+     15.213997
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18133,
+    "y": 15.2126886,
+    "x": 120.580046,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.580046,
+     15.2126886
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18134,
+    "y": 15.2062113,
+    "x": 120.5843943,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5843943,
+     15.2062113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18135,
+    "y": 15.2060576,
+    "x": 120.5841853,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5841853,
+     15.2060576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18136,
+    "y": 15.2071764,
+    "x": 120.5856692,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5856692,
+     15.2071764
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18137,
+    "y": 15.2052875,
+    "x": 120.582395,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582395,
+     15.2052875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18138,
+    "y": 15.2047803,
+    "x": 120.5825719,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5825719,
+     15.2047803
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18139,
+    "y": 15.205836,
+    "x": 120.5843182,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5843182,
+     15.205836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18140,
+    "y": 15.2081354,
+    "x": 120.5792439,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5792439,
+     15.2081354
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18141,
+    "y": 15.207712,
+    "x": 120.5840527,
+    "street_count": 4,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5840527,
+     15.207712
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18142,
+    "y": 15.2038748,
+    "x": 120.5822947,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5822947,
+     15.2038748
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18143,
+    "y": 15.2037189,
+    "x": 120.5825657,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5825657,
+     15.2037189
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18144,
+    "y": 15.2039276,
+    "x": 120.5825004,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5825004,
+     15.2039276
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18145,
+    "y": 15.2040501,
+    "x": 120.5822267,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5822267,
+     15.2040501
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18146,
+    "y": 15.2047904,
+    "x": 120.5801813,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5801813,
+     15.2047904
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18147,
+    "y": 15.2049503,
+    "x": 120.5801327,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5801327,
+     15.2049503
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18148,
+    "y": 15.2089135,
+    "x": 120.5790294,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5790294,
+     15.2089135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18149,
+    "y": 15.2091805,
+    "x": 120.5789558,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5789558,
+     15.2091805
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18150,
+    "y": 15.2119631,
+    "x": 120.5781871,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5781871,
+     15.2119631
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18151,
+    "y": 15.2104765,
+    "x": 120.5786049,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5786049,
+     15.2104765
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18152,
+    "y": 15.2063185,
+    "x": 120.5797498,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5797498,
+     15.2063185
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18153,
+    "y": 15.2062523,
+    "x": 120.5793835,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5793835,
+     15.2062523
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18154,
+    "y": 15.2090508,
+    "x": 120.5834257,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5834257,
+     15.2090508
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18155,
+    "y": 15.2093174,
+    "x": 120.5832244,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5832244,
+     15.2093174
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18156,
+    "y": 15.2073232,
+    "x": 120.5837508,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5837508,
+     15.2073232
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18157,
+    "y": 15.2091169,
+    "x": 120.5828395,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5828395,
+     15.2091169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18158,
+    "y": 15.2088884,
+    "x": 120.5786881,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5786881,
+     15.2088884
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18159,
+    "y": 15.2047302,
+    "x": 120.5801995,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5801995,
+     15.2047302
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18160,
+    "y": 15.2108439,
+    "x": 120.578511,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.578511,
+     15.2108439
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18161,
+    "y": 15.2116733,
+    "x": 120.5782755,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5782755,
+     15.2116733
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18162,
+    "y": 15.2116205,
+    "x": 120.5781096,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5781096,
+     15.2116205
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18163,
+    "y": 15.2119149,
+    "x": 120.578028,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.578028,
+     15.2119149
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18164,
+    "y": 15.2106576,
+    "x": 120.5785586,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5785586,
+     15.2106576
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18165,
+    "y": 15.2106024,
+    "x": 120.5783619,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5783619,
+     15.2106024
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18166,
+    "y": 15.2044907,
+    "x": 120.5802649,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5802649,
+     15.2044907
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18167,
+    "y": 15.2129016,
+    "x": 120.5857087,
+    "street_count": 4,
+    "highway": "crossing",
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5857087,
+     15.2129016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18168,
+    "y": 15.2109839,
+    "x": 120.5750237,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5750237,
+     15.2109839
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18169,
+    "y": 15.211853,
+    "x": 120.5874075,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874075,
+     15.211853
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18170,
+    "y": 15.2110416,
+    "x": 120.5853805,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5853805,
+     15.2110416
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18171,
+    "y": 15.2109709,
+    "x": 120.5850918,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5850918,
+     15.2109709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18172,
+    "y": 15.2109436,
+    "x": 120.5848098,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5848098,
+     15.2109436
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18173,
+    "y": 15.2096597,
+    "x": 120.5888284,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5888284,
+     15.2096597
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18174,
+    "y": 15.209379,
+    "x": 120.5881389,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5881389,
+     15.209379
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18175,
+    "y": 15.2106448,
+    "x": 120.5895284,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5895284,
+     15.2106448
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18176,
+    "y": 15.2105141,
+    "x": 120.5892881,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5892881,
+     15.2105141
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18177,
+    "y": 15.2103725,
+    "x": 120.5890223,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5890223,
+     15.2103725
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18178,
+    "y": 15.2106832,
+    "x": 120.5884758,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5884758,
+     15.2106832
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18179,
+    "y": 15.2101089,
+    "x": 120.5885594,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5885594,
+     15.2101089
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18180,
+    "y": 15.2088091,
+    "x": 120.5887279,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5887279,
+     15.2088091
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18181,
+    "y": 15.2100613,
+    "x": 120.5884785,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5884785,
+     15.2100613
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18182,
+    "y": 15.2086028,
+    "x": 120.5889239,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5889239,
+     15.2086028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18183,
+    "y": 15.2106539,
+    "x": 120.5876054,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5876054,
+     15.2106539
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18184,
+    "y": 15.2105054,
+    "x": 120.5877681,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5877681,
+     15.2105054
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18185,
+    "y": 15.208178,
+    "x": 120.5893816,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893816,
+     15.208178
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18186,
+    "y": 15.2108079,
+    "x": 120.5857416,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5857416,
+     15.2108079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18187,
+    "y": 15.2125163,
+    "x": 120.5866539,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5866539,
+     15.2125163
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18188,
+    "y": 15.2106743,
+    "x": 120.5874536,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5874536,
+     15.2106743
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18189,
+    "y": 15.2116113,
+    "x": 120.5850284,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5850284,
+     15.2116113
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18190,
+    "y": 15.2105922,
+    "x": 120.5843496,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5843496,
+     15.2105922
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18191,
+    "y": 15.2107661,
+    "x": 120.5844542,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5844542,
+     15.2107661
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18192,
+    "y": 15.2106599,
+    "x": 120.5844307,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5844307,
+     15.2106599
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18193,
+    "y": 15.2103432,
+    "x": 120.5851243,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5851243,
+     15.2103432
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18194,
+    "y": 15.2101251,
+    "x": 120.586953,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.586953,
+     15.2101251
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18195,
+    "y": 15.2057256,
+    "x": 120.5842329,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5842329,
+     15.2057256
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18196,
+    "y": 15.2089953,
+    "x": 120.5790069,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5790069,
+     15.2089953
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18197,
+    "y": 15.2093821,
+    "x": 120.5821837,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5821837,
+     15.2093821
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18198,
+    "y": 15.2097535,
+    "x": 120.582078,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.582078,
+     15.2097535
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18199,
+    "y": 15.211009,
+    "x": 120.5895193,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5895193,
+     15.211009
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18200,
+    "y": 15.2109053,
+    "x": 120.5893444,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5893444,
+     15.2109053
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18201,
+    "y": 15.210782,
+    "x": 120.5890881,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5890881,
+     15.210782
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18202,
+    "y": 15.2106536,
+    "x": 120.5888513,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5888513,
+     15.2106536
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18203,
+    "y": 15.2062209,
+    "x": 120.5834789,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5834789,
+     15.2062209
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18204,
+    "y": 15.2047225,
+    "x": 120.5826493,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826493,
+     15.2047225
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18205,
+    "y": 15.2047953,
+    "x": 120.5826267,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5826267,
+     15.2047953
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18206,
+    "y": 15.2064419,
+    "x": 120.579464,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.579464,
+     15.2064419
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18207,
+    "y": 15.2068136,
+    "x": 120.5796083,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5796083,
+     15.2068136
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18208,
+    "y": 15.2106536,
+    "x": 120.5889164,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5889164,
+     15.2106536
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18209,
+    "y": 15.2124102,
+    "x": 120.5805852,
+    "street_count": 1,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5805852,
+     15.2124102
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18210,
+    "y": 15.204177,
+    "x": 120.5803516,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": false
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5803516,
+     15.204177
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osmid": 18211,
+    "y": 15.2041472,
+    "x": 120.5803607,
+    "street_count": 3,
+    "highway": null,
+    "ref": null,
+    "mode": {
+     "type": "trike",
+     "details": {
+      "name": "m area 4",
+      "terminal": "LEMENS TODA"
+     }
+    }
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.5803607,
+     15.2041472
+    ]
+   }
+  }
+ ]
+}
