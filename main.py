@@ -7,13 +7,14 @@ import geopandas as gpd
 import numpy as np
 import os
 import json
+import math
+import requests
 from shapely.ops import linemerge
 import copy
 import traceback
 from shapely.geometry import shape, LineString
 from func import getNearestNodeId, getFare, haversine
 from algo import get_k_shortest_paths
-import itertools
 # --------------- INITIALIZE GRAPH --------------- #
 
 
@@ -316,6 +317,10 @@ def collapseBySegment(G, targetG, path):
             mode={"type": mode, "details": {"name": name}}
         )
 # -------------------------------------------------- #
+# ---------------- MODE SPEEDS (km/h) -------------- #
+JEEP_SPEED = 14.0
+TRIKE_SPEED = 23.0
+WALK_SPEED = 4.5
 # ------------------ ADD COLOR HASH ---------------- #
 with open(f"graph_config/color.json") as f:
     colors = json.load(f)
@@ -386,7 +391,7 @@ def jeep_routes():
     return {"terminalList": terminalList}
     
 @app.get("/k_shortest_paths")
-def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
+def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, debug:bool=False):
     '''
     Returns an object of k-shortest paths calculated by shortest path and k-shortest algorithm which contains the separate
     routes to traverse including the path of the mode in order.
@@ -633,13 +638,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                 pathToTerminal = ox.shortest_path(walkingG, srcNode, terminalNodeOnWalking, weight="weight")
                 pathToTerminal.append(closestTerminal['properties']['osmid'])
 
-
-                if pathToTerminal[0] == 4403 and pathToTerminal[-1] > 1000000:
-
-                    print('---')
-                    print(f"{pathToTerminal[-1]}: collapseBySegment(G, minimizedG, pathToTerminal)")
-                    print(pathToTerminal)
-                    print('---')
                 collapseBySegment(G, minimizedG, pathToTerminal)
 
             with perfTimer("every terminal to dest"):
@@ -668,15 +666,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                         # Reverse back since the search ran from destNode outward
                         pathToDestNode = pathsFromDest[terminal][::-1]
 
-                        # print("Terminal to dest")
-                        # print(pathToDestNode)
-
-                        if pathToDestNode[0] == 4403 and pathToDestNode[-1] > 1000000:
-
-                            print('---')
-                            print(f"{pathToDestNode[-1]}: collapseBySegment(G, minimizedG, pathToDestNode)")
-                            print(pathToDestNode)
-                            print('---')
                         collapseBySegment(G, minimizedG, pathToDestNode)
                 # ----------------------------------------------------- #
             
@@ -727,20 +716,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     routeList.append(route)
                     permutationList.append(permutation)
 
-                
-            for perm, path in zip(permutationList, routeList):
-                print('---')
-                totalWeight = sum(minimizedG[u][v][0].get('weight', 0) for u, v in zip(path, path[1:]))
-
-                # edgeBreakdown = str(path[0])
-                # for u, v in zip(path, path[1:]):
-                #     w = minimizedG[u][v][0].get('weight', 0)
-                #     edgeBreakdown += f"->'{w}'->{v}"      
-                print(path)
-                print(f"{perm}: TOTAL: {totalWeight}")
-                # print(f'"{edgeBreakdown}"')
-                print('---')
-
         # for i in permutationList:
         #     print(i)
 
@@ -749,13 +724,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
 
         with perfTimer("filter permutations"):
             count = 1
-            print("Here in the routeList")
-            print(routeList)
-
-            print("AND THEN THE ACTUAL LIST: ")
             for i in routeList:
-                print(i)
-                print()
                 # Maximum of 3 routes
                 if count == 4:
                     break
@@ -911,6 +880,70 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', debug:str='false'):
                     }
                     resultsObj[f'result-{count}'] = nodeList
                     count+=1
+
+
+            with perfTimer("get traffic data"):
+                for resultX in resultsJson['routes']:
+                    for modeRoute in resultsJson['routes'][resultX]:
+                        totalDist = 0
+
+                        # Calculate total distance of path
+                        for u, v in zip(modeRoute['geometry'], modeRoute['geometry'][1:]):
+                            totalDist += haversine(u[1], u[0], v[1], v[0])
+
+                        # Get expected duration in seconds after converting km/h to m/s
+                        if modeRoute['mode']['type'] == 'walk':
+                            expectedDuration = totalDist / (WALK_SPEED / 3.6)
+                        elif modeRoute['mode']['type'] == 'jeep':
+                            expectedDuration = totalDist / (JEEP_SPEED / 3.6)
+                        elif modeRoute['mode']['type'] == 'trike':
+                            expectedDuration = totalDist / (TRIKE_SPEED / 3.6)
+                        else:
+                            expectedDuration = 0
+
+                        try:
+                            if traffic and modeRoute['mode']['type'] in ['jeep', 'trike'] and totalDist > 500:
+                                API_KEY = "DO NOT PUSH THIS"
+
+                                
+                                line = LineString(modeRoute['geometry'])
+                                simplified = line.simplify(0.0001 , preserve_topology=False)
+                                simplified_geometry = [list(coord) for coord in simplified.coords]
+
+                                locations = "%3A".join(f"{point[1]}%2C{point[0]}" for point in simplified_geometry)
+
+                                url = f"https://api.tomtom.com/routing/1/calculateRoute/{locations}/json"
+                                parameters = {"routeRepresentation": "summaryOnly", "computeTravelTimeFor": "all", "sectionType": "traffic", "traffic": "true", "key": API_KEY}
+
+                                response = requests.get(url, params=parameters)
+                                trafficData = response.json()
+                                
+
+                                travelTimeSeconds = trafficData['routes'][0]['summary']['liveTrafficIncidentsTravelTimeInSeconds']
+
+                                # Apply 
+                                if trafficData['routes'][0]['summary']['trafficDelayInSeconds'] > 0:
+                                    ratio = travelTimeSeconds / trafficData['routes'][0]['summary']['noTrafficTravelTimeInSeconds']
+                                    ratio = max(ratio, 1.0)
+                                else:
+                                    ratio = 1.0
+
+                                actualDuration = math.ceil(expectedDuration * ratio)
+                            else:
+                                actualDuration = math.ceil(expectedDuration)
+                        except Exception:
+                            traceback.print_exc()
+                            actualDuration = 0
+
+                        modeRoute['traffic'] = {
+                            "expectedDuration": math.ceil(expectedDuration),
+                            "actualDuration": actualDuration
+                        }
+                    
+
+                                
+
+
 
 
         return resultsJson
