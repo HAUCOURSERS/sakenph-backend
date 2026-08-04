@@ -75,7 +75,7 @@ with perfTimer("Fix index of nodes and edges"):
 
 with perfTimer("initialize minimized MultiDiGraph"):
 
-    minimizedG = ox.graph_from_gdfs(nodes, edges)
+    baseMinimizedG = ox.graph_from_gdfs(nodes, edges)
 
 
 # -------------------------------------------------- #
@@ -499,6 +499,9 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
         srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
         destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
 
+        with perfTimer("copy graph from base minimized graph"):
+            minimizedG = copy.deepcopy(baseMinimizedG)
+
         node_data = G.nodes[srcNode]
         minimizedG.add_node(srcNode, **node_data)
 
@@ -723,8 +726,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                     else:  # First node in the calculated path
                         permutation.append('walk') if nodeMode['type'] == 'walk' else permutation.append(modeType)
 
-                # print(permutation)
-                if permutation not in permutationList:
+                # Check if permutation is unique and does not have duplicate routes
+                if permutation not in permutationList and not len({x for x in permutation if x != "walk"}) < len([x for x in permutation if x != "walk"]):
                     routeList.append(route)
                     permutationList.append(permutation)
 
@@ -785,9 +788,16 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                             raise ValueError(f"Unexpected geometry type: {geom.geom_type}")
 
                         segMode = collapsedEdge['mode']['type']
-                        segName = collapsedEdge['mode']['details']['name'] if segMode != 'walk' else 'On foot'
+                        if segMode == 'trike':
+                            if nodeList[-1]['mode']['type'] == segMode:
+                                segName = nodeList[-1]['mode']['details']['name']
+                            else:
+                                segName = node['mode']['details']['terminal']
+                        else:
+                            segName = collapsedEdge['mode']['details']['name'] if segMode != 'walk' else 'On foot'
                         segColor = "#005eff" if segMode == 'walk' else colors.get(collapsedEdge['mode']['details'].get('name'), "#000000")
 
+                        # Check if current node is on the same mode path or not
                         if nodeList and nodeList[-1]['mode']['type'] == segMode and (segMode == 'walk' or nodeList[-1]['mode']['details']['name'] == segName):
                             # Extend existing same-mode segment with the full collapsed edge geometry
                             nodeList[-1]['geometry'].extend(edgeCoords)
