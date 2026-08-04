@@ -75,7 +75,7 @@ with perfTimer("Fix index of nodes and edges"):
 
 with perfTimer("initialize minimized MultiDiGraph"):
 
-    baseMinimizedG = ox.graph_from_gdfs(nodes, edges)
+    minimizedG = ox.graph_from_gdfs(nodes, edges)
 
 
 # -------------------------------------------------- #
@@ -498,9 +498,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
 
         srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
         destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
-
-        with perfTimer("copy graph from base minimized graph"):
-            minimizedG = copy.deepcopy(baseMinimizedG)
 
         node_data = G.nodes[srcNode]
         minimizedG.add_node(srcNode, **node_data)
