@@ -749,6 +749,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
 
                 prevNode = None
 
+                print(i)
                 # Loop through each node of the route
                 for j in i:
                     node = G.nodes[j]
@@ -900,8 +901,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                                 totalDist += haversine(u[1], u[0], v[1], v[0])
                             if totalDist < 400:
                                 exhaustedRoutes = True
-                    if exhaustedRoutes:
-                        break
+                if exhaustedRoutes:
+                    break
 
                 if validRoute:
                     nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
