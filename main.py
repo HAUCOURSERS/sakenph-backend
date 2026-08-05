@@ -496,8 +496,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
         print(f"src lat-y,long-x: {pair['source']['lat']},{pair['source']['long']}")
         print(f"dest lat-y,long-x: { pair['destination']['lat']},{pair['destination']['long']}")
 
-        srcNode = getNearestNodeId(G, pair['source']['lat'], pair['source']['long'])
-        destNode = getNearestNodeId(G, pair['destination']['lat'], pair['destination']['long'])
+        srcNode = getNearestNodeId(walkingG, pair['source']['lat'], pair['source']['long'])
+        destNode = getNearestNodeId(walkingG, pair['destination']['lat'], pair['destination']['long'])
 
         node_data = G.nodes[srcNode]
         minimizedG.add_node(srcNode, **node_data)
@@ -891,6 +891,17 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                             routesVisited.append(node['mode']['details']['name'])
 
                     prevNode = j
+
+                    exhaustedRoutes = False
+                    for modeRoute in nodeList:
+                        if modeRoute['mode']['type'] != 'walk':
+                            totalDist = 0
+                            for u, v in zip(modeRoute['geometry'], modeRoute['geometry'][1:]):
+                                totalDist += haversine(u[1], u[0], v[1], v[0])
+                            if totalDist < 400:
+                                exhaustedRoutes = True
+                    if exhaustedRoutes:
+                        break
 
                 if validRoute:
                     nodeList[len(nodeList)-1]['mode']['details']['fare'] = {
