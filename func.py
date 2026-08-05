@@ -1,4 +1,4 @@
-import math
+import math, osmnx as ox
 
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -10,7 +10,7 @@ def haversine(lat1, lon1, lat2, lon2):
     return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
 
 def getNearestNodeId(G, lat, lon):
-    return min(G.nodes, key=lambda n: haversine(lat, lon, G.nodes[n]['y'], G.nodes[n]['x']))
+    return ox.distance.nearest_nodes(G, X=lon, Y=lat)
 
 def getFare(modePathList, mode="walk", discount=False):
     '''
