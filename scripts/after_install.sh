@@ -6,5 +6,5 @@ sed -i "s|WorkingDirectory=.*|WorkingDirectory=$APP_DIR|" /etc/systemd/system/uv
 systemctl daemon-reload
 
 cd "$APP_DIR"
-pip install --upgrade pip
-pip install -r requirements.txt
+./venv/bin/python -m pip install --upgrade pip
+./venv/bin/python -m pip install -r requirements.txt
