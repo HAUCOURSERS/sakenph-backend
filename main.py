@@ -389,14 +389,25 @@ def jeep_routes():
 def jeep_routes():
     trikeGraphsDir = r"graph/transit_graph/trike_routes"
 
+    with open("graph_config/toda_locations.json", "r") as file:
+        todaLocations = json.load(file)
+
     terminalList = []
 
     for subgraph in os.listdir(trikeGraphsDir):
         with open(f"{trikeGraphsDir}/{subgraph}/{subgraph}_nodes.geojson", "r") as file:
             nodesGeojson = json.load(file)
         for node in nodesGeojson['features']:
-            if node['properties']['mode']['details']['terminal'] != False:
-                terminalList.append({"terminalName": node['properties']['mode']['details']['terminal'], "coordinates": {"lat": node['properties']['y'], "long": node['properties']['x']}})
+            terminalName = node['properties']['mode']['details']['terminal']
+            if terminalName != False:
+                terminalList.append({
+                    "terminalName": terminalName,
+                    "locationName": todaLocations.get(terminalName, ""),
+                    "coordinates": {
+                        "lat": node['properties']['y'],
+                        "long": node['properties']['x'],
+                    },
+                })
 
     return {"terminalList": terminalList}
     
