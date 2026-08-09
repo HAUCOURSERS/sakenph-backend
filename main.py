@@ -15,6 +15,7 @@ import traceback
 from shapely.geometry import shape, LineString
 from func import getNearestNodeId, getFare, haversine
 from algo import get_k_shortest_paths
+from fastapi.middleware.cors import CORSMiddleware
 # --------------- INITIALIZE GRAPH --------------- #
 
 
@@ -327,6 +328,15 @@ with open(f"graph_config/color.json") as f:
 # -------------------------------------------------- #
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['http://localhost:8080'],
+    allow_credentials=True,
+    allow_methods=["GET"],
+    allow_headers=["*"]
+)
+
 
 @app.get("/")
 def root():
