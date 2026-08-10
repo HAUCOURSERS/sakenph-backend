@@ -13,7 +13,7 @@ from shapely.ops import linemerge
 import copy
 import traceback
 from shapely.geometry import shape, LineString
-from func import getNearestNodeId, getFare, haversine
+from func import getNearestNodeId, getFare, haversine, getLengthMeters
 from algo import get_k_shortest_paths
 from fastapi.middleware.cors import CORSMiddleware
 # --------------- INITIALIZE GRAPH --------------- #
@@ -749,6 +749,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
         resultsJson = {'routes': resultsObj}
 
         with perfTimer("filter permutations"):
+            exhaustedRoutes = False
             count = 1
             for i in routeList:
                 # Maximum of 3 routes
@@ -761,7 +762,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                 # Tracker for visited routes
                 routesVisited = []
 
-                prevNode = None
+                prevNode = None    
 
                 # Loop through each node of the route
                 for j in i:
@@ -818,6 +819,9 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                                 break
 
                             if nodeList:
+                                if nodeList[-1]['mode']['type'] != 'walk' and getLengthMeters(nodeList[-1]['geometry']) < 400:
+                                    exhaustedRoutes = True
+                                    break
                                 nodeList[-1]['mode']['details']['fare'] = {
                                     'regular': getFare(modePathList=nodeList[-1]['geometry'], mode=nodeList[-1]['mode']['type'], discount=False),
                                     'discounted': getFare(modePathList=nodeList[-1]['geometry'], mode=nodeList[-1]['mode']['type'], discount=True)
@@ -908,15 +912,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                             routesVisited.append(node['mode']['details']['name'])
 
                     prevNode = j
-
-                    exhaustedRoutes = False
-                    for modeRoute in nodeList:
-                        if modeRoute['mode']['type'] != 'walk':
-                            totalDist = 0
-                            for u, v in zip(modeRoute['geometry'], modeRoute['geometry'][1:]):
-                                totalDist += haversine(u[1], u[0], v[1], v[0])
-                            if totalDist < 400:
-                                exhaustedRoutes = True
                 if exhaustedRoutes:
                     break
 

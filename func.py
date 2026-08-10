@@ -9,6 +9,14 @@ def haversine(lat1, lon1, lat2, lon2):
     a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(dlambda/2)**2
     return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
 
+def getLengthMeters(geomList: list):
+    totalDist = 0
+    for u, v in zip(geomList, geomList[1:]):
+        totalDist += haversine(u[1], u[0], v[1], v[0])
+
+    return totalDist
+
+
 def getNearestNodeId(G, lat, lon):
     return min(G.nodes, key=lambda n: haversine(lat, lon, G.nodes[n]['y'], G.nodes[n]['x']))
 
