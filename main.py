@@ -293,9 +293,6 @@ def collapseBySegment(G, targetG, path):
                 coords = coords[1:]
             allCoords.extend(coords)
 
-        # if s:
-        #     print(allCoords)
-
         combinedGeometry = LineString(allCoords)
 
         u, v = segmentNodes[0], segmentNodes[-1]
@@ -386,7 +383,7 @@ def jeep_routes():
     return {"routes": route_list}
 
 @app.get("/trike_terminals_list")
-def jeep_routes():
+def trike_terminals_list():
     trikeGraphsDir = r"graph/transit_graph/trike_routes"
 
     with open("graph_config/toda_locations.json", "r") as file:
@@ -714,7 +711,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
             permutationList = []
             routeList = []
             for i in theList:
-                # print(i)
                 permutation = []
                 route = i.copy()
 
@@ -749,9 +745,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                     routeList.append(route)
                     permutationList.append(permutation)
 
-        # for i in permutationList:
-        #     print(i)
-
         resultsObj = {}
         resultsJson = {'routes': resultsObj}
 
@@ -770,7 +763,6 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
 
                 prevNode = None
 
-                print(i)
                 # Loop through each node of the route
                 for j in i:
                     node = G.nodes[j]
@@ -848,6 +840,7 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                         prevNode = j
                         continue
 
+                    # Usually the first node or a jeep node
                     if nodeList:
                         if node['mode']['type'] == nodeList[-1]['mode']['type']:
                             nodeList[-1]['geometry'].append([float(node['x']), float(node['y'])])
@@ -859,6 +852,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                                     nodeList[-1]['mode']['details']['name'] = node['mode']['details']['terminal']
 
                         else:
+
+                            # Check if jeep route has not been previously visited in the path
                             if node['mode']['type'] != 'walk' and node['mode']['details']['name'] in routesVisited:
                                 validRoute = False
                                 break
@@ -935,6 +930,8 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
 
 
             with perfTimer("get traffic data"):
+                # Dict of vehicle routes geometry to reuse traffic duration
+                listOfRoutesGeom = {}
                 for resultX in resultsJson['routes']:
                     for modeRoute in resultsJson['routes'][resultX]:
                         totalDist = 0
@@ -961,43 +958,42 @@ def kShortestPaths(src: str, dest: str, algo:str='astar', traffic:bool=False, de
                                 line = LineString(modeRoute['geometry'])
                                 simplified = line.simplify(0.0001 , preserve_topology=False)
                                 simplified_geometry = [list(coord) for coord in simplified.coords]
+                                geomKey = tuple(tuple(coord) for coord in simplified_geometry)
 
-                                locations = "%3A".join(f"{point[1]}%2C{point[0]}" for point in simplified_geometry)
-
-                                url = f"https://api.tomtom.com/routing/1/calculateRoute/{locations}/json"
-                                parameters = {"routeRepresentation": "summaryOnly", "computeTravelTimeFor": "all", "sectionType": "traffic", "traffic": "true", "key": API_KEY}
-
-                                response = requests.get(url, params=parameters)
-                                trafficData = response.json()
-                                
-
-                                travelTimeSeconds = trafficData['routes'][0]['summary']['liveTrafficIncidentsTravelTimeInSeconds']
-
-                                # Apply 
-                                if trafficData['routes'][0]['summary']['trafficDelayInSeconds'] > 0:
-                                    ratio = travelTimeSeconds / trafficData['routes'][0]['summary']['noTrafficTravelTimeInSeconds']
-                                    ratio = max(ratio, 1.0)
+                                if geomKey in listOfRoutesGeom:
+                                    actualDuration = listOfRoutesGeom[geomKey]
                                 else:
-                                    ratio = 1.0
+                                    
+                                    locations = "%3A".join(f"{point[1]}%2C{point[0]}" for point in simplified_geometry)
 
-                                actualDuration = math.ceil(expectedDuration * ratio)
+                                    url = f"https://api.tomtom.com/routing/1/calculateRoute/{locations}/json"
+                                    parameters = {"routeRepresentation": "summaryOnly", "computeTravelTimeFor": "all", "sectionType": "traffic", "traffic": "true", "key": API_KEY}
+
+                                    response = requests.get(url, params=parameters)
+                                    trafficData = response.json()
+                                    
+
+                                    travelTimeSeconds = trafficData['routes'][0]['summary']['historicTrafficTravelTimeInSeconds']
+
+                                    # Apply 
+                                    if trafficData['routes'][0]['summary']['trafficDelayInSeconds'] > 0:
+                                        ratio = travelTimeSeconds / trafficData['routes'][0]['summary']['noTrafficTravelTimeInSeconds']
+                                        ratio = max(ratio, 1.0)
+                                    else:
+                                        ratio = 1.0
+
+                                    actualDuration = math.ceil(expectedDuration * ratio)
+                                    listOfRoutesGeom[geomKey] = actualDuration
                             else:
                                 actualDuration = math.ceil(expectedDuration)
                         except Exception:
                             traceback.print_exc()
                             actualDuration = 0
-
                         modeRoute['traffic'] = {
                             "expectedDuration": math.ceil(expectedDuration),
                             "actualDuration": actualDuration
                         }
                     
-
-                                
-
-
-
-
         return resultsJson
                 
     except Exception as e:
