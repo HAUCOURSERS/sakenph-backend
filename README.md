@@ -4,6 +4,10 @@ This is a system prototype using a hybrid algorithm used to generate transit rou
 in Angeles and Mabalacat City. It lets users input an origin and destination point
 and see what routes they can take from three different modes (jeep, tricycle, walking).
 
+## Pre-requisites
+
+Python must be installed in order to host the app (preferably 3.14+).
+
 ## How to host app
 
 1.  Clone the repo using Git or download it.
