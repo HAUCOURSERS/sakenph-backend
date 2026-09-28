@@ -25,8 +25,8 @@ def getFare(modePathList, mode="walk", discount=False):
     Jeep fare computation based on LTFRB Fare Matrix for PUJs dated Oct. 8 2023
     Tricycle fare based on Angeles City TODA Fare Matrix (Ordinance No. 723, S-2024)
     '''
-    baseJeepFare = 13.0
-    perKmFareIncrease = 1.8
+    baseJeepFare = 14.0
+    perKmFareIncrease = 2.0
     totalDist = 0
 
     if mode == "walk":
