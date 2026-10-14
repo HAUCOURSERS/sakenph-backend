@@ -17,5 +17,12 @@ Python must be installed in order to host the app (preferably 3.14+).
 5.  Install the dependencies using `pip install -r requirements.txt`.
 6.  Run the app using the command `uvicorn main:app`.
 
+### Using Docker
+
+1.  Clone the repo using Git or download it.
+2.  From the terminal, change directory to the project folder containing `main.py` or `Dockerfile`.
+3.  Build the docker image using `docker build -t sakenph-backend .`.
+4.  Run the container using `docker run -p 8000:8000 sakenph-backend`.
+
 > [!NOTE]
 > Frontend app must call this app based on the IP address it is hosting on.
